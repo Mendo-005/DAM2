@@ -3,5 +3,20 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EjercicioVentanas01Mejorado",
+            "request": "launch",
+            "mainClass": "EjercicioVentanas01Mejorado",
+            "projectName": "DAM2_727f2c2c"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioVentanas01",
+            "request": "launch",
+            "mainClass": "EjercicioVentanas01",
+            "projectName": "DAM2_727f2c2c"
+        }
+    ]
 }
