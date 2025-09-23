@@ -10,7 +10,7 @@ import javax.swing.*;
  * Implementa un teclado numérico y operaciones básicas en forma de rejilla
  * Autor: Mario Mendoza
  */
-public class Ejercicio2 {
+public class Ejercicio2DEMO {
     
     public static void main(String[] args) {
         // Crear e inicializar la calculadora
