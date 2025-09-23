@@ -18,6 +18,7 @@ public class Ejercicio1 {
         JButton comprarButton = new JButton("Comprar");
         comprarButton.addActionListener(e -> openNewWindow());
         frame.add(comprarButton, BorderLayout.EAST);
+        frame.setVisible(true);
     }
     
 
@@ -30,6 +31,5 @@ public class Ejercicio1 {
 
 
 
-        
-    frame.setVisible(true);
 }
+

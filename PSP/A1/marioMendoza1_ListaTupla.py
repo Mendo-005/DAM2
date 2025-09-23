@@ -52,7 +52,6 @@ def main():
             print(f"¡{nombre} ha acertado!")
         else:
             tupla = (num, nombre)
-            print(f"{nombre} falló. El número era {numero_aleatorio}")
         
         # Añadir tupla a la lista
         lista_tuplas.append(tupla)
