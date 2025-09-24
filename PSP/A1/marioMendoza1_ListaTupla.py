@@ -23,7 +23,7 @@ def main():
     
     # Bucle para 5 intentos o hasta que pongan -1
     for intento in range(5):
-        print(f"\n--- Intento {intento + 1} ---")
+        print(f"\n-Intento {intento + 1}-")
         
         # Pedir nombre
         nombre = input("Ingrese el nombre del jugador: ")
