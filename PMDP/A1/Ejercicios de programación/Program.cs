@@ -11,16 +11,24 @@ namespace EjerciciosProgramacion
             // Inicializamos el menú
             Console.WriteLine("MENU");
             Console.WriteLine("1. Ejercicio-1");
+            Console.WriteLine("15. Ejercicio-15");
+            Console.WriteLine("1.8. Ejercicio-1.8");
             Console.Write("Selecciona un programa a ejecutar: ");
 
             // Añadimos una casilla para un Input 
-            int eleccion = int.Parse(Console.ReadLine());
+            double eleccion = double.Parse(Console.ReadLine());
 
             // Creamos un switch
             switch (eleccion)
             {
                 case 1:
                     Ejercicio1();
+                    break;
+                case 15:
+                    Ejercicio15();
+                    break;
+                case 1.8:
+                    EjercicioBucles8();
                     break;
                 default:
                     Console.WriteLine("Opción no válida");
@@ -56,7 +64,7 @@ namespace EjerciciosProgramacion
             // 15. Programa que solicita números entre 1 y 10. Si se salen de ese rango, el programa da
             // mensaje de error. Si el número es correcto, el programa te dice si es o no un número primo
             Console.Clear();
-            Console.WriteLine("Introduzca un numero del 1-10");
+            Console.Write("Introduzca un numero del 1-10: ");
             int nPrimo = int.Parse(Console.ReadLine());
 
             if (nPrimo < 1 || nPrimo > 10)
@@ -66,16 +74,43 @@ namespace EjerciciosProgramacion
             }
             else
             {
-                
+                // Función para comprobar si un número es primo
+                static bool EsPrimo(int n)
+                {
+                    if (n <= 1) return false;
+                    if (n == 2) return true;
+                    if (n % 2 == 0) return false;
+
+                    for (int i = 3; i <= Math.Sqrt(n); i += 2)
+                    {
+                        if (n % i == 0)
+                            return false;
+                    }
+                    return true;
+                }
+
+                if (EsPrimo(nPrimo))
+                {
+                    Console.WriteLine($"El numero {nPrimo} es primo");
+                    VolverMenu();
+                }
+                else
+                {
+                    Console.WriteLine($"El numero {nPrimo} no es primo");
+                    VolverMenu();
+                }
             }
+        }
+
+        static void EjercicioBucles8()
+        {
+
         }
 
         // Función para volver al menú
         static void VolverMenu()
         {
-            Console.WriteLine("Volver al menu: ");
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.Write("Volver al menu SI(1) / NO (0): ");
             int volverMenu = int.Parse(Console.ReadLine());
 
             switch (volverMenu)
@@ -83,7 +118,7 @@ namespace EjerciciosProgramacion
                 case 1:
                     Menu();
                     break;
-                case 2:
+                case 0:
                     Console.Clear();
                     Console.WriteLine("¡Hasta luego!");
                     break;
