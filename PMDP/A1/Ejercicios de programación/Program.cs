@@ -12,11 +12,12 @@ namespace EjerciciosProgramacion
             Console.WriteLine("MENU");
             Console.WriteLine("1. Ejercicio-1");
             Console.WriteLine("15. Ejercicio-15");
-            Console.WriteLine("1.8. Ejercicio-1.8");
+            Console.WriteLine("1.9. Ejercicio-1.9");
+            Console.WriteLine("Juego de la vida");
             Console.Write("Selecciona un programa a ejecutar: ");
 
             // Añadimos una casilla para un Input 
-            double eleccion = double.Parse(Console.ReadLine());
+            int eleccion = int.Parse(Console.ReadLine());
 
             // Creamos un switch
             switch (eleccion)
@@ -27,8 +28,11 @@ namespace EjerciciosProgramacion
                 case 15:
                     Ejercicio15();
                     break;
-                case 1.8:
-                    EjercicioBucles8();
+                case 19:
+                    EjercicioBucles9();
+                    break;
+                case 1000:
+                    JuegoDeLAVida();
                     break;
                 default:
                     Console.WriteLine("Opción no válida");
@@ -102,9 +106,17 @@ namespace EjerciciosProgramacion
             }
         }
 
-        static void EjercicioBucles8()
+        static void EjercicioBucles9()
         {
+            Console.Clear();
+            Console.Write("Ingrese un número: ");
+            int numLimite = int.Parse(Console.ReadLine());
 
+            for (int i = 0; numLimite != i - 1; i++)
+            {
+                Console.WriteLine(i);
+            }
+            VolverMenu();
         }
 
         // Función para volver al menú
@@ -128,7 +140,32 @@ namespace EjerciciosProgramacion
                     break;
             }
         }
-        
+
+
+
+
+
+        static void JuegoDeLAVida()
+        {
+            Console.WriteLine("============================");
+            Console.WriteLine("===== JUEGO DE LA VIDA =====");
+            Console.WriteLine("============================");
+
+            Console.WriteLine("Introduzca el ancho del tablero: ");
+            int ancho = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Introduzca el alto del tablero: ");
+            int alto = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Introduzca el numero de celulas iniciales: ");
+            int celulasIniciales = int.Parse(Console.ReadLine());
+            
+
+        }
+
+
+
+    // Inicializar el Programa
         static void Main(string[] args)
         {
             Menu();
