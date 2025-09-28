@@ -2,14 +2,12 @@ package src;
 
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 
+// Reproductor de música simple
 public class Ejercicio3 {
     private static JFrame ventanaLista;
     private static JFrame ventanaReproductor;
-    private static JLabel lblCancionActual;
-    private static JLabel lblArtistaActual;
-    private static DefaultListModel<String> modeloLista;
+    private static JLabel lblCancion;
     private static JList<String> listaCanciones;
     
     public static void main(String[] args) {
@@ -17,9 +15,8 @@ public class Ejercicio3 {
             crearVentanaLista();
             crearVentanaReproductor();
             
-            // Posicionar las ventanas una al lado de la otra
             ventanaLista.setLocation(100, 100);
-            ventanaReproductor.setLocation(500, 100);
+            ventanaReproductor.setLocation(400, 100);
             
             ventanaLista.setVisible(true);
             ventanaReproductor.setVisible(true);
@@ -27,203 +24,74 @@ public class Ejercicio3 {
     }
     
     private static void crearVentanaLista() {
-        ventanaLista = new JFrame("Lista de Música");
+        ventanaLista = new JFrame("🎵 Playlist");
         ventanaLista.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ventanaLista.setSize(350, 500);
+        ventanaLista.setSize(300, 400);
         ventanaLista.setLayout(new BorderLayout());
         
-        // Panel superior con icono y título
-        JPanel panelSuperior = new JPanel(new BorderLayout());
-        panelSuperior.setBackground(new Color(245, 245, 247));
-        panelSuperior.setBorder(new EmptyBorder(15, 20, 15, 20));
+        JLabel titulo = new JLabel("♪ Mi Música");
+        titulo.setHorizontalAlignment(JLabel.CENTER);
+        titulo.setFont(new Font("Arial", Font.BOLD, 16));
         
-        // Icono de música
-        JLabel iconoMusica = new JLabel("🎵");
-        iconoMusica.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 24));
+        DefaultListModel<String> modelo = new DefaultListModel<>();
+        modelo.addElement("Bohemian Rhapsody - Queen");
+        modelo.addElement("Imagine - John Lennon");
+        modelo.addElement("Hotel California - Eagles");
+        modelo.addElement("Billie Jean - Michael Jackson");
+        modelo.addElement("Sweet Child O' Mine - GNR");
         
-        JLabel titulo = new JLabel("Mi Música");
-        titulo.setFont(new Font("Segoe UI", Font.BOLD, 18));
-        titulo.setForeground(new Color(51, 51, 51));
-        
-        panelSuperior.add(iconoMusica, BorderLayout.WEST);
-        panelSuperior.add(titulo, BorderLayout.CENTER);
-        
-        // Botón de menú
-        JButton btnMenu = new JButton("⋯");
-        btnMenu.setFont(new Font("Segoe UI", Font.BOLD, 16));
-        btnMenu.setForeground(new Color(51, 122, 183));
-        btnMenu.setBorderPainted(false);
-        btnMenu.setContentAreaFilled(false);
-        panelSuperior.add(btnMenu, BorderLayout.EAST);
-        
-        // Lista de canciones
-        modeloLista = new DefaultListModel<>();
-        modeloLista.addElement("Song Title - Singer");
-        modeloLista.addElement("Bohemian Rhapsody - Queen");
-        modeloLista.addElement("Imagine - John Lennon");
-        modeloLista.addElement("Hotel California - Eagles");
-        modeloLista.addElement("Billie Jean - Michael Jackson");
-        modeloLista.addElement("Sweet Child O' Mine - Guns N' Roses");
-        modeloLista.addElement("Stairway to Heaven - Led Zeppelin");
-        
-        listaCanciones = new JList<>(modeloLista);
-        listaCanciones.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        listaCanciones.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        listaCanciones.setBorder(new EmptyBorder(10, 15, 10, 15));
-        
-        // Personalizar el renderer de la lista
-        listaCanciones.setCellRenderer(new DefaultListCellRenderer() {
-            @Override
-            public Component getListCellRendererComponent(JList<?> list, Object value, int index,
-                    boolean isSelected, boolean cellHasFocus) {
-                super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-                
-                setBorder(new EmptyBorder(12, 15, 12, 15));
-                
-                if (isSelected) {
-                    setBackground(new Color(0, 122, 255, 50));
-                    setForeground(new Color(0, 122, 255));
-                } else {
-                    setBackground(Color.WHITE);
-                    setForeground(new Color(51, 51, 51));
-                }
-                
-                return this;
-            }
-        });
-        
-        // Listener para selección de canciones
+        listaCanciones = new JList<>(modelo);
         listaCanciones.addListSelectionListener(e -> {
             if (!e.getValueIsAdjusting() && listaCanciones.getSelectedValue() != null) {
-                String cancionSeleccionada = listaCanciones.getSelectedValue();
-                String[] partes = cancionSeleccionada.split(" - ");
-                if (partes.length >= 2) {
-                    lblCancionActual.setText(partes[0]);
-                    lblArtistaActual.setText(partes[1]);
-                }
+                String cancion = listaCanciones.getSelectedValue().split(" - ")[0];
+                lblCancion.setText("♪ " + cancion);
             }
         });
         
-        JScrollPane scrollPane = new JScrollPane(listaCanciones);
-        scrollPane.setBorder(null);
-        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+        JPanel panelBotones = new JPanel();
+        panelBotones.add(new JButton("▶"));
+        panelBotones.add(new JButton("⏸"));
+        panelBotones.add(new JButton("⏹"));
         
-        // Panel inferior con controles básicos
-        JPanel panelInferior = new JPanel(new FlowLayout());
-        panelInferior.setBackground(new Color(245, 245, 247));
-        panelInferior.setBorder(new EmptyBorder(10, 0, 15, 0));
-        
-        JButton btnPlay = new JButton("▶");
-        JButton btnNext = new JButton("⏭");
-        
-        btnPlay.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 16));
-        btnNext.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 16));
-        
-        // Estilo de botones
-        for (JButton btn : new JButton[]{btnPlay, btnNext}) {
-            btn.setPreferredSize(new Dimension(45, 35));
-            btn.setBackground(new Color(0, 122, 255));
-            btn.setForeground(Color.WHITE);
-            btn.setBorderPainted(false);
-            btn.setFocusPainted(false);
-        }
-        
-        panelInferior.add(btnPlay);
-        panelInferior.add(btnNext);
-        
-        ventanaLista.add(panelSuperior, BorderLayout.NORTH);
-        ventanaLista.add(scrollPane, BorderLayout.CENTER);
-        ventanaLista.add(panelInferior, BorderLayout.SOUTH);
+        ventanaLista.add(titulo, BorderLayout.NORTH);
+        ventanaLista.add(new JScrollPane(listaCanciones), BorderLayout.CENTER);
+        ventanaLista.add(panelBotones, BorderLayout.SOUTH);
     }
     
     private static void crearVentanaReproductor() {
-        ventanaReproductor = new JFrame("Reproductor");
+        ventanaReproductor = new JFrame("🎧 Reproductor");
         ventanaReproductor.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ventanaReproductor.setSize(350, 500);
+        ventanaReproductor.setSize(300, 400);
         ventanaReproductor.setLayout(new BorderLayout());
-        ventanaReproductor.getContentPane().setBackground(new Color(245, 245, 247));
         
-        // Panel principal con información de la canción
-        JPanel panelPrincipal = new JPanel();
-        panelPrincipal.setLayout(new BoxLayout(panelPrincipal, BoxLayout.Y_AXIS));
-        panelPrincipal.setBackground(new Color(245, 245, 247));
-        panelPrincipal.setBorder(new EmptyBorder(30, 30, 30, 30));
+        // Pantalla de canción
+        lblCancion = new JLabel("♪ Selecciona una canción");
+        lblCancion.setHorizontalAlignment(JLabel.CENTER);
+        lblCancion.setFont(new Font("Arial", Font.BOLD, 14));
         
-        // Imagen del álbum (simulada con icono)
-        JLabel imagenAlbum = new JLabel("🎵");
-        imagenAlbum.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 120));
-        imagenAlbum.setAlignmentX(Component.CENTER_ALIGNMENT);
-        imagenAlbum.setPreferredSize(new Dimension(200, 200));
-        imagenAlbum.setOpaque(true);
-        imagenAlbum.setBackground(new Color(220, 220, 220));
-        imagenAlbum.setHorizontalAlignment(SwingConstants.CENTER);
+        // Área visual del reproductor
+        JLabel icono = new JLabel("MUSIC");
+        icono.setHorizontalAlignment(JLabel.CENTER);
+        icono.setFont(new Font("Arial", Font.BOLD, 36));
+        icono.setOpaque(true);
+        icono.setBackground(new Color(220, 220, 220));
+        icono.setBorder(BorderFactory.createRaisedBevelBorder());
+        icono.setPreferredSize(new Dimension(200, 150));
         
-        // Información de la canción
-        lblCancionActual = new JLabel("Song Title");
-        lblCancionActual.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        lblCancionActual.setAlignmentX(Component.CENTER_ALIGNMENT);
-        lblCancionActual.setForeground(new Color(51, 51, 51));
+        // Controles principales (GridLayout 2x3)
+        JPanel controles = new JPanel(new GridLayout(2, 3, 10, 10));
+        controles.add(new JButton("⏮"));  // Anterior
+        controles.add(new JButton("▶"));   // Play
+        controles.add(new JButton("⏭"));  // Siguiente
+        controles.add(new JButton("🔇"));  // Silencio
+        controles.add(new JButton("⏹"));  // Stop
+        controles.add(new JButton("🔊"));  // Volumen
         
-        lblArtistaActual = new JLabel("Singer");
-        lblArtistaActual.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-        lblArtistaActual.setAlignmentX(Component.CENTER_ALIGNMENT);
-        lblArtistaActual.setForeground(new Color(102, 102, 102));
+        JPanel panelSuperior = new JPanel(new BorderLayout());
+        panelSuperior.add(lblCancion, BorderLayout.NORTH);
+        panelSuperior.add(icono, BorderLayout.CENTER);
         
-        // Barra de progreso
-        JSlider barraProgreso = new JSlider(0, 100, 30);
-        barraProgreso.setAlignmentX(Component.CENTER_ALIGNMENT);
-        barraProgreso.setMaximumSize(new Dimension(250, 30));
-        barraProgreso.setBackground(new Color(245, 245, 247));
-        
-        // Panel de controles con GridLayout
-        JPanel panelControles = new JPanel(new GridLayout(2, 3, 20, 15));
-        panelControles.setBackground(new Color(245, 245, 247));
-        panelControles.setMaximumSize(new Dimension(280, 120));
-        
-        // Botones de control
-        JButton btnAnterior = new JButton("⏮");
-        JButton btnReproducir = new JButton("▶");
-        JButton btnSiguiente = new JButton("⏭");
-        JButton btnVolumenBajo = new JButton("🔇");
-        JButton btnVolumenAlto = new JButton("🔊");
-        JButton btnOpciones = new JButton("⋯");
-        
-        // Configurar botones
-        JButton[] botones = {btnAnterior, btnReproducir, btnSiguiente, btnVolumenBajo, btnVolumenAlto, btnOpciones};
-        for (JButton btn : botones) {
-            btn.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 18));
-            btn.setPreferredSize(new Dimension(60, 45));
-            btn.setBackground(Color.WHITE);
-            btn.setForeground(new Color(0, 122, 255));
-            btn.setBorderPainted(true);
-            btn.setBorder(BorderFactory.createLineBorder(new Color(200, 200, 200), 1));
-            btn.setFocusPainted(false);
-        }
-        
-        // Hacer el botón de reproducir más prominente
-        btnReproducir.setBackground(new Color(0, 122, 255));
-        btnReproducir.setForeground(Color.WHITE);
-        btnReproducir.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 24));
-        
-        panelControles.add(btnAnterior);
-        panelControles.add(btnReproducir);
-        panelControles.add(btnSiguiente);
-        panelControles.add(btnVolumenBajo);
-        panelControles.add(btnVolumenAlto);
-        panelControles.add(btnOpciones);
-        
-        // Agregar componentes al panel principal
-        panelPrincipal.add(Box.createVerticalStrut(20));
-        panelPrincipal.add(imagenAlbum);
-        panelPrincipal.add(Box.createVerticalStrut(30));
-        panelPrincipal.add(lblCancionActual);
-        panelPrincipal.add(Box.createVerticalStrut(5));
-        panelPrincipal.add(lblArtistaActual);
-        panelPrincipal.add(Box.createVerticalStrut(30));
-        panelPrincipal.add(barraProgreso);
-        panelPrincipal.add(Box.createVerticalStrut(30));
-        panelPrincipal.add(panelControles);
-        
-        ventanaReproductor.add(panelPrincipal, BorderLayout.CENTER);
+        ventanaReproductor.add(panelSuperior, BorderLayout.CENTER);
+        ventanaReproductor.add(controles, BorderLayout.SOUTH);
     }
 }
