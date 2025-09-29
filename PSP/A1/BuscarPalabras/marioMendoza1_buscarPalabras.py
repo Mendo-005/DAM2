@@ -27,6 +27,7 @@ def contar_palabras():
                 else:
                     contador_palabras[palabra] = 1
             print(contador_palabras)
+            
             while True:
                 palabraBuscada = input("Introduzca una palabra (o escriba '-1' para terminar): ").lower()
                 if palabraBuscada == '-1':
