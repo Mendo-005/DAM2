@@ -105,18 +105,18 @@ class CalculadoraGridLayout extends JFrame implements ActionListener {
         // Distribución en rejilla 5x4
         panelPrincipal.add(btnClear);
         panelPrincipal.add(btnBorrar);
-        panelPrincipal.add(botonesOperaciones[3]); // /
-        panelPrincipal.add(botonesOperaciones[2]); // *
+        panelPrincipal.add(botonesOperaciones[3]);
+        panelPrincipal.add(botonesOperaciones[2]);
         
         panelPrincipal.add(botonesNumeros[7]);
         panelPrincipal.add(botonesNumeros[8]);
         panelPrincipal.add(botonesNumeros[9]);
-        panelPrincipal.add(botonesOperaciones[1]); // -
+        panelPrincipal.add(botonesOperaciones[1]); 
         
         panelPrincipal.add(botonesNumeros[4]);
         panelPrincipal.add(botonesNumeros[5]);
         panelPrincipal.add(botonesNumeros[6]);
-        panelPrincipal.add(botonesOperaciones[0]); // +
+        panelPrincipal.add(botonesOperaciones[0]); 
         
         panelPrincipal.add(botonesNumeros[1]);
         panelPrincipal.add(botonesNumeros[2]);
