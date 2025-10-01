@@ -9,7 +9,7 @@ def hijo(num):
     valor = num
     print(f"Hijo {valor}")
     time.sleep(num)
-    print("Sakgo dek proceso hijo{}".format(os.getid()))
+    print("Salgo del proceso hijo{}".format(os.getid()))
 
 valor = 0
 def main():
