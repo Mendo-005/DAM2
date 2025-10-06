@@ -50,8 +50,8 @@ public class Programa
         try (FileWriter fw = new FileWriter(nombreFichero, true);
             BufferedWriter bw = new BufferedWriter(fw))            {
             
-            for(Modulos mod : modulos) {
-                bw.write(mod.toString());
+            for(Modulos modulo : modulos) {
+                bw.write(modulo.toString());
                 bw.newLine();
             }
 

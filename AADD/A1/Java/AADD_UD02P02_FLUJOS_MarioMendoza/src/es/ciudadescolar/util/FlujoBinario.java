@@ -1,5 +1,6 @@
 package es.ciudadescolar.util;
 
+import es.ciudadescolar.clases.Modulos;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.EOFException;
@@ -10,8 +11,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
-import es.ciudadescolar.clases.Modulos;
 
 public class FlujoBinario 
 {
