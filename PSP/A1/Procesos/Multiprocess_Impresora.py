@@ -3,34 +3,52 @@ import multiprocessing as mp
 import os
 
 
-def fichero():
-    ctx = mp.get_context()
-    time.sleep(5)
-    print("====================")
-    print("".format(os.getpid()))
-    print("====================")
-    os._exit()
+def imprimir_fichero(nombre_fichero):
+    time.sleep(5)  
+    
+    try:
+        with open(nombre_fichero, "r") as archivo:
+            contenido = archivo.read()
+            
+        print("----------")
+        print(contenido.strip())
+        print("----------")
+        print(f"process id: {os.getpid()}")
+        
+    except FileNotFoundError:
+        print("----------")
+        print("(fichero vacío o no encontrado)")
+        print("----------")
+        print(f"process id: {os.getpid()}")
+
 
 def main():
-    # Creamos un fichero con perimsos de escritura
-    with open("fichero.txt", "w") as archivo:
-              
-        while(True):
-            linea = print(input("Escriba una línea: "))
-            # Si la líne es -1 salimos del prceso he imprimimos el id
+    nombre_fichero = "fichero.txt"
+    
+    # Creamos un fichero con permisos de escritura
+    with open(nombre_fichero, "w") as archivo:
+        
+        while True:
+            linea = input("Escriba una línea: ")  
+            
+            # Si la línea es -1 salimos del proceso e imprimimos el id
             if linea == "-1":
-                print("Saliendo del proceso {}".format(os.getpid()))
-
-                os._exit(0)
-
-            elif linea != "-1" and linea != "-P":
-                archivo.write(f"{linea}\n")
-
+                print(f"process id: {os.getpid()}")
+                break  
+                
             elif linea == "-P":
-                p1 = mp.Process(target=fichero, args=(3,))
-                p1.start()
+                # Creamos un proceso que imprime el fichero
+                proceso = mp.Process(target=imprimir_fichero, args=(nombre_fichero,))
+                proceso.start()
+                # No esperamos a que termine el proceso hijo
+                
+            else:
+                # Cualquier otra línea se añade al fichero
+                archivo.write(f"{linea}\n")
+                archivo.flush()  
+
 
 # Iniciador del programa
-if __name__ == "__main__" :
+if __name__ == "__main__":
     mp.set_start_method('spawn')
     main()
