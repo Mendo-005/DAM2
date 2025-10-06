@@ -13,7 +13,7 @@ public class EjemploMouseMover {
         panel.addMouseMotionListener(new MouseMotionListener() {
             @Override
             public void mouseDragged(MouseEvent e) {
-                // Se ejecuta cuando el mouse se mueve mientras se mantiene presionado un botón
+                
             }
 
             @Override
