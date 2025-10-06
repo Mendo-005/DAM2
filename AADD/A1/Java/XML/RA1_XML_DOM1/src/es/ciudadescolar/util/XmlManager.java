@@ -79,5 +79,46 @@ public class XmlManager
         }
         
         return alumnos;
-    }    
+    }  
+    
+    public static void generarXmlAlumnos(List<Alumno> alumnos)
+    {
+        /*
+         * 1º - Creo la estructura DOM en la memoria RAM
+         * 2º - Vuelco la estructura DOM a fichero XML
+         */
+
+        DocumentBuilderFactory obt = null;
+        DocumentBuilder db = null;
+        Document documento = null;
+
+        Element elementoAlumno = null;
+
+        try 
+        {
+            obt = DocumentBuilderFactory.newInstance();
+            db = obt.newDocumentBuilder();
+            db.setErrorHandler(new AlumnoErrorHandler());
+
+            documento = db.newDocument();
+
+            // Siempre creamos elemento y lo añadimos al arbol
+            Element raiz = documento.createElement("Estudiates");
+            documento.appendChild(raiz);
+
+            for(Alumno al: alumnos)
+            {
+                elementoAlumno = documento.createElement("alumno");
+                elementoAlumno.setAttribute("exp", al.getExpediente());
+                raiz.appendChild(elementoAlumno);
+            }
+
+
+        } catch (ParserConfigurationException e) {
+            // TODO: handle exception
+            System.err.println("Error durante la generacion del XML: " +e.getMessage());
+        }
+        
+
+    }
 }
