@@ -1,13 +1,11 @@
 package es.ciudadescolar;
 
-import java.io.FileWriter;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.File;
-
-
 import es.ciudadescolar.clases.Modulos;
 import es.ciudadescolar.util.FlujoBinario;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Programa 
 {    
@@ -52,8 +50,8 @@ public class Programa
         try (FileWriter fw = new FileWriter(nombreFichero, true);
             BufferedWriter bw = new BufferedWriter(fw))            {
             
-            for(Modulos modulo : modulos) {
-                bw.write(modulo.toString());
+            for(Modulos mod : modulos) {
+                bw.write(mod.toString());
                 bw.newLine();
             }
 
