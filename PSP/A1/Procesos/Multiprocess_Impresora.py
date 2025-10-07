@@ -17,7 +17,7 @@ def imprimir_fichero(nombre_fichero):
         
     except FileNotFoundError:
         print("----------")
-        print("(fichero vacío o no encontrado)")
+        print("fichero vacío")
         print("----------")
         print(f"process id: {os.getpid()}")
 
