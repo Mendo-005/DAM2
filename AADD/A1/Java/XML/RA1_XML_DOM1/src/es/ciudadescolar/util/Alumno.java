@@ -39,9 +39,9 @@ public class Alumno
 
     public Alumno(String nombre, String expediente, Integer edad)
     {
-        this.setEdad(edad);
-        this.setNombre(nombre);
-        this.setExpediente(expediente);
+        this.edad = edad;
+        this.nombre = nombre;
+        this.expediente = expediente;
     }
     
 }
