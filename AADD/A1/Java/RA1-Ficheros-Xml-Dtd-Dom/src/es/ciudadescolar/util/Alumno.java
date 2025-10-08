@@ -33,15 +33,20 @@ public class Alumno
     }
 
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return "Alumno [nombre=" + nombre + ", expediente=" + expediente + ", edad=" + edad + "]";
     }
 
-    public Alumno(String nombre)
+    public Alumno()
     {
-        this.edad = edad;
-        this.nombre = nombre;
-        this.expediente = expediente;
+        
     }
-    
+    public Alumno(String nombre, String expediente, Integer edad)
+    {
+        this.setEdad(edad);
+        this.setExpediente(expediente);
+        this.setNombre(nombre);
+    }
+
 }
