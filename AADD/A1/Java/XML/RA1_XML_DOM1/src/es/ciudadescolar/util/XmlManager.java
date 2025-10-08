@@ -158,11 +158,11 @@ public class XmlManager
 
                     Node nodoExpediente = elementoAlumno.getFirstChild();
 
-                    // Aquí deberías extraer los datos de los nodos y crear el objeto Alumno
-                    // Por ejemplo:
-                    alumno = new Alumno(
-                        nodoExpediente.getTextContent().trim()
-                    );
+                    // Solo extraer el expediente
+                    String expediente = nodoExpediente.getTextContent().trim();
+                    
+                    alumno = new Alumno(null); // Constructor con nombre null
+                    alumno.setExpediente(expediente);
                     alumnos.add(alumno);  
                 }
                 
