@@ -222,7 +222,7 @@ public class XmlManager
                         elementoAlumno= documento.createElement("alumno");
                         
                         // Añadimos los datos del alumno como atributos del elemento
-                        elementoAlumno.setAttribute("nom", al.getNombre());
+                        elementoAlumno.setAttribute("nombre", al.getNombre());
                         elementoAlumno.setAttribute("exp", al.getExpediente());
                         elementoAlumno.setAttribute("edad", al.getEdad().toString());
 
