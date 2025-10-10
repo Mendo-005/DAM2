@@ -19,6 +19,6 @@ public class App {
             System.out.println(al);
         }
 
-        XmlManager.generarXmlAlumnos(alumnosRecuperados, new File("alumnos2.xml"), new File("alumnos2.dtd"));
+        //XmlManager.generarXmlAlumnos(alumnosRecuperados, new File("alumnos2.xml"), new File("alumnos2.dtd"));
     }
 }
