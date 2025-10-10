@@ -19,6 +19,17 @@ public class App {
             System.out.println(al);
         }
 
+        // Obtener la lista de edades leyendo el XML mediante getElementsByTagName("edad")
+        List<Integer> listaEdades = XmlManager.getListaEdadesAlumnos(new File("alumnos3.xml"), new File("alumnos3.xsd"));
+
+        // Calcular la media a partir de esa lista de edades
+        double mediaPorLista = listaEdades.stream()
+                                .mapToInt(Integer::intValue)
+                                .average()
+                                .orElse(0);
+
+        System.out.printf("Media de edad (listaEdades por tag): %.2f%n", mediaPorLista);
+
         XmlManager.generarXmlAlumnos(alumnosRecuperados, new File("alumnos4.xml"), new File("alumnos4.xsd"));
     }
 }
