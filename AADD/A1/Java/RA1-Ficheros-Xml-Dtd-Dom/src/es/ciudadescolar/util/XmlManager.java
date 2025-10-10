@@ -178,64 +178,64 @@ public class XmlManager
              *  2º - Vuelco la estructura DOM a fichero XML
              */
 
-             // Variables para la construcción del DOM
-             DocumentBuilderFactory dbf = null;
-             DocumentBuilder db = null;
-             Document documento  = null;
-            
-             // Variables para elementos XML que vamos a crear
-             Element elementoAlumno =null;
-             Element elementoEdad = null;
-
-             try 
-             {
-                // 1. CONFIGURACIÓN DEL CONSTRUCTOR DE DOCUMENTOS
-                // Creamos la factory para construir documentos XML
-                dbf = DocumentBuilderFactory.newInstance();
-                // Creamos el constructor de documentos
-                db = dbf.newDocumentBuilder();
-                // Asignamos nuestro manejador de errores personalizado
-                db.setErrorHandler(new AlumnoErrorHandler());
-
-                // 2. CREACIÓN DEL DOCUMENTO XML EN MEMORIA
-                // Creamos un nuevo documento XML vacío
-                documento = db.newDocument();
-
-                // 3. CREACIÓN DEL ELEMENTO RAÍZ Y CONFIGURACIÓN DE NAMESPACES
-                // siempre creamos elemento y lo añadimos al árbol (2 acciones)
-                Element raiz = documento.createElement("estudiantes");
-
-                // Añadimos los atributos necesarios para la validación XSD
-                // Este namespace es estándar para la validación de esquemas XML
-                raiz.setAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
-                // Indicamos qué archivo XSD debe usarse para validar este XML
-                raiz.setAttribute("xsi:noNamespaceSchemaLocation", xsdOutputXml.getName());
+                // Variables para la construcción del DOM
+                DocumentBuilderFactory dbf = null;
+                DocumentBuilder db = null;
+                Document documento  = null;
                 
-                // Añadimos el elemento raíz al documento
-                documento.appendChild(raiz);
+                // Variables para elementos XML que vamos a crear
+                Element elementoAlumno =null;
+                Element elementoEdad = null;
 
-                // 4. ITERACIÓN SOBRE LA LISTA DE ALUMNOS PARA CREAR ELEMENTOS XML
-                // Por cada objeto Alumno, creamos un elemento XML correspondiente
-                for (Alumno al: alumnos)
+                try 
                 {
-                        // Creamos el elemento "alumno"
-                        elementoAlumno= documento.createElement("alumno");
-                        
-                        // Añadimos los datos del alumno como atributos del elemento
-                        elementoAlumno.setAttribute("nombre", al.getNombre());
-                        elementoAlumno.setAttribute("exp", al.getExpediente());
-                        elementoAlumno.setAttribute("edad", al.getEdad().toString());
+                    // 1. CONFIGURACIÓN DEL CONSTRUCTOR DE DOCUMENTOS
+                    // Creamos la factory para construir documentos XML
+                    dbf = DocumentBuilderFactory.newInstance();
+                    // Creamos el constructor de documentos
+                    db = dbf.newDocumentBuilder();
+                    // Asignamos nuestro manejador de errores personalizado
+                    db.setErrorHandler(new AlumnoErrorHandler());
 
-                        // También creamos un elemento hijo "edad" con el contenido de texto
-                        elementoEdad = documento.createElement("edad");
-                        elementoEdad.setTextContent(al.getEdad().toString());
-                        
-                        // Añadimos el elemento edad como hijo del elemento alumno
-                        elementoAlumno.appendChild(elementoEdad);
-                        
-                        // Añadimos el elemento alumno como hijo del elemento raíz
-                        raiz.appendChild(elementoAlumno);
-                }
+                    // 2. CREACIÓN DEL DOCUMENTO XML EN MEMORIA
+                    // Creamos un nuevo documento XML vacío
+                    documento = db.newDocument();
+
+                    // 3. CREACIÓN DEL ELEMENTO RAÍZ Y CONFIGURACIÓN DE NAMESPACES
+                    // siempre creamos elemento y lo añadimos al árbol (2 acciones)
+                    Element raiz = documento.createElement("estudiantes");
+
+                    // Añadimos los atributos necesarios para la validación XSD
+                    // Este namespace es estándar para la validación de esquemas XML
+                    raiz.setAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
+                    // Indicamos qué archivo XSD debe usarse para validar este XML
+                    raiz.setAttribute("xsi:noNamespaceSchemaLocation", xsdOutputXml.getName());
+                    
+                    // Añadimos el elemento raíz al documento
+                    documento.appendChild(raiz);
+
+                    // 4. ITERACIÓN SOBRE LA LISTA DE ALUMNOS PARA CREAR ELEMENTOS XML
+                    // Por cada objeto Alumno, creamos un elemento XML correspondiente
+                    for (Alumno al: alumnos)
+                    {
+                            // Creamos el elemento "alumno"
+                            elementoAlumno= documento.createElement("alumno");
+                            
+                            // Añadimos los datos del alumno como atributos del elemento
+                            elementoAlumno.setAttribute("nombre", al.getNombre());
+                            elementoAlumno.setAttribute("exp", al.getExpediente());
+                            elementoAlumno.setAttribute("edad", al.getEdad().toString());
+
+                            // También creamos un elemento hijo "edad" con el contenido de texto
+                            elementoEdad = documento.createElement("edad");
+                            elementoEdad.setTextContent(al.getEdad().toString());
+                            
+                            // Añadimos el elemento edad como hijo del elemento alumno
+                            elementoAlumno.appendChild(elementoEdad);
+                            
+                            // Añadimos el elemento alumno como hijo del elemento raíz
+                            raiz.appendChild(elementoAlumno);
+                    }
 
             // 5. TRANSFORMACIÓN DEL DOM A ARCHIVO XML
             // ya tenemos lista nuestra estructura DOM en memoria. Puedo por tanto volcarla al fichero XML
@@ -333,4 +333,60 @@ public class XmlManager
             }
     } // Fin del método generarXmlAlumnos
 
-} // Fin de la clase XmlManager
+    /**
+     * Lee un XML existente y devuelve una lista de edades usando getElementsByTagName("edad").
+     *
+     * @param ficheroXml XML de entrada del que extraer edades
+     * @param ficheroXsd XSD para validar (puede ser null si no se desea validar)
+     * @return Lista de edades encontradas en el XML
+     */
+    public static List<Integer> getListaEdadesAlumnos(File ficheroXml, File ficheroXsd) {
+        List<Integer> edades = new ArrayList<>();
+
+        try {
+            // Configuramos el parser
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            dbf.setValidating(false);
+            dbf.setNamespaceAware(true);
+            dbf.setIgnoringElementContentWhitespace(true);
+
+            // Validación opcional con XSD
+            //if (ficheroXsd != null) {
+            //    SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            //    Schema schema = sf.newSchema(ficheroXsd);
+            //    dbf.setSchema(schema);
+            //}
+
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            db.setErrorHandler(new AlumnoErrorHandler());
+
+            // Parseamos el XML existente
+            Document documento = db.parse(ficheroXml);
+
+            // Obtenemos todos los elementos <edad>
+            NodeList nodosEdad = documento.getElementsByTagName("edad");
+
+            for (int i = 0; i < nodosEdad.getLength(); i++) {
+                Node nodo = nodosEdad.item(i);
+                if (nodo.getNodeType() == Node.ELEMENT_NODE) {
+                    String texto = nodo.getTextContent();
+                    if (texto != null) {
+                        texto = texto.trim();
+                        if (!texto.isEmpty()) {
+                            try {
+                                edades.add(Integer.parseInt(texto));
+                            } catch (NumberFormatException nfe) {
+                                // Edad mal formada: se ignora y se continúa
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            System.err.println("Error leyendo XML y extrayendo edades por tag: " + e.getMessage());
+        }
+
+        return edades;
+    } 
+}
+// Fin de la clase XmlManager
