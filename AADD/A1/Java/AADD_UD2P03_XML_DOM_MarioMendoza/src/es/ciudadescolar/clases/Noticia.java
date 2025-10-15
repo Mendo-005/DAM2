@@ -62,8 +62,7 @@ public class Noticia {
      */
     @Override
     public String toString() {
-        return "Noticia [secuencial=" + secuencial + ", title=" + title + ", creator=" + creator + ", description="
-                + description + "]";
+        return secuencial + "|" + title + "|" + creator + "|"+ description;
     }
      
 }
