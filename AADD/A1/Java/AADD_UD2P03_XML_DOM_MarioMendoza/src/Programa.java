@@ -1,6 +1,4 @@
-import es.ciudadescolar.clases.Noticia;
 import es.ciudadescolar.utils.XMLManager;
-import es.ciudadescolar.utils.TextManager;
 
 
 public class Programa {
