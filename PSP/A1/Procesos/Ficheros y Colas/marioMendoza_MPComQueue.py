@@ -12,7 +12,8 @@ def lector(cola, fichero):
         texto = cola.get()
         with open(fichero, 'a') as f:
             f.write(texto + "\n")
-    # Leer el archivo y mostrar su contenido
+
+            
     with open(fichero, 'r') as f:
         contenido = f.read()
         print("Contenido del archivo:")
@@ -33,15 +34,14 @@ def proceso_principal(fichero):
             # Crear procesos hijo
             p_escritor = multiprocessing.Process(target=escritor, args=(cola, texto))
             p_escritor.start()
-            p_escritor.join()  # Esperamos que termine el proceso de escritura
+            p_escritor.join() 
 
             # Crear proceso lector
             p_lector = multiprocessing.Process(target=lector, args=(cola, fichero))
             p_lector.start()
-            p_lector.join()  # Esperamos que termine el proceso de lectura
+            p_lector.join()  
 
 if __name__ == "__main__":
-    # El nombre del fichero es el primer parámetro de la línea de comandos
     if len(sys.argv) != 2:
         print("Por favor, proporciona el nombre del archivo como argumento.")
         sys.exit(1)
@@ -49,6 +49,6 @@ if __name__ == "__main__":
     nombre_fichero = sys.argv[1]
     
     if not os.path.exists(nombre_fichero):
-        open(nombre_fichero, 'w').close()  # Crear el archivo si no existe
+        open(nombre_fichero, 'w').close()  
 
     proceso_principal(nombre_fichero)
