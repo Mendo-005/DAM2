@@ -74,27 +74,53 @@ public class XMLManager {
         // Parseamos el fichero y obtenemos el documento
         Document documento = db.parse(fichName);
         // Obtenemos el elemento raíz
-        Element elementoRaiz = documento.getDocumentElement(); // obtenemos el elemento Raiz del xml alumnos: "alumnos"
-        // Obtenemos la lista de nodos "noticia"
-        NodeList listaNodosNoticias = elementoRaiz.getChildNodes(); // obtenemos la lista de nodos "alumno"
-        // Recorremos la lista de nodos "noticia"
+        Element elementoRaiz = documento.getDocumentElement(); 
+        // Obtenemos la lista de nodos "item" (las noticias están dentro de channel/item)
+        NodeList listaNodosNoticias = elementoRaiz.getElementsByTagName("item");
+        // Recorremos la lista de nodos "item"
         for (int i = 0; i < listaNodosNoticias.getLength(); i++)
         {
-          Node nodoNoticia = listaNodosNoticias.item(i); // obtenemos el nodo "noticia" i-ésimo
+          Node nodoNoticia = listaNodosNoticias.item(i); // obtenemos el nodo "item" i-ésimo
 
           if (nodoNoticia.getNodeType() == Node.ELEMENT_NODE) // si es un nodo elemento
           {
 
             Element elementoNoticia = (Element) nodoNoticia; // casteamos el nodo a elemento
 
-            // Obtenemos los atributos del nodo noticia
-            Node nodoTitle = elementoNoticia.getAttribute("title");
-            Node nodoCreador = elementoNoticia.getAttribute("dc:creator");
-            Node nodoDescription = elementoNoticia.getAttribute("description");
-            Node nodoFecha = elementoNoticia.getAttribute("fecha");
+            // Obtenemos los elementos hijos del nodo noticia con verificaciones de seguridad
+            String title = "";
+            String creator = "";
+            String description = "";
+            String date = "";
+            
+            NodeList titleNodes = elementoNoticia.getElementsByTagName("title");
+            if (titleNodes.getLength() > 0) {
+                title = titleNodes.item(0).getTextContent();
+            }
+            
+            NodeList creatorNodes = elementoNoticia.getElementsByTagName("dc:creator");
+            if (creatorNodes.getLength() > 0) {
+                creator = creatorNodes.item(0).getTextContent();
+            }
+            
+            NodeList descriptionNodes = elementoNoticia.getElementsByTagName("description");
+            if (descriptionNodes.getLength() > 0) {
+                description = descriptionNodes.item(0).getTextContent();
+            }
 
-            // Añadimos la noticia a la lista de noticias
-            noticia = new Noticia(nodoTitle.getTextContent(), nodoCreador.getTextContent(), nodoDescription.getTextContent(), nodoFecha.getTextContent());
+            NodeList dateNodes = elementoNoticia.getElementsByTagName("pubDate");
+            if (dateNodes.getLength() > 0) {
+                date = dateNodes.item(0).getTextContent();
+              
+            }
+
+
+            // Creamos la noticia y establecemos sus propiedades
+            noticia = new Noticia();
+            noticia.setSecuencial(i + 1); // Asignamos un secuencial basado en el índice
+            noticia.setTitle(title);
+            noticia.setCreator(creator);
+            noticia.setDescription(description);
             listaNoticias.add(noticia);
           }
         }
