@@ -8,7 +8,7 @@
 	</appender>
 	
 	<appender name="Fichero" class="ch.qos.logback.core.FileAppender">
-		<file>curso2425_AAD_ejemplo.log</file>
+		<file>SVAP04_Logging.log</file>
 		<encoder>
 			<pattern>%d [%thread] %-5level %-40logger{50} - %msg%n</pattern>
 		</encoder>
