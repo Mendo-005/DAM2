@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>    
+	<appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d %green([%thread]) %highlight(%level) %cyan(%logger{50}) - %msg%n  </pattern>
+		</encoder>
+	</appender> 
+	<appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">      
+		<file>curso2425_AAD_ejemplo_complejo.log</file>
+		<encoder>
+			<pattern>%d [%thread] %-5level %-30logger{50} - %msg%n</pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily. The rollover period is inferred from the value of fileNamePattern.-->
+            <fileNamePattern>curso2425_AAD_ejemplo_complejo_%d{yyyyMMdd}_%i.log</fileNamePattern>
+            <maxFileSize>5MB</maxFileSize>
+            <!-- keep 5 days of history as rollover is set on a daily basis. -->
+            <maxHistory>5</maxHistory>
+			 <!-- total size of all log files. Oldest archives are deleted asynchronously when the total size cap is exceeded -->
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+	</appender>    
+	
+	<root level="trace"> 			<!--  el log general será con nivel INFO (producción) -->  
+		<appender-ref ref="RollingFile" />        
+		<appender-ref ref="Console" />    
+	</root>  
+ 	
+</configuration>
