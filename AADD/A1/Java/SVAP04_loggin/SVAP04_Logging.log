@@ -1,0 +1,6 @@
+2025-10-20 10:19:27,519 [main] INFO  App                                      - Este evento representa una información general de nuestra aplicación.
+2025-10-20 10:20:53,537 [main] INFO  App                                      - Este evento representa una información general de nuestra aplicación.
+2025-10-20 10:20:53,541 [main] WARN  App                                      - Este evento representa una advertencia sobre un posible problema futuro.
+2025-10-20 10:20:53,542 [main] ERROR App                                      - Este evento representa un error que ha ocurrido en la aplicación.
+2025-10-20 10:20:53,542 [main] TRACE App                                      - Este evento representa información de seguimiento detallada.
+2025-10-20 10:20:53,542 [main] DEBUG App                                      - Este evento representa información de depuración.
