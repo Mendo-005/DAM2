@@ -10,4 +10,4 @@ public class Main {
         
         LOG.info("Aplicación iniciada");
     }
-}
+}       
