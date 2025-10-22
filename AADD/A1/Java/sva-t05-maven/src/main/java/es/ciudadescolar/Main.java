@@ -7,7 +7,8 @@ public class Main {
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
     public static void main(String[] args) {
-        
-        LOG.info("Aplicación iniciada");
+        System.out.println("¡Hola! La aplicación está ejecutándose...");
+        LOG.info("Programa Ejecutado");
+        System.out.println("Aplicación completada correctamente.");
     }
 }       
