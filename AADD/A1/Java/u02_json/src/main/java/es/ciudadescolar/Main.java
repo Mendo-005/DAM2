@@ -20,7 +20,7 @@ public class Main {
         
         List<Alumno> alumnosJson = JsonManager.parsearJsonAlumnos(ficheroJsonAlumnos);
         
-        if (alumnosJson.isEmpty())
+        if (!alumnosJson.isEmpty())
         {
             // Nuevo Json
             JsonManager.createJsonAlumnos((alumnosJson), ficheroSalidaAlumnod);
