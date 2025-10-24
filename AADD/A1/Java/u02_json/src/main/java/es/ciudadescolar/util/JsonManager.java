@@ -109,14 +109,11 @@ public class JsonManager {
         try {
             mapper.writerWithDefaultPrettyPrinter().writeValue(ficheroSalidaJson, alumnos);
         } catch (StreamWriteException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            LOG.error("Error durante la escritura "+ e.getMessage());
         } catch (DatabindException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            LOG.error("Error durante la escritura "+ e.getMessage());
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            LOG.error("Error durante la escritura "+ e.getMessage());
         }
 
     }
