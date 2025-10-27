@@ -31,8 +31,8 @@ def main():
                         cola_control.put(f"Apagar{alarma['id']}")
     
             except:
-                 procesos_activos = [p for p in procesos if p.is_alive()]
-                 if not procesos_activos:
+                procesos_activos = [p for p in procesos if p.is_alive()]
+                if not procesos_activos:
                     print("Todas las cámaras han terminado")
                     break
     except KeyboardInterrupt:
