@@ -3,5 +3,10 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+<<<<<<< HEAD
     ]
+=======
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+>>>>>>> 8c957d4029d7871f434f38bc0844e01c3a694ed7
 }

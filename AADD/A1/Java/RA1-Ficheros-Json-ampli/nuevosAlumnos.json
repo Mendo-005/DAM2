@@ -1,0 +1,17 @@
+[ {
+  "nombre" : "carlitos",
+  "expediente" : "1111",
+  "fecha" : "2003-04-12"
+}, {
+  "nombre" : "menganito",
+  "expediente" : "2222",
+  "fecha" : "2007-02-21"
+}, {
+  "nombre" : "fermin",
+  "expediente" : "3333",
+  "fecha" : "2001-07-30"
+}, {
+  "nombre" : "julito",
+  "expediente" : "4444",
+  "fecha" : "2003-12-31"
+} ]

@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 package src;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+=======
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
+>>>>>>> 8c957d4029d7871f434f38bc0844e01c3a694ed7
 
 public class Ejercicio4 {
     public static void main(String[] args) {
