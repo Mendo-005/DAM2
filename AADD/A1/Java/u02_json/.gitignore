@@ -1,0 +1,9 @@
+## VS Code
+.vscode/
+target/
+
+# Java y trazas
+
+*.class
+*.log
+

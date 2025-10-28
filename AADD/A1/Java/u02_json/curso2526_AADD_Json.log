@@ -1,2 +1,27 @@
 2025-10-22 10:57:41,156 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-22 10:59:50,765 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+<<<<<<< HEAD
+=======
+2025-10-24 13:24:25,747 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 13:58:11,306 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 13:58:11,311 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 13:58:11,312 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+2025-10-24 13:58:11,314 [main] WARN  es.ciudadescolar.Main                    - No se han recuperado ficheros json: alumnos.json
+2025-10-24 13:59:00,728 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 13:59:00,732 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 13:59:00,732 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+2025-10-24 13:59:00,734 [main] WARN  es.ciudadescolar.Main                    - No se han recuperado ficheros json: alumnos.json
+2025-10-24 14:00:48,591 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 14:00:48,596 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 14:00:48,596 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+2025-10-24 14:00:48,598 [main] WARN  es.ciudadescolar.Main                    - No se han recuperado ficheros json: alumnos.json
+2025-10-24 14:01:46,348 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 14:01:46,353 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 14:01:46,353 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+2025-10-24 14:02:06,043 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 14:02:06,048 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 14:02:06,048 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+2025-10-24 14:02:51,662 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-24 14:02:51,667 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-10-24 14:02:51,667 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
+>>>>>>> 8c957d4029d7871f434f38bc0844e01c3a694ed7

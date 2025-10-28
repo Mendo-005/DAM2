@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package src;
 
+=======
+>>>>>>> 8c957d4029d7871f434f38bc0844e01c3a694ed7
 import java.awt.*;
 import javax.swing.*;
 
