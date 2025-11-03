@@ -9,8 +9,6 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.exc.StreamWriteException;
@@ -27,8 +25,9 @@ import es.ciudadescolar.instituto.Instituto;
 
 public class JsonManager 
 {
-    private static final Logger LOG = LoggerFactory.getLogger(JsonManager.class);
     
+    private static final Logger LOG = LoggerFactory.getLogger(JsonManager.class);
+
     private static ObjectMapper mapper = new  ObjectMapper().registerModule(new JavaTimeModule());
 
     //  mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
@@ -172,6 +171,7 @@ public class JsonManager
                 
                 arrayAlumnos.add(nodoAlumno);
             }
+            mapper.writerWithDefaultPrettyPrinter().writeValue();
 
             try 
             {
