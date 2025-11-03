@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto id="PROD-A">
+        <nombre>Teclado Mecánico RGB</nombre>
+        <categoria>Periféricos</categoria>
+    </producto>
+    <producto id="PROD-B">
+        <nombre>Monitor Ultrawide 34"</nombre>
+        <categoria>Monitores</categoria>
+    </producto>
+    <producto id="PROD-C">
+        <nombre>Ratón Óptico Inalámbrico</nombre>
+        <categoria>Periféricos</categoria>
+    </producto>
+    <producto id="PROD-D">
+        <nombre>Altavoces Bluetooth 2.1</nombre>
+        <categoria>Audio</categoria>
+    </producto>
+    <producto id="PROD-E">
+        <nombre>Webcam HD 1080p</nombre>
+        <categoria>Periféricos</categoria>
+    </producto>
+    <producto id="PROD-F">
+        <nombre>Cable USB-C 2m</nombre>
+        <categoria>Accesorios</categoria>
+    </producto>
+    <producto id="PROD-G">
+        <nombre>Tarjeta Gráfica RTX 4070</nombre>
+        <categoria>Componentes</categoria>
+    </producto>
+    <producto id="PROD-H">
+        <nombre>Disco SSD NVMe 1TB</nombre>
+        <categoria>Almacenamiento</categoria>
+    </producto>
+    <producto id="PROD-I">
+        <nombre>Memoria RAM DDR4 16GB</nombre>
+        <categoria>Componentes</categoria>
+    </producto>
+    <producto id="PROD-J">
+        <nombre>Procesador Intel i7-13700K</nombre>
+        <categoria>Componentes</categoria>
+    </producto>
+    <producto id="PROD-K">
+        <nombre>Placa Base ATX Gaming</nombre>
+        <categoria>Componentes</categoria>
+    </producto>
+    <producto id="PROD-L">
+        <nombre>Fuente de Alimentación 750W</nombre>
+        <categoria>Componentes</categoria>
+    </producto>
+    <producto id="PROD-M">
+        <nombre>Caja Gaming Cristal Templado</nombre>
+        <categoria>Carcasas</categoria>
+    </producto>
+    <producto id="PROD-N">
+        <nombre>Hub USB 3.0 7 puertos</nombre>
+        <categoria>Accesorios</categoria>
+    </producto>
+    <producto id="PROD-O">
+        <nombre>Auriculares Gaming 7.1</nombre>
+        <categoria>Audio</categoria>
+    </producto>
+    <producto id="PROD-P">
+        <nombre>Mousepad Gaming XXL</nombre>
+        <categoria>Accesorios</categoria>
+    </producto>
+</catalogo>

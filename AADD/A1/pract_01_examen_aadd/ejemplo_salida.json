@@ -1,0 +1,34 @@
+{
+  "informe_producto": {
+    "id_producto": "PROD-A",
+    "nombre_producto": "Teclado Mecánico RGB",
+    "categoria": "Periféricos",
+    "estadisticas": {
+      "unidades_totales_vendidas": 4,
+      "ingresos_totales": 62.5,
+      "precio_promedio_venta": 15.625
+    },
+    "pedidos_completados": [
+      {
+        "id_pedido": "P-1001",
+        "id_cliente": "C-001",
+        "fecha": "2024-10-01",
+        "cantidad_comprada": 2
+      },
+      {
+        "id_pedido": "P-1005",
+        "id_cliente": "C-002",
+        "fecha": "2024-10-10",
+        "cantidad_comprada": 1
+      }
+    ],
+    "pedidos_pendientes": [
+      {
+        "id_pedido": "P-1002",
+        "id_cliente": "C-002",
+        "fecha": "2024-10-03",
+        "cantidad_comprada": 1
+      }
+    ]
+  }
+}
