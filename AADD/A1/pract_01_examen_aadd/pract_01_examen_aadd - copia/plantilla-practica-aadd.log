@@ -1,0 +1,79 @@
+2025-11-04 11:49:53,133 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 11:49:53,137 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 11:49:53,137 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 11:49:53,358 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 11:49:53,386 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-A
+2025-11-04 11:49:53,388 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-A
+2025-11-04 11:49:53,390 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 25 unidades vendidas, 388.0 euros de ingresos
+2025-11-04 11:49:53,412 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-A_20251104_114953.json
+2025-11-04 11:49:53,418 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 11:50:16,562 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 11:50:16,577 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 11:50:16,578 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 11:50:16,779 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 11:50:16,812 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-B
+2025-11-04 11:50:16,813 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-B
+2025-11-04 11:50:16,815 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 5 unidades vendidas, 995.0 euros de ingresos
+2025-11-04 11:50:16,836 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-B_20251104_115016.json
+2025-11-04 11:50:16,845 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 11:51:37,171 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 11:51:37,175 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 11:51:37,175 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 11:51:37,381 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 11:51:37,409 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-C
+2025-11-04 11:51:37,409 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-C
+2025-11-04 11:51:37,412 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 26 unidades vendidas, 258.5 euros de ingresos
+2025-11-04 11:51:37,438 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-C_20251104_115137.json
+2025-11-04 11:51:37,443 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:00:59,694 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 12:00:59,696 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 12:00:59,697 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 12:00:59,900 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:00:59,929 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-A
+2025-11-04 12:00:59,929 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-A
+2025-11-04 12:00:59,931 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 25 unidades vendidas, 388.0 euros de ingresos
+2025-11-04 12:00:59,947 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-A_20251104_120059.json
+2025-11-04 12:00:59,952 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:08:12,721 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 12:08:12,724 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 12:08:12,725 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 12:08:12,954 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:08:12,982 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-A
+2025-11-04 12:08:12,983 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-A
+2025-11-04 12:08:12,984 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 25 unidades vendidas, 388.0 euros de ingresos
+2025-11-04 12:08:12,998 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-A_20251104_120812.json
+2025-11-04 12:08:13,002 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:08:44,002 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 12:08:44,005 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 12:08:44,005 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 12:08:44,233 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:08:44,264 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-A
+2025-11-04 12:08:44,265 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-A
+2025-11-04 12:08:44,266 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 25 unidades vendidas, 388.0 euros de ingresos
+2025-11-04 12:08:44,281 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-A_20251104_120844.json
+2025-11-04 12:08:44,286 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:09:44,083 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 12:09:44,083 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 12:09:44,083 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 12:09:44,296 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:09:44,324 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-B
+2025-11-04 12:09:44,324 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-B
+2025-11-04 12:09:44,326 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 5 unidades vendidas, 995.0 euros de ingresos
+2025-11-04 12:09:44,340 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-B_20251104_120944.json
+2025-11-04 12:09:44,345 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:25:10,367 [main] INFO  es.ciudadescolar.Main                    - === PROCESADOR DE PEDIDOS ===
+2025-11-04 12:25:10,372 [main] INFO  es.ciudadescolar.Main                    - Iniciando aplicación...
+2025-11-04 12:25:10,372 [main] INFO  es.ciudadescolar.Main                    - Cargando datos...
+2025-11-04 12:25:10,654 [main] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:25:25,728 [main] INFO  es.ciudadescolar.Main                    - Generando informe para el producto: PROD-P
+2025-11-04 12:25:25,729 [main] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-P
+2025-11-04 12:25:25,730 [main] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 5 unidades vendidas, 94.5 euros de ingresos
+2025-11-04 12:25:25,746 [main] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-P_20251104_122525.json
+2025-11-04 12:25:25,751 [main] INFO  es.ciudadescolar.Main                    - Aplicación finalizada correctamente
+2025-11-04 12:30:40,096 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:30:40,111 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD001
+2025-11-04 12:30:40,111 [es.ciudadescolar.Main.main()] WARN  es.ciudadescolar.utils.JsonManager       - Producto PROD001 no encontrado en el catálogo
+2025-11-04 12:30:52,256 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Se han cargado 17 pedidos desde pedidos.json
+2025-11-04 12:30:52,270 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Generando informe para el producto: PROD-A
+2025-11-04 12:30:52,272 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe generado: 25 unidades vendidas, 388.0 euros de ingresos
+2025-11-04 12:30:52,287 [es.ciudadescolar.Main.main()] INFO  es.ciudadescolar.utils.JsonManager       - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\pract_01_examen_aadd\pract_01_examen_aadd - copia\informe_PROD-A.json

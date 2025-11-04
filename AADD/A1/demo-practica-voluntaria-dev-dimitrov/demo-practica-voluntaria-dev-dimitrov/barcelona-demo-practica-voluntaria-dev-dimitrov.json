@@ -1,0 +1,201 @@
+{
+  "Division" : "SP1",
+  "Equipo" : "barcelona",
+  "Goles a favor" : 90,
+  "Goles en contra" : 36,
+  "Tarjetas amarillas" : 77,
+  "Tarjetas rojas" : 2,
+  "DERROTAS" : [ {
+    "Adversario" : "Leganes",
+    "Fecha" : "26/09/2018",
+    "Local" : "No",
+    "Resultado" : "2-1"
+  }, {
+    "Adversario" : "Betis",
+    "Fecha" : "11/11/2018",
+    "Local" : "Si",
+    "Resultado" : "3-4"
+  }, {
+    "Adversario" : "Celta",
+    "Fecha" : "04/05/2019",
+    "Local" : "No",
+    "Resultado" : "2-0"
+  } ],
+  "EMPATES" : [ {
+    "Adversario" : "Girona",
+    "Fecha" : "23/09/2018",
+    "Local" : "Si",
+    "Resultado" : "2-2"
+  }, {
+    "Adversario" : "Ath Bilbao",
+    "Fecha" : "29/09/2018",
+    "Local" : "Si",
+    "Resultado" : "1-1"
+  }, {
+    "Adversario" : "Valencia",
+    "Fecha" : "07/10/2018",
+    "Local" : "No",
+    "Resultado" : "1-1"
+  }, {
+    "Adversario" : "Ath Madrid",
+    "Fecha" : "24/11/2018",
+    "Local" : "No",
+    "Resultado" : "1-1"
+  }, {
+    "Adversario" : "Valencia",
+    "Fecha" : "02/02/2019",
+    "Local" : "Si",
+    "Resultado" : "2-2"
+  }, {
+    "Adversario" : "Ath Bilbao",
+    "Fecha" : "10/02/2019",
+    "Local" : "No",
+    "Resultado" : "0-0"
+  }, {
+    "Adversario" : "Villarreal",
+    "Fecha" : "02/04/2019",
+    "Local" : "No",
+    "Resultado" : "4-4"
+  }, {
+    "Adversario" : "Huesca",
+    "Fecha" : "13/04/2019",
+    "Local" : "No",
+    "Resultado" : "0-0"
+  }, {
+    "Adversario" : "Eibar",
+    "Fecha" : "19/05/2019",
+    "Local" : "No",
+    "Resultado" : "2-2"
+  } ],
+  "VICTORIAS" : [ {
+    "Adversario" : "Alaves",
+    "Fecha" : "18/08/2018",
+    "Local" : "Si",
+    "Resultado" : "3-0"
+  }, {
+    "Adversario" : "Valladolid",
+    "Fecha" : "25/08/2018",
+    "Local" : "No",
+    "Resultado" : "0-1"
+  }, {
+    "Adversario" : "Huesca",
+    "Fecha" : "02/09/2018",
+    "Local" : "Si",
+    "Resultado" : "8-2"
+  }, {
+    "Adversario" : "Sociedad",
+    "Fecha" : "15/09/2018",
+    "Local" : "No",
+    "Resultado" : "1-2"
+  }, {
+    "Adversario" : "Sevilla",
+    "Fecha" : "20/10/2018",
+    "Local" : "Si",
+    "Resultado" : "4-2"
+  }, {
+    "Adversario" : "Real Madrid",
+    "Fecha" : "28/10/2018",
+    "Local" : "Si",
+    "Resultado" : "5-1"
+  }, {
+    "Adversario" : "Vallecano",
+    "Fecha" : "03/11/2018",
+    "Local" : "No",
+    "Resultado" : "2-3"
+  }, {
+    "Adversario" : "Villarreal",
+    "Fecha" : "02/12/2018",
+    "Local" : "Si",
+    "Resultado" : "2-0"
+  }, {
+    "Adversario" : "Espanol",
+    "Fecha" : "08/12/2018",
+    "Local" : "No",
+    "Resultado" : "0-4"
+  }, {
+    "Adversario" : "Levante",
+    "Fecha" : "16/12/2018",
+    "Local" : "No",
+    "Resultado" : "0-5"
+  }, {
+    "Adversario" : "Celta",
+    "Fecha" : "22/12/2018",
+    "Local" : "Si",
+    "Resultado" : "2-0"
+  }, {
+    "Adversario" : "Getafe",
+    "Fecha" : "06/01/2019",
+    "Local" : "No",
+    "Resultado" : "1-2"
+  }, {
+    "Adversario" : "Eibar",
+    "Fecha" : "13/01/2019",
+    "Local" : "Si",
+    "Resultado" : "3-0"
+  }, {
+    "Adversario" : "Leganes",
+    "Fecha" : "20/01/2019",
+    "Local" : "Si",
+    "Resultado" : "3-1"
+  }, {
+    "Adversario" : "Girona",
+    "Fecha" : "27/01/2019",
+    "Local" : "No",
+    "Resultado" : "0-2"
+  }, {
+    "Adversario" : "Valladolid",
+    "Fecha" : "16/02/2019",
+    "Local" : "Si",
+    "Resultado" : "1-0"
+  }, {
+    "Adversario" : "Sevilla",
+    "Fecha" : "23/02/2019",
+    "Local" : "No",
+    "Resultado" : "2-4"
+  }, {
+    "Adversario" : "Real Madrid",
+    "Fecha" : "02/03/2019",
+    "Local" : "No",
+    "Resultado" : "0-1"
+  }, {
+    "Adversario" : "Vallecano",
+    "Fecha" : "09/03/2019",
+    "Local" : "Si",
+    "Resultado" : "3-1"
+  }, {
+    "Adversario" : "Betis",
+    "Fecha" : "17/03/2019",
+    "Local" : "No",
+    "Resultado" : "1-4"
+  }, {
+    "Adversario" : "Espanol",
+    "Fecha" : "30/03/2019",
+    "Local" : "Si",
+    "Resultado" : "2-0"
+  }, {
+    "Adversario" : "Ath Madrid",
+    "Fecha" : "06/04/2019",
+    "Local" : "Si",
+    "Resultado" : "2-0"
+  }, {
+    "Adversario" : "Sociedad",
+    "Fecha" : "20/04/2019",
+    "Local" : "Si",
+    "Resultado" : "2-1"
+  }, {
+    "Adversario" : "Alaves",
+    "Fecha" : "23/04/2019",
+    "Local" : "No",
+    "Resultado" : "0-2"
+  }, {
+    "Adversario" : "Levante",
+    "Fecha" : "27/04/2019",
+    "Local" : "Si",
+    "Resultado" : "1-0"
+  }, {
+    "Adversario" : "Getafe",
+    "Fecha" : "12/05/2019",
+    "Local" : "Si",
+    "Resultado" : "2-0"
+  } ]
+}

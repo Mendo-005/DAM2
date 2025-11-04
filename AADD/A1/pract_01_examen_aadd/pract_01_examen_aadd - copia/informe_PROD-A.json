@@ -1,0 +1,54 @@
+{
+  "informe_producto" : {
+    "id_producto" : "PROD-A",
+    "nombre_producto" : "Teclado Mecánico RGB",
+    "categoria" : "Periféricos",
+    "estadisticas" : {
+      "unidades_totales_vendidas" : 25,
+      "ingresos_totales" : 388.0,
+      "precio_promedio_venta" : 15.5625
+    },
+    "pedidos_completados" : [ {
+      "cantidad_comprada" : 2,
+      "id_pedido" : "P-1001",
+      "fecha" : "2024-10-01",
+      "id_cliente" : "C-001"
+    }, {
+      "cantidad_comprada" : 1,
+      "id_pedido" : "P-1005",
+      "fecha" : "2024-10-10",
+      "id_cliente" : "C-002"
+    }, {
+      "cantidad_comprada" : 5,
+      "id_pedido" : "P-1010",
+      "fecha" : "2024-10-22",
+      "id_cliente" : "C-001"
+    } ],
+    "pedidos_pendientes" : [ {
+      "cantidad_comprada" : 1,
+      "id_pedido" : "P-1002",
+      "fecha" : "2024-10-03",
+      "id_cliente" : "C-002"
+    }, {
+      "cantidad_comprada" : 3,
+      "id_pedido" : "P-1004",
+      "fecha" : "2024-10-06",
+      "id_cliente" : "C-003"
+    }, {
+      "cantidad_comprada" : 2,
+      "id_pedido" : "P-1006",
+      "fecha" : "2024-10-12",
+      "id_cliente" : "C-004"
+    }, {
+      "cantidad_comprada" : 7,
+      "id_pedido" : "P-1012",
+      "fecha" : "2024-10-28",
+      "id_cliente" : "C-004"
+    }, {
+      "cantidad_comprada" : 4,
+      "id_pedido" : "P-1015",
+      "fecha" : "2024-11-02",
+      "id_cliente" : "C-009"
+    } ]
+  }
+}
