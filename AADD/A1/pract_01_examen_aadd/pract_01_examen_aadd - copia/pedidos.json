@@ -1,0 +1,172 @@
+{
+  "pedidos": [
+    {
+      "id_pedido": "P-1001",
+      "id_cliente": "C-001",
+      "fecha": "2024-10-01",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 2, "precio_unitario": 15.50},
+        {"id_producto": "PROD-B", "cantidad": 1, "precio_unitario": 200.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1002",
+      "id_cliente": "C-002",
+      "fecha": "2024-10-03",
+      "estado": "PENDIENTE",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 1, "precio_unitario": 15.50}
+      ]
+    },
+    {
+      "id_pedido": "P-1003",
+      "id_cliente": "C-001",
+      "fecha": "2024-10-05",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-C", "cantidad": 5, "precio_unitario": 10.00},
+        {"id_producto": "PROD-B", "cantidad": 1, "precio_unitario": 205.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1004",
+      "id_cliente": "C-003",
+      "fecha": "2024-10-06",
+      "estado": "CANCELADO",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 3, "precio_unitario": 15.50}
+      ]
+    },
+    {
+      "id_pedido": "P-1005",
+      "id_cliente": "C-002",
+      "fecha": "2024-10-10",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 1, "precio_unitario": 16.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1006",
+      "id_cliente": "C-004",
+      "fecha": "2024-10-12",
+      "estado": "PENDIENTE",
+      "articulos": [
+        {"id_producto": "PROD-D", "cantidad": 3, "precio_unitario": 25.75},
+        {"id_producto": "PROD-A", "cantidad": 2, "precio_unitario": 15.50},
+        {"id_producto": "PROD-E", "cantidad": 1, "precio_unitario": 89.99}
+      ]
+    },
+    {
+      "id_pedido": "P-1007",
+      "id_cliente": "C-005",
+      "fecha": "2024-10-15",
+      "estado": "PROCESANDO",
+      "articulos": [
+        {"id_producto": "PROD-F", "cantidad": 4, "precio_unitario": 12.30}
+      ]
+    },
+    {
+      "id_pedido": "P-1008",
+      "id_cliente": "C-003",
+      "fecha": "2024-10-18",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-B", "cantidad": 2, "precio_unitario": 195.00},
+        {"id_producto": "PROD-C", "cantidad": 10, "precio_unitario": 9.85}
+      ]
+    },
+    {
+      "id_pedido": "P-1009",
+      "id_cliente": "C-006",
+      "fecha": "2024-10-20",
+      "estado": "PENDIENTE",
+      "articulos": [
+        {"id_producto": "PROD-G", "cantidad": 1, "precio_unitario": 450.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1010",
+      "id_cliente": "C-001",
+      "fecha": "2024-10-22",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 5, "precio_unitario": 15.50},
+        {"id_producto": "PROD-D", "cantidad": 2, "precio_unitario": 25.75},
+        {"id_producto": "PROD-H", "cantidad": 1, "precio_unitario": 75.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1011",
+      "id_cliente": "C-007",
+      "fecha": "2024-10-25",
+      "estado": "CANCELADO",
+      "articulos": [
+        {"id_producto": "PROD-I", "cantidad": 3, "precio_unitario": 33.33}
+      ]
+    },
+    {
+      "id_pedido": "P-1012",
+      "id_cliente": "C-004",
+      "fecha": "2024-10-28",
+      "estado": "PROCESANDO",
+      "articulos": [
+        {"id_producto": "PROD-A", "cantidad": 7, "precio_unitario": 15.50},
+        {"id_producto": "PROD-J", "cantidad": 2, "precio_unitario": 120.50}
+      ]
+    },
+    {
+      "id_pedido": "P-1013",
+      "id_cliente": "C-008",
+      "fecha": "2024-10-30",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-K", "cantidad": 1, "precio_unitario": 299.99},
+        {"id_producto": "PROD-C", "cantidad": 8, "precio_unitario": 10.00},
+        {"id_producto": "PROD-F", "cantidad": 3, "precio_unitario": 12.30}
+      ]
+    },
+    {
+      "id_pedido": "P-1014",
+      "id_cliente": "C-002",
+      "fecha": "2024-11-01",
+      "estado": "PENDIENTE",
+      "articulos": [
+        {"id_producto": "PROD-L", "cantidad": 2, "precio_unitario": 67.80}
+      ]
+    },
+    {
+      "id_pedido": "P-1015",
+      "id_cliente": "C-009",
+      "fecha": "2024-11-02",
+      "estado": "PROCESANDO",
+      "articulos": [
+        {"id_producto": "PROD-M", "cantidad": 1, "precio_unitario": 180.00},
+        {"id_producto": "PROD-A", "cantidad": 4, "precio_unitario": 15.50},
+        {"id_producto": "PROD-B", "cantidad": 1, "precio_unitario": 200.00}
+      ]
+    },
+    {
+      "id_pedido": "P-1016",
+      "id_cliente": "C-005",
+      "fecha": "2024-11-03",
+      "estado": "ENTREGADO",
+      "articulos": [
+        {"id_producto": "PROD-N", "cantidad": 6, "precio_unitario": 8.25},
+        {"id_producto": "PROD-D", "cantidad": 1, "precio_unitario": 25.75}
+      ]
+    },
+    {
+      "id_pedido": "P-1017",
+      "id_cliente": "C-010",
+      "fecha": "2024-11-03",
+      "estado": "PENDIENTE",
+      "articulos": [
+        {"id_producto": "PROD-O", "cantidad": 2, "precio_unitario": 42.50},
+        {"id_producto": "PROD-P", "cantidad": 5, "precio_unitario": 18.90},
+        {"id_producto": "PROD-C", "cantidad": 3, "precio_unitario": 10.00}
+      ]
+    }
+  ]
+}
