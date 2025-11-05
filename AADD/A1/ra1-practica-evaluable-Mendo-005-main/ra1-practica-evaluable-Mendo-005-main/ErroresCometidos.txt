@@ -1,0 +1,239 @@
+===============================================================================
+                    ERRORES ENCONTRADOS Y CORREGIDOS EN EL PROYECTO
+                           RA1 Práctica Evaluable - Mario Mendoza
+===============================================================================
+
+Este documento detalla todos los errores encontrados durante la corrección 
+del código del proyecto de parseo y procesamiento de archivos XML, JSON y TXT.
+
+===============================================================================
+1. ERRORES EN XMLManager.java
+===============================================================================
+
+1.1. ESTRUCTURA XML MAL INTERPRETADA
+   PROBLEMA: Buscaba elementos directamente bajo <Hospital> cuando estaban 
+            en contenedores
+   CÓDIGO INCORRECTO:
+      NodeList medicosNodes = elementoRaiz.getElementsByTagName("Medico");
+   
+   REALIDAD: Los elementos están organizados así:
+      <Hospital>
+         <Medicos>
+            <Medico>...</Medico>
+         </Medicos>
+         <Pacientes>
+            <Paciente>...</Paciente>
+         </Pacientes>
+      </Hospital>
+
+1.2. REUTILIZACIÓN INCORRECTA DE VARIABLES
+   PROBLEMA: Usaba la misma variable para diferentes tipos de nodos
+   CÓDIGO INCORRECTO:
+      NodeList medicosNodes = elementoH.getElementsByTagName("Medico");
+      // ... proceso médicos
+      NodeList pacientesNodes = elementoH.getElementsByTagName("Paciente");
+      if (medicosNodes.getLength() > 0) { // ¡ERROR! Debería ser pacientesNodes
+   
+   CONSECUENCIA: Sobrescribía datos y causaba pérdida de información
+
+1.3. ACCESO INCORRECTO A ELEMENTOS DE TEXTO
+   PROBLEMA: Intentaba obtener texto del nodo padre en lugar del elemento específico
+   CÓDIGO INCORRECTO:
+      nombreM = medicosNodes.item(0).getTextContent();
+      apellidoM = medicosNodes.item(1).getTextContent();
+   
+   PROBLEMA: item(0) devuelve el primer nodo <Medico>, no el elemento <Nombre>
+
+1.4. CONFUSIÓN ENTRE ATRIBUTOS Y ELEMENTOS
+   PROBLEMA: Trataba elementos como atributos
+   CÓDIGO INCORRECTO:
+      String especialidad = ((Element) medicosNodes).getAttribute("especialidad");
+   
+   REALIDAD: En el XML original, nombre y apellido son elementos, no atributos:
+      <Medico id="M001" especialidad="Cardiologia">
+         <Nombre>Laura</Nombre>
+         <Apellido>Perez Gomez</Apellido>
+      </Medico>
+
+1.5. MANEJO INCORRECTO DE REFERENCIAS EN CITAS
+   PROBLEMA: Trataba las referencias como texto directo
+   CÓDIGO INCORRECTO:
+      pacienteRef = medicosNodes.item(0).getTextContent();
+   
+   REALIDAD: Las referencias son elementos con atributos:
+      <PacienteRef id="P100"/>
+
+1.6. PARSEO DE FECHAS SIN VALIDACIÓN
+   PROBLEMA: No verificaba si la fecha existía antes de parsearla
+   CÓDIGO INCORRECTO:
+      LocalDate fechaLD = LocalDate.parse(fecha, dateformatter);
+   
+   RIESGO: NullPointerException si fecha está vacía o es null
+
+1.7. CONSTRUCTOR DE INFORMESALIDA INCORRECTO
+   PROBLEMA: Pasaba la misma lista tres veces
+   CÓDIGO INCORRECTO:
+      listaHospital = new InformeSalida(listaMedico, listaMedico, listaMedico);
+   
+   CORRECTO: Debería pasar listas diferentes para médicos, pacientes y citas
+
+1.8. LLAMADA A MÉTODO INEXISTENTE
+   PROBLEMA: Intentaba llamar método que no existe
+   CÓDIGO INCORRECTO:
+      listaHospital.add(listaMedico, listaMedico, listaMedico);
+   
+   REALIDAD: La clase InformeSalida no tiene método add()
+
+===============================================================================
+2. ERRORES EN Main.java
+===============================================================================
+
+2.1. FALTA DE MANEJO DE RESULTADOS
+   PROBLEMA: Solo llamaba el método sin capturar ni mostrar resultados
+   CÓDIGO INCORRECTO:
+      XMLManager.parseXml(ficheroXml);
+   
+   MEJORADO: Capturar resultado y mostrar información procesada
+
+2.2. VARIABLES NO UTILIZADAS
+   PROBLEMA: Declaraba variables que nunca se usaban
+   CÓDIGO INCORRECTO:
+      private static String nameFileJSON = ".json";
+      private static String nameFileXML = ".xml";
+   
+   CONSECUENCIA: Warnings de compilación y código muerto
+
+2.3. FALTA DE VALIDACIÓN DE ARCHIVOS
+   PROBLEMA: No verificaba si los archivos existían antes de procesarlos
+   RIESGO: Fallas silenciosas sin información útil para el usuario
+
+2.4. NOMBRES DE ARCHIVOS INCORRECTOS
+   PROBLEMA: Usaba nombres genéricos
+   CÓDIGO INCORRECTO:
+      private static File archivoJsonSalida = new File("hospital_completo.json");
+   
+   REQUERIDO: hospital_<ciudad>_<nombre>_<apellido>.json
+   CORRECTO: hospital_Zaragoza_mario_mendoza.json
+
+===============================================================================
+3. ERRORES EN InformeSalida.java
+===============================================================================
+
+3.1. TIPO INCORRECTO EN CAMPO DE CITAS
+   PROBLEMA: Campo con tipo equivocado
+   CÓDIGO INCORRECTO:
+      private List<Medico> listaCitas;
+   
+   CORRECTO:
+      private List<Cita> listaCitas;
+
+3.2. CONSTRUCTOR CON TIPOS INCORRECTOS
+   PROBLEMA: Parámetros con tipos equivocados
+   CÓDIGO INCORRECTO:
+      public InformeSalida(List<Medico> listaMedicos, 
+                          List<Paciente> listaPacientes, 
+                          List<Medico> listaCitas)
+   
+   CORRECTO: El tercer parámetro debe ser List<Cita>
+
+3.3. GETTERS Y SETTERS INCORRECTOS
+   PROBLEMA: Métodos con tipos de retorno equivocados
+   CÓDIGO INCORRECTO:
+      public List<Medico> getListaCitas()
+      public void setListaCitas(List<Medico> listaCitas)
+
+3.4. FALTA DE CONSTRUCTOR VACÍO
+   PROBLEMA: Sin constructor vacío necesario para Jackson
+   CONSECUENCIA: Falla la deserialización JSON
+
+===============================================================================
+4. ERRORES EN JsonManager.java
+===============================================================================
+
+4.1. IMPORTS INNECESARIOS
+   PROBLEMA: Import que no se usa
+   CÓDIGO INCORRECTO:
+      import javax.print.attribute.standard.Media;
+
+4.2. LOGGING INCORRECTO
+   PROBLEMA: Parámetros incorrectos para SLF4J
+   CÓDIGO INCORRECTO:
+      LOG.info("Informe guardado en: ", archivoSalida.getAbsolutePath());
+   
+   CORRECTO:
+      LOG.info("Informe guardado en: {}", archivoSalida.getAbsolutePath());
+
+4.3. FUNCIONALIDAD INCOMPLETA
+   PROBLEMA: Solo tenía método para escribir, no para leer JSON
+   SOLUCIÓN: Agregado método leerInforme()
+
+===============================================================================
+5. ERRORES EN TextManager.java
+===============================================================================
+
+5.1. CLASE COMPLETAMENTE VACÍA
+   PROBLEMA: No tenía ninguna funcionalidad implementada
+   CÓDIGO ORIGINAL:
+      public class TextManager {
+          // Clase vacía
+      }
+
+5.2. FALTA DE MANEJO DE EXCEPCIONES
+   PROBLEMA: No manejaba IOException para lectura de archivos
+   RIESGO: Fallas sin información útil sobre el error
+
+5.3. FALTA DE VALIDACIÓN DE FORMATO
+   PROBLEMA: No validaba el formato del archivo de texto
+   RIESGO: Errores al procesar líneas con formato incorrecto
+
+===============================================================================
+6. ERRORES CONCEPTUALES GENERALES
+===============================================================================
+
+6.1. INCOMPATIBILIDAD XSD-XML
+   PROBLEMA: El XSD esperaba estructura diferente al XML real
+   XSD ESPERABA: nombre y ciudad como elementos, médicos como atributos
+   XML REAL: nombre y ciudad como atributos, médicos como elementos
+
+6.2. FALTA DE INTEGRACIÓN COMPLETA
+   PROBLEMA: Los componentes no estaban integrados en un flujo end-to-end
+   SOLUCIÓN: Creado flujo completo de procesamiento
+
+6.3. FALTA DE VALIDACIÓN DE DATOS
+   PROBLEMA: No validaba que médicos y pacientes existieran antes de crear citas
+   RIESGO: Citas con referencias nulas
+
+===============================================================================
+7. ERRORES DE COMPILACIÓN Y EJECUCIÓN
+===============================================================================
+
+7.1. ERRORES DE TIPADO
+   - Incompatibilidad entre List<Medico> y List<Cita>
+   - Métodos llamados en objetos con tipo incorrecto
+
+7.2. REFERENCIAS NULAS
+   - Acceso a elementos sin verificar si existen
+   - Referencias a objetos no inicializados
+
+7.3. PROBLEMAS DE DEPENDENCIAS
+   - Falta de imports necesarios
+   - Imports innecesarios que generan warnings
+
+===============================================================================
+8. RESUMEN DE SOLUCIONES IMPLEMENTADAS
+===============================================================================
+
+✅ Corregido parseo XML para manejar estructura real
+✅ Implementado manejo correcto de tipos en InformeSalida
+✅ Agregada funcionalidad completa a TextManager
+✅ Mejorado JsonManager con funcionalidad de lectura
+✅ Integrado flujo completo en Main.java
+✅ Implementada generación de XML compatible con XSD
+✅ Agregada validación de archivos y manejo de errores
+✅ Corregidos nombres de archivos según especificaciones
+✅ Eliminadas variables no utilizadas y código muerto
+✅ Mejorado logging y manejo de excepciones
+
+===============================================================================
+                               FIN DEL REPORTE
+===============================================================================
