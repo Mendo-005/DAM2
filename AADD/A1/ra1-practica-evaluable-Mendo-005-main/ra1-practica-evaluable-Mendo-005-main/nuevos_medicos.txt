@@ -1,0 +1,4 @@
+id|especialidad|nombre|apellido|telefono|email
+M03|Neurologia|Juan|Perez Lopez|913213211|juan.perez@hospital.org
+M04|Nefrologia|Luisa|Sanz Diaz|962821201|luisa.sanz@hospital.org
+M05|Traumatologia|Pedro|Pin Delgado|932341234|pedro.pin2@hospital.org

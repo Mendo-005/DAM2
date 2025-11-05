@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "tests": [
+    {
+      "name": "JSON equivalente",
+      "run": "mvn -q -Dtest=JsonTest#testJsonEquivalente test",
+      "points": 22
+    },
+    {
+      "name": "Número de médicos",
+      "run": "mvn -q -Dtest=JsonTest#testNumeroDeMedicos test",
+      "points": 7
+    },
+    {
+      "name": "Nombre del hospital",
+      "run": "mvn -q -Dtest=JsonTest#testNombreHospital test",
+      "points": 3
+    },
+    {
+      "name": "XML válido y correcto",
+      "run": "mvn -q -Dtest=XmlValidationTest#testXmlValidoYCorrecto test",
+      "points": 36
+    },
+    {
+      "name": "Ciudad Zaragoza",
+      "run": "mvn -q -Dtest=XmlValidationTest#testCiudadZaragoza test",
+      "points": 3
+    },
+    {
+      "name": "Atributo XSD",
+      "run": "mvn -q -Dtest=XmlValidationTest#testAtributoXsd test",
+      "points": 3
+    },
+    {
+      "name": "Existe XML de salida",
+      "run": "mvn -q -Dtest=XmlValidationTest#testExisteXml test",
+      "points": 1
+    }
+  ]
+}

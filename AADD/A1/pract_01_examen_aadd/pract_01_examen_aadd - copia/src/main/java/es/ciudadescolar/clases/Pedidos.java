@@ -16,7 +16,7 @@ public class Pedidos {
     private String id_cliente;
     
     @JsonProperty("fecha")
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy/MM/dd")
     private LocalDate fecha;
 
     @JsonProperty("estado")

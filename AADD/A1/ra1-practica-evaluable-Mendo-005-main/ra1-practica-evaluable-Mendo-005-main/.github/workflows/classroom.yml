@@ -1,0 +1,32 @@
+name: Autoevaluación de GitHub Classroom
+
+on:
+  push:
+    branches:
+      - main  # O la rama por defecto de tu repo, como 'master' 
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+    # ⭐ AGREGAR ESTE BLOQUE DE PERMISOS ⭐
+    permissions:
+      checks: write
+      actions: write
+      contents: write
+      security-events: write
+      
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+      
+      # Configuración de Java y Maven
+      - name: Configurar JDK (Java)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17' 
+          distribution: 'temurin'
+          cache: 'maven'
+
+      # ⭐ ESTE ES EL CAMBIO CLAVE ⭐
+      - name: Ejecutar Tests de Autoevaluación
+        uses: education/autograding@v1
