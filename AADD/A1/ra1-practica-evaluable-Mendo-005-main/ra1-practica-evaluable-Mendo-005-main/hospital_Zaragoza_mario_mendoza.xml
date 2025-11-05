@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Hospital>
+  <nombre>Hospital General Central</nombre>
+  <ciudad>Zaragoza</ciudad>
+  <Medico Apellido="Perez Gomez" Nombre="Laura" especialidad="Cardiologia" id="M001"/>
+  <Medico Apellido="Martinez Ruiz" Nombre="Carlos" especialidad="Pediatria" id="M002"/>
+  <Medico Apellido="Perez Lopez" Nombre="Juan" especialidad="Neurologia" id="M03"/>
+  <Medico Apellido="Sanz Diaz" Nombre="Luisa" especialidad="Nefrologia" id="M04"/>
+  <Medico Apellido="Pin Delgado" Nombre="Pedro" especialidad="Traumatologia" id="M05"/>
+  <Paciente Apellido="Lopez Sanchez" Nombre="Maria" id="P100" seguro="Si"/>
+  <Paciente Apellido="Garcia Torres" Nombre="Javier" id="P101" seguro="No"/>
+  <Citas>
+    <Cita estado="Confirmada" fecha="2025-10-05" id="C001">
+      <PacienteRef id="P100"/>
+      <MedicoRef id="M001"/>
+      <Motivo>Chequeo cardiologico anual</Motivo>
+    </Cita>
+    <Cita estado="Pendiente" fecha="2025-10-07" id="C002">
+      <PacienteRef id="P101"/>
+      <MedicoRef id="M002"/>
+      <Motivo>Revision pediatrica</Motivo>
+    </Cita>
+  </Citas>
+</Hospital>

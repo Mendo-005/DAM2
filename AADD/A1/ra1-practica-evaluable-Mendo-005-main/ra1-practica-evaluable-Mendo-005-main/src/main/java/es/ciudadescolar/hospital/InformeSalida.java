@@ -6,7 +6,7 @@ public class InformeSalida {
 
     private List<Medico>listaMedicos;
     private List<Paciente>listaPacientes;
-    private List<Medico>listaCitas;
+    private List<Cita>listaCitas;
 
     public List<Medico> getListaMedicos() {
         return listaMedicos;
@@ -20,16 +20,20 @@ public class InformeSalida {
     public void setListaPacientes(List<Paciente> listaPacientes) {
         this.listaPacientes = listaPacientes;
     }
-    public List<Medico> getListaCitas() {
+    public List<Cita> getListaCitas() {
         return listaCitas;
     }
-    public void setListaCitas(List<Medico> listaCitas) {
+    public void setListaCitas(List<Cita> listaCitas) {
         this.listaCitas = listaCitas;
     }
-    public InformeSalida(List<Medico> listaMedicos, List<Paciente> listaPacientes, List<Medico> listaCitas) {
+    public InformeSalida(List<Medico> listaMedicos, List<Paciente> listaPacientes, List<Cita> listaCitas) {
         this.listaMedicos = listaMedicos;
         this.listaPacientes = listaPacientes;
         this.listaCitas = listaCitas;
+    }
+    
+    public InformeSalida() {
+        // Constructor vacío para Jackson
     }
     @Override
     public String toString() {

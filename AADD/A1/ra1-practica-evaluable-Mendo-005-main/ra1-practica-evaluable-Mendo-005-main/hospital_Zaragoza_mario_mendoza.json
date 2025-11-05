@@ -1,0 +1,78 @@
+{
+  "listaMedicos" : [ {
+    "id" : "M001",
+    "nombre" : "Laura",
+    "apellido" : "Perez Gomez",
+    "especialidad" : "Cardiologia"
+  }, {
+    "id" : "M002",
+    "nombre" : "Carlos",
+    "apellido" : "Martinez Ruiz",
+    "especialidad" : "Pediatria"
+  }, {
+    "id" : "M03",
+    "nombre" : "Juan",
+    "apellido" : "Perez Lopez",
+    "especialidad" : "Neurologia"
+  }, {
+    "id" : "M04",
+    "nombre" : "Luisa",
+    "apellido" : "Sanz Diaz",
+    "especialidad" : "Nefrologia"
+  }, {
+    "id" : "M05",
+    "nombre" : "Pedro",
+    "apellido" : "Pin Delgado",
+    "especialidad" : "Traumatologia"
+  } ],
+  "listaPacientes" : [ {
+    "id" : "P100",
+    "habitacion" : "H201",
+    "seguro" : "Si",
+    "nombre" : "Maria",
+    "apellido" : "Lopez Sanchez"
+  }, {
+    "id" : "P101",
+    "habitacion" : "H202",
+    "seguro" : "No",
+    "nombre" : "Javier",
+    "apellido" : "Garcia Torres"
+  } ],
+  "listaCitas" : [ {
+    "id" : "C001",
+    "fecha" : [ 2025, 10, 5 ],
+    "estado" : "Confirmada",
+    "paciente" : {
+      "id" : "P100",
+      "habitacion" : "H201",
+      "seguro" : "Si",
+      "nombre" : "Maria",
+      "apellido" : "Lopez Sanchez"
+    },
+    "medico" : {
+      "id" : "M001",
+      "nombre" : "Laura",
+      "apellido" : "Perez Gomez",
+      "especialidad" : "Cardiologia"
+    },
+    "motivo" : "Chequeo cardiologico anual"
+  }, {
+    "id" : "C002",
+    "fecha" : [ 2025, 10, 7 ],
+    "estado" : "Pendiente",
+    "paciente" : {
+      "id" : "P101",
+      "habitacion" : "H202",
+      "seguro" : "No",
+      "nombre" : "Javier",
+      "apellido" : "Garcia Torres"
+    },
+    "medico" : {
+      "id" : "M002",
+      "nombre" : "Carlos",
+      "apellido" : "Martinez Ruiz",
+      "especialidad" : "Pediatria"
+    },
+    "motivo" : "Revision pediatrica"
+  } ]
+}
