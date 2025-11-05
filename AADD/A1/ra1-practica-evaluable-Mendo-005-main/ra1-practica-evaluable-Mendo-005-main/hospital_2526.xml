@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Hospital SYSTEM "hospital_2526.dtd">
+<Hospital nombre="Hospital General Central" ciudad="Zaragoza">
+	<Medicos>
+		<Medico id="M001" especialidad="Cardiologia">
+			<Nombre>Laura</Nombre>
+			<Apellido>Perez Gomez</Apellido>
+			<Telefono>976123456</Telefono>
+			<Email>laura.perez@hospital.org</Email>
+		</Medico>
+		<Medico id="M002" especialidad="Pediatria">
+			<Nombre>Carlos</Nombre>
+			<Apellido>Martinez Ruiz</Apellido>
+			<Telefono>976654321</Telefono>
+			<Email>carlos.martinez@hospital.org</Email>
+		</Medico>
+	</Medicos>
+	<Pacientes>
+		<Paciente id="P100" habitacion="H201" seguro="Si">
+			<Nombre>Maria</Nombre>
+			<Apellido>Lopez Sanchez</Apellido>
+			<FechaNacimiento>1985-03-12</FechaNacimiento>
+			<Telefono>600123456</Telefono>
+			<Email>maria.lopez@example.com</Email>
+		</Paciente>
+		<Paciente id="P101" habitacion="H202" seguro="No">
+			<Nombre>Javier</Nombre>
+			<Apellido>Garcia Torres</Apellido>
+			<FechaNacimiento>1992-11-23</FechaNacimiento>
+			<Telefono>600654321</Telefono>
+			<Email>javier.garcia@example.com</Email>
+		</Paciente>
+	</Pacientes>
+	<Citas>
+		<Cita id="C001" fecha="2025-10-05" hora="09:30" estado="Confirmada">
+			<PacienteRef id="P100"/>
+			<MedicoRef id="M001"/>
+			<Motivo>Chequeo cardiologico anual</Motivo>
+		</Cita>
+		<Cita id="C002" fecha="2025-10-07" hora="11:00" estado="Pendiente">
+			<PacienteRef id="P101"/>
+			<MedicoRef id="M002"/>
+			<Motivo>Revision pediatrica</Motivo>
+		</Cita>
+	</Citas>
+	<Habitaciones>
+		<Habitacion id="H201" tipo="Individual" planta="2">
+			<Estado>Ocupada</Estado>
+		</Habitacion>
+		<Habitacion id="H202" tipo="Compartida" planta="2">
+			<Estado>Ocupada</Estado>
+		</Habitacion>
+		<Habitacion id="H203" tipo="Individual" planta="2">
+			<Estado>Libre</Estado>
+		</Habitacion>
+	</Habitaciones>
+</Hospital>

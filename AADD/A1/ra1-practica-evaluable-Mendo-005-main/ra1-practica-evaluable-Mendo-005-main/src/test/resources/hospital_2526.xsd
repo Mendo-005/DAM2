@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Elemento raíz -->
+  <xs:element name="Hospital">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element name="nombre" type="xs:string"/>
+		<xs:element name="ciudad" type="xs:string"/>
+        <xs:element ref="Medico" maxOccurs="unbounded"/>
+        <xs:element ref="Paciente" maxOccurs="unbounded"/>
+        <xs:element ref="Citas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Médicos -->
+
+        <xs:element name="Medico">
+          <xs:complexType>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="especialidad" type="xs:string" use="required"/>
+			<xs:attribute name="Nombre" type="xs:string" use="required"/>
+			<xs:attribute name="Apellido" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+   
+
+  <!-- Pacientes -->
+ 
+        <xs:element name="Paciente">
+          <xs:complexType>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="seguro" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Si"/>
+                  <xs:enumeration value="No"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+			<xs:attribute name="Nombre" type="xs:string" use="required"/>
+			<xs:attribute name="Apellido" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+   
+
+  <!-- Citas -->
+  <xs:element name="Citas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Cita" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PacienteRef">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:IDREF" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MedicoRef">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:IDREF" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Motivo" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="fecha" type="xs:date" use="required"/>
+            <xs:attribute name="estado" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Confirmada"/>
+                  <xs:enumeration value="Pendiente"/>
+                  <xs:enumeration value="Cancelada"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

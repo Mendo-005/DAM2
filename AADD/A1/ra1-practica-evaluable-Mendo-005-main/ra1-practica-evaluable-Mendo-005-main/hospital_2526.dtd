@@ -1,0 +1,54 @@
+<!ELEMENT Hospital (Medicos, Pacientes, Citas, Habitaciones)>
+<!ATTLIST Hospital
+    nombre CDATA #REQUIRED
+    ciudad CDATA #REQUIRED
+>
+
+<!ELEMENT Medicos (Medico+)>
+<!ELEMENT Medico (Nombre, Apellido, Telefono, Email)>
+<!ATTLIST Medico
+    id ID #REQUIRED
+    especialidad CDATA #REQUIRED
+>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Pacientes (Paciente+)>
+<!ELEMENT Paciente (Nombre, Apellido, FechaNacimiento, Telefono, Email)>
+<!ATTLIST Paciente
+    id ID #REQUIRED
+    habitacion IDREF #REQUIRED
+    seguro (Si|No) #REQUIRED
+>
+
+<!ELEMENT FechaNacimiento (#PCDATA)>
+
+<!ELEMENT Citas (Cita+)>
+<!ELEMENT Cita (PacienteRef, MedicoRef, Motivo)>
+<!ATTLIST Cita
+    id ID #REQUIRED
+    fecha CDATA #REQUIRED
+    hora CDATA #REQUIRED
+    estado (Confirmada|Pendiente|Cancelada) #REQUIRED
+>
+
+<!ELEMENT PacienteRef EMPTY>
+<!ATTLIST PacienteRef id IDREF #REQUIRED>
+
+<!ELEMENT MedicoRef EMPTY>
+<!ATTLIST MedicoRef id IDREF #REQUIRED>
+
+<!ELEMENT Motivo (#PCDATA)>
+
+<!ELEMENT Habitaciones (Habitacion+)>
+<!ELEMENT Habitacion (Estado)>
+<!ATTLIST Habitacion
+    id ID #REQUIRED
+    tipo (Individual|Compartida) #REQUIRED
+    planta CDATA #REQUIRED
+>
+
+<!ELEMENT Estado (#PCDATA)>
