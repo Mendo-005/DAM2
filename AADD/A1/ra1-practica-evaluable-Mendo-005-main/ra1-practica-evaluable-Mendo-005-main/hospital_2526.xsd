@@ -24,10 +24,8 @@
 			<xs:attribute name="Apellido" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
-   
 
   <!-- Pacientes -->
- 
         <xs:element name="Paciente">
           <xs:complexType>
             <xs:attribute name="id" type="xs:ID" use="required"/>
@@ -43,7 +41,6 @@
 			<xs:attribute name="Apellido" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
-   
 
   <!-- Citas -->
   <xs:element name="Citas">

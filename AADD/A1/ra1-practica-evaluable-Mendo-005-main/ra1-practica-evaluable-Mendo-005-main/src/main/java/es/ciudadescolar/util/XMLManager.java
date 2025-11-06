@@ -9,17 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
-import es.ciudadescolar.hospital.Cita;
-import es.ciudadescolar.hospital.InformeSalida;
-import es.ciudadescolar.hospital.Medico;
-import es.ciudadescolar.hospital.Paciente;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -28,13 +17,23 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-import javax.xml.transform.stream.StreamSource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import es.ciudadescolar.hospital.Cita;
+import es.ciudadescolar.hospital.InformeSalida;
+import es.ciudadescolar.hospital.Medico;
+import es.ciudadescolar.hospital.Paciente;
 
 public class XMLManager {
 
@@ -210,8 +209,7 @@ public class XMLManager {
 
             }
 
-            return null;
-           
+            return null;  
             
     }
 
