@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital nombre="Hospital General" ciudad="Madrid">
+    <medicos>
+        <medico id="M01" turno="mañana">
+            <especialidad>Cardiología</especialidad>
+            <nombre>Carlos</nombre>
+            <apellido>Fernández García</apellido>
+            <telefono>911234567</telefono>
+            <email>carlos.fernandez@hospital.org</email>
+        </medico>
+        <medico id="M02" turno="tarde">
+            <especialidad>Pediatría</especialidad>
+            <nombre>Ana</nombre>
+            <apellido>Martínez Ruiz</apellido>
+            <telefono>922345678</telefono>
+            <email>ana.martinez@hospital.org</email>
+        </medico>
+    </medicos>
+    <pacientes>
+        <paciente id="P001" edad="45">
+            <nombre>Roberto</nombre>
+            <apellido>González Pérez</apellido>
+            <telefono>654123456</telefono>
+            <diagnostico>Hipertensión</diagnostico>
+        </paciente>
+        <paciente id="P002" edad="32">
+            <nombre>Laura</nombre>
+            <apellido>Sánchez Moreno</apellido>
+            <telefono>678234567</telefono>
+            <diagnostico>Diabetes tipo 2</diagnostico>
+        </paciente>
+        <paciente id="P003" edad="8">
+            <nombre>Miguel</nombre>
+            <apellido>López Ramírez</apellido>
+            <telefono>612345678</telefono>
+            <diagnostico>Asma</diagnostico>
+        </paciente>
+    </pacientes>
+</hospital>

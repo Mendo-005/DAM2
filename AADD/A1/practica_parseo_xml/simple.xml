@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <nombre>Biblioteca Central</nombre>
+    <ubicacion>Calle Mayor 123</ubicacion>
+    <capacidad>5000</capacidad>
+</biblioteca>

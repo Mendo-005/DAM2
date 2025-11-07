@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiante id="E001" activo="true">
+    <nombre>Maria Garcia</nombre>
+    <edad>22</edad>
+    <carrera codigo="INF">Ingenieria Informatica</carrera>
+</estudiante>
