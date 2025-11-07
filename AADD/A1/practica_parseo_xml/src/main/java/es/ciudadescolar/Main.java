@@ -6,7 +6,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.ciudadescolar.clases.InformeSalida;
 import es.ciudadescolar.clases.Medico;
+import es.ciudadescolar.clases.Paciente;
 import es.ciudadescolar.util.XMLManager;
 
 public class Main 
@@ -16,6 +18,7 @@ public class Main
     private static File ficheroXmlSimple = new File("simple.xml");
     private static File ficheroXmlAtributo = new File("con_atributos.xml");
     private static File ficheroXmlCompleto = new File("hospital.xml");
+    private static File ficheroXmlNuevo = new File("hospital_2.0.xml");
 
     public static void main(String[] args) 
     {
@@ -38,17 +41,30 @@ public class Main
             LOG.warn("El fichero "+ ficheroXmlCompleto + " no se pude leer: "+ ficheroXmlCompleto.getAbsolutePath());    
         }
 
-        Object resultado = XMLManager.parseXmlCompleta(ficheroXmlCompleto);
-        
-        // Mostrar todos los médicos
-        if (resultado instanceof List) {
-            @SuppressWarnings("unchecked")
-            List<Medico> listaMedicos = (List<Medico>) resultado;
-            
-            System.out.println("\n=== LISTA DE MÉDICOS ===");
-            listaMedicos.forEach(medico -> {
-                System.out.println(medico);
-            });
-        }
+        //Object resultadoMedicos = XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        //
+        //// Mostrar todos los médicos
+        //if (resultadoMedicos instanceof List<?>) {
+        //    List<Medico> medicos = (List<Medico>) resultadoMedicos;
+        //    LOG.info("Lista de médicos ({}):", medicos.size());
+        //    medicos.forEach(medico -> LOG.info(medico.toString()));
+        //}
+
+
+
+
+
+        //
+        //Object resultadoPacientes = XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        //
+        //// Mostrar todos los médicos
+        //if (resultadoPacientes instanceof List<?>) {
+        //    List<Paciente> pacientes = (List<Paciente>) resultadoPacientes;
+        //    LOG.info("Lista de médicos ({}):", pacientes.size());
+        //    pacientes.forEach(medico -> LOG.info(medico.toString()));
+        //}
+
+        InformeSalida informe = (InformeSalida) XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        XMLManager.generarXML(informe, "ded", "dod", ficheroXmlNuevo);
     }
 }

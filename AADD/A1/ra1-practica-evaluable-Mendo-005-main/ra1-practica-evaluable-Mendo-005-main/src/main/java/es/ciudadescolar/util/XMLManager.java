@@ -326,4 +326,6 @@ public class XMLManager {
             LOG.error("Error al generar XML: {}", e.getMessage(), e);
         }
     }
+
+    
 }
