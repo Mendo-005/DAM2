@@ -19,13 +19,6 @@ public class Main
 
     public static void main(String[] args) 
     {
-        System.out.println("=== INICIANDO PROCESAMIENTO DEL HOSPITAL ===\n");
-        
-        // 1. Validar XML generado contra XSD
-        System.out.println("1. VALIDACIÓN XSD:");
-        System.out.println("⚠️  El XML original no es compatible con el XSD");
-        System.out.println("✅ Continuando con el procesamiento para generar XML compatible...\n");
-        
         // 2. Parsear XML
         System.out.println("2. PARSEANDO XML ORIGINAL:");
         InformeSalida hospitalOriginal = (InformeSalida) XMLManager.parseXml(ficheroXml);
@@ -34,24 +27,13 @@ public class Main
             System.out.println("❌ Error al parsear el archivo XML");
             return;
         }
-        
-        System.out.println("✅ XML parseado correctamente");
-        System.out.println("   - Médicos encontrados: " + hospitalOriginal.getListaMedicos().size());
-        System.out.println("   - Pacientes encontrados: " + hospitalOriginal.getListaPacientes().size());
-        System.out.println("   - Citas encontradas: " + hospitalOriginal.getListaCitas().size());
-        System.out.println();
-        
         // 3. Leer nuevos médicos desde archivo de texto
         System.out.println("3. LEYENDO NUEVOS MÉDICOS DESDE ARCHIVO DE TEXTO:");
         List<Medico> nuevosMedicos = TextManager.leerMedicosDesdeTexto(ficheroTexto);
-        System.out.println("✅ Nuevos médicos leídos: " + nuevosMedicos.size());
         
         // Agregar nuevos médicos al informe
         hospitalOriginal.getListaMedicos().addAll(nuevosMedicos);
-        System.out.println("   - Total médicos después de agregar: " + hospitalOriginal.getListaMedicos().size());
-        System.out.println();
-        
-        // 4. Mostrar contenido final
+
         System.out.println("4. CONTENIDO FINAL DEL HOSPITAL:");
         System.out.println("=== MÉDICOS ===");
         hospitalOriginal.getListaMedicos().forEach(medico -> 
@@ -85,9 +67,7 @@ public class Main
         } else {
             System.out.println("❌ XML generado no es válido según XSD");
         }
-        System.out.println();
         
-        System.out.println("=== PROCESAMIENTO COMPLETADO EXITOSAMENTE ===");
         System.out.println("Archivos generados:");
         System.out.println("   - " + archivoJsonSalida.getAbsolutePath());
         System.out.println("   - " + archivoXmlSalida.getAbsolutePath());
