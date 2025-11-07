@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hospital Ciudad="ded">
+  <nombreHospital>dod</nombreHospital>
+  <Medico Apellido="Fernández García" Especialidad="Cardiología" Nombre="Carlos" id="M01"/>
+  <Medico Apellido="Martínez Ruiz" Especialidad="Pediatría" Nombre="Ana" id="M02"/>
+</hospital>

@@ -2,7 +2,7 @@ package es.ciudadescolar.clases;
 
 public class Paciente {
     private String id;
-    private int edad;
+    private String edad;
     private String nombre;
     private String apellido;
     private String telefono;
@@ -13,7 +13,7 @@ public class Paciente {
     }
 
     // Constructor con parámetros
-    public Paciente(String id, int edad, String nombre, String apellido, 
+    public Paciente(String id, String edad, String nombre, String apellido, 
                     String telefono, String diagnostico) {
         this.id = id;
         this.edad = edad;
@@ -28,7 +28,7 @@ public class Paciente {
         return id;
     }
 
-    public int getEdad() {
+    public String getEdad() {
         return edad;
     }
 
@@ -53,7 +53,7 @@ public class Paciente {
         this.id = id;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(String edad) {
         this.edad = edad;
     }
 
