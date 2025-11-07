@@ -1,0 +1,74 @@
+2025-11-06 21:00:15,411 [main] INFO  es.ciudadescolar.util.XMLManager         - Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:00:32,139 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:01:34,998 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:18:02,643 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:18:02,661 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: María García
+ Carrera: Ingeniería Informática ()
+ Edad: 22
+2025-11-06 21:19:16,650 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:19:16,670 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: María García
+ Carrera: Ingeniería Informática (INF)
+ Edad: 22
+2025-11-06 21:19:54,849 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 21:19:54,970 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-06 23:35:45,607 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 23:35:45,624 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-06 23:36:50,357 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 23:36:50,378 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-06 23:37:21,198 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 23:37:21,215 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-06 23:45:41,078 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-06 23:45:41,095 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
