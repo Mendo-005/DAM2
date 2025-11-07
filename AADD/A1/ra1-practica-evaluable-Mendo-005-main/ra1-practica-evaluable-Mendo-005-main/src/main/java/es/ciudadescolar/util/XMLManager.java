@@ -37,6 +37,12 @@ import es.ciudadescolar.hospital.Paciente;
 
 public class XMLManager {
 
+    private static String getTextContent(Element parent, String tagName) 
+    {
+        Node node = parent.getElementsByTagName(tagName).item(0);
+        return node != null ? node.getTextContent() : null;
+    }
+
     private static final Logger LOG = LoggerFactory.getLogger(XMLManager.class);
 
     public static Object parseXml(File ficheroXML) {
@@ -62,46 +68,61 @@ public class XMLManager {
                 LOG.info("Parseando hospital: {} en {}", nombreHospital, ciudad);
 
                 // Parsear médicos
+                //NodeList medicosNodes = elementoRaiz.getElementsByTagName("Medico");
+                //for (int i = 0; i < medicosNodes.getLength(); i++) {
+                //    Node nodoMedico = medicosNodes.item(i);
+                //    if (nodoMedico.getNodeType() == Node.ELEMENT_NODE) {
+                //        Element elementoMedico = (Element) nodoMedico;
+                //        
+                //        Medico medico = new Medico();
+                //        medico.setId(elementoMedico.getAttribute("id"));
+                //        medico.setEspecialidad(elementoMedico.getAttribute("especialidad"));
+                //        
+                //        // Obtener elementos hijo
+                //        NodeList hijos = elementoMedico.getChildNodes();
+                //        for (int j = 0; j < hijos.getLength(); j++) {
+                //            Node hijo = hijos.item(j);
+                //            if (hijo.getNodeType() == Node.ELEMENT_NODE) {
+                //                Element elementoHijo = (Element) hijo;
+                //                switch (elementoHijo.getTagName()) {
+                //                    case "Nombre":
+                //                        medico.setNombre(elementoHijo.getTextContent());
+                //                        break;
+                //                    case "Apellido":
+                //                        medico.setApellido(elementoHijo.getTextContent());
+                //                        break;
+                //                    case "Telefono":
+                //                        // Se lee pero no se guarda porque la clase no tiene este campo
+                //                        LOG.debug("Teléfono del médico {}: {}", medico.getId(), elementoHijo.getTextContent());
+                //                        break;
+                //                    case "Email":
+                //                        // Se lee pero no se guarda porque la clase no tiene este campo
+                //                        LOG.debug("Email del médico {}: {}", medico.getId(), elementoHijo.getTextContent());
+                //                        break;
+                //                }
+                //            }
+                //        }
+                //        
+                //        listaMedico.add(medico);
+                //        medicosMap.put(medico.getId(), medico);
+                //    }
+                //}
+
+                // Parseo Medico Rápido
                 NodeList medicosNodes = elementoRaiz.getElementsByTagName("Medico");
                 for (int i = 0; i < medicosNodes.getLength(); i++) {
-                    Node nodoMedico = medicosNodes.item(i);
-                    if (nodoMedico.getNodeType() == Node.ELEMENT_NODE) {
-                        Element elementoMedico = (Element) nodoMedico;
-                        
-                        Medico medico = new Medico();
-                        medico.setId(elementoMedico.getAttribute("id"));
-                        medico.setEspecialidad(elementoMedico.getAttribute("especialidad"));
-                        
-                        // Obtener elementos hijo
-                        NodeList hijos = elementoMedico.getChildNodes();
-                        for (int j = 0; j < hijos.getLength(); j++) {
-                            Node hijo = hijos.item(j);
-                            if (hijo.getNodeType() == Node.ELEMENT_NODE) {
-                                Element elementoHijo = (Element) hijo;
-                                switch (elementoHijo.getTagName()) {
-                                    case "Nombre":
-                                        medico.setNombre(elementoHijo.getTextContent());
-                                        break;
-                                    case "Apellido":
-                                        medico.setApellido(elementoHijo.getTextContent());
-                                        break;
-                                    case "Telefono":
-                                        // Se lee pero no se guarda porque la clase no tiene este campo
-                                        LOG.debug("Teléfono del médico {}: {}", medico.getId(), elementoHijo.getTextContent());
-                                        break;
-                                    case "Email":
-                                        // Se lee pero no se guarda porque la clase no tiene este campo
-                                        LOG.debug("Email del médico {}: {}", medico.getId(), elementoHijo.getTextContent());
-                                        break;
-                                }
-                            }
-                        }
-                        
-                        listaMedico.add(medico);
-                        medicosMap.put(medico.getId(), medico);
-                    }
+                    Element medicoEl = (Element) medicosNodes.item(i);
+                
+                    Medico medico = new Medico();
+                    medico.setId(medicoEl.getAttribute("id"));
+                    medico.setEspecialidad(medicoEl.getAttribute("especialidad"));
+                    medico.setNombre(getTextContent(medicoEl, "Nombre"));
+                    medico.setApellido(getTextContent(medicoEl, "Apellido"));
+                
+                    listaMedico.add(medico);
+                    medicosMap.put(medico.getId(), medico);
                 }
-
+                
                 // Parsear pacientes
                 NodeList pacientesNodes = elementoRaiz.getElementsByTagName("Paciente");
                 for (int i = 0; i < pacientesNodes.getLength(); i++) {
