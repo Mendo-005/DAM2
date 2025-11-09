@@ -3,4 +3,7 @@
   <nombreHospital>dod</nombreHospital>
   <Medico Apellido="Fernández García" Especialidad="Cardiología" Nombre="Carlos" id="M01"/>
   <Medico Apellido="Martínez Ruiz" Especialidad="Pediatría" Nombre="Ana" id="M02"/>
+  <Medico Apellido="Perez Lopez" Especialidad="Neurologia" Nombre="Juan" id="M03"/>
+  <Medico Apellido="Sanz Diaz" Especialidad="Nefrologia" Nombre="Luisa" id="M04"/>
+  <Medico Apellido="Pin Delgado" Especialidad="Traumatologia" Nombre="Pedro" id="M05"/>
 </hospital>

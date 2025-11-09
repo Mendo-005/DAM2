@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import es.ciudadescolar.clases.InformeSalida;
 import es.ciudadescolar.clases.Medico;
 import es.ciudadescolar.clases.Paciente;
+import es.ciudadescolar.util.TXTManager;
 import es.ciudadescolar.util.XMLManager;
 
 public class Main 
@@ -19,6 +20,7 @@ public class Main
     private static File ficheroXmlAtributo = new File("con_atributos.xml");
     private static File ficheroXmlCompleto = new File("hospital.xml");
     private static File ficheroXmlNuevo = new File("hospital_2.0.xml");
+    private static File ficheroTXT = new File("medicos.txt");
 
     public static void main(String[] args) 
     {
@@ -65,6 +67,9 @@ public class Main
         //}
 
         InformeSalida informe = (InformeSalida) XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        List<Medico> listaMedicos = informe.getListaMedicos();
+        listaMedicos.addAll(TXTManager.leerNuevMedicos(ficheroTXT));
         XMLManager.generarXML(informe, "ded", "dod", ficheroXmlNuevo);
+
     }
 }

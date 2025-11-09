@@ -3,6 +3,7 @@ package es.ciudadescolar.util;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,9 +20,8 @@ public class TXTManager
     {
         List<Medico> nuevosMedicos = new ArrayList<>();
 
-        try 
+    try (BufferedReader br = new BufferedReader(new FileReader(ficheroTxT)))
         {
-            BufferedReader br = new BufferedReader(new FileReader(ficheroTxT));
             String linea; // Linea en la que te encuentras
             boolean primeraLinea = true; // Marcamos si hay cabezera o no 
 
@@ -50,9 +50,9 @@ public class TXTManager
                 }
             }
 
-            LOG.warn("Se ha parseado el fichero: " + ficheroTxT.getName());
+            LOG.info("Se ha parseado el fichero: " + ficheroTxT.getName());
 
-        } catch (Exception e) 
+        } catch (IOException e) 
         {
             LOG.warn("No se ha podido parsear el fichero: " + ficheroTxT.getAbsolutePath());
         }
