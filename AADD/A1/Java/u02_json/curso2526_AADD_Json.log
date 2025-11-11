@@ -1,7 +1,5 @@
 2025-10-22 10:57:41,156 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-22 10:59:50,765 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
-<<<<<<< HEAD
-=======
 2025-10-24 13:24:25,747 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-24 13:58:11,306 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-24 13:58:11,311 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
@@ -24,4 +22,6 @@
 2025-10-24 14:02:51,662 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-24 14:02:51,667 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
 2025-10-24 14:02:51,667 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
->>>>>>> 8c957d4029d7871f434f38bc0844e01c3a694ed7
+2025-11-11 13:09:41,304 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-11-11 13:09:41,308 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo27015
+2025-11-11 13:09:41,309 [main] INFO  es.ciudadescolar.util.JsonManager        - curso2024-2025
