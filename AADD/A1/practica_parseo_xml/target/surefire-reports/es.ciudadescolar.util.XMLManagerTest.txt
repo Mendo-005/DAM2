@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: es.ciudadescolar.util.XMLManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.502 s <<< FAILURE! -- in es.ciudadescolar.util.XMLManagerTest
+es.ciudadescolar.util.XMLManagerTest.testParseXmlCompleta -- Time elapsed: 0.463 s <<< ERROR!
+java.lang.ClassCastException: class es.ciudadescolar.clases.InformeSalida cannot be cast to class java.util.List (es.ciudadescolar.clases.InformeSalida is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+	at es.ciudadescolar.util.XMLManagerTest.testParseXmlCompleta(XMLManagerTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

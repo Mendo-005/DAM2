@@ -1,4 +1,7 @@
+es\ciudadescolar\util\AlumnoErrorHandler.class
+es\ciudadescolar\Main.class
+es\ciudadescolar\util\TXTManager.class
 es\ciudadescolar\clases\Paciente.class
 es\ciudadescolar\clases\Medico.class
 es\ciudadescolar\util\XMLManager.class
-es\ciudadescolar\Main.class
+es\ciudadescolar\clases\InformeSalida.class
