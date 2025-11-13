@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import es.ciudadescolar.clases.Medico;
 
-class XMLManagerTest {
+class XmlManagerTest {
 
     @Test
     void testParseXmlCompleta() {
@@ -22,7 +22,7 @@ class XMLManagerTest {
         
         // Act
         @SuppressWarnings("unchecked")
-        List<Medico> medicos = (List<Medico>) XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        List<Medico> medicos = (List<Medico>) XmlManager.parseXmlCompleta(ficheroXmlCompleto);
         
         // Assert
         assertNotNull(medicos, "La lista de médicos no debería ser null");

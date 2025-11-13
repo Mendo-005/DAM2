@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<hospital Ciudad="ded">
-  <nombreHospital>dod</nombreHospital>
+<hospital Ciudad="Madrid">
+  <nombreHospital>Hospital General</nombreHospital>
   <Medico Apellido="Fernández García" Especialidad="Cardiología" Nombre="Carlos" id="M01"/>
   <Medico Apellido="Martínez Ruiz" Especialidad="Pediatría" Nombre="Ana" id="M02"/>
   <Medico Apellido="Perez Lopez" Especialidad="Neurologia" Nombre="Juan" id="M03"/>
