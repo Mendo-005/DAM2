@@ -475,3 +475,26 @@ org.xml.sax.SAXParseException: El marcador en el documento que precede al elemen
 =======
 2025-11-13 11:47:15,582 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
 >>>>>>> ddb4fec1c30b1807bac4b68fadb18e9a1a8f8992
+2025-11-13 18:09:58,375 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 18:09:58,394 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 18:09:58,438 [main] INFO  es.ciudadescolar.util.TxtManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 18:14:11,212 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 18:14:11,228 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 18:14:11,239 [main] INFO  es.ciudadescolar.util.TxtManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 18:14:11,578 [main] INFO  es.ciudadescolar.util.JsonManager        - Se ha parseado el fichero JSON simple: simple_medico.json
+2025-11-13 18:14:11,666 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-13 18:14:11,772 [main] INFO  es.ciudadescolar.util.XmlManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd

@@ -1,0 +1,210 @@
+{
+  "hospital": {
+    "nombre": "Hospital Universitario La Paz",
+    "ciudad": "Madrid",
+    "codigoPostal": "28046",
+    "direccion": "Paseo de la Castellana, 261",
+    "telefono": "917277000",
+    "fundacion": 1964,
+    "acreditaciones": ["ISO 9001", "JCI", "EFQM"],
+    "servicios": {
+      "urgencias": {
+        "disponible24h": true,
+        "telefonoDirecto": "917277100"
+      },
+      "ambulancias": {
+        "disponible": true,
+        "unidadesDisponibles": 8
+      },
+      "laboratorio": {
+        "horario": "24 horas",
+        "especialidades": ["Bioquímica", "Hematología", "Microbiología"]
+      }
+    },
+    "departamentos": [
+      {
+        "id": "DEPT01",
+        "nombre": "Cardiología",
+        "piso": 3,
+        "extension": "3001",
+        "jefeDepartamento": {
+          "id": "M07",
+          "turno": "mañana",
+          "especialidad": "Cardiología Intervencionista",
+          "nombre": "Javier",
+          "apellido": "Álvarez Gómez",
+          "telefono": "977890123",
+          "email": "javier.alvarez@hospital.org",
+          "añosExperiencia": 20,
+          "titulaciones": ["Medicina", "Especialidad Cardiología", "Máster en Cardiología Intervencionista"],
+          "publicaciones": 45,
+          "investigaciones": [
+            "Nuevas técnicas en cateterismo cardíaco",
+            "Prevención de enfermedad coronaria"
+          ]
+        },
+        "personal": [
+          {
+            "id": "M08",
+            "turno": "tarde",
+            "especialidad": "Cardiología",
+            "nombre": "Elena",
+            "apellido": "Moreno Díaz",
+            "telefono": "988901234",
+            "email": "elena.moreno@hospital.org",
+            "añosExperiencia": 10
+          },
+          {
+            "id": "M09",
+            "turno": "noche",
+            "especialidad": "Cardiología",
+            "nombre": "Alberto",
+            "apellido": "Ruiz Castillo",
+            "telefono": "999012345",
+            "email": "alberto.ruiz@hospital.org",
+            "añosExperiencia": 7
+          }
+        ],
+        "equipamiento": [
+          {
+            "tipo": "Ecocardiógrafo",
+            "marca": "Philips",
+            "modelo": "EPIQ CVx",
+            "añoAdquisicion": 2022
+          },
+          {
+            "tipo": "Sala de cateterismo",
+            "marca": "Siemens",
+            "modelo": "Artis zee",
+            "añoAdquisicion": 2021
+          }
+        ],
+        "pacientes": [
+          {
+            "id": "P004",
+            "edad": 58,
+            "nombre": "Francisco",
+            "apellido": "Navarro Pérez",
+            "telefono": "612456789",
+            "diagnostico": "Arritmia cardíaca",
+            "fechaIngreso": "2025-11-01",
+            "habitacion": "301-A",
+            "tratamiento": {
+              "medicamentos": ["Amiodarona", "Warfarina"],
+              "dosis": ["200mg/día", "5mg/día"],
+              "duracion": "3 meses"
+            },
+            "historialClinico": {
+              "alergias": ["Penicilina"],
+              "enfermedadesPrevias": ["Hipertensión"],
+              "cirugiasPrevias": []
+            },
+            "medicoAsignado": "M07",
+            "urgente": false
+          },
+          {
+            "id": "P005",
+            "edad": 72,
+            "nombre": "Rosa",
+            "apellido": "Iglesias Molina",
+            "telefono": "623567890",
+            "diagnostico": "Infarto agudo de miocardio",
+            "fechaIngreso": "2025-11-10",
+            "habitacion": "302-B",
+            "tratamiento": {
+              "medicamentos": ["Aspirina", "Atorvastatina", "Enalapril"],
+              "dosis": ["100mg/día", "40mg/día", "10mg/12h"],
+              "duracion": "indefinido"
+            },
+            "historialClinico": {
+              "alergias": [],
+              "enfermedadesPrevias": ["Diabetes tipo 2", "Colesterol alto"],
+              "cirugiasPrevias": ["Apendicectomía (1985)"]
+            },
+            "medicoAsignado": "M07",
+            "urgente": true,
+            "monitorizacion": {
+              "frecuenciaCardiaca": 78,
+              "presionArterial": "140/85",
+              "saturacionOxigeno": 98,
+              "temperatura": 36.7
+            }
+          }
+        ],
+        "estadisticas": {
+          "pacientesIngresados": 24,
+          "capacidadMaxima": 30,
+          "tasaOcupacion": 80,
+          "promedioEstancia": "5.2 días",
+          "cirugiasRealizadasMes": 45
+        }
+      },
+      {
+        "id": "DEPT02",
+        "nombre": "Pediatría",
+        "piso": 4,
+        "extension": "4001",
+        "jefeDepartamento": {
+          "id": "M10",
+          "turno": "mañana",
+          "especialidad": "Pediatría",
+          "nombre": "Isabel",
+          "apellido": "Castro Romero",
+          "telefono": "910123456",
+          "email": "isabel.castro@hospital.org",
+          "añosExperiencia": 18
+        },
+        "personal": [
+          {
+            "id": "M11",
+            "turno": "tarde",
+            "especialidad": "Pediatría",
+            "nombre": "Diego",
+            "apellido": "Vázquez Ortiz",
+            "telefono": "921234567",
+            "email": "diego.vazquez@hospital.org",
+            "añosExperiencia": 6
+          }
+        ],
+        "pacientes": [
+          {
+            "id": "P006",
+            "edad": 5,
+            "nombre": "Sofía",
+            "apellido": "Ramos Gil",
+            "telefono": "634678901",
+            "diagnostico": "Bronquitis aguda",
+            "fechaIngreso": "2025-11-12",
+            "habitacion": "401-C",
+            "tratamiento": {
+              "medicamentos": ["Amoxicilina", "Ibuprofeno"],
+              "dosis": ["250mg/8h", "100mg/8h"],
+              "duracion": "7 días"
+            },
+            "medicoAsignado": "M10",
+            "urgente": false,
+            "tutorLegal": {
+              "nombre": "Patricia Gil Morales",
+              "parentesco": "Madre",
+              "telefono": "634678901"
+            }
+          }
+        ],
+        "estadisticas": {
+          "pacientesIngresados": 15,
+          "capacidadMaxima": 20,
+          "tasaOcupacion": 75
+        }
+      }
+    ],
+    "estadisticasGenerales": {
+      "totalMedicos": 250,
+      "totalEnfermeros": 480,
+      "totalCamas": 500,
+      "camasOcupadas": 385,
+      "pacientesAtendidosAño": 125000,
+      "satisfaccionPacientes": 8.7,
+      "presupuestoAnual": 85000000
+    }
+  }
+}

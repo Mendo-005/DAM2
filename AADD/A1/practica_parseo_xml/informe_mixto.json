@@ -1,0 +1,180 @@
+{
+  "informeHospitalario": {
+    "tipoInforme": "Informe de Seguimiento Mensual",
+    "fecha": "2025-11-13",
+    "generadoPor": "Sistema de Gestión Hospitalaria v3.2",
+    "periodo": {
+      "inicio": "2025-10-01",
+      "fin": "2025-10-31"
+    },
+    "medicosDelXML": {
+      "nota": "Estos datos provienen del archivo hospital.xml",
+      "medicos": [
+        {
+          "id": "M01",
+          "turno": "mañana",
+          "especialidad": "Cardiología",
+          "nombre": "Carlos",
+          "apellido": "Fernández García",
+          "telefono": "911234567",
+          "email": "carlos.fernandez@hospital.org",
+          "rendimientoMensual": {
+            "consultasRealizadas": 120,
+            "cirugiasRealizadas": 8,
+            "horasTrabajadas": 168,
+            "valoracionPacientes": 9.2
+          }
+        },
+        {
+          "id": "M02",
+          "turno": "tarde",
+          "especialidad": "Pediatría",
+          "nombre": "Ana",
+          "apellido": "Martínez Ruiz",
+          "telefono": "922345678",
+          "email": "ana.martinez@hospital.org",
+          "rendimientoMensual": {
+            "consultasRealizadas": 95,
+            "cirugiasRealizadas": 0,
+            "horasTrabajadas": 160,
+            "valoracionPacientes": 9.5
+          }
+        }
+      ]
+    },
+    "pacientesDelXML": {
+      "nota": "Estos datos provienen del archivo hospital.xml con información adicional",
+      "pacientes": [
+        {
+          "id": "P001",
+          "edad": 45,
+          "nombre": "Roberto",
+          "apellido": "González Pérez",
+          "telefono": "654123456",
+          "diagnostico": "Hipertensión",
+          "seguimiento": {
+            "fechaUltimaConsulta": "2025-10-28",
+            "proximaCita": "2025-11-28",
+            "medicacionActual": ["Enalapril 10mg"],
+            "evolucion": "Favorable",
+            "presionArterial": {
+              "sistolica": 135,
+              "diastolica": 82
+            }
+          },
+          "medicoTratante": "M01"
+        },
+        {
+          "id": "P002",
+          "edad": 32,
+          "nombre": "Laura",
+          "apellido": "Sánchez Moreno",
+          "telefono": "678234567",
+          "diagnostico": "Diabetes tipo 2",
+          "seguimiento": {
+            "fechaUltimaConsulta": "2025-10-25",
+            "proximaCita": "2025-11-25",
+            "medicacionActual": ["Metformina 850mg"],
+            "evolucion": "Estable",
+            "glucosaPromedio": 125,
+            "hemoglobinaGlicosilada": 6.8
+          },
+          "medicoTratante": "M01"
+        },
+        {
+          "id": "P003",
+          "edad": 8,
+          "nombre": "Miguel",
+          "apellido": "López Ramírez",
+          "telefono": "612345678",
+          "diagnostico": "Asma",
+          "seguimiento": {
+            "fechaUltimaConsulta": "2025-10-20",
+            "proximaCita": "2025-12-20",
+            "medicacionActual": ["Salbutamol inhalador"],
+            "evolucion": "Controlada",
+            "crisesUltimoMes": 2,
+            "nivelControl": "Bueno"
+          },
+          "medicoTratante": "M02",
+          "tutorLegal": {
+            "nombre": "Carmen Ramírez Torres",
+            "parentesco": "Madre",
+            "telefono": "612345678"
+          }
+        }
+      ]
+    },
+    "datosCruzados": {
+      "relacionesMedicoPaciente": [
+        {
+          "medico": {
+            "id": "M01",
+            "nombre": "Carlos Fernández García",
+            "especialidad": "Cardiología"
+          },
+          "pacientesAsignados": [
+            {
+              "id": "P001",
+              "nombre": "Roberto González Pérez",
+              "estadoActual": "Tratamiento ambulatorio"
+            },
+            {
+              "id": "P002",
+              "nombre": "Laura Sánchez Moreno",
+              "estadoActual": "Tratamiento ambulatorio"
+            }
+          ],
+          "cargaTrabajo": "Media",
+          "eficienciaIndex": 0.92
+        },
+        {
+          "medico": {
+            "id": "M02",
+            "nombre": "Ana Martínez Ruiz",
+            "especialidad": "Pediatría"
+          },
+          "pacientesAsignados": [
+            {
+              "id": "P003",
+              "nombre": "Miguel López Ramírez",
+              "estadoActual": "Seguimiento periódico"
+            }
+          ],
+          "cargaTrabajo": "Baja",
+          "eficienciaIndex": 0.95
+        }
+      ]
+    },
+    "metricasConsolidadas": {
+      "totalMedicosActivos": 2,
+      "totalPacientesActivos": 3,
+      "consultasRealizadasMes": 215,
+      "camasOcupadasPromedio": 185,
+      "ingresosMes": 42,
+      "altasMes": 38,
+      "tiempoPromedioEstancia": "4.5 días",
+      "satisfaccionGeneral": 9.3
+    },
+    "alertas": [
+      {
+        "tipo": "Cita próxima",
+        "paciente": "P002",
+        "fecha": "2025-11-25",
+        "prioridad": "Media"
+      },
+      {
+        "tipo": "Revisión medicación",
+        "paciente": "P001",
+        "fecha": "2025-11-28",
+        "prioridad": "Baja"
+      }
+    ],
+    "observaciones": [
+      "Todos los pacientes del XML muestran evolución favorable o estable",
+      "Los médicos mantienen una carga de trabajo equilibrada",
+      "Se recomienda seguimiento continuo de pacientes crónicos",
+      "Este informe combina datos estructurados del XML con métricas adicionales en formato JSON"
+    ]
+  }
+}

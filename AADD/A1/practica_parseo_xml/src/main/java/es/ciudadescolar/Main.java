@@ -10,6 +10,7 @@ import es.ciudadescolar.clases.InformeSalida;
 import es.ciudadescolar.clases.Medico;
 import es.ciudadescolar.util.TxtManager;
 import es.ciudadescolar.util.XmlManager;
+import es.ciudadescolar.util.JsonManager;
 
 public class Main 
 {
@@ -24,6 +25,7 @@ public class Main
     private static File ficheroXsdSalida = new File("hospital_salida.xsd");
     private static File ficheroDtdSalida = new File("hospital_salida.dtd");
     //private static File ficheroDtdEntrada = new File("hospital.dtd");
+    private static File ficheroSimpleJson = new File("simple_medico.json");
 
     public static void main(String[] args) 
     {
@@ -66,18 +68,18 @@ public class Main
 
         InformeSalida informe = (InformeSalida) XmlManager.parseXmlCompleta(ficheroXmlCompleto);
         List<Medico> listaMedicos = informe.getListaMedicos();
-<<<<<<< HEAD
-        listaMedicos.addAll(TXTManager.leerNuevMedicos(ficheroTXT));
-        XMLManager.generarXML(informe, "ded", "dod", ficheroXmlNuevo);
+        
+        // Añadimos los Medicos del Txt
+        listaMedicos.addAll(TxtManager.leerNuevMedicos(ficheroTXT));
+        // Añadimos los Medicos del Json Simple
+        listaMedicos.addAll(JsonManager.medicoSimple(ficheroSimpleJson));
+        
+        XmlManager.generarXML(informe, ficheroXmlNuevo);
         System.out.println("informe generado");
 
         // Validar el XML de salida generado
         LOG.info("=== Validando XML de salida ===");
-        XMLManager.validarXML(ficheroXmlNuevo, ficheroXsdSalida);
-=======
-        listaMedicos.addAll(TxtManager.leerNuevMedicos(ficheroTXT));
-        XmlManager.generarXML(informe, ficheroXmlNuevo);
->>>>>>> ddb4fec1c30b1807bac4b68fadb18e9a1a8f8992
+        XmlManager.validarXML(ficheroXmlNuevo, ficheroXsdSalida);
 
     }
 }
