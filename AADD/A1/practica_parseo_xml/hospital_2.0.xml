@@ -6,4 +6,5 @@
   <Medico Apellido="Perez Lopez" Especialidad="Neurologia" Nombre="Juan" id="M03"/>
   <Medico Apellido="Sanz Diaz" Especialidad="Nefrologia" Nombre="Luisa" id="M04"/>
   <Medico Apellido="Pin Delgado" Especialidad="Traumatologia" Nombre="Pedro" id="M05"/>
+  <Medico Apellido="Rodríguez López" Especialidad="Traumatología" Nombre="Luis" id="M03"/>
 </hospital>

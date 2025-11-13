@@ -1,0 +1,44 @@
+{
+  "departamento": {
+    "nombre": "Urgencias",
+    "piso": 2,
+    "extension": "2001",
+    "responsable": {
+      "id": "M04",
+      "turno": "mañana",
+      "especialidad": "Medicina de Urgencias",
+      "nombre": "María",
+      "apellido": "García Fernández",
+      "telefono": "944567890",
+      "email": "maria.garcia@hospital.org",
+      "añosExperiencia": 15
+    },
+    "equipo": [
+      {
+        "id": "M05",
+        "turno": "tarde",
+        "especialidad": "Cirugía General",
+        "nombre": "Pedro",
+        "apellido": "Jiménez Martín",
+        "telefono": "955678901",
+        "email": "pedro.jimenez@hospital.org",
+        "añosExperiencia": 8
+      },
+      {
+        "id": "M06",
+        "turno": "noche",
+        "especialidad": "Anestesiología",
+        "nombre": "Carmen",
+        "apellido": "Torres Sánchez",
+        "telefono": "966789012",
+        "email": "carmen.torres@hospital.org",
+        "añosExperiencia": 12
+      }
+    ],
+    "estadisticas": {
+      "pacientesAtendidosMes": 1250,
+      "tiempoPromedioEspera": "35 minutos",
+      "camasDisponibles": 18
+    }
+  }
+}
