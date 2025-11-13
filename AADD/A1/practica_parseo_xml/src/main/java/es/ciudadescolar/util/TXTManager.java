@@ -12,9 +12,9 @@ import org.slf4j.LoggerFactory;
 
 import es.ciudadescolar.clases.Medico;
 
-public class TXTManager 
+public class TxtManager 
 {
-    private static final Logger LOG = LoggerFactory.getLogger(TXTManager.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TxtManager.class);
     
     public static List<Medico> leerNuevMedicos(File ficheroTxT)
     {

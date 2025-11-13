@@ -4,17 +4,17 @@ import java.util.List;
 
 public class InformeSalida {
     
-    private String nombreCiudad;
+    private String nombreHospital;
     private String ciudad;
 
     private List<Medico> listaMedicos;
     private List<Paciente> listaPacientes;
 
-    public String getNombreCiudad() {
-        return nombreCiudad;
+    public String getNombreHospital() {
+        return nombreHospital;
     }
-    public void setNombreCiudad(String nombreCiudad) {
-        this.nombreCiudad = nombreCiudad;
+    public void setNombreHospital(String nombreHospital) {
+        this.nombreHospital = nombreHospital;
     }
     public String getCiudad() {
         return ciudad;
@@ -39,8 +39,8 @@ public class InformeSalida {
     public InformeSalida() {
     }
 
-    public InformeSalida(String nombreCiudad, String ciudad, List<Medico> listaMedicos, List<Paciente> listaPacientes) {
-        this.nombreCiudad = nombreCiudad;
+    public InformeSalida(String nombreHospital, String ciudad, List<Medico> listaMedicos, List<Paciente> listaPacientes) {
+        this.nombreHospital = nombreHospital;
         this.ciudad = ciudad;
         this.listaMedicos = listaMedicos;
         this.listaPacientes = listaPacientes;
@@ -48,7 +48,7 @@ public class InformeSalida {
 
     @Override
     public String toString() {
-        return "InformeSalida [nombreCiudad=" + nombreCiudad + ", ciudad=" + ciudad + ", listaMedicos=" + listaMedicos
+        return "InformeSalida [nombreHospital=" + nombreHospital + ", ciudad=" + ciudad + ", listaMedicos=" + listaMedicos
                 + ", listaPacientes=" + listaPacientes + "]";
     }
 

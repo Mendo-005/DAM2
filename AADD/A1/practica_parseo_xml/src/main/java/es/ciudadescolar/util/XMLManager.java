@@ -11,7 +11,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -29,9 +28,9 @@ import es.ciudadescolar.clases.Medico;
 import es.ciudadescolar.clases.Paciente;
 
 
-public class XMLManager {
+public class XmlManager {
     
-    private static final Logger LOG = LoggerFactory.getLogger(XMLManager.class);
+    private static final Logger LOG = LoggerFactory.getLogger(XmlManager.class);
 
     private static String getText(Element parent, String tagName)
     {
@@ -192,11 +191,11 @@ public class XMLManager {
                     medico.setTurno(elementoMedicos.getAttribute("turno"));
 
                     // Elementos hijos
-                    medico.setEspecialidad(getText(elementoMedicos, "especialidad"));
-                    medico.setNombre(getText(elementoMedicos, "nombre"));
-                    medico.setApellido(getText(elementoMedicos, "apellido"));
-                    medico.setTelefono(getText(elementoMedicos, "telefono"));
-                    medico.setEmail(getText(elementoMedicos, "email"));
+                    medico.setEspecialidad(elementoMedicos.getElementsByTagName("especialidad").item(0).getTextContent());
+                    medico.setNombre(elementoMedicos.getElementsByTagName("nombre").item(0).getTextContent());
+                    medico.setApellido(elementoMedicos.getElementsByTagName("apellido").item(0).getTextContent());
+                    medico.setTelefono(elementoMedicos.getElementsByTagName("telefono").item(0).getTextContent());
+                    medico.setEmail(elementoMedicos.getElementsByTagName("email").item(0).getTextContent());
                     
                     listaMedicos.add(medico);
                 }                
@@ -238,18 +237,22 @@ public class XMLManager {
         return null;
     }
 
-    public static void generarXML(InformeSalida informe, String ciudad, String nombreHospital, File archivoSalida)
+    public static void generarXML(InformeSalida informe, File archivoSalida)
     {
-         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
             // Constructores del fichero
             try {
                 DocumentBuilder db = dbf.newDocumentBuilder();
                 Document doc = db.newDocument();
 
+                // Obtener datos del informe
+                String ciudad = informe.getCiudad();
+                String nombreHospital = informe.getNombreHospital();
+
                 // Elemento Hospital
                 Element hospital = doc.createElement("hospital");
-                hospital.setAttribute("Ciudad",ciudad);
+                hospital.setAttribute("Ciudad", ciudad);
                 doc.appendChild(hospital);
 
                 Element nombreHospitalElm = doc.createElement("nombreHospital");
