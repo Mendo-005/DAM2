@@ -187,3 +187,33 @@
  Carrera: Ingenieria Informatica (INF)
  Edad: 22
 2025-11-09 18:30:55,393 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 11:39:08,985 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 11:39:08,994 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 11:39:08,998 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 11:44:45,428 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 11:44:45,436 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 11:44:45,441 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 11:47:15,567 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 11:47:15,577 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 11:47:15,582 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt

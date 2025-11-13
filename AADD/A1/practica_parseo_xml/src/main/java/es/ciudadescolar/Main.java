@@ -8,9 +8,8 @@ import org.slf4j.LoggerFactory;
 
 import es.ciudadescolar.clases.InformeSalida;
 import es.ciudadescolar.clases.Medico;
-import es.ciudadescolar.clases.Paciente;
-import es.ciudadescolar.util.TXTManager;
-import es.ciudadescolar.util.XMLManager;
+import es.ciudadescolar.util.TxtManager;
+import es.ciudadescolar.util.XmlManager;
 
 public class Main 
 {
@@ -29,14 +28,14 @@ public class Main
             LOG.warn("El fichero "+ ficheroXmlSimple + " no se pude leer: "+ ficheroXmlSimple.getAbsolutePath());    
         }
         
-        XMLManager.parseXmlSimple(ficheroXmlSimple);
+        XmlManager.parseXmlSimple(ficheroXmlSimple);
 
         if (!ficheroXmlSimple.canRead()) 
         {
             LOG.warn("El fichero "+ ficheroXmlAtributo + " no se pude leer: "+ ficheroXmlAtributo.getAbsolutePath());    
         }
 
-        XMLManager.parseXmlConAtributos(ficheroXmlAtributo);
+        XmlManager.parseXmlConAtributos(ficheroXmlAtributo);
 
         if (!ficheroXmlSimple.canRead()) 
         {
@@ -66,10 +65,10 @@ public class Main
         //    pacientes.forEach(medico -> LOG.info(medico.toString()));
         //}
 
-        InformeSalida informe = (InformeSalida) XMLManager.parseXmlCompleta(ficheroXmlCompleto);
+        InformeSalida informe = (InformeSalida) XmlManager.parseXmlCompleta(ficheroXmlCompleto);
         List<Medico> listaMedicos = informe.getListaMedicos();
-        listaMedicos.addAll(TXTManager.leerNuevMedicos(ficheroTXT));
-        XMLManager.generarXML(informe, "ded", "dod", ficheroXmlNuevo);
+        listaMedicos.addAll(TxtManager.leerNuevMedicos(ficheroTXT));
+        XmlManager.generarXML(informe, ficheroXmlNuevo);
 
     }
 }
