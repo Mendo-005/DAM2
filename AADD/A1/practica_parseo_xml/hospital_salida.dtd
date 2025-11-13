@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD para el archivo de salida hospital_2.0.xml -->
+
+<!ELEMENT hospital (nombreHospital, Medico*, Paciente*)>
+<!ATTLIST hospital Ciudad CDATA #IMPLIED>
+
+<!ELEMENT nombreHospital (#PCDATA)>
+
+<!ELEMENT Medico EMPTY>
+<!ATTLIST Medico
+    id CDATA #REQUIRED
+    Especialidad CDATA #IMPLIED
+    Nombre CDATA #IMPLIED
+    Apellido CDATA #IMPLIED
+    Telefono CDATA #IMPLIED
+    Email CDATA #IMPLIED
+>
+
+<!ELEMENT Paciente EMPTY>
+<!ATTLIST Paciente
+    id CDATA #REQUIRED
+    Edad CDATA #IMPLIED
+    Nombre CDATA #IMPLIED
+    Apellido CDATA #IMPLIED
+    Telefono CDATA #IMPLIED
+    Diagnostico CDATA #IMPLIED
+>

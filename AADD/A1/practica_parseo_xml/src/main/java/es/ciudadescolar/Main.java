@@ -21,6 +21,10 @@ public class Main
     private static File ficheroXmlCompleto = new File("hospital.xml");
     private static File ficheroXmlNuevo = new File("hospital_2.0.xml");
     private static File ficheroTXT = new File("medicos.txt");
+    //private static File ficheroXsdEntrada = new File("hospital.xsd");
+    private static File ficheroXsdSalida = new File("hospital_salida.xsd");
+    private static File ficheroDtdSalida = new File("hospital_salida.dtd");
+    //private static File ficheroDtdEntrada = new File("hospital.dtd");
 
     public static void main(String[] args) 
     {
@@ -51,11 +55,6 @@ public class Main
         //    LOG.info("Lista de médicos ({}):", medicos.size());
         //    medicos.forEach(medico -> LOG.info(medico.toString()));
         //}
-
-
-
-
-
         //
         //Object resultadoPacientes = XMLManager.parseXmlCompleta(ficheroXmlCompleto);
         //
@@ -70,6 +69,11 @@ public class Main
         List<Medico> listaMedicos = informe.getListaMedicos();
         listaMedicos.addAll(TXTManager.leerNuevMedicos(ficheroTXT));
         XMLManager.generarXML(informe, "ded", "dod", ficheroXmlNuevo);
+        System.out.println("informe generado");
+
+        // Validar el XML de salida generado
+        LOG.info("=== Validando XML de salida ===");
+        XMLManager.validarXML(ficheroXmlNuevo, ficheroXsdSalida);
 
     }
 }

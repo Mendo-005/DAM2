@@ -6,15 +6,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +37,7 @@ public class XMLManager {
 
     private static String getText(Element parent, String tagName)
     {
-        Node node = parent.getElementsByTagName(tagName).item(0);
+        Node node = parent.getElementsByTagName(tagName).item(0); 
 
         return node != null ? node.getTextContent(): null;
     }
@@ -165,11 +167,27 @@ public class XMLManager {
         List<Paciente> listaPacientes = new ArrayList<>();
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        
+
+        //dbf.setValidating(false); //False para validar contra xsd
+        //dbf.setNamespaceAware(true);
+        //dbf.setIgnoringElementContentWhitespace(true);
+
+        // Constructor de esquemas para xsd
+        //SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+        //// variable del constructor para validar en xsd
+        //Schema schema = null;
+               
         try 
         {  
+            // Decimos que el esquema es nuestro validador
+            //schema = sf.newSchema(validador);
+            // Añadimos el esquema validador al constructor del documento 
+            //dbf.setSchema(schema);
             // Constructores del Parseo
             DocumentBuilder db = dbf.newDocumentBuilder();
+
+            db.setErrorHandler(new AlumnoErrorHandler()); // Para personalizar el control de los errores de validación
+
             Document document = db.parse(ficheroXml);
             Element root = document.getDocumentElement();
             
@@ -193,7 +211,8 @@ public class XMLManager {
 
                     // Elementos hijos
                     medico.setEspecialidad(getText(elementoMedicos, "especialidad"));
-                    medico.setNombre(getText(elementoMedicos, "nombre"));
+                    // Forma más simple y rápida
+                    medico.setNombre(elementoMedicos.getElementsByTagName("nombre").item(0).getTextContent());
                     medico.setApellido(getText(elementoMedicos, "apellido"));
                     medico.setTelefono(getText(elementoMedicos, "telefono"));
                     medico.setEmail(getText(elementoMedicos, "email"));
@@ -286,5 +305,41 @@ public class XMLManager {
                 e.printStackTrace();
             }
         
+    }
+
+    /**
+     * Valida un archivo XML contra un XSD
+     */
+    public static boolean validarXML(File ficheroXml, File ficheroXsd)
+    {
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        dbf.setValidating(false);
+        dbf.setNamespaceAware(true);
+        dbf.setIgnoringElementContentWhitespace(true);
+
+        try 
+        {
+            // Crear SchemaFactory y cargar el XSD
+            SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            Schema schema = sf.newSchema(ficheroXsd);
+            
+            // Configurar el DocumentBuilder con el esquema
+            dbf.setSchema(schema);
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            
+            // Configurar el manejador de errores personalizado
+            db.setErrorHandler(new AlumnoErrorHandler());
+            
+            // Parsear el documento - si hay errores, el ErrorHandler los manejará
+            db.parse(ficheroXml);
+            
+            LOG.info("Validacion exitosa del archivo: " + ficheroXml.getName() + " contra " + ficheroXsd.getName());
+            return true;
+            
+        } catch (ParserConfigurationException | SAXException | IOException e) 
+        {
+            LOG.error("Error en la validacion del fichero: " + ficheroXml.getAbsolutePath(), e);
+            return false;
+        }
     }
 }

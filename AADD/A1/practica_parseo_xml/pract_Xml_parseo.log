@@ -187,3 +187,261 @@
  Carrera: Ingenieria Informatica (INF)
  Edad: 22
 2025-11-09 18:30:55,393 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 20:27:33,319 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:27:33,353 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:27:33,475 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 20:31:30,033 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:31:30,048 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:31:30,092 [main] WARN  es.ciudadescolar.util.XMLManager         - Error en el parseo del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital.xml
+2025-11-12 20:39:47,447 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:39:47,462 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:40:47,029 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:40:47,046 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:43:19,182 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:43:19,202 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:43:20,014 [main] WARN  es.ciudadescolar.util.XMLManager         - Error en el parseo del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital.xml
+2025-11-12 20:44:18,607 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:44:18,624 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:44:18,737 [main] WARN  es.ciudadescolar.util.XMLManager         - Error en el parseo del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital.xml
+2025-11-12 20:48:18,132 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:48:18,151 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:48:18,164 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 20:48:18,284 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 20:48:18,378 [main] INFO  es.ciudadescolar.util.XMLManager         - Validación exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-12 20:48:43,007 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:48:43,026 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:48:43,038 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 20:48:43,148 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 20:48:43,226 [main] INFO  es.ciudadescolar.util.XMLManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-12 20:50:31,400 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 20:50:31,422 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 20:50:31,436 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 20:50:31,551 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 20:50:31,630 [main] ERROR es.ciudadescolar.util.XMLManager         - Error en la validacion del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital_2.0.xml
+org.xml.sax.SAXParseException: El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at es.ciudadescolar.util.XMLManager.validarXML(XMLManager.java:323)
+	at es.ciudadescolar.Main.main(Main.java:74)
+2025-11-12 22:12:42,072 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:12:42,103 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:12:42,176 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:12:42,258 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:12:42,323 [main] ERROR es.ciudadescolar.util.XMLManager         - Error en la validacion del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital_2.0.xml
+org.xml.sax.SAXParseException: El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at es.ciudadescolar.util.XMLManager.validarXML(XMLManager.java:323)
+	at es.ciudadescolar.Main.main(Main.java:75)
+2025-11-12 22:13:12,265 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:13:12,281 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:13:12,294 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:13:12,373 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:13:12,423 [main] ERROR es.ciudadescolar.util.XMLManager         - Error en la validacion del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital_2.0.xml
+org.xml.sax.SAXParseException: El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at es.ciudadescolar.util.XMLManager.validarXML(XMLManager.java:323)
+	at es.ciudadescolar.Main.main(Main.java:75)
+2025-11-12 22:13:28,301 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:13:28,318 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:13:28,330 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:13:28,412 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:13:28,466 [main] ERROR es.ciudadescolar.util.XMLManager         - Error en la validacion del fichero: C:\Users\mario\DAM2\AADD\A1\practica_parseo_xml\hospital_2.0.xml
+org.xml.sax.SAXParseException: El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at java.xml/javax.xml.validation.SchemaFactory.newSchema(Unknown Source)
+	at es.ciudadescolar.util.XMLManager.validarXML(XMLManager.java:323)
+	at es.ciudadescolar.Main.main(Main.java:75)
+2025-11-12 22:14:08,094 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:14:08,110 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:14:08,120 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:14:08,201 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:14:08,292 [main] INFO  es.ciudadescolar.util.XMLManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-12 22:21:24,424 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:21:24,441 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:21:24,469 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:21:24,558 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:21:24,641 [main] INFO  es.ciudadescolar.util.XMLManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-12 22:21:43,514 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-12 22:21:43,531 [main] INFO  es.ciudadescolar.util.XMLManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-12 22:21:43,543 [main] INFO  es.ciudadescolar.util.TXTManager         - Se ha parseado el fichero: medicos.txt
+2025-11-12 22:21:43,638 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-12 22:21:43,726 [main] INFO  es.ciudadescolar.util.XMLManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- Elemento raíz: hospital -->
+    <xs:element name="hospital">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Nombre del hospital -->
+                <xs:element name="nombreHospital" type="xs:string"/>
+                
+                <!-- Lista de médicos (0 o más) -->
+                <xs:element name="Medico" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="Especialidad" type="xs:string" use="optional"/>
+                        <xs:attribute name="Nombre" type="xs:string" use="optional"/>
+                        <xs:attribute name="Apellido" type="xs:string" use="optional"/>
+                        <xs:attribute name="Telefono" type="xs:string" use="optional"/>
+                        <xs:attribute name="Email" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+                
+                <!-- Lista de pacientes (0 o más) -->
+                <xs:element name="Paciente" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="Edad" type="xs:string" use="optional"/>
+                        <xs:attribute name="Nombre" type="xs:string" use="optional"/>
+                        <xs:attribute name="Apellido" type="xs:string" use="optional"/>
+                        <xs:attribute name="Telefono" type="xs:string" use="optional"/>
+                        <xs:attribute name="Diagnostico" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            
+            <!-- Atributos del hospital -->
+            <xs:attribute name="Ciudad" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
