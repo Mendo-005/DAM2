@@ -9,6 +9,8 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.exc.StreamWriteException;
@@ -171,8 +173,7 @@ public class JsonManager
                 
                 arrayAlumnos.add(nodoAlumno);
             }
-            mapper.writerWithDefaultPrettyPrinter().writeValue();
-
+            
             try 
             {
                 mapper.writerWithDefaultPrettyPrinter().writeValue(ficheroSalidaJson, arrayAlumnos);

@@ -1,0 +1,22 @@
+[ {
+  "id" : "P004",
+  "edad" : "58",
+  "nombre" : "Francisco",
+  "apellido" : "Navarro Pérez",
+  "telefono" : "612456789",
+  "diagnostico" : "Arritmia cardíaca"
+}, {
+  "id" : "P005",
+  "edad" : "72",
+  "nombre" : "Rosa",
+  "apellido" : "Iglesias Molina",
+  "telefono" : "623567890",
+  "diagnostico" : "Infarto agudo de miocardio"
+}, {
+  "id" : "P006",
+  "edad" : "5",
+  "nombre" : "Sofía",
+  "apellido" : "Ramos Gil",
+  "telefono" : "634678901",
+  "diagnostico" : "Bronquitis aguda"
+} ]

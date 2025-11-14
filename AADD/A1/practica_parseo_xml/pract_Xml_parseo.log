@@ -498,3 +498,32 @@ org.xml.sax.SAXParseException: El marcador en el documento que precede al elemen
 2025-11-13 18:14:11,578 [main] INFO  es.ciudadescolar.util.JsonManager        - Se ha parseado el fichero JSON simple: simple_medico.json
 2025-11-13 18:14:11,666 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
 2025-11-13 18:14:11,772 [main] INFO  es.ciudadescolar.util.XmlManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-13 18:55:02,770 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 18:55:02,787 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 18:55:02,799 [main] INFO  es.ciudadescolar.util.TxtManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 18:55:03,094 [main] INFO  es.ciudadescolar.util.JsonManager        - Se ha parseado el fichero JSON simple: simple_medico.json
+2025-11-13 18:55:03,178 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-13 18:55:03,284 [main] INFO  es.ciudadescolar.util.XmlManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-13 18:55:03,294 [main] INFO  es.ciudadescolar.Main                    - Error en la generacion del JSON
+2025-11-13 18:57:04,627 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Nombre: Biblioteca Central
+ Ubicacion: Calle Mayor 123
+ Capacidad: 5000
+2025-11-13 18:57:04,644 [main] INFO  es.ciudadescolar.util.XmlManager         - 
+ Atributos: E001 | true
+ Nombre: Maria Garcia
+ Carrera: Ingenieria Informatica (INF)
+ Edad: 22
+2025-11-13 18:57:04,656 [main] INFO  es.ciudadescolar.util.TxtManager         - Se ha parseado el fichero: medicos.txt
+2025-11-13 18:57:04,952 [main] INFO  es.ciudadescolar.util.JsonManager        - Se ha parseado el fichero JSON simple: simple_medico.json
+2025-11-13 18:57:05,029 [main] INFO  es.ciudadescolar.Main                    - === Validando XML de salida ===
+2025-11-13 18:57:05,103 [main] INFO  es.ciudadescolar.util.XmlManager         - Validacion exitosa del archivo: hospital_2.0.xml contra hospital_salida.xsd
+2025-11-13 18:57:05,115 [main] INFO  es.ciudadescolar.util.JsonManager        - Se han parseado 3 pacientes del fichero: hospital_completo.json
+2025-11-13 18:57:05,169 [main] INFO  es.ciudadescolar.Main                    - JSON generado: pacientes.json
