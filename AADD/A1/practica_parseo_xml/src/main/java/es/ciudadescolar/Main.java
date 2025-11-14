@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import es.ciudadescolar.clases.InformeSalida;
 import es.ciudadescolar.clases.Medico;
+import es.ciudadescolar.clases.Paciente;
 import es.ciudadescolar.util.TxtManager;
 import es.ciudadescolar.util.XmlManager;
 import es.ciudadescolar.util.JsonManager;
@@ -16,16 +17,25 @@ public class Main
 {
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
+    
+    // XML
     private static File ficheroXmlSimple = new File("simple.xml");
     private static File ficheroXmlAtributo = new File("con_atributos.xml");
     private static File ficheroXmlCompleto = new File("hospital.xml");
     private static File ficheroXmlNuevo = new File("hospital_2.0.xml");
+    
+    // TXT
     private static File ficheroTXT = new File("medicos.txt");
-    //private static File ficheroXsdEntrada = new File("hospital.xsd");
+    
+    // Validadores XSD & DTD
     private static File ficheroXsdSalida = new File("hospital_salida.xsd");
     private static File ficheroDtdSalida = new File("hospital_salida.dtd");
-    //private static File ficheroDtdEntrada = new File("hospital.dtd");
+    
+    // Json
     private static File ficheroSimpleJson = new File("simple_medico.json");
+    private static File ficheroSalidaJsonCompleto = new File("pacientes.json");
+    private static File ficheroEntradaJsonCompleto = new File("hospital_completo.json");
+
 
     public static void main(String[] args) 
     {
@@ -81,5 +91,17 @@ public class Main
         LOG.info("=== Validando XML de salida ===");
         XmlManager.validarXML(ficheroXmlNuevo, ficheroXsdSalida);
 
+
+        /*
+         *  Parsear y generar fichero Pacientes Json
+         */
+        try {
+            List<Paciente> listaPacientes = JsonManager.medicoCompleto(ficheroEntradaJsonCompleto);
+            JsonManager.crearJsonPacientes(listaPacientes, ficheroSalidaJsonCompleto);
+            LOG.info("JSON generado: " + ficheroSalidaJsonCompleto.getName());
+        } catch (Exception e) 
+        {
+            LOG.info("Error en la generacion del JSON");
+        }
     }
 }
