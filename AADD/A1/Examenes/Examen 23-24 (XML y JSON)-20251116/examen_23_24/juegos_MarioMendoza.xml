@@ -1,0 +1,3473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<juegos Creador="Mario Mendoza">
+  <juego>
+    <nombre>"102 Dalmatians - Puppies to the Rescue (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"18 Wheeler - American Pro Trucker (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"4 Wheel Thunder (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"4x4 Evolution (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Gathering"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"90 Minutes - Sega Championship Football (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Advanced Daisenryaku 2001 (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"AeroWings (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"AeroWings 2 - Air Strike (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"AirForce Delta (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Alien Front Online (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Alone in the Dark - The New Nightmare (USA) (Disc 1)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Alone in the Dark - The New Nightmare (USA) (Disc 2)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Aqua GT (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Take-Two Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Armada (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Metro3D"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Army Men - Sarge's Heroes (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Atari Anniversary Edition (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"BANG! Gunship Elite (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Red Storm Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Bangai-O (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Conspiracy Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Blue Stinger (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Boku no Tennis Jinsei (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Bimboosoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Bomberman Online (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Border Down (Japan)"</nombre>
+    <año>2003</año>
+    <desarrollador>"G.Rev"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Bust-A-Move 4 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Buzz Lightyear of Star Command (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Caesars Palace 2000 - Millennium Gold Edition (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Interplay"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Cannon Spike (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Capcom vs. SNK (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Capcom vs. SNK 2 Fan Disc (Japan)"</nombre>
+    <año>1991</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Carrier (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Jaleco Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Castle Shikigami 2 (Japan)"</nombre>
+    <año>2004</año>
+    <desarrollador>"Media Quest"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Centipede (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Leaping Lizard Software Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Championship Surfer (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Mattel"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Chaos Field (Japan)"</nombre>
+    <año>2004</año>
+    <desarrollador>"MileStone Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Charge 'N Blast (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Xicat Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Chicken Run (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Chu Chu Rocket! (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Cleopatra Fortune (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Altron"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Coaster Works (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Xicat Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Confidential Mission (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Conflict Zone - Modern War Strategy (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Cool Cool Toon (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"SNK"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Cosmic Smash (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Crazy Taxi (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Crazy Taxi 2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"D2 (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"D2 (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"D2 (USA) (Disc 3)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"D2 (USA) (Disc 4)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dance Dance Revolution 2nd Mix (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dance Dance Revolution Club Mix (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dave Mirra Freestyle BMX (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Daytona USA (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dead or Alive 2 - Limited Edition (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Tecmo"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dead or Alive 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Tecmo"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Death Crimson OX (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sammy Studios"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Deep Fighter (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Deep Fighter (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Demolition Racer - No Exit (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dino Crisis (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Disney's Dinosaur (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Disney's Donald Duck - Goin' Quackers (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Draconus - Cult of the Wyrm (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dragon Riders - Chronicles of Pern (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ducati World Racing Challenge (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"DUX (Japan)"</nombre>
+    <año>2009</año>
+    <desarrollador>"HUCAST"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Dynamite Cop! (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ecco the Dolphin - Defender of the Future (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"ECW Anarchy Rulz (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"ECW Hardcore Revolution (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"EGG - Elemental Gimmick Gear (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Vatical Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"ESPN International Track &amp; Field (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"ESPN NBA 2Night (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"European Super League (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Virgin Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Evil Dead - Hail to the King (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"THQ"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Evil Twin - Cyprien's Chronicles (Europe)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Evolution - The World of Sacred Device (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Evolution 2 - Far Off Promise (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Exhibition of Speed (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Titus Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Expendable (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"F1 Racing Championship (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"F1 World Grand Prix (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"F1 World Grand Prix II (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Video System"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"F355 Challenge - Passione Rossa (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Fast Striker (Japan)"</nombre>
+    <año>2010</año>
+    <desarrollador>"NG-DEV.TEAM"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Fatal Fury - Mark of the Wolves (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"GOAT Store, LLC, The"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Fighting Force 2 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Fighting Vipers 2 (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Flag to Flag (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Floigan Bros. - Episode 1 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Frogger 2 - Swampy's Revenge (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Hasbro Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Fur Fighters (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Gauntlet Legends (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Get!! Colonies (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Giant Gram - All-Japan Pro Wrestling 2 (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Giant Gram 2000 - All-Japan Pro Wrestling 3 (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Giant Killers (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"AAA"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Giga Wing (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Giga Wing 2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Grand Theft Auto 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Rockstar Games"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Grandia II (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Grandia II (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Grinch, The (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Guilty Gear X (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sammy Studios"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Gunbird 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Gundam Side Story 0079 - Rise from the Ashes (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Bandai"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"GunLord (World)"</nombre>
+    <año>2012</año>
+    <desarrollador>"NG-Dev.Team"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Headhunter (Europe) (Disc 1)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Headhunter (Europe) (Disc 2)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Heavy Metal - Geomatrix (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hello Kitty - Lovely Fruit Park (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hello Kitty - Waku Waku Cookies (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hello Kitty no Magical Block (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hidden &amp; Dangerous (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"TalonSoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"House of the Dead 2, The (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hoyle Casino (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sierra Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Hydro Thunder (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ikaruga (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"ESP Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Illbleed (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"AIA"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Incoming (USA)"</nombre>
+    <año>1998</año>
+    <desarrollador>"Interplay"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Industrial Spy - Operation Espionage (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"UFO Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Iron Aces (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Xicat Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"J-League Spectacle Soccer (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Jeremy McGrath Supercross 2000 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Jet Grind Radio (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Jimmy White's 2 - Cueball (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Virgin Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Jojo's Bizarre Adventure (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"KAO the Kangaroo (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Titus Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Karous (Japan)"</nombre>
+    <año>2007</año>
+    <desarrollador>"MileStone Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"King of Fighters '99 Evolution, The (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Agetec Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"King of Fighters 2000 (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Playmore"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"King of Fighters 2001 (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Playmore"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"King of Fighters 2002 (Japan)"</nombre>
+    <año>2003</año>
+    <desarrollador>"Playmore"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"King of Fighters Dream Match 1999, The (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"SNK"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"KISS Psycho Circus - The Nightmare Child (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Gathering"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"L.O.L. - Lack of Love (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"ASCII Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Last Blade 2 - Heart of the Samurai, The (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Agetec Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Last Hope - Pink Bullets (Europe)"</nombre>
+    <año>2009</año>
+    <desarrollador>"NG-DEV.TEAM"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Last Hope (Japan)"</nombre>
+    <año>2007</año>
+    <desarrollador>"NG-DEV.TEAM"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Legacy of Kain - Soul Reaver (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Looney Tunes - Space Race (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Macross M3 (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Shoeisha"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Magforce Racing (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Maken X (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Atlus Co."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Mars Matrix (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Marvel vs. Capcom (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Marvel vs. Capcom 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Mat Hoffman's Pro BMX (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Max Steel (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Mattel"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Maximum Pool (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sierra Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"MDK 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Interplay"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Metropolis Street Racer (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Midway's Greatest Arcade Hits Volume 1 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Midway's Greatest Arcade Hits Volume 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Moho (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Take-Two Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Monaco Grand Prix (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Mortal Kombat Gold (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Mr. Driller (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Namco"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ms. Pac-Man Maze Madness (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Namco"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"MTV Sports - Skateboarding Featuring Andy McDonald (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"THQ"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Musapey's Choco Marker (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Ecole"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Namco Museum (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Namco"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NBA 2K (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NBA 2K1 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NBA 2K2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NBA Hoopz (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NBA Showtime - NBA on NBC (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NCAA College Football 2K2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Neo Golden Logres (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Success"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Netto de Tennis (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"New Japan Pro Wrestling - Toukon Retsuden 4 (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Tomy Corporation"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Next Tetris - On-line Edition, The (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL 2K (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL 2K1 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL 2K2 (USA)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL Blitz 2000 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL Blitz 2001 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL QB Club 2001 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NFL Quarterback Club 2000 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NHL 2K (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"NHL 2K2 (USA)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Nightmare Creatures II (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Omikron - The Nomad Soul (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ooga Booga (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Outtrigger (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Pen Pen TriIcelon (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Phantasy Star Online (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Phantasy Star Online Ver. 2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Planet Ring (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Plasma Sword - Nightmare of Bilstein (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Plus Plum (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Takuhiro"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"POD - Speedzone (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Power Stone (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Power Stone 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Prince of Persia - Arabian Nights (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Mattel"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Pro Pinball Trilogy (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Empire Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Project Justice (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Psychic Force 2012 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Psyvariar 2 - The Will to Fabricate (Japan)"</nombre>
+    <año>2004</año>
+    <desarrollador>"Success"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Puyo Puyo 4 (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Puyo Puyo Da! (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Compile"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Puyo Puyo Fever (Japan)"</nombre>
+    <año>2004</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Q-Bert (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Hasbro Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Quake III Arena (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Radirgy (Japan)"</nombre>
+    <año>2006</año>
+    <desarrollador>"MileStone Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Railroad Tycoon II - Gold Edition (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Gathering"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Rainbow Cotton (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Success"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Rayman 2 - The Great Escape (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Razor Freestyle Scooter (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Re-Volt (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ready 2 Rumble Boxing - Round 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ready 2 Rumble Boxing (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Record of Lodoss War (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Conspiracy Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Red Dog - Superior Firepower (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Reel Fishing - Wild (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Natsume"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Resident Evil 2 (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Resident Evil 2 (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Resident Evil 3 - Nemesis (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Resident Evil Code - Veronica (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Resident Evil Code - Veronica (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Rez (Europe)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ring - Terror's Realm, The (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Rippin' Riders (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Roadsters (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Titus Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Samba de Amigo (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Samba de Amigo ver. 2000 (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"San Francisco Rush 2049 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Midway"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Bass Fishing (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Bass Fishing 2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega GT (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Marine Fishing (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Rally Championship 2 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Smash Pack Volume 1 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Swirl (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Tetris (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Worldwide Soccer 2000 (Europe)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sega Worldwide Soccer 2000 Euro Edition (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Seventh Cross Evolution (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"UFO Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shadow Man (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue (USA) (Disc 3)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue II (Europe) (Disc 1)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue II (Europe) (Disc 2)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Shenmue II (Europe) (Disc 3)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Silent Scope (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Konami"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Silver (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Skies of Arcadia (USA) (Disc 1)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Skies of Arcadia (USA) (Disc 2)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Slave Zero (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sno-Cross Championship Racing (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Soldier of Fortune (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sonic Adventure (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sonic Adventure 2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sonic Adventure International (Japan)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sonic Shuffle (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Soul Calibur (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Namco"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Soul Fighter (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Mindscape Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"South Park - Chef's Luv Shack (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"South Park Rally (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Space Channel 5 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Space Channel 5 Part 2 (Japan)"</nombre>
+    <año>2002</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Spawn - In the Demon's Hand (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Spec Ops II - Omega Squad (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ripcord Games"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Speed Devils (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Speed Devils Online Racing (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Spider-Man (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Spirit of Speed 1937 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"LJN Ltd."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sports Jam (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Agetec Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Star Wars - Demolition (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"LucasArts"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Star Wars - Episode I Racer (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"LucasArts"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Star Wars Episode I - Jedi Power Battles (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"LucasArts"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"StarLancer (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Street Fighter Alpha 3 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Street Fighter III - 3rd Strike (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Street Fighter III - Double Impact (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Striker Pro 2000 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Stunt GP (Europe)"</nombre>
+    <año>2001</año>
+    <desarrollador>"EON Digital Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Stupid Invaders (USA) (Disc 1)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Stupid Invaders (USA) (Disc 2)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Super Euro Soccer 2000 (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Imagineer"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Super Magnetic Neo (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Super Puzzle Fighter 2 X (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Super Runabout - San Francisco Edition (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Interplay"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Super Street Fighter 2 X (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Surf Rocket Racers (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Suzuki Alstare Extreme Racing (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Ubisoft"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sword of the Berserk - Guts' Rage (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Sydney 2000 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tech Romancer (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tee Off (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tennis 2K2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Test Drive 6 (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Test Drive Le Mans (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Test Drive V-Rally (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tetris 4D (Japan)"</nombre>
+    <año>1998</año>
+    <desarrollador>"Bullet Proof Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Time Stalkers (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"TNN Motorsports Hardcore Heat (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"ASC Games"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tokyo Xtreme Racer (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tokyo Xtreme Racer 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tom Clancy's Rainbow Six - Rogue Spear (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Red Storm Entertainment"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tom Clancy's Rainbow Six (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Majesco Games"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tomb Raider - Chronicles (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tomb Raider - The Last Revelation (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tony Hawk's Pro Skater (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Tony Hawk's Pro Skater 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Toy Commander (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Toy Racer (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Toy Story 2 - Buzz Lightyear to the Rescue! (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"TrickStyle (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Trigger Heart Exelica (Japan)"</nombre>
+    <año>2007</año>
+    <desarrollador>"Warashi"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Trizeal (Japan)"</nombre>
+    <año>2005</año>
+    <desarrollador>"Triangle Service"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Twinkle Star Sprites (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"SNK"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Typing of the Dead, The (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"UEFA Dream Soccer (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"UEFA Striker (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Ultimate Fighting Championship (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Crave"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Under Defeat (Japan)"</nombre>
+    <año>2006</año>
+    <desarrollador>"Grev Ltd."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Unreal Tournament (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Urban Chaos (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Vampire Chronicle for Matching Service (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Capcom"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Vanishing Point (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Vigilante 8 - 2nd Offense (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtua Athlete 2000 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Agetec Inc."</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtua Cop 2 (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtua Fighter 3tb (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtua Striker 2 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtua Tennis (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Virtual On - Oratorio Tangram (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Activision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Wacky Races (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Walt Disney World Quest - Magical Racing Tour (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Wetrix+ (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Xicat Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Who Wants to Be a Millionaire (Europe)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Eidos Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Who Wants to Beat Up a Millionaire (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Berkeley"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Wild Metal (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Rockstar Games"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"World Series Baseball 2K1 (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"World Series Baseball 2K2 (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Worms Armageddon (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Hasbro Interactive"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Worms World Party (USA)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Titus Software"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"WWF Attitude (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Acclaim"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"WWF Royal Rumble (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"THQ"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Xtreme Sports (USA)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Infogrames"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Yu Suzuki Game Works Vol. 1 (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Zero Gunner 2 (Japan)"</nombre>
+    <año>2001</año>
+    <desarrollador>"Psikyo"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Zombie Revenge (USA)"</nombre>
+    <año>1999</año>
+    <desarrollador>"Sega"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>"Zusar Vasar (Japan)"</nombre>
+    <año>2000</año>
+    <desarrollador>"Real Vision"</desarrollador>
+  </juego>
+  <juego>
+    <nombre>102 Dalmatians - Puppies to the Rescue (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Crystal Dynamics</desarrollador>
+  </juego>
+  <juego>
+    <nombre>18 Wheeler - American Pro Trucker (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>AM2</desarrollador>
+  </juego>
+  <juego>
+    <nombre>4 Wheel Thunder (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Kalisto</desarrollador>
+  </juego>
+  <juego>
+    <nombre>4x4 Evolution (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Terminal Reality</desarrollador>
+  </juego>
+  <juego>
+    <nombre>90 Minutes - Sega Championship Football (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Smilebit</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Advanced Daisenryaku 2001 (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>SystemSoft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>AeroWings (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Crave Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>AeroWings 2 - Air Strike (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>CSK Research Institute Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>AirForce Delta (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Konami</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Alien Front Online (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Wow Entertainment (AM1)</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Alone in the Dark - The New Nightmare (USA) (Disc 1)</nombre>
+    <año>2001</año>
+    <desarrollador>DarkWorks</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Alone in the Dark - The New Nightmare (USA) (Disc 2)</nombre>
+    <año>2001</año>
+    <desarrollador>DarkWorks</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Aqua GT (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>East Point Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Armada (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Metro3D</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Army Men - Sarge's Heroes (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Studio 3DO</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Atari Anniversary Edition (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Digital Eclipse</desarrollador>
+  </juego>
+  <juego>
+    <nombre>BANG! Gunship Elite (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>RayLand</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Bangai-O (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Treasure</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Blue Stinger (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Climax Graphics</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Boku no Tennis Jinsei (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Bimboosoft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Bomberman Online (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hudson Soft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Border Down (Japan)</nombre>
+    <año>2003</año>
+    <desarrollador>G-Rev</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Bust-A-Move 4 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Cyber Front</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Buzz Lightyear of Star Command (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Traveller's Tales</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Caesars Palace 2000 - Millennium Gold Edition (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Runecraft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Cannon Spike (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Psikyo</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Capcom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Capcom vs. SNK (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Capcom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Capcom vs. SNK 2 Fan Disc (Japan)</nombre>
+    <año>1991</año>
+    <desarrollador>Capcom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Carrier (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Jaleco</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Castle Shikigami 2 (Japan)</nombre>
+    <año>2004</año>
+    <desarrollador>Alfa System</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Centipede (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Hasbro Interactive, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Championship Surfer (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Krome Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Chaos Field (Japan)</nombre>
+    <año>2004</año>
+    <desarrollador>SEGA Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Charge 'N Blast (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Chicken Run (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Blitz Games</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Chu Chu Rocket! (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Cleopatra Fortune (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Altron Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Coaster Works (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Bimboosoft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Confidential Mission (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Conflict Zone - Modern War Strategy (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>MASA Group</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Cool Cool Toon (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>SNK</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Cosmic Smash (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Sega Rosso</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Crazy Taxi (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Crazy Taxi 2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>D2 (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>WARP</desarrollador>
+  </juego>
+  <juego>
+    <nombre>D2 (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>WARP</desarrollador>
+  </juego>
+  <juego>
+    <nombre>D2 (USA) (Disc 3)</nombre>
+    <año>2000</año>
+    <desarrollador>WARP</desarrollador>
+  </juego>
+  <juego>
+    <nombre>D2 (USA) (Disc 4)</nombre>
+    <año>2000</año>
+    <desarrollador>WARP</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dance Dance Revolution 2nd Mix (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Konami Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dance Dance Revolution Club Mix (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Konami Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dave Mirra Freestyle BMX (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Z-Axis, Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Daytona USA (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hasbro Interactive, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dead or Alive 2 - Limited Edition (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Team Ninja</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dead or Alive 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Team Ninja</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Death Crimson OX (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Ecole</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Deep Fighter (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>Criterion Games</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Deep Fighter (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>Criterion Games</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Demolition Racer - No Exit (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Pitbull Syndicate</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dino Crisis (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Disney's Dinosaur (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Disney Interactive Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Disney's Donald Duck - Goin' Quackers (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Ubisoft Montreal</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Draconus - Cult of the Wyrm (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Treyarch</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dragon Riders - Chronicles of Pern (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Ubi Soft Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ducati World Racing Challenge (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Attention to Detail</desarrollador>
+  </juego>
+  <juego>
+    <nombre>DUX (Japan)</nombre>
+    <año>2009</año>
+    <desarrollador>HUCAST.net</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Dynamite Cop! (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>SEGA of America, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ecco the Dolphin - Defender of the Future (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Appaloosa Interactive</desarrollador>
+  </juego>
+  <juego>
+    <nombre>ECW Anarchy Rulz (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Acclaim Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>ECW Hardcore Revolution (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Acclaim Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>EGG - Elemental Gimmick Gear (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Birthday</desarrollador>
+  </juego>
+  <juego>
+    <nombre>ESPN International Track &amp; Field (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Konami of America, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>ESPN NBA 2Night (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Konami of America, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>European Super League (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Virgin Interactive Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Evil Dead - Hail to the King (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Heavy Iron Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Evil Twin - Cyprien's Chronicles (Europe)</nombre>
+    <año>2002</año>
+    <desarrollador>In Utero</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Evolution - The World of Sacred Device (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sting</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Evolution 2 - Far Off Promise (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sting</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Exhibition of Speed (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Player 1</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Expendable (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Rage Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>F1 Racing Championship (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Ubisoft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>F1 World Grand Prix (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Video System Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>F1 World Grand Prix II (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Video System Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>F355 Challenge - Passione Rossa (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Fast Striker (Japan)</nombre>
+    <año>2010</año>
+    <desarrollador>NG-DEV.TEAM</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Fatal Fury - Mark of the Wolves (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Crytpic Allusion, LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Fighting Force 2 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Core Design</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Fighting Vipers 2 (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Scarab</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Flag to Flag (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Zoom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Floigan Bros. - Episode 1 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Visual Concepts</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Frogger 2 - Swampy's Revenge (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Hasbro Interactive, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Fur Fighters (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Bizarre Creations</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Gauntlet Legends (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Atari Games</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Get!! Colonies (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Sega</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Giant Gram - All-Japan Pro Wrestling 2 (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Scarab</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Giant Gram 2000 - All-Japan Pro Wrestling 3 (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Scarab</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Giant Killers (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Smoking Guns Production</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Giga Wing (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Giga Wing 2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Takumi Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Grand Theft Auto 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>DMA Design</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Grandia II (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>Game Arts</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Grandia II (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>Game Arts</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Grinch, The (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Artificial Mind and Movement</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Guilty Gear X (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Arc System Works</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Gunbird 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Psikyo</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Gundam Side Story 0079 - Rise from the Ashes (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Psikyo</desarrollador>
+  </juego>
+  <juego>
+    <nombre>GunLord (World)</nombre>
+    <año>2012</año>
+    <desarrollador>NG-DEV.TEAM</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Headhunter (Europe) (Disc 1)</nombre>
+    <año>2001</año>
+    <desarrollador>Amuze</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Headhunter (Europe) (Disc 2)</nombre>
+    <año>2001</año>
+    <desarrollador>Amuze</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Heavy Metal - Geomatrix (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Capcom Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hello Kitty - Lovely Fruit Park (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Sega</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hello Kitty - Waku Waku Cookies (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Sega</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hello Kitty no Magical Block (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Sega</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hidden &amp; Dangerous (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Illusion Softworks, a.s.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>House of the Dead 2, The (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Wow Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hoyle Casino (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sierra On-Line, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Hydro Thunder (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Eurocom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ikaruga (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>Treasure Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Illbleed (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Crazy Games, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Incoming (USA)</nombre>
+    <año>1998</año>
+    <desarrollador>Interplay Entertainment Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Industrial Spy - Operation Espionage (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>HuneX Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Iron Aces (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Marionette Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>J-League Spectacle Soccer (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>Smilebit</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Jeremy McGrath Supercross 2000 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Acclaim Studios Salt Lake City</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Jet Grind Radio (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Smilebit</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Jimmy White's 2 - Cueball (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Awesome Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Jojo's Bizarre Adventure (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>KAO the Kangaroo (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>X-Ray Interactive</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Karous (Japan)</nombre>
+    <año>2007</año>
+    <desarrollador>MileStone Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>King of Fighters '99 Evolution, The (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SNK Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>King of Fighters 2000 (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>SNK Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>King of Fighters 2001 (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>Eolith Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>King of Fighters 2002 (Japan)</nombre>
+    <año>2003</año>
+    <desarrollador>Eolith Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>King of Fighters Dream Match 1999, The (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>SNK Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>KISS Psycho Circus - The Nightmare Child (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Tremor Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>L.O.L. - Lack of Love (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Love-de-Lic</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Last Blade 2 - Heart of the Samurai, The (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SNK Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Last Hope - Pink Bullets (Europe)</nombre>
+    <año>2009</año>
+    <desarrollador>NG-DEV.TEAM</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Last Hope (Japan)</nombre>
+    <año>2007</año>
+    <desarrollador>NG-DEV.TEAM</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Legacy of Kain - Soul Reaver (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Crystal Dynamics, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Looney Tunes - Space Race (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Infogrames Melbourne House Pty Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Macross M3 (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Shoeisha</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Magforce Racing (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>VCC Entertainment /</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Maken X (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Atlus Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Mars Matrix (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Takumi Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Marvel vs. Capcom (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Marvel vs. Capcom 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Mat Hoffman's Pro BMX (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Runecraft, Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Max Steel (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Treyarch Invention, LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Maximum Pool (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Dynamix, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>MDK 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>BioWare Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Metropolis Street Racer (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Bizarre Creations, Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Midway's Greatest Arcade Hits Volume 1 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Digital Eclipse</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Midway's Greatest Arcade Hits Volume 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Digital Eclipse</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Moho (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Lost Toys</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Monaco Grand Prix (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Ubisoft</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Mortal Kombat Gold (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Eurocom Developments Ltd</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Mr. Driller (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Namco Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ms. Pac-Man Maze Madness (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Namco Hometek Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>MTV Sports - Skateboarding Featuring Andy McDonald (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Darkblack Ltd</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Musapey's Choco Marker (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>Ecole</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Namco Museum (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Mass Media, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NBA 2K (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NBA 2K1 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NBA 2K2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NBA Hoopz (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Eurocom Developments Ltd</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NBA Showtime - NBA on NBC (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Midway Games, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NCAA College Football 2K2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Neo Golden Logres (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>LittleWing Co. Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Netto de Tennis (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom</desarrollador>
+  </juego>
+  <juego>
+    <nombre>New Japan Pro Wrestling - Toukon Retsuden 4 (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Tomy Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Next Tetris - On-line Edition, The (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Blue Planet Software, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL 2K (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL 2K1 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL 2K2 (USA)</nombre>
+    <año>2002</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL Blitz 2000 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Avalanche Software LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL Blitz 2001 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Avalanche Software LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL QB Club 2001 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>High Voltage Software, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NFL Quarterback Club 2000 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Acclaim Studios Austin</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NHL 2K (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Black Box Games</desarrollador>
+  </juego>
+  <juego>
+    <nombre>NHL 2K2 (USA)</nombre>
+    <año>2002</año>
+    <desarrollador>Treyarch</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Nightmare Creatures II (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Kalisto Entertainment SA</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Omikron - The Nomad Soul (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Quantic Dream SA</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ooga Booga (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Outtrigger (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Pen Pen TriIcelon (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>General Entertainment Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Phantasy Star Online (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Phantasy Star Online Ver. 2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Planet Ring (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Plasma Sword - Nightmare of Bilstein (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Plus Plum (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Takuhiro</desarrollador>
+  </juego>
+  <juego>
+    <nombre>POD - Speedzone (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Ubi Soft SRL</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Power Stone (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Power Stone 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Prince of Persia - Arabian Nights (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Avalanche Software LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Pro Pinball Trilogy (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Cunning Developments</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Project Justice (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Psychic Force 2012 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Taito Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Psyvariar 2 - The Will to Fabricate (Japan)</nombre>
+    <año>2004</año>
+    <desarrollador>Skonec</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Puyo Puyo 4 (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Compile</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Puyo Puyo Da! (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Compile</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Puyo Puyo Fever (Japan)</nombre>
+    <año>2004</año>
+    <desarrollador>MileStone Inc</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Q-Bert (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Pipedream Interactive, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Quake III Arena (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>id Software, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Radirgy (Japan)</nombre>
+    <año>2006</año>
+    <desarrollador>MileStone Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Railroad Tycoon II - Gold Edition (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>PopTop Software Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Rainbow Cotton (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Success Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Rayman 2 - The Great Escape (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Ubi Soft Entertainment Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Razor Freestyle Scooter (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Shaba Games LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Re-Volt (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Acclaim Studios London</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ready 2 Rumble Boxing - Round 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Midway Games, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ready 2 Rumble Boxing (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Midway Games, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Record of Lodoss War (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Neverland Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Red Dog - Superior Firepower (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Argonaut Software Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Reel Fishing - Wild (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>West One</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Resident Evil 2 (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Production Studio 3</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Resident Evil 2 (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Production Studio 3</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Resident Evil 3 - Nemesis (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Resident Evil Code - Veronica (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Production Studio 4</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Resident Evil Code - Veronica (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Production Studio 4</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Rez (Europe)</nombre>
+    <año>2002</año>
+    <desarrollador>United Game Artists</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ring - Terror's Realm, The (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Tycoon Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Rippin' Riders (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>UEP Systems Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Roadsters (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Player 1</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Samba de Amigo (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Samba de Amigo ver. 2000 (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>San Francisco Rush 2049 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Atari Games Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Bass Fishing (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>SIMS Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Bass Fishing 2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Wow Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega GT (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Wow Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Marine Fishing (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>SIMS Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Rally Championship 2 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Sega AM9 R&amp;D Division</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Smash Pack Volume 1 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA of America Dreamcast, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Swirl (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Tremor Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Tetris (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Wow Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Worldwide Soccer 2000 (Europe)</nombre>
+    <año>1999</año>
+    <desarrollador>Silicon Dreams Studio Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sega Worldwide Soccer 2000 Euro Edition (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Silicon Dreams Studio Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Seventh Cross Evolution (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>HuneX Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shadow Man (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Acclaim Studios Teesside</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue (USA) (Disc 3)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue II (Europe) (Disc 1)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue II (Europe) (Disc 2)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Shenmue II (Europe) (Disc 3)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Silent Scope (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Konami Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Silver (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Infogrames UK Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Skies of Arcadia (USA) (Disc 1)</nombre>
+    <año>2000</año>
+    <desarrollador>Overworks</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Skies of Arcadia (USA) (Disc 2)</nombre>
+    <año>2000</año>
+    <desarrollador>Overworks</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Slave Zero (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Accolade, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sno-Cross Championship Racing (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>UDS</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Soldier of Fortune (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Raven Software Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sonic Adventure (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sonic Adventure 2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>SEGA Studios USA</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sonic Adventure International (Japan)</nombre>
+    <año>1999</año>
+    <desarrollador>Sonic Team</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sonic Shuffle (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Hudson Soft Company, Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Soul Calibur (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Project Soul</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Soul Fighter (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Toka S.a.r.l.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>South Park - Chef's Luv Shack (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Acclaim Studios Austin</desarrollador>
+  </juego>
+  <juego>
+    <nombre>South Park Rally (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Tantalus Interactive Pty. Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Space Channel 5 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>SEGA Enterprises Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Space Channel 5 Part 2 (Japan)</nombre>
+    <año>2002</año>
+    <desarrollador>United Game Artists</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Spawn - In the Demon's Hand (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Spec Ops II - Omega Squad (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Runecraft, Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Speed Devils (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Ubi Soft Entertainment Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Speed Devils Online Racing (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Ubi Soft Entertainment Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Spider-Man (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Neversoft Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Spirit of Speed 1937 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Broadsword Interactive Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sports Jam (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Wow Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Star Wars - Demolition (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Luxoflux Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Star Wars - Episode I Racer (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>LucasArts Entertainment Company LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Star Wars Episode I - Jedi Power Battles (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>LucasArts Entertainment Company LLC</desarrollador>
+  </juego>
+  <juego>
+    <nombre>StarLancer (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Warthog Plc</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Street Fighter Alpha 3 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Street Fighter III - 3rd Strike (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Street Fighter III - Double Impact (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Striker Pro 2000 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Rage Games Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Stunt GP (Europe)</nombre>
+    <año>2001</año>
+    <desarrollador>Team17 Software Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Stupid Invaders (USA) (Disc 1)</nombre>
+    <año>2001</año>
+    <desarrollador>Xilam</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Stupid Invaders (USA) (Disc 2)</nombre>
+    <año>2001</año>
+    <desarrollador>Xilam</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Super Euro Soccer 2000 (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Rage Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Super Magnetic Neo (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Genki Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Super Puzzle Fighter 2 X (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Super Runabout - San Francisco Edition (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Climax Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Super Street Fighter 2 X (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Surf Rocket Racers (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>CSK Research Institute Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Suzuki Alstare Extreme Racing (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Criterion Software Group Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sword of the Berserk - Guts' Rage (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Yuke's Co. Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Sydney 2000 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Attention to Detail Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tech Romancer (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tee Off (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Bottom Up Interactive</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tennis 2K2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Test Drive 6 (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Pitbull Syndicate Limited, The</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Test Drive Le Mans (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Melbourne House</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Test Drive V-Rally (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Eden Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tetris 4D (Japan)</nombre>
+    <año>1998</año>
+    <desarrollador>Bullet-Proof Software, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Time Stalkers (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Climax Entertainment</desarrollador>
+  </juego>
+  <juego>
+    <nombre>TNN Motorsports Hardcore Heat (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>CSK Research Institute Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tokyo Xtreme Racer (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Genki Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tokyo Xtreme Racer 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Genki Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tom Clancy's Rainbow Six - Rogue Spear (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Red Storm Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tom Clancy's Rainbow Six (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Red Storm Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tomb Raider - Chronicles (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Core Design Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tomb Raider - The Last Revelation (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Core Design Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tony Hawk's Pro Skater (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Neversoft Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Tony Hawk's Pro Skater 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Neversoft Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Toy Commander (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>No Cliché</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Toy Racer (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>No Cliché</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Toy Story 2 - Buzz Lightyear to the Rescue! (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Travellers Tales (Uk) Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>TrickStyle (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Criterion Software Group Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Trigger Heart Exelica (Japan)</nombre>
+    <año>2007</año>
+    <desarrollador>Warashi Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Trizeal (Japan)</nombre>
+    <año>2005</año>
+    <desarrollador>Triangle Service</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Twinkle Star Sprites (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>SNK</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Typing of the Dead, The (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Smilebit</desarrollador>
+  </juego>
+  <juego>
+    <nombre>UEFA Dream Soccer (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Silicon Dreams Studio Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>UEFA Striker (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Rage Software</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Ultimate Fighting Championship (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Anchor, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Under Defeat (Japan)</nombre>
+    <año>2006</año>
+    <desarrollador>G.rev Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Unreal Tournament (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Epic Games, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Urban Chaos (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Mucky Foot Productions Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Vampire Chronicle for Matching Service (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Capcom Co., Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Vanishing Point (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Clockwork Games Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Vigilante 8 - 2nd Offense (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Luxoflux Corp.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtua Athlete 2000 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtua Cop 2 (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>AM R&amp;D Dept. #2</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtua Fighter 3tb (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>SEGA-AM2 Co., LTD.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtua Striker 2 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Genki Co., Ltd.,</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtua Tennis (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Hitmaker</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Virtual On - Oratorio Tangram (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Sega AM3 R&amp;D Division</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Wacky Races (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Infogrames Studios Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Walt Disney World Quest - Magical Racing Tour (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Crystal Dynamics, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Wetrix+ (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Zed Two Game Design Studio</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Who Wants to Be a Millionaire (Europe)</nombre>
+    <año>2000</año>
+    <desarrollador>Hothouse Creations Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Who Wants to Beat Up a Millionaire (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Hypnotix, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Wild Metal (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>DMA Design Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>World Series Baseball 2K1 (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Wow Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>World Series Baseball 2K2 (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Visual Concepts Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Worms Armageddon (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Team17 Software Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Worms World Party (USA)</nombre>
+    <año>2001</año>
+    <desarrollador>Team17 Software Limited</desarrollador>
+  </juego>
+  <juego>
+    <nombre>WWF Attitude (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Iguana Entertainment, Inc.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>WWF Royal Rumble (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Yuke's Co. Ltd.</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Xtreme Sports (USA)</nombre>
+    <año>2000</año>
+    <desarrollador>Innerloop Studios</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Yu Suzuki Game Works Vol. 1 (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Sega AM2</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Zero Gunner 2 (Japan)</nombre>
+    <año>2001</año>
+    <desarrollador>Psikyo</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Zombie Revenge (USA)</nombre>
+    <año>1999</año>
+    <desarrollador>Data East Corporation</desarrollador>
+  </juego>
+  <juego>
+    <nombre>Zusar Vasar (Japan)</nombre>
+    <año>2000</año>
+    <desarrollador>Real Vision</desarrollador>
+  </juego>
+</juegos>

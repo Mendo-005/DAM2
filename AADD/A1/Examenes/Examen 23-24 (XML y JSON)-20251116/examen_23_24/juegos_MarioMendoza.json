@@ -1,0 +1,1738 @@
+{
+  "juegos" : [ {
+    "nombre" : "102 Dalmatians - Puppies to the Rescue (USA)",
+    "año" : "2000",
+    "desarrollador" : "Crystal Dynamics",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "18 Wheeler - American Pro Trucker (USA)",
+    "año" : "2001",
+    "desarrollador" : "AM2",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "4 Wheel Thunder (USA)",
+    "año" : "2000",
+    "desarrollador" : "Kalisto",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "4x4 Evolution (USA)",
+    "año" : "2000",
+    "desarrollador" : "Terminal Reality",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "90 Minutes - Sega Championship Football (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Smilebit",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Advanced Daisenryaku 2001 (Japan)",
+    "año" : "2001",
+    "desarrollador" : "SystemSoft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "AeroWings (USA)",
+    "año" : "1999",
+    "desarrollador" : "Crave Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "AeroWings 2 - Air Strike (USA)",
+    "año" : "2000",
+    "desarrollador" : "CSK Research Institute Corp.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "AirForce Delta (USA)",
+    "año" : "1999",
+    "desarrollador" : "Konami",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Alien Front Online (USA)",
+    "año" : "2001",
+    "desarrollador" : "Wow Entertainment (AM1)",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Alone in the Dark - The New Nightmare (USA) (Disc 1)",
+    "año" : "2001",
+    "desarrollador" : "DarkWorks",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Alone in the Dark - The New Nightmare (USA) (Disc 2)",
+    "año" : "2001",
+    "desarrollador" : "DarkWorks",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Aqua GT (Europe)",
+    "año" : "2000",
+    "desarrollador" : "East Point Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Armada (USA)",
+    "año" : "1999",
+    "desarrollador" : "Metro3D",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Army Men - Sarge's Heroes (USA)",
+    "año" : "2000",
+    "desarrollador" : "Studio 3DO",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Atari Anniversary Edition (USA)",
+    "año" : "2001",
+    "desarrollador" : "Digital Eclipse",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "BANG! Gunship Elite (USA)",
+    "año" : "2000",
+    "desarrollador" : "RayLand",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Bangai-O (USA)",
+    "año" : "2001",
+    "desarrollador" : "Treasure",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Blue Stinger (USA)",
+    "año" : "1999",
+    "desarrollador" : "Climax Graphics",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Boku no Tennis Jinsei (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Bimboosoft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Bomberman Online (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hudson Soft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Border Down (Japan)",
+    "año" : "2003",
+    "desarrollador" : "G-Rev",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Bust-A-Move 4 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Cyber Front",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Buzz Lightyear of Star Command (USA)",
+    "año" : "2000",
+    "desarrollador" : "Traveller's Tales",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Caesars Palace 2000 - Millennium Gold Edition (USA)",
+    "año" : "2000",
+    "desarrollador" : "Runecraft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Cannon Spike (USA)",
+    "año" : "2000",
+    "desarrollador" : "Psikyo",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Capcom",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Capcom vs. SNK (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Capcom",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Capcom vs. SNK 2 Fan Disc (Japan)",
+    "año" : "1991",
+    "desarrollador" : "Capcom",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Carrier (USA)",
+    "año" : "2000",
+    "desarrollador" : "Jaleco",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Castle Shikigami 2 (Japan)",
+    "año" : "2004",
+    "desarrollador" : "Alfa System",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Centipede (USA)",
+    "año" : "1999",
+    "desarrollador" : "Hasbro Interactive, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Championship Surfer (USA)",
+    "año" : "2000",
+    "desarrollador" : "Krome Studios",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Chaos Field (Japan)",
+    "año" : "2004",
+    "desarrollador" : "SEGA Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Charge 'N Blast (USA)",
+    "año" : "2001",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Chicken Run (USA)",
+    "año" : "2000",
+    "desarrollador" : "Blitz Games",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Chu Chu Rocket! (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Cleopatra Fortune (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Altron Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Coaster Works (USA)",
+    "año" : "2000",
+    "desarrollador" : "Bimboosoft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Confidential Mission (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Conflict Zone - Modern War Strategy (USA)",
+    "año" : "2001",
+    "desarrollador" : "MASA Group",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Cool Cool Toon (Japan)",
+    "año" : "2000",
+    "desarrollador" : "SNK",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Cosmic Smash (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Sega Rosso",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Crazy Taxi (USA)",
+    "año" : "2000",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Crazy Taxi 2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "D2 (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "WARP",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "D2 (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "WARP",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "D2 (USA) (Disc 3)",
+    "año" : "2000",
+    "desarrollador" : "WARP",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "D2 (USA) (Disc 4)",
+    "año" : "2000",
+    "desarrollador" : "WARP",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Dance Dance Revolution 2nd Mix (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Konami Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Dance Dance Revolution Club Mix (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Konami Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Dave Mirra Freestyle BMX (USA)",
+    "año" : "2000",
+    "desarrollador" : "Z-Axis, Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Daytona USA (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hasbro Interactive, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Dead or Alive 2 - Limited Edition (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Team Ninja",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Dead or Alive 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Team Ninja",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Death Crimson OX (USA)",
+    "año" : "2001",
+    "desarrollador" : "Ecole",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Deep Fighter (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "Criterion Games",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Deep Fighter (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "Criterion Games",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Demolition Racer - No Exit (USA)",
+    "año" : "2000",
+    "desarrollador" : "Pitbull Syndicate",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Dino Crisis (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Entertainment, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Disney's Dinosaur (USA)",
+    "año" : "2000",
+    "desarrollador" : "Disney Interactive Studios",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Disney's Donald Duck - Goin' Quackers (USA)",
+    "año" : "2000",
+    "desarrollador" : "Ubisoft Montreal",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Draconus - Cult of the Wyrm (USA)",
+    "año" : "2000",
+    "desarrollador" : "Treyarch",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Dragon Riders - Chronicles of Pern (USA)",
+    "año" : "2001",
+    "desarrollador" : "Ubi Soft Entertainment, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Ducati World Racing Challenge (USA)",
+    "año" : "2001",
+    "desarrollador" : "Attention to Detail",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "DUX (Japan)",
+    "año" : "2009",
+    "desarrollador" : "HUCAST.net",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Dynamite Cop! (USA)",
+    "año" : "1999",
+    "desarrollador" : "SEGA of America, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Ecco the Dolphin - Defender of the Future (USA)",
+    "año" : "2000",
+    "desarrollador" : "Appaloosa Interactive",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "ECW Anarchy Rulz (USA)",
+    "año" : "2000",
+    "desarrollador" : "Acclaim Entertainment, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "ECW Hardcore Revolution (USA)",
+    "año" : "2000",
+    "desarrollador" : "Acclaim Entertainment, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "EGG - Elemental Gimmick Gear (USA)",
+    "año" : "1999",
+    "desarrollador" : "Birthday",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "ESPN International Track & Field (USA)",
+    "año" : "2000",
+    "desarrollador" : "Konami of America, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "ESPN NBA 2Night (USA)",
+    "año" : "2000",
+    "desarrollador" : "Konami of America, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "European Super League (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Virgin Interactive Entertainment",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Evil Dead - Hail to the King (USA)",
+    "año" : "2000",
+    "desarrollador" : "Heavy Iron Studios",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Evil Twin - Cyprien's Chronicles (Europe)",
+    "año" : "2002",
+    "desarrollador" : "In Utero",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Evolution - The World of Sacred Device (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sting",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Evolution 2 - Far Off Promise (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sting",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Exhibition of Speed (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Player 1",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Expendable (USA)",
+    "año" : "1999",
+    "desarrollador" : "Rage Software",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "F1 Racing Championship (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Ubisoft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "F1 World Grand Prix (USA)",
+    "año" : "2000",
+    "desarrollador" : "Video System Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "F1 World Grand Prix II (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Video System Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "F355 Challenge - Passione Rossa (USA)",
+    "año" : "2000",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Fast Striker (Japan)",
+    "año" : "2010",
+    "desarrollador" : "NG-DEV.TEAM",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Fatal Fury - Mark of the Wolves (USA)",
+    "año" : "2001",
+    "desarrollador" : "Crytpic Allusion, LLC",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Fighting Force 2 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Core Design",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Fighting Vipers 2 (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Scarab",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Flag to Flag (USA)",
+    "año" : "1999",
+    "desarrollador" : "Zoom",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Floigan Bros. - Episode 1 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Visual Concepts",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Frogger 2 - Swampy's Revenge (USA)",
+    "año" : "2000",
+    "desarrollador" : "Hasbro Interactive, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Fur Fighters (USA)",
+    "año" : "2000",
+    "desarrollador" : "Bizarre Creations",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Gauntlet Legends (USA)",
+    "año" : "2000",
+    "desarrollador" : "Atari Games",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Get!! Colonies (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Sega",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Giant Gram - All-Japan Pro Wrestling 2 (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Scarab",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Giant Gram 2000 - All-Japan Pro Wrestling 3 (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Scarab",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Giant Killers (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Smoking Guns Production",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Giga Wing (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Giga Wing 2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Takumi Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Grand Theft Auto 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "DMA Design",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Grandia II (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "Game Arts",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Grandia II (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "Game Arts",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Grinch, The (USA)",
+    "año" : "2000",
+    "desarrollador" : "Artificial Mind and Movement",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Guilty Gear X (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Arc System Works",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Gunbird 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Psikyo",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Gundam Side Story 0079 - Rise from the Ashes (USA)",
+    "año" : "2000",
+    "desarrollador" : "Psikyo",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "GunLord (World)",
+    "año" : "2012",
+    "desarrollador" : "NG-DEV.TEAM",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Headhunter (Europe) (Disc 1)",
+    "año" : "2001",
+    "desarrollador" : "Amuze",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Headhunter (Europe) (Disc 2)",
+    "año" : "2001",
+    "desarrollador" : "Amuze",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Heavy Metal - Geomatrix (USA)",
+    "año" : "2001",
+    "desarrollador" : "Capcom Entertainment, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Hello Kitty - Lovely Fruit Park (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Sega",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Hello Kitty - Waku Waku Cookies (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Sega",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Hello Kitty no Magical Block (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Sega",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Hidden & Dangerous (USA)",
+    "año" : "2000",
+    "desarrollador" : "Illusion Softworks, a.s.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "House of the Dead 2, The (USA)",
+    "año" : "2000",
+    "desarrollador" : "Wow Entertainment, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Hoyle Casino (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sierra On-Line, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Hydro Thunder (USA)",
+    "año" : "1999",
+    "desarrollador" : "Eurocom",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Ikaruga (Japan)",
+    "año" : "2002",
+    "desarrollador" : "Treasure Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Illbleed (USA)",
+    "año" : "2001",
+    "desarrollador" : "Crazy Games, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Incoming (USA)",
+    "año" : "1998",
+    "desarrollador" : "Interplay Entertainment Corp.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Industrial Spy - Operation Espionage (USA)",
+    "año" : "2000",
+    "desarrollador" : "HuneX Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Iron Aces (USA)",
+    "año" : "2001",
+    "desarrollador" : "Marionette Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "J-League Spectacle Soccer (Japan)",
+    "año" : "2002",
+    "desarrollador" : "Smilebit",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Jeremy McGrath Supercross 2000 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Acclaim Studios Salt Lake City",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Jet Grind Radio (USA)",
+    "año" : "2000",
+    "desarrollador" : "Smilebit",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Jimmy White's 2 - Cueball (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Awesome Studios",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Jojo's Bizarre Adventure (USA)",
+    "año" : "1999",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "KAO the Kangaroo (USA)",
+    "año" : "2001",
+    "desarrollador" : "X-Ray Interactive",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Karous (Japan)",
+    "año" : "2007",
+    "desarrollador" : "MileStone Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "King of Fighters '99 Evolution, The (USA)",
+    "año" : "2001",
+    "desarrollador" : "SNK Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "King of Fighters 2000 (Japan)",
+    "año" : "2002",
+    "desarrollador" : "SNK Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "King of Fighters 2001 (Japan)",
+    "año" : "2002",
+    "desarrollador" : "Eolith Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "King of Fighters 2002 (Japan)",
+    "año" : "2003",
+    "desarrollador" : "Eolith Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "King of Fighters Dream Match 1999, The (USA)",
+    "año" : "1999",
+    "desarrollador" : "SNK Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "KISS Psycho Circus - The Nightmare Child (USA)",
+    "año" : "2000",
+    "desarrollador" : "Tremor Entertainment",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "L.O.L. - Lack of Love (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Love-de-Lic",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Last Blade 2 - Heart of the Samurai, The (USA)",
+    "año" : "2001",
+    "desarrollador" : "SNK Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Last Hope - Pink Bullets (Europe)",
+    "año" : "2009",
+    "desarrollador" : "NG-DEV.TEAM",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Last Hope (Japan)",
+    "año" : "2007",
+    "desarrollador" : "NG-DEV.TEAM",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Legacy of Kain - Soul Reaver (USA)",
+    "año" : "2000",
+    "desarrollador" : "Crystal Dynamics, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Looney Tunes - Space Race (USA)",
+    "año" : "2000",
+    "desarrollador" : "Infogrames Melbourne House Pty Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Macross M3 (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Shoeisha",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Magforce Racing (USA)",
+    "año" : "2000",
+    "desarrollador" : "VCC Entertainment /",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Maken X (USA)",
+    "año" : "1999",
+    "desarrollador" : "Atlus Co., Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Mars Matrix (USA)",
+    "año" : "2001",
+    "desarrollador" : "Takumi Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Marvel vs. Capcom (USA)",
+    "año" : "1999",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Marvel vs. Capcom 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Mat Hoffman's Pro BMX (USA)",
+    "año" : "2001",
+    "desarrollador" : "Runecraft, Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Max Steel (USA)",
+    "año" : "2001",
+    "desarrollador" : "Treyarch Invention, LLC",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Maximum Pool (USA)",
+    "año" : "2000",
+    "desarrollador" : "Dynamix, Inc.",
+    "valoracion" : "ESRB - K-A (Kids to Adults)"
+  }, {
+    "nombre" : "MDK 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "BioWare Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Metropolis Street Racer (USA)",
+    "año" : "2001",
+    "desarrollador" : "Bizarre Creations, Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Midway's Greatest Arcade Hits Volume 1 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Digital Eclipse",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Midway's Greatest Arcade Hits Volume 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Digital Eclipse",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Moho (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Lost Toys",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Monaco Grand Prix (USA)",
+    "año" : "1999",
+    "desarrollador" : "Ubisoft",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Mortal Kombat Gold (USA)",
+    "año" : "1999",
+    "desarrollador" : "Eurocom Developments Ltd",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Mr. Driller (USA)",
+    "año" : "2000",
+    "desarrollador" : "Namco Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Ms. Pac-Man Maze Madness (USA)",
+    "año" : "2000",
+    "desarrollador" : "Namco Hometek Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "MTV Sports - Skateboarding Featuring Andy McDonald (USA)",
+    "año" : "2000",
+    "desarrollador" : "Darkblack Ltd",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Musapey's Choco Marker (Japan)",
+    "año" : "2002",
+    "desarrollador" : "Ecole",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Namco Museum (USA)",
+    "año" : "2000",
+    "desarrollador" : "Mass Media, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NBA 2K (USA)",
+    "año" : "1999",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NBA 2K1 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NBA 2K2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NBA Hoopz (USA)",
+    "año" : "2001",
+    "desarrollador" : "Eurocom Developments Ltd",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NBA Showtime - NBA on NBC (USA)",
+    "año" : "1999",
+    "desarrollador" : "Midway Games, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NCAA College Football 2K2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Neo Golden Logres (Japan)",
+    "año" : "2000",
+    "desarrollador" : "LittleWing Co. Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Netto de Tennis (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Capcom",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "New Japan Pro Wrestling - Toukon Retsuden 4 (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Tomy Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Next Tetris - On-line Edition, The (USA)",
+    "año" : "2000",
+    "desarrollador" : "Blue Planet Software, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL 2K (USA)",
+    "año" : "1999",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL 2K1 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL 2K2 (USA)",
+    "año" : "2002",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL Blitz 2000 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Avalanche Software LLC",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL Blitz 2001 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Avalanche Software LLC",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL QB Club 2001 (USA)",
+    "año" : "2000",
+    "desarrollador" : "High Voltage Software, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NFL Quarterback Club 2000 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Acclaim Studios Austin",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NHL 2K (USA)",
+    "año" : "2000",
+    "desarrollador" : "Black Box Games",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "NHL 2K2 (USA)",
+    "año" : "2002",
+    "desarrollador" : "Treyarch",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Nightmare Creatures II (USA)",
+    "año" : "2000",
+    "desarrollador" : "Kalisto Entertainment SA",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Omikron - The Nomad Soul (USA)",
+    "año" : "2000",
+    "desarrollador" : "Quantic Dream SA",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Ooga Booga (USA)",
+    "año" : "2001",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Outtrigger (USA)",
+    "año" : "2001",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Pen Pen TriIcelon (USA)",
+    "año" : "1999",
+    "desarrollador" : "General Entertainment Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Phantasy Star Online (USA)",
+    "año" : "2001",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Phantasy Star Online Ver. 2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Planet Ring (Europe)",
+    "año" : "2000",
+    "desarrollador" : "SEGA Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Plasma Sword - Nightmare of Bilstein (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Plus Plum (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Takuhiro",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "POD - Speedzone (USA)",
+    "año" : "2000",
+    "desarrollador" : "Ubi Soft SRL",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Power Stone (USA)",
+    "año" : "1999",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Power Stone 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Prince of Persia - Arabian Nights (USA)",
+    "año" : "2000",
+    "desarrollador" : "Avalanche Software LLC",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Pro Pinball Trilogy (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Cunning Developments",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Project Justice (USA)",
+    "año" : "2001",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Psychic Force 2012 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Taito Corporation",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Psyvariar 2 - The Will to Fabricate (Japan)",
+    "año" : "2004",
+    "desarrollador" : "Skonec",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Puyo Puyo 4 (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Compile",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Puyo Puyo Da! (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Compile",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Puyo Puyo Fever (Japan)",
+    "año" : "2004",
+    "desarrollador" : "MileStone Inc",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Q-Bert (USA)",
+    "año" : "2000",
+    "desarrollador" : "Pipedream Interactive, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Quake III Arena (USA)",
+    "año" : "2000",
+    "desarrollador" : "id Software, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Radirgy (Japan)",
+    "año" : "2006",
+    "desarrollador" : "MileStone Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Railroad Tycoon II - Gold Edition (USA)",
+    "año" : "2000",
+    "desarrollador" : "PopTop Software Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Rainbow Cotton (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Success Corp.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Rayman 2 - The Great Escape (USA)",
+    "año" : "2000",
+    "desarrollador" : "Ubi Soft Entertainment Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Razor Freestyle Scooter (USA)",
+    "año" : "2001",
+    "desarrollador" : "Shaba Games LLC",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Re-Volt (USA)",
+    "año" : "1999",
+    "desarrollador" : "Acclaim Studios London",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Ready 2 Rumble Boxing - Round 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Midway Games, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Ready 2 Rumble Boxing (USA)",
+    "año" : "1999",
+    "desarrollador" : "Midway Games, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Record of Lodoss War (USA)",
+    "año" : "2001",
+    "desarrollador" : "Neverland Co., Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Red Dog - Superior Firepower (USA)",
+    "año" : "2000",
+    "desarrollador" : "Argonaut Software Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Reel Fishing - Wild (USA)",
+    "año" : "2001",
+    "desarrollador" : "West One",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Resident Evil 2 (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Production Studio 3",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Resident Evil 2 (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Production Studio 3",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Resident Evil 3 - Nemesis (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Resident Evil Code - Veronica (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Production Studio 4",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Resident Evil Code - Veronica (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Production Studio 4",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Rez (Europe)",
+    "año" : "2002",
+    "desarrollador" : "United Game Artists",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Ring - Terror's Realm, The (USA)",
+    "año" : "2000",
+    "desarrollador" : "Tycoon Corporation",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Rippin' Riders (USA)",
+    "año" : "1999",
+    "desarrollador" : "UEP Systems Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Roadsters (USA)",
+    "año" : "2000",
+    "desarrollador" : "Player 1",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Samba de Amigo (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Samba de Amigo ver. 2000 (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "San Francisco Rush 2049 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Atari Games Corporation",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Bass Fishing (USA)",
+    "año" : "1999",
+    "desarrollador" : "SIMS Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Bass Fishing 2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Wow Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega GT (USA)",
+    "año" : "2000",
+    "desarrollador" : "Wow Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Marine Fishing (USA)",
+    "año" : "2000",
+    "desarrollador" : "SIMS Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Rally Championship 2 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Sega AM9 R&D Division",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Smash Pack Volume 1 (USA)",
+    "año" : "2001",
+    "desarrollador" : "SEGA of America Dreamcast, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Sega Swirl (USA)",
+    "año" : "2000",
+    "desarrollador" : "Tremor Entertainment",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Tetris (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Wow Entertainment",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Worldwide Soccer 2000 (Europe)",
+    "año" : "1999",
+    "desarrollador" : "Silicon Dreams Studio Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sega Worldwide Soccer 2000 Euro Edition (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Silicon Dreams Studio Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Seventh Cross Evolution (USA)",
+    "año" : "2000",
+    "desarrollador" : "HuneX Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shadow Man (USA)",
+    "año" : "1999",
+    "desarrollador" : "Acclaim Studios Teesside",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Shenmue (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shenmue (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shenmue (USA) (Disc 3)",
+    "año" : "2000",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shenmue II (Europe) (Disc 1)",
+    "año" : "2001",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shenmue II (Europe) (Disc 2)",
+    "año" : "2001",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Shenmue II (Europe) (Disc 3)",
+    "año" : "2001",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Silent Scope (USA)",
+    "año" : "2000",
+    "desarrollador" : "Konami Co., Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Silver (USA)",
+    "año" : "2000",
+    "desarrollador" : "Infogrames UK Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Skies of Arcadia (USA) (Disc 1)",
+    "año" : "2000",
+    "desarrollador" : "Overworks",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Skies of Arcadia (USA) (Disc 2)",
+    "año" : "2000",
+    "desarrollador" : "Overworks",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Slave Zero (USA)",
+    "año" : "1999",
+    "desarrollador" : "Accolade, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Sno-Cross Championship Racing (USA)",
+    "año" : "2000",
+    "desarrollador" : "UDS",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Soldier of Fortune (USA)",
+    "año" : "2001",
+    "desarrollador" : "Raven Software Corporation",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Sonic Adventure (USA)",
+    "año" : "1999",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sonic Adventure 2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "SEGA Studios USA",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sonic Adventure International (Japan)",
+    "año" : "1999",
+    "desarrollador" : "Sonic Team",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sonic Shuffle (USA)",
+    "año" : "2000",
+    "desarrollador" : "Hudson Soft Company, Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Soul Calibur (USA)",
+    "año" : "1999",
+    "desarrollador" : "Project Soul",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Soul Fighter (USA)",
+    "año" : "1999",
+    "desarrollador" : "Toka S.a.r.l.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "South Park - Chef's Luv Shack (USA)",
+    "año" : "1999",
+    "desarrollador" : "Acclaim Studios Austin",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "South Park Rally (USA)",
+    "año" : "2000",
+    "desarrollador" : "Tantalus Interactive Pty. Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Space Channel 5 (USA)",
+    "año" : "2000",
+    "desarrollador" : "SEGA Enterprises Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Space Channel 5 Part 2 (Japan)",
+    "año" : "2002",
+    "desarrollador" : "United Game Artists",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Spawn - In the Demon's Hand (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Spec Ops II - Omega Squad (USA)",
+    "año" : "2000",
+    "desarrollador" : "Runecraft, Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Speed Devils (USA)",
+    "año" : "1999",
+    "desarrollador" : "Ubi Soft Entertainment Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Speed Devils Online Racing (USA)",
+    "año" : "2000",
+    "desarrollador" : "Ubi Soft Entertainment Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Spider-Man (USA)",
+    "año" : "2001",
+    "desarrollador" : "Neversoft Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Spirit of Speed 1937 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Broadsword Interactive Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sports Jam (USA)",
+    "año" : "2001",
+    "desarrollador" : "Wow Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Star Wars - Demolition (USA)",
+    "año" : "2000",
+    "desarrollador" : "Luxoflux Corp.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Star Wars - Episode I Racer (USA)",
+    "año" : "2000",
+    "desarrollador" : "LucasArts Entertainment Company LLC",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Star Wars Episode I - Jedi Power Battles (USA)",
+    "año" : "2000",
+    "desarrollador" : "LucasArts Entertainment Company LLC",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "StarLancer (USA)",
+    "año" : "2000",
+    "desarrollador" : "Warthog Plc",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Street Fighter Alpha 3 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Street Fighter III - 3rd Strike (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Street Fighter III - Double Impact (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Striker Pro 2000 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Rage Games Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Stunt GP (Europe)",
+    "año" : "2001",
+    "desarrollador" : "Team17 Software Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Stupid Invaders (USA) (Disc 1)",
+    "año" : "2001",
+    "desarrollador" : "Xilam",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Stupid Invaders (USA) (Disc 2)",
+    "año" : "2001",
+    "desarrollador" : "Xilam",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Super Euro Soccer 2000 (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Rage Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Super Magnetic Neo (USA)",
+    "año" : "2000",
+    "desarrollador" : "Genki Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Super Puzzle Fighter 2 X (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Super Runabout - San Francisco Edition (USA)",
+    "año" : "2000",
+    "desarrollador" : "Climax Entertainment",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Super Street Fighter 2 X (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Surf Rocket Racers (USA)",
+    "año" : "2001",
+    "desarrollador" : "CSK Research Institute Corp.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Suzuki Alstare Extreme Racing (USA)",
+    "año" : "1999",
+    "desarrollador" : "Criterion Software Group Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Sword of the Berserk - Guts' Rage (USA)",
+    "año" : "2000",
+    "desarrollador" : "Yuke's Co. Ltd.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Sydney 2000 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Attention to Detail Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tech Romancer (USA)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tee Off (USA)",
+    "año" : "1999",
+    "desarrollador" : "Bottom Up Interactive",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tennis 2K2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Test Drive 6 (USA)",
+    "año" : "1999",
+    "desarrollador" : "Pitbull Syndicate Limited, The",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Test Drive Le Mans (USA)",
+    "año" : "2000",
+    "desarrollador" : "Melbourne House",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Test Drive V-Rally (USA)",
+    "año" : "2000",
+    "desarrollador" : "Eden Studios",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tetris 4D (Japan)",
+    "año" : "1998",
+    "desarrollador" : "Bullet-Proof Software, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Time Stalkers (USA)",
+    "año" : "1999",
+    "desarrollador" : "Climax Entertainment",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "TNN Motorsports Hardcore Heat (USA)",
+    "año" : "1999",
+    "desarrollador" : "CSK Research Institute Corp.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tokyo Xtreme Racer (USA)",
+    "año" : "1999",
+    "desarrollador" : "Genki Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tokyo Xtreme Racer 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Genki Co., Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Tom Clancy's Rainbow Six - Rogue Spear (USA)",
+    "año" : "2000",
+    "desarrollador" : "Red Storm Entertainment, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tom Clancy's Rainbow Six (USA)",
+    "año" : "2000",
+    "desarrollador" : "Red Storm Entertainment, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tomb Raider - Chronicles (USA)",
+    "año" : "2000",
+    "desarrollador" : "Core Design Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tomb Raider - The Last Revelation (USA)",
+    "año" : "2001",
+    "desarrollador" : "Core Design Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tony Hawk's Pro Skater (USA)",
+    "año" : "2000",
+    "desarrollador" : "Neversoft Entertainment, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Tony Hawk's Pro Skater 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Neversoft Entertainment, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Toy Commander (USA)",
+    "año" : "1999",
+    "desarrollador" : "No Cliché",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Toy Racer (Europe)",
+    "año" : "2000",
+    "desarrollador" : "No Cliché",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Toy Story 2 - Buzz Lightyear to the Rescue! (USA)",
+    "año" : "2000",
+    "desarrollador" : "Travellers Tales (Uk) Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "TrickStyle (USA)",
+    "año" : "1999",
+    "desarrollador" : "Criterion Software Group Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Trigger Heart Exelica (Japan)",
+    "año" : "2007",
+    "desarrollador" : "Warashi Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Trizeal (Japan)",
+    "año" : "2005",
+    "desarrollador" : "Triangle Service",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Twinkle Star Sprites (Japan)",
+    "año" : "2000",
+    "desarrollador" : "SNK",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Typing of the Dead, The (USA)",
+    "año" : "2001",
+    "desarrollador" : "Smilebit",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "UEFA Dream Soccer (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Silicon Dreams Studio Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "UEFA Striker (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Rage Software",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Ultimate Fighting Championship (USA)",
+    "año" : "2000",
+    "desarrollador" : "Anchor, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Under Defeat (Japan)",
+    "año" : "2006",
+    "desarrollador" : "G.rev Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Unreal Tournament (USA)",
+    "año" : "2001",
+    "desarrollador" : "Epic Games, Inc.",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Urban Chaos (USA)",
+    "año" : "2000",
+    "desarrollador" : "Mucky Foot Productions Limited",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Vampire Chronicle for Matching Service (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Capcom Co., Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Vanishing Point (USA)",
+    "año" : "2000",
+    "desarrollador" : "Clockwork Games Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Vigilante 8 - 2nd Offense (USA)",
+    "año" : "1999",
+    "desarrollador" : "Luxoflux Corp.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Virtua Athlete 2000 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Virtua Cop 2 (Japan)",
+    "año" : "2000",
+    "desarrollador" : "AM R&D Dept. #2",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Virtua Fighter 3tb (USA)",
+    "año" : "1999",
+    "desarrollador" : "SEGA-AM2 Co., LTD.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Virtua Striker 2 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Genki Co., Ltd.,",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Virtua Tennis (USA)",
+    "año" : "2000",
+    "desarrollador" : "Hitmaker",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Virtual On - Oratorio Tangram (USA)",
+    "año" : "2000",
+    "desarrollador" : "Sega AM3 R&D Division",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Wacky Races (USA)",
+    "año" : "2000",
+    "desarrollador" : "Infogrames Studios Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Walt Disney World Quest - Magical Racing Tour (USA)",
+    "año" : "2000",
+    "desarrollador" : "Crystal Dynamics, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Wetrix+ (USA)",
+    "año" : "1999",
+    "desarrollador" : "Zed Two Game Design Studio",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Who Wants to Be a Millionaire (Europe)",
+    "año" : "2000",
+    "desarrollador" : "Hothouse Creations Ltd.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Who Wants to Beat Up a Millionaire (USA)",
+    "año" : "2000",
+    "desarrollador" : "Hypnotix, Inc.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Wild Metal (USA)",
+    "año" : "2000",
+    "desarrollador" : "DMA Design Limited",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "World Series Baseball 2K1 (USA)",
+    "año" : "2000",
+    "desarrollador" : "Wow Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "World Series Baseball 2K2 (USA)",
+    "año" : "2001",
+    "desarrollador" : "Visual Concepts Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Worms Armageddon (USA)",
+    "año" : "1999",
+    "desarrollador" : "Team17 Software Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Worms World Party (USA)",
+    "año" : "2001",
+    "desarrollador" : "Team17 Software Limited",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "WWF Attitude (USA)",
+    "año" : "1999",
+    "desarrollador" : "Iguana Entertainment, Inc.",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "WWF Royal Rumble (USA)",
+    "año" : "2000",
+    "desarrollador" : "Yuke's Co. Ltd.",
+    "valoracion" : "ESRB - T (Teen)"
+  }, {
+    "nombre" : "Xtreme Sports (USA)",
+    "año" : "2000",
+    "desarrollador" : "Innerloop Studios",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Yu Suzuki Game Works Vol. 1 (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Sega AM2",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Zero Gunner 2 (Japan)",
+    "año" : "2001",
+    "desarrollador" : "Psikyo",
+    "valoracion" : "ESRB - E (Everyone)"
+  }, {
+    "nombre" : "Zombie Revenge (USA)",
+    "año" : "1999",
+    "desarrollador" : "Data East Corporation",
+    "valoracion" : "ESRB - M (Mature)"
+  }, {
+    "nombre" : "Zusar Vasar (Japan)",
+    "año" : "2000",
+    "desarrollador" : "Real Vision",
+    "valoracion" : "ESRB - E (Everyone)"
+  } ]
+}
