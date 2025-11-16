@@ -1,0 +1,20 @@
+{
+  "Cine" : "Cinesa La Gavia",
+  "Numero de Peliculas" : 5,
+  "Peliculas" : [ {
+    "Pais" : "EE.UU",
+    "Titulo" : "Aquellas Juergas Universitarias"
+  }, {
+    "Pais" : "EE.UU",
+    "Titulo" : "El Rey Leónidas y 300 espartanos"
+  }, {
+    "Pais" : "EE.UU",
+    "Titulo" : "En busca de la felicidad"
+  }, {
+    "Pais" : "EE.UU",
+    "Titulo" : "Las Hermanas Bolena"
+  }, {
+    "Pais" : "EE.UU",
+    "Titulo" : "Historia del Juguete"
+  } ]
+}
