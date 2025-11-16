@@ -1,0 +1,2781 @@
+{
+    "Catalogo": "Sega Dreamcast",
+    "juegos": [
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "102 Dalmatians - Puppies to the Rescue (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "18 Wheeler - American Pro Trucker (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "4 Wheel Thunder (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Gathering",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "4x4 Evolution (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "90 Minutes - Sega Championship Football (Europe)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Strategy",
+            "jugadores": "1-8 Players",
+            "nombre": "Advanced Daisenryaku 2001 (Japan)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Crave",
+            "genero": "Flying",
+            "jugadores": "1-4 Players",
+            "nombre": "AeroWings (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Flying",
+            "jugadores": "1-2 Players",
+            "nombre": "AeroWings 2 - Air Strike (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Konami",
+            "genero": "Flying",
+            "jugadores": "1 Player",
+            "nombre": "AirForce Delta (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "Alien Front Online (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Infogrames",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Alone in the Dark - The New Nightmare (USA) (Disc 1)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Infogrames",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Alone in the Dark - The New Nightmare (USA) (Disc 2)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Take-Two Interactive",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Aqua GT (Europe)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Metro3D",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Armada (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Army Men - Sarge's Heroes (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Infogrames",
+            "genero": "Miscellaneous",
+            "jugadores": "1-4 Players",
+            "nombre": "Atari Anniversary Edition (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Red Storm Entertainment",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "BANG! Gunship Elite (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Conspiracy Entertainment",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Bangai-O (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1-2 Players",
+            "nombre": "Blue Stinger (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Bimboosoft",
+            "genero": "Sports/Tennis",
+            "jugadores": "1-4 Players",
+            "nombre": "Boku no Tennis Jinsei (Japan)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Strategy",
+            "jugadores": "1-4 Players",
+            "nombre": "Bomberman Online (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2003,
+            "desarrollador": "G.Rev",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Border Down (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Bust-A-Move 4 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Activision",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Buzz Lightyear of Star Command (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Interplay",
+            "genero": "Casino",
+            "jugadores": "1-4 Players",
+            "nombre": "Caesars Palace 2000 - Millennium Gold Edition (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Shooter",
+            "jugadores": "1-2 Players",
+            "nombre": "Cannon Spike (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Capcom vs. SNK (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 1991,
+            "desarrollador": "Capcom",
+            "genero": "Miscellaneous",
+            "jugadores": "1-2 Players",
+            "nombre": "Capcom vs. SNK 2 Fan Disc (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Jaleco Entertainment",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Carrier (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2004,
+            "desarrollador": "Media Quest",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Castle Shikigami 2 (Japan)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Leaping Lizard Software Inc.",
+            "genero": "Shooter",
+            "jugadores": "1-2 Players",
+            "nombre": "Centipede (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Mattel",
+            "genero": "Sports/Surfing",
+            "jugadores": "1-4 Players",
+            "nombre": "Championship Surfer (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2004,
+            "desarrollador": "MileStone Inc.",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Chaos Field (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Xicat Interactive",
+            "genero": "Shooter",
+            "jugadores": "1-2 Players",
+            "nombre": "Charge 'N Blast (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Chicken Run (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Strategy",
+            "jugadores": "1-4 Players",
+            "nombre": "Chu Chu Rocket! (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Altron",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Cleopatra Fortune (Japan)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Xicat Interactive",
+            "genero": "Strategy",
+            "jugadores": "1 Player",
+            "nombre": "Coaster Works (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Gun",
+            "jugadores": "1-2 Players",
+            "nombre": "Confidential Mission (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Ubisoft",
+            "genero": "Strategy",
+            "jugadores": "1 Player",
+            "nombre": "Conflict Zone - Modern War Strategy (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "SNK",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Cool Cool Toon (Japan)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Sports",
+            "jugadores": "1 Player",
+            "nombre": "Cosmic Smash (Japan)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "Crazy Taxi (USA)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "Crazy Taxi 2 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "D2 (USA) (Disc 1)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "D2 (USA) (Disc 2)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "D2 (USA) (Disc 3)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "D2 (USA) (Disc 4)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Dance Dance Revolution 2nd Mix (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Dance Dance Revolution Club Mix (Japan)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Biking/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Dave Mirra Freestyle BMX (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Daytona USA (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Tecmo",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Dead or Alive 2 - Limited Edition (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Tecmo",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Dead or Alive 2 (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sammy Studios",
+            "genero": "Gun",
+            "jugadores": "1-2 Players",
+            "nombre": "Death Crimson OX (USA)",
+            "puntuacion": 2.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Simulation",
+            "jugadores": "1 Player",
+            "nombre": "Deep Fighter (USA) (Disc 1)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Simulation",
+            "jugadores": "1 Player",
+            "nombre": "Deep Fighter (USA) (Disc 2)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Demolition Racer - No Exit (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Dino Crisis (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Disney's Dinosaur (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Disney's Donald Duck - Goin' Quackers (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Draconus - Cult of the Wyrm (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Ubisoft",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Dragon Riders - Chronicles of Pern (USA)",
+            "puntuacion": 2.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Acclaim",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Ducati World Racing Challenge (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2009,
+            "desarrollador": "HUCAST",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "DUX (Japan)",
+            "puntuacion": 2.7
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Dynamite Cop! (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Ecco the Dolphin - Defender of the Future (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "ECW Anarchy Rulz (USA)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "ECW Hardcore Revolution (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Vatical Entertainment",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "EGG - Elemental Gimmick Gear (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Olympic/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "ESPN International Track & Field (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "ESPN NBA 2Night (USA)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Virgin Interactive",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "European Super League (Europe)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "THQ",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Evil Dead - Hail to the King (USA)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Ubisoft",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Evil Twin - Cyprien's Chronicles (Europe)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Evolution - The World of Sacred Device (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Evolution 2 - Far Off Promise (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Titus Software",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Exhibition of Speed (Europe)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Infogrames",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Expendable (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "F1 Racing Championship (Europe)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "F1 World Grand Prix (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Video System",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "F1 World Grand Prix II (Europe)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "F355 Challenge - Passione Rossa (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2010,
+            "desarrollador": "NG-DEV.TEAM",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Fast Striker (Japan)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "GOAT Store, LLC, The",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Fatal Fury - Mark of the Wolves (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Fighting Force 2 (USA)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Fighting Vipers 2 (Europe)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Flag to Flag (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Floigan Bros. - Episode 1 (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Hasbro Interactive",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Frogger 2 - Swampy's Revenge (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Fur Fighters (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Gauntlet Legends (USA)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-4 Players",
+            "nombre": "Get!! Colonies (Japan)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "Giant Gram - All-Japan Pro Wrestling 2 (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "Giant Gram 2000 - All-Japan Pro Wrestling 3 (Japan)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "AAA",
+            "genero": "Soccer/Sports",
+            "jugadores": "1 Player",
+            "nombre": "Giant Killers (Europe)",
+            "puntuacion": 2.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Giga Wing (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-4 Players",
+            "nombre": "Giga Wing 2 (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Rockstar Games",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Grand Theft Auto 2 (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Grandia II (USA) (Disc 1)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Grandia II (USA) (Disc 2)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Grinch, The (USA)",
+            "puntuacion": 2.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sammy Studios",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Guilty Gear X (Japan)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Gunbird 2 (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Bandai",
+            "genero": "Simulation",
+            "jugadores": "1 Player",
+            "nombre": "Gundam Side Story 0079 - Rise from the Ashes (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2012,
+            "desarrollador": "NG-Dev.Team",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "GunLord (World)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Headhunter (Europe) (Disc 1)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Headhunter (Europe) (Disc 2)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Heavy Metal - Geomatrix (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-4 Players",
+            "nombre": "Hello Kitty - Lovely Fruit Park (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Quiz",
+            "jugadores": "1 Player",
+            "nombre": "Hello Kitty - Waku Waku Cookies (Japan)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1 Player",
+            "nombre": "Hello Kitty no Magical Block (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "TalonSoft",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Hidden & Dangerous (USA)",
+            "puntuacion": 2.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Gun",
+            "jugadores": "1-2 Players",
+            "nombre": "House of the Dead 2, The (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sierra Entertainment",
+            "genero": "Casino",
+            "jugadores": "1-4 Players",
+            "nombre": "Hoyle Casino (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Midway",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Hydro Thunder (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "ESP Software",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Ikaruga (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "AIA",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Illbleed (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 1998,
+            "desarrollador": "Interplay",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Incoming (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "UFO Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Industrial Spy - Operation Espionage (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Xicat Interactive",
+            "genero": "Flying",
+            "jugadores": "1-2 Players",
+            "nombre": "Iron Aces (USA)",
+            "puntuacion": 2.7
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "J-League Spectacle Soccer (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Motorcycle",
+            "jugadores": "1-2 Players",
+            "nombre": "Jeremy McGrath Supercross 2000 (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Jet Grind Radio (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Virgin Interactive",
+            "genero": "Pool and Dart",
+            "jugadores": "1-2 Players",
+            "nombre": "Jimmy White's 2 - Cueball (Europe)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Jojo's Bizarre Adventure (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Titus Software",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "KAO the Kangaroo (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2007,
+            "desarrollador": "MileStone Inc.",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Karous (Japan)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Agetec Inc.",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "King of Fighters '99 Evolution, The (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Playmore",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "King of Fighters 2000 (Japan)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Playmore",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "King of Fighters 2001 (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2003,
+            "desarrollador": "Playmore",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "King of Fighters 2002 (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "SNK",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "King of Fighters Dream Match 1999, The (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Gathering",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "KISS Psycho Circus - The Nightmare Child (USA)",
+            "puntuacion": 2.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "ASCII Entertainment",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "L.O.L. - Lack of Love (Japan)",
+            "puntuacion": 4.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Agetec Inc.",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Last Blade 2 - Heart of the Samurai, The (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2009,
+            "desarrollador": "NG-DEV.TEAM",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Last Hope - Pink Bullets (Europe)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2007,
+            "desarrollador": "NG-DEV.TEAM",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Last Hope (Japan)",
+            "puntuacion": 4.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Legacy of Kain - Soul Reaver (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Looney Tunes - Space Race (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Shoeisha",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Macross M3 (Japan)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Magforce Racing (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Atlus Co.",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Maken X (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Mars Matrix (USA)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Marvel vs. Capcom (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Marvel vs. Capcom 2 (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Activision",
+            "genero": "Biking/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Mat Hoffman's Pro BMX (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Mattel",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Max Steel (USA)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sierra Entertainment",
+            "genero": "Pool and Dart",
+            "jugadores": "1-4 Players",
+            "nombre": "Maximum Pool (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Interplay",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "MDK 2 (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Metropolis Street Racer (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Miscellaneous",
+            "jugadores": "1-2 Players",
+            "nombre": "Midway's Greatest Arcade Hits Volume 1 (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Miscellaneous",
+            "jugadores": "1-2 Players",
+            "nombre": "Midway's Greatest Arcade Hits Volume 2 (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Take-Two Interactive",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Moho (Europe)",
+            "puntuacion": 2.2
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Monaco Grand Prix (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Midway",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Mortal Kombat Gold (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Namco",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Mr. Driller (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Namco",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Ms. Pac-Man Maze Madness (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "THQ",
+            "genero": "Skateboarding/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "MTV Sports - Skateboarding Featuring Andy McDonald (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Ecole",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Musapey's Choco Marker (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Namco",
+            "genero": "Miscellaneous",
+            "jugadores": "1-2 Players",
+            "nombre": "Namco Museum (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NBA 2K (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-8 Players",
+            "nombre": "NBA 2K1 (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-8 Players",
+            "nombre": "NBA 2K2 (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Midway",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NBA Hoopz (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Midway",
+            "genero": "Basketball/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NBA Showtime - NBA on NBC (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Football/Sports",
+            "jugadores": "1-8 Players",
+            "nombre": "NCAA College Football 2K2 (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Success",
+            "genero": "Pinball",
+            "jugadores": "1 Player",
+            "nombre": "Neo Golden Logres (Japan)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Sports/Tennis",
+            "jugadores": "1-4 Players",
+            "nombre": "Netto de Tennis (Japan)",
+            "puntuacion": 4.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Tomy Corporation",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "New Japan Pro Wrestling - Toukon Retsuden 4 (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Next Tetris - On-line Edition, The (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL 2K (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL 2K1 (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Sega",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL 2K2 (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Midway",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL Blitz 2000 (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL Blitz 2001 (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL QB Club 2001 (USA)",
+            "puntuacion": 2.1
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Football/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NFL Quarterback Club 2000 (USA)",
+            "puntuacion": 1.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Hockey/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NHL 2K (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Sega",
+            "genero": "Hockey/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "NHL 2K2 (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Nightmare Creatures II (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Omikron - The Nomad Soul (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Ooga Booga (USA)",
+            "puntuacion": 4.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1-6 Players",
+            "nombre": "Outtrigger (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Infogrames",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Pen Pen TriIcelon (USA)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Phantasy Star Online (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Phantasy Star Online Ver. 2 (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-4 Players",
+            "nombre": "Planet Ring (Europe)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Plasma Sword - Nightmare of Bilstein (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Takuhiro",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Plus Plum (Japan)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "POD - Speedzone (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Power Stone (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Power Stone 2 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Mattel",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Prince of Persia - Arabian Nights (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Empire Interactive",
+            "genero": "Pool and Dart",
+            "jugadores": "1-4 Players",
+            "nombre": "Pro Pinball Trilogy (Europe)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Project Justice (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Psychic Force 2012 (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2004,
+            "desarrollador": "Success",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Psyvariar 2 - The Will to Fabricate (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-4 Players",
+            "nombre": "Puyo Puyo 4 (Japan)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Compile",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Puyo Puyo Da! (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2004,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Puyo Puyo Fever (Japan)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Hasbro Interactive",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Q-Bert (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Quake III Arena (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2006,
+            "desarrollador": "MileStone Inc.",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Radirgy (Japan)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Gathering",
+            "genero": "Strategy",
+            "jugadores": "1-2 Players",
+            "nombre": "Railroad Tycoon II - Gold Edition (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Success",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Rainbow Cotton (Japan)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Platform",
+            "jugadores": "1-4 Players",
+            "nombre": "Rayman 2 - The Great Escape (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Crave",
+            "genero": "Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Razor Freestyle Scooter (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Re-Volt (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Boxing/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Ready 2 Rumble Boxing - Round 2 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Midway",
+            "genero": "Boxing/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Ready 2 Rumble Boxing (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Conspiracy Entertainment",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Record of Lodoss War (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Red Dog - Superior Firepower (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Natsume",
+            "genero": "Fishing/Sports",
+            "jugadores": "1 Player",
+            "nombre": "Reel Fishing - Wild (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Resident Evil 2 (USA) (Disc 1)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Resident Evil 2 (USA) (Disc 2)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Resident Evil 3 - Nemesis (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Resident Evil Code - Veronica (USA) (Disc 1)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Resident Evil Code - Veronica (USA) (Disc 2)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Sega",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "Rez (Europe)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Ring - Terror's Realm, The (USA)",
+            "puntuacion": 2
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Snowboarding/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Rippin' Riders (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Titus Software",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Roadsters (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Samba de Amigo (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Samba de Amigo ver. 2000 (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Midway",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "San Francisco Rush 2049 (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Fishing/Sports",
+            "jugadores": "1 Player",
+            "nombre": "Sega Bass Fishing (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Fishing/Sports",
+            "jugadores": "1 Player",
+            "nombre": "Sega Bass Fishing 2 (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Sega GT (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Fishing/Sports",
+            "jugadores": "1 Player",
+            "nombre": "Sega Marine Fishing (USA)",
+            "puntuacion": 4.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Sega Rally Championship 2 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Miscellaneous",
+            "jugadores": "1-2 Players",
+            "nombre": "Sega Smash Pack Volume 1 (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Sega Swirl (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Sega Tetris (Japan)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Sega Worldwide Soccer 2000 (Europe)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Sega Worldwide Soccer 2000 Euro Edition (Europe)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "UFO Interactive",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Seventh Cross Evolution (USA)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shadow Man (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue (USA) (Disc 1)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue (USA) (Disc 2)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue (USA) (Disc 3)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue II (Europe) (Disc 1)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue II (Europe) (Disc 2)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Shenmue II (Europe) (Disc 3)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Konami",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "Silent Scope (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Silver (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Skies of Arcadia (USA) (Disc 1)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Role-Playing",
+            "jugadores": "1 Player",
+            "nombre": "Skies of Arcadia (USA) (Disc 2)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Infogrames",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Slave Zero (USA)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Sno-Cross Championship Racing (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Crave",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Soldier of Fortune (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Sonic Adventure (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Platform",
+            "jugadores": "1-2 Players",
+            "nombre": "Sonic Adventure 2 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Platform",
+            "jugadores": "1 Player",
+            "nombre": "Sonic Adventure International (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Sonic Shuffle (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Namco",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Soul Calibur (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Mindscape Inc.",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Soul Fighter (USA)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Game Show",
+            "jugadores": "1-4 Players",
+            "nombre": "South Park - Chef's Luv Shack (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "South Park Rally (USA)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Rhythm",
+            "jugadores": "1 Player",
+            "nombre": "Space Channel 5 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2002,
+            "desarrollador": "Sega",
+            "genero": "Rhythm",
+            "jugadores": "1-2 Players",
+            "nombre": "Space Channel 5 Part 2 (Japan)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Spawn - In the Demon's Hand (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ripcord Games",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "Spec Ops II - Omega Squad (USA)",
+            "puntuacion": 2.1
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Speed Devils (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Speed Devils Online Racing (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Activision",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Spider-Man (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "LJN Ltd.",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "Spirit of Speed 1937 (USA)",
+            "puntuacion": 2.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Agetec Inc.",
+            "genero": "Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Sports Jam (USA)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "LucasArts",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Star Wars - Demolition (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "LucasArts",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Star Wars - Episode I Racer (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "LucasArts",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Star Wars Episode I - Jedi Power Battles (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Simulation",
+            "jugadores": "1-6 Players",
+            "nombre": "StarLancer (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Street Fighter Alpha 3 (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Street Fighter III - 3rd Strike (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Street Fighter III - Double Impact (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Striker Pro 2000 (USA)",
+            "puntuacion": 2.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "EON Digital Entertainment",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Stunt GP (Europe)",
+            "puntuacion": 4.6
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Ubisoft",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Stupid Invaders (USA) (Disc 1)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Ubisoft",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Stupid Invaders (USA) (Disc 2)",
+            "puntuacion": 3.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Imagineer",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Super Euro Soccer 2000 (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Super Magnetic Neo (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Capcom",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Super Puzzle Fighter 2 X (Japan)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Interplay",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "Super Runabout - San Francisco Edition (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-4 Players",
+            "nombre": "Super Street Fighter 2 X (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Surf Rocket Racers (USA)",
+            "puntuacion": 1.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Ubisoft",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Suzuki Alstare Extreme Racing (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Sword of the Berserk - Guts' Rage (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Olympic/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Sydney 2000 (USA)",
+            "puntuacion": 2.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Tech Romancer (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Golf/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Tee Off (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Sports/Tennis",
+            "jugadores": "1-4 Players",
+            "nombre": "Tennis 2K2 (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Test Drive 6 (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Test Drive Le Mans (USA)",
+            "puntuacion": 4.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Test Drive V-Rally (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 1998,
+            "desarrollador": "Bullet Proof Software",
+            "genero": "Puzzle",
+            "jugadores": "1-4 Players",
+            "nombre": "Tetris 4D (Japan)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Role-Playing",
+            "jugadores": "1-2 Players",
+            "nombre": "Time Stalkers (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "ASC Games",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "TNN Motorsports Hardcore Heat (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Tokyo Xtreme Racer (USA)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Driving",
+            "jugadores": "1 Player",
+            "nombre": "Tokyo Xtreme Racer 2 (USA)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Red Storm Entertainment",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Tom Clancy's Rainbow Six - Rogue Spear (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Majesco Games",
+            "genero": "Shooter",
+            "jugadores": "1 Player",
+            "nombre": "Tom Clancy's Rainbow Six (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Tomb Raider - Chronicles (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Tomb Raider - The Last Revelation (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Skateboarding/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Tony Hawk's Pro Skater (USA)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Activision",
+            "genero": "Skateboarding/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Tony Hawk's Pro Skater 2 (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Adventure",
+            "jugadores": "1-4 Players",
+            "nombre": "Toy Commander (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Toy Racer (Europe)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Activision",
+            "genero": "Action",
+            "jugadores": "1 Player",
+            "nombre": "Toy Story 2 - Buzz Lightyear to the Rescue! (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Skateboarding/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "TrickStyle (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2007,
+            "desarrollador": "Warashi",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1 Player",
+            "nombre": "Trigger Heart Exelica (Japan)",
+            "puntuacion": 4.6
+        },
+        {
+            "anyoo": 2005,
+            "desarrollador": "Triangle Service",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Trizeal (Japan)",
+            "puntuacion": 3.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "SNK",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Twinkle Star Sprites (Japan)",
+            "puntuacion": 4.1
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Typing of the Dead, The (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "UEFA Dream Soccer (Europe)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "UEFA Striker (Europe)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Crave",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Ultimate Fighting Championship (USA)",
+            "puntuacion": 2.7
+        },
+        {
+            "anyoo": 2006,
+            "desarrollador": "Grev Ltd.",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Under Defeat (Japan)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Infogrames",
+            "genero": "Shooter",
+            "jugadores": "1-4 Players",
+            "nombre": "Unreal Tournament (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Adventure",
+            "jugadores": "1 Player",
+            "nombre": "Urban Chaos (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Capcom",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Vampire Chronicle for Matching Service (Japan)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Acclaim",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Vanishing Point (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Activision",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Vigilante 8 - 2nd Offense (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Agetec Inc.",
+            "genero": "Olympic/Sports",
+            "jugadores": "1-4 Players",
+            "nombre": "Virtua Athlete 2000 (USA)",
+            "puntuacion": 4.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Gun",
+            "jugadores": "1-2 Players",
+            "nombre": "Virtua Cop 2 (Japan)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Virtua Fighter 3tb (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Soccer/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Virtua Striker 2 (USA)",
+            "puntuacion": 3.2
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Sports/Tennis",
+            "jugadores": "1-4 Players",
+            "nombre": "Virtua Tennis (USA)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Activision",
+            "genero": "Fighter",
+            "jugadores": "1-2 Players",
+            "nombre": "Virtual On - Oratorio Tangram (USA)",
+            "puntuacion": 3.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Wacky Races (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Driving",
+            "jugadores": "1-4 Players",
+            "nombre": "Walt Disney World Quest - Magical Racing Tour (USA)",
+            "puntuacion": 2.8
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Xicat Interactive",
+            "genero": "Puzzle",
+            "jugadores": "1-2 Players",
+            "nombre": "Wetrix+ (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Eidos Interactive",
+            "genero": "Game Show",
+            "jugadores": "1-4 Players",
+            "nombre": "Who Wants to Be a Millionaire (Europe)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Berkeley",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Who Wants to Beat Up a Millionaire (USA)",
+            "puntuacion": 3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Rockstar Games",
+            "genero": "Action",
+            "jugadores": "1-2 Players",
+            "nombre": "Wild Metal (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Sega",
+            "genero": "Baseball/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "World Series Baseball 2K1 (USA)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Baseball/Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "World Series Baseball 2K2 (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Hasbro Interactive",
+            "genero": "Action",
+            "jugadores": "1-4 Players",
+            "nombre": "Worms Armageddon (USA)",
+            "puntuacion": 3.7
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Titus Software",
+            "genero": "Strategy",
+            "jugadores": "1-4 Players",
+            "nombre": "Worms World Party (USA)",
+            "puntuacion": 3.4
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Acclaim",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "WWF Attitude (USA)",
+            "puntuacion": 2.9
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "THQ",
+            "genero": "Sports/Wrestling",
+            "jugadores": "1-4 Players",
+            "nombre": "WWF Royal Rumble (USA)",
+            "puntuacion": 3.3
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Infogrames",
+            "genero": "Sports",
+            "jugadores": "1-2 Players",
+            "nombre": "Xtreme Sports (USA)",
+            "puntuacion": 3.5
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Sega",
+            "genero": "Miscellaneous",
+            "jugadores": "1 Player",
+            "nombre": "Yu Suzuki Game Works Vol. 1 (Japan)",
+            "puntuacion": 4
+        },
+        {
+            "anyoo": 2001,
+            "desarrollador": "Psikyo",
+            "genero": "Shoot-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Zero Gunner 2 (Japan)",
+            "puntuacion": 4.3
+        },
+        {
+            "anyoo": 1999,
+            "desarrollador": "Sega",
+            "genero": "Beat-'Em-Up",
+            "jugadores": "1-2 Players",
+            "nombre": "Zombie Revenge (USA)",
+            "puntuacion": 3.6
+        },
+        {
+            "anyoo": 2000,
+            "desarrollador": "Real Vision",
+            "genero": "Driving",
+            "jugadores": "1-2 Players",
+            "nombre": "Zusar Vasar (Japan)",
+            "puntuacion": 3.9
+        }
+    ]
+}
