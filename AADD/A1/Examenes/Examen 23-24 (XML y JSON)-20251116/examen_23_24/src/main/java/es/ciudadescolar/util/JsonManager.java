@@ -30,6 +30,8 @@ public class JsonManager {
 
             JsonNode root = mapper.readTree(ficheroJson);
 
+            //JsonNode consola = root.get("Catalogo");
+
             JsonNode juegos = root.get("juegos");
             for (JsonNode juegNode : juegos) {
                 
