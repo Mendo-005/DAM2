@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera SYSTEM "cartelera.dtd">
+<cartelera>
+	<cine>Cinesa La Gavia</cine>
+	<pelicula>
+		<titulo>Aquellas Juergas Universitarias</titulo>
+		<titulooriginal>'Old School'</titulooriginal>
+		<pais>EE.UU</pais>
+		<año>2003</año>
+		<duracion>93min</duracion>
+		<director>Todd Philips</director>
+		<interpretes>Will Ferrell, Luke Wilson, Vince Vaughn, Jeremy Piven, Juliette Lewis, Sean William Scott</interpretes>
+		<genero>comedia</genero>
+		<sinopsis>Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban. 
+					Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra. 
+					Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban años atrás. 
+					Y Beanie es un padre de familia que se muere por recuperar su alocada juventud. 
+					Pero las cosas cambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad.
+					Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes.
+		</sinopsis>
+		<clasificacion>Para mayores de 16 años</clasificacion>
+	</pelicula>
+	<pelicula>
+		<titulo>El Rey Leónidas y 300 espartanos</titulo>
+		<titulooriginal>300</titulooriginal>
+		<pais>EE.UU</pais>
+		<año>2008</año>
+		<duracion>117min</duracion>
+		<director>Zack Snyder</director>
+		<interpretes>Gerard Butler, Lena Headey, Dominic West, Davis Wenham, Vincent Regan, Michael Fassbender, Tom Wisdom, Andrew Pleavin, Andrew Tiernan, Rodrigo Santoro</interpretes>
+		<genero>Bélica ,Histórica o biográfica</genero>
+		<sinopsis>El Rey Leónidas y 300 espartanos lucharon hasta la muerte contra Jerjes y su gran ejército persa en la antigua Batalla de las Termópilas. Su valor y sacrificio consiguió que toda Grecia se uniera en contra del enemigo persa, desafiando al destino y fundando las bases de la democracia.</sinopsis>
+		<clasificacion>Para mayores de 18 años</clasificacion>
+	</pelicula>
+	<pelicula>
+		<titulo>En busca de la felicidad</titulo>
+		<titulooriginal>Looking For Happiness</titulooriginal>
+		<pais>EE.UU</pais>
+		<año>2010</año>
+		<duracion>130min</duracion>
+		<director>Gabriele Muccino</director>
+		<interpretes>Will Smith, Jaden Smith, Thandie Newton, Brian Howe, James Karen, Dan Castellaneta, Kurt Fuller, Takayo Fischer</interpretes>
+		<genero>Drama</genero>
+		<sinopsis>Chris Gardner es un padre en apuros. A pesar de su valía, su situación económica empeora cada día y su mujer le abandona incapaz de soportar esa situación de precariedad. Chris se queda solo en compañía de su hijo de cinco años, un niño en el que se apoyará para salir del bache y con el que tendrá que compartir la etapa más dura de su vida pero a la vez la más enriquecedora. Sin techo bajo el que vivir, Chris y su hijo comienzan un largo peregrinar por casas de acogida o estaciones de autobús.</sinopsis>
+		<clasificacion>Para mayores de 16 años</clasificacion>
+	</pelicula>
+	<pelicula>
+		<titulo>Las Hermanas Bolena</titulo>
+		<titulooriginal>The Other Boleyn Girl</titulooriginal>
+		<pais>EE.UU</pais>
+		<año>2008</año>
+		<duracion>230min</duracion>
+		<director>Justin Chadwick</director>
+		<interpretes>Natalie Portman, Scarlett Johansson, Eric Bana, David Morrisey, Kristin Scott Thomas, Mark Rylance, Jim Sturgess, Ana Torrent</interpretes>
+		<genero>Drama</genero>
+		<sinopsis>Para sir Tomás Bolena, sus dos hijas, Ana y su hermana menor María, son dos valiosas piezas de mercancía a las que hay que tutelar con sumo cuidado para que obtengan el máximo provecho social y económico para la familia.</sinopsis>
+		<clasificacion>Para mayores de 16 años</clasificacion>
+	</pelicula>
+	<pelicula>
+		<titulo>Historia del Juguete</titulo>
+		<titulooriginal>Toy Story 4</titulooriginal>
+		<pais>EE.UU</pais>
+		<año>2019</año>
+		<duracion>114min</duracion>
+		<director>Josh Cooley</director>
+		<interpretes>Tom Hanks, Tim Allen, Annie Potts, Joan Cusack, Tony Hale</interpretes>
+		<genero>Animación, Aventura</genero>
+		<sinopsis>Woody siempre ha sabido cuál es su lugar en el mundo, y que su prioridad es cuidar de su dueño, ya sea Bonnie o Andy, pero cuando Bonnie agrega un juguete nuevo y reacio llamado Forky a su dormitorio, una aventura junto a viejos y nuevos amigos le mostrarán a Woody qué tan grande puede ser el mundo para un juguete. En el camino, Woody se reúne inesperadamente con una vieja amiga.</sinopsis>
+		<clasificacion>Tp (Recomendada para todos los publicos)</clasificacion>
+	</pelicula>
+</cartelera>
+
