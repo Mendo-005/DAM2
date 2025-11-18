@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE cartelera SYSTEM "cartelera.dtd">
+<cartelera cine="Cinesa La Gavia">
+    <pelicula pais="EE.UU" titulo="Aquellas Juergas Universitarias"/>
+    <pelicula pais="EE.UU" titulo="El Rey Leónidas y 300 espartanos"/>
+    <pelicula pais="EE.UU" titulo="En busca de la felicidad"/>
+    <pelicula pais="EE.UU" titulo="Las Hermanas Bolena"/>
+    <pelicula pais="EE.UU" titulo="Historia del Juguete"/>
+</cartelera>

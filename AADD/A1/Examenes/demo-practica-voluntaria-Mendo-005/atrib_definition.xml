@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definicion_atributos>
+	<atributo name="Div" value="division"/>
+	<atributo name="Date" value="fecha"/>
+	<atributo name="FTAG" value="goles visitante"/>
+	<atributo name="FTHG" value="goles local"/>
+	<atributo name="HomeTeam" value="equipo local"/>
+	<atributo name="AwayTeam" value="equipo visitante"/>
+	<atributo name="AR" value="tarjetas rojas visitante"/>
+	<atributo name="HR" value="tarjetas rojas local"/>
+	<atributo name="AY" value="tarjetas amarillas visitante"/>
+	<atributo name="HY" value="tarjetas amarillas local"/>
+</definicion_atributos>

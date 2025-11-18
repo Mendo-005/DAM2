@@ -1,0 +1,29 @@
+{
+  "nombre" : "Hospital General Central",
+  "medicos" : [ {
+    "id" : "M04",
+    "especialidad" : "Nefrologia",
+    "Nombre" : "Luisa",
+    "Apellido" : "Sanz Diaz"
+  }, {
+    "id" : "M03",
+    "especialidad" : "Neurologia",
+    "Nombre" : "Juan",
+    "Apellido" : "Perez Lopez"
+  }, {
+    "id" : "M05",
+    "especialidad" : "Traumatologia",
+    "Nombre" : "Pedro",
+    "Apellido" : "Pin Delgado"
+  }, {
+    "id" : "M002",
+    "especialidad" : "Pediatria",
+    "Nombre" : "Carlos",
+    "Apellido" : "Martinez Ruiz"
+  }, {
+    "id" : "M001",
+    "especialidad" : "Cardiologia",
+    "Nombre" : "Laura",
+    "Apellido" : "Perez Gomez"
+  } ]
+}

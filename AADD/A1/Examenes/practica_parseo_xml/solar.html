@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar Interactivo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+            overflow: hidden;
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Fondo espacial con estrellas */
+        #stars-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        /* Sistema Solar */
+        #solar-system {
+            position: relative;
+            width: 900px;
+            height: 900px;
+            transform-style: preserve-3d;
+            transform: rotateX(60deg);
+            z-index: 1;
+        }
+
+        /* Sol */
+        #sun {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, #FDB813, #FFA000, #FF6000);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 
+                0 0 60px #FFA000,
+                0 0 100px #FF6000,
+                0 0 150px #FF4000,
+                inset 0 0 20px #FF6000;
+            animation: sunGlow 2s ease-in-out infinite;
+            z-index: 10;
+            cursor: pointer;
+        }
+
+        @keyframes sunGlow {
+            0%, 100% { 
+                box-shadow: 
+                    0 0 60px #FFA000,
+                    0 0 100px #FF6000,
+                    0 0 150px #FF4000,
+                    inset 0 0 20px #FF6000;
+            }
+            50% { 
+                box-shadow: 
+                    0 0 80px #FFA000,
+                    0 0 120px #FF6000,
+                    0 0 180px #FF4000,
+                    inset 0 0 30px #FF6000;
+            }
+        }
+
+        /* Órbitas */
+        .orbit {
+            position: absolute;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        /* Planetas */
+        .planet-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        .planet {
+            position: absolute;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .planet:hover {
+            transform: scale(1.5);
+        }
+
+        /* Mercurio */
+        #mercury-orbit {
+            width: 140px;
+            height: 140px;
+        }
+
+        #mercury-container {
+            animation: rotate 4s linear infinite;
+        }
+
+        #mercury {
+            width: 12px;
+            height: 12px;
+            background: radial-gradient(circle, #8C7853, #5C4033);
+            top: -6px;
+            left: calc(50% - 6px);
+            box-shadow: 0 0 10px rgba(140, 120, 83, 0.5);
+        }
+
+        /* Venus */
+        #venus-orbit {
+            width: 200px;
+            height: 200px;
+        }
+
+        #venus-container {
+            animation: rotate 7s linear infinite;
+        }
+
+        #venus {
+            width: 22px;
+            height: 22px;
+            background: radial-gradient(circle, #FFC649, #D4A76A);
+            top: -11px;
+            left: calc(50% - 11px);
+            box-shadow: 0 0 15px rgba(255, 198, 73, 0.5);
+        }
+
+        /* Tierra */
+        #earth-orbit {
+            width: 280px;
+            height: 280px;
+        }
+
+        #earth-container {
+            animation: rotate 10s linear infinite;
+        }
+
+        #earth {
+            width: 24px;
+            height: 24px;
+            background: radial-gradient(circle at 30% 30%, #4A90E2, #2E7CD6, #1565C0);
+            top: -12px;
+            left: calc(50% - 12px);
+            box-shadow: 0 0 20px rgba(74, 144, 226, 0.6);
+        }
+
+        /* Luna */
+        #moon {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: #E0E0E0;
+            border-radius: 50%;
+            top: -20px;
+            left: calc(50% - 3px);
+            animation: rotate 2s linear infinite;
+            transform-origin: center 32px;
+        }
+
+        /* Marte */
+        #mars-orbit {
+            width: 360px;
+            height: 360px;
+        }
+
+        #mars-container {
+            animation: rotate 15s linear infinite;
+        }
+
+        #mars {
+            width: 18px;
+            height: 18px;
+            background: radial-gradient(circle, #CD5C5C, #8B2500);
+            top: -9px;
+            left: calc(50% - 9px);
+            box-shadow: 0 0 15px rgba(205, 92, 92, 0.5);
+        }
+
+        /* Júpiter */
+        #jupiter-orbit {
+            width: 500px;
+            height: 500px;
+        }
+
+        #jupiter-container {
+            animation: rotate 25s linear infinite;
+        }
+
+        #jupiter {
+            width: 50px;
+            height: 50px;
+            background: radial-gradient(circle at 30% 30%, #D4A373, #A0522D, #8B4513);
+            top: -25px;
+            left: calc(50% - 25px);
+            box-shadow: 0 0 30px rgba(212, 163, 115, 0.5);
+        }
+
+        /* Saturno */
+        #saturn-orbit {
+            width: 620px;
+            height: 620px;
+        }
+
+        #saturn-container {
+            animation: rotate 35s linear infinite;
+        }
+
+        #saturn {
+            width: 45px;
+            height: 45px;
+            background: radial-gradient(circle, #FAD5A5, #C19A6B);
+            top: -22.5px;
+            left: calc(50% - 22.5px);
+            box-shadow: 0 0 25px rgba(250, 213, 165, 0.5);
+        }
+
+        /* Anillos de Saturno */
+        #saturn::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 20px;
+            border: 3px solid rgba(250, 213, 165, 0.6);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotateX(70deg);
+        }
+
+        /* Urano */
+        #uranus-orbit {
+            width: 720px;
+            height: 720px;
+        }
+
+        #uranus-container {
+            animation: rotate 50s linear infinite;
+        }
+
+        #uranus {
+            width: 30px;
+            height: 30px;
+            background: radial-gradient(circle, #4FD0E7, #3498DB);
+            top: -15px;
+            left: calc(50% - 15px);
+            box-shadow: 0 0 20px rgba(79, 208, 231, 0.5);
+        }
+
+        /* Neptuno */
+        #neptune-orbit {
+            width: 820px;
+            height: 820px;
+        }
+
+        #neptune-container {
+            animation: rotate 60s linear infinite;
+        }
+
+        #neptune {
+            width: 28px;
+            height: 28px;
+            background: radial-gradient(circle, #4B70DD, #1E3A8A);
+            top: -14px;
+            left: calc(50% - 14px);
+            box-shadow: 0 0 20px rgba(75, 112, 221, 0.5);
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Panel de información */
+        #info-panel {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 300px;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        #info-panel h2 {
+            margin-bottom: 10px;
+            color: #FFA500;
+        }
+
+        #info-panel p {
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        /* Controles */
+        #controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 100;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .control-btn {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            outline: none;
+        }
+
+        .control-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .control-btn:active {
+            transform: translateY(0);
+        }
+
+        .control-btn.active {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        /* Velocidad slider */
+        #speed-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+        }
+
+        #speed-slider {
+            width: 100px;
+            height: 5px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            outline: none;
+        }
+
+        #speed-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            background: #FFA500;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        /* Etiquetas de planetas */
+        .planet-label {
+            position: absolute;
+            color: white;
+            font-size: 10px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .planet-container:hover .planet-label {
+            opacity: 1;
+        }
+
+        /* Vista 3D toggle */
+        .view-3d {
+            transform: rotateX(60deg) rotateZ(0deg);
+            transition: transform 1s;
+        }
+
+        .view-2d {
+            transform: rotateX(0deg) rotateZ(0deg);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            #solar-system {
+                transform: scale(0.6) rotateX(60deg);
+            }
+            
+            #info-panel {
+                max-width: 200px;
+                padding: 15px;
+            }
+            
+            #controls {
+                flex-direction: column;
+                bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor de estrellas -->
+    <div id="stars-container"></div>
+
+    <!-- Sistema Solar -->
+    <div id="solar-system" class="view-3d">
+        <!-- Sol -->
+        <div id="sun" data-name="Sol" data-info="El Sol es la estrella del sistema solar. Contiene el 99.86% de la masa del sistema. Su temperatura superficial es de 5,778 K."></div>
+
+        <!-- Mercurio -->
+        <div class="orbit" id="mercury-orbit">
+            <div class="planet-container" id="mercury-container">
+                <div class="planet" id="mercury" data-name="Mercurio" data-info="Mercurio es el planeta más pequeño y el más cercano al Sol. Su órbita dura 88 días terrestres."></div>
+                <div class="planet-label" style="top: -20px; left: calc(50% - 20px);">Mercurio</div>
+            </div>
+        </div>
+
+        <!-- Venus -->
+        <div class="orbit" id="venus-orbit">
+            <div class="planet-container" id="venus-container">
+                <div class="planet" id="venus" data-name="Venus" data-info="Venus es el segundo planeta del sistema solar. Es el más caliente con 462°C de temperatura media."></div>
+                <div class="planet-label" style="top: -30px; left: calc(50% - 15px);">Venus</div>
+            </div>
+        </div>
+
+        <!-- Tierra -->
+        <div class="orbit" id="earth-orbit">
+            <div class="planet-container" id="earth-container">
+                <div class="planet" id="earth" data-name="Tierra" data-info="La Tierra es el tercer planeta y el único conocido con vida. Tiene una Luna natural.">
+                    <div id="moon"></div>
+                </div>
+                <div class="planet-label" style="top: -35px; left: calc(50% - 15px);">Tierra</div>
+            </div>
+        </div>
+
+        <!-- Marte -->
+        <div class="orbit" id="mars-orbit">
+            <div class="planet-container" id="mars-container">
+                <div class="planet" id="mars" data-name="Marte" data-info="Marte es el cuarto planeta. Conocido como el 'planeta rojo' por el óxido de hierro en su superficie."></div>
+                <div class="planet-label" style="top: -30px; left: calc(50% - 12px);">Marte</div>
+            </div>
+        </div>
+
+        <!-- Júpiter -->
+        <div class="orbit" id="jupiter-orbit">
+            <div class="planet-container" id="jupiter-container">
+                <div class="planet" id="jupiter" data-name="Júpiter" data-info="Júpiter es el planeta más grande. Tiene 79 lunas conocidas, incluyendo las cuatro lunas galileanas."></div>
+                <div class="planet-label" style="top: -55px; left: calc(50% - 18px);">Júpiter</div>
+            </div>
+        </div>
+
+        <!-- Saturno -->
+        <div class="orbit" id="saturn-orbit">
+            <div class="planet-container" id="saturn-container">
+                <div class="planet" id="saturn" data-name="Saturno" data-info="Saturno es el sexto planeta. Famoso por su sistema de anillos visible desde la Tierra."></div>
+                <div class="planet-label" style="top: -50px; left: calc(50% - 18px);">Saturno</div>
+            </div>
+        </div>
+
+        <!-- Urano -->
+        <div class="orbit" id="uranus-orbit">
+            <div class="planet-container" id="uranus-container">
+                <div class="planet" id="uranus" data-name="Urano" data-info="Urano es el séptimo planeta. Tiene una inclinación axial de 98 grados, casi rota sobre su lado."></div>
+                <div class="planet-label" style="top: -40px; left: calc(50% - 15px);">Urano</div>
+            </div>
+        </div>
+
+        <!-- Neptuno -->
+        <div class="orbit" id="neptune-orbit">
+            <div class="planet-container" id="neptune-container">
+                <div class="planet" id="neptune" data-name="Neptuno" data-info="Neptuno es el octavo planeta. Tiene los vientos más rápidos del sistema solar, hasta 2,100 km/h."></div>
+                <div class="planet-label" style="top: -40px; left: calc(50% - 18px);">Neptuno</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Panel de información -->
+    <div id="info-panel">
+        <h2 id="planet-name">Sistema Solar</h2>
+        <p id="planet-info">Haz clic en cualquier planeta para ver su información. Usa los controles para interactuar con la animación.</p>
+    </div>
+
+    <!-- Controles -->
+    <div id="controls">
+        <button class="control-btn" id="play-pause-btn">Pausar</button>
+        <button class="control-btn" id="view-toggle-btn">Vista 2D</button>
+        <button class="control-btn" id="labels-toggle-btn">Mostrar Nombres</button>
+        <div id="speed-control">
+            <span>Velocidad:</span>
+            <input type="range" id="speed-slider" min="0.1" max="3" step="0.1" value="1">
+            <span id="speed-value">1x</span>
+        </div>
+    </div>
+
+    <script>
+        // Generar estrellas de fondo
+        function createStars() {
+            const starsContainer = document.getElementById('stars-container');
+            const numberOfStars = 200;
+            
+            for (let i = 0; i < numberOfStars; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                
+                // Tamaño aleatorio
+                const size = Math.random() * 3;
+                star.style.width = size + 'px';
+                star.style.height = size + 'px';
+                
+                // Posición aleatoria
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                
+                // Animación aleatoria
+                star.style.animationDelay = Math.random() * 3 + 's';
+                star.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                
+                starsContainer.appendChild(star);
+            }
+        }
+
+        // Inicializar estrellas
+        createStars();
+
+        // Variables de estado
+        let isPaused = false;
+        let is3DView = true;
+        let showLabels = false;
+        let currentSpeed = 1;
+
+        // Obtener elementos
+        const solarSystem = document.getElementById('solar-system');
+        const playPauseBtn = document.getElementById('play-pause-btn');
+        const viewToggleBtn = document.getElementById('view-toggle-btn');
+        const labelsToggleBtn = document.getElementById('labels-toggle-btn');
+        const speedSlider = document.getElementById('speed-slider');
+        const speedValue = document.getElementById('speed-value');
+        const planetName = document.getElementById('planet-name');
+        const planetInfo = document.getElementById('planet-info');
+
+        // Planetas y contenedores
+        const planets = document.querySelectorAll('.planet, #sun');
+        const containers = document.querySelectorAll('.planet-container');
+
+        // Evento click en planetas
+        planets.forEach(planet => {
+            planet.addEventListener('click', function() {
+                const name = this.dataset.name;
+                const info = this.dataset.info;
+                
+                planetName.textContent = name;
+                planetInfo.textContent = info;
+                
+                // Efecto de resaltado
+                this.style.transform = 'scale(2)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 500);
+            });
+        });
+
+        // Control de play/pause
+        playPauseBtn.addEventListener('click', function() {
+            isPaused = !isPaused;
+            
+            containers.forEach(container => {
+                container.style.animationPlayState = isPaused ? 'paused' : 'running';
+            });
+            
+            // También pausar la luna
+            const moon = document.getElementById('moon');
+            if (moon) {
+                moon.style.animationPlayState = isPaused ? 'paused' : 'running';
+            }
+            
+            this.textContent = isPaused ? 'Reanudar' : 'Pausar';
+            this.classList.toggle('active');
+        });
+
+        // Control de vista 2D/3D
+        viewToggleBtn.addEventListener('click', function() {
+            is3DView = !is3DView;
+            
+            if (is3DView) {
+                solarSystem.classList.remove('view-2d');
+                solarSystem.classList.add('view-3d');
+                this.textContent = 'Vista 2D';
+            } else {
+                solarSystem.classList.remove('view-3d');
+                solarSystem.classList.add('view-2d');
+                this.textContent = 'Vista 3D';
+            }
+        });
+
+        // Control de etiquetas
+        labelsToggleBtn.addEventListener('click', function() {
+            showLabels = !showLabels;
+            const labels = document.querySelectorAll('.planet-label');
+            
+            labels.forEach(label => {
+                label.style.opacity = showLabels ? '1' : '0';
+            });
+            
+            this.textContent = showLabels ? 'Ocultar Nombres' : 'Mostrar Nombres';
+            this.classList.toggle('active');
+        });
+
+        // Control de velocidad
+        speedSlider.addEventListener('input', function() {
+            currentSpeed = parseFloat(this.value);
+            speedValue.textContent = currentSpeed + 'x';
+            
+            containers.forEach(container => {
+                const baseAnimation = container.style.animation || 
+                                     window.getComputedStyle(container).animation;
+                const duration = parseFloat(baseAnimation.match(/(\d+(\.\d+)?)s/)[1]);
+                const newDuration = duration / currentSpeed;
+                
+                // Actualizar duración de la animación
+                container.style.animationDuration = newDuration + 's';
+            });
+            
+            // Actualizar velocidad de la luna
+            const moon = document.getElementById('moon');
+            if (moon) {
+                moon.style.animationDuration = (2 / currentSpeed) + 's';
+            }
+        });
+
+        // Efecto de seguimiento del mouse
+        document.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth - 0.5) * 20;
+            const y = (e.clientY / window.innerHeight - 0.5) * 20;
+            
+            if (is3DView) {
+                solarSystem.style.transform = `rotateX(${60 + y}deg) rotateZ(${x}deg)`;
+            }
+        });
+
+        // Zoom con rueda del mouse
+        let scale = 1;
+        solarSystem.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            
+            if (e.deltaY < 0) {
+                scale = Math.min(scale + 0.1, 2);
+            } else {
+                scale = Math.max(scale - 0.1, 0.5);
+            }
+            
+            if (is3DView) {
+                solarSystem.style.transform = `rotateX(60deg) scale(${scale})`;
+            } else {
+                solarSystem.style.transform = `scale(${scale})`;
+            }
+        });
+
+        // Animación de entrada
+        window.addEventListener('load', () => {
+            solarSystem.style.opacity = '0';
+            solarSystem.style.transform = 'scale(0.5) rotateX(60deg)';
+            
+            setTimeout(() => {
+                solarSystem.style.transition = 'all 2s ease-out';
+                solarSystem.style.opacity = '1';
+                solarSystem.style.transform = 'scale(1) rotateX(60deg)';
+            }, 100);
+        });
+
+        // Teclas de acceso rápido
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case ' ':
+                    e.preventDefault();
+                    playPauseBtn.click();
+                    break;
+                case 'v':
+                case 'V':
+                    viewToggleBtn.click();
+                    break;
+                case 'l':
+                case 'L':
+                    labelsToggleBtn.click();
+                    break;
+                case '+':
+                case '=':
+                    if (currentSpeed < 3) {
+                        speedSlider.value = Math.min(currentSpeed + 0.5, 3);
+                        speedSlider.dispatchEvent(new Event('input'));
+                    }
+                    break;
+                case '-':
+                case '_':
+                    if (currentSpeed > 0.1) {
+                        speedSlider.value = Math.max(currentSpeed - 0.5, 0.1);
+                        speedSlider.dispatchEvent(new Event('input'));
+                    }
+                    break;
+            }
+        });
+
+        // Información adicional en consola
+        console.log('%c🌌 Sistema Solar Interactivo 🌌', 'font-size: 20px; color: #FFA500;');
+        console.log('%cControles:', 'font-size: 14px; color: #4A90E2;');
+        console.log('• Espacio: Pausar/Reanudar');
+        console.log('• V: Cambiar vista 2D/3D');
+        console.log('• L: Mostrar/Ocultar etiquetas');
+        console.log('• +/-: Aumentar/Disminuir velocidad');
+        console.log('• Scroll: Zoom in/out');
+        console.log('• Click en planetas: Ver información');
+    </script>
+</body>
+</html>

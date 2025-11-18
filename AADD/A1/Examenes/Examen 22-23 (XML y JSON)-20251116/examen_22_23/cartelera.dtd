@@ -1,0 +1,13 @@
+<!ELEMENT cartelera (cine, pelicula+)>
+<!ELEMENT cine (#PCDATA)>
+<!ELEMENT pelicula (titulo, titulooriginal, pais, año,duracion,director,interpretes,genero,sinopsis,clasificacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT titulooriginal (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT interpretes (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT clasificacion (#PCDATA)>
