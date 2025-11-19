@@ -1,0 +1,49 @@
+2025-11-06 10:14:35,426 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseando hospital: Hospital General Central en Zaragoza
+2025-11-06 10:14:35,430 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del médico M001: 976123456
+2025-11-06 10:14:35,431 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del médico M001: laura.perez@hospital.org
+2025-11-06 10:14:35,431 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del médico M002: 976654321
+2025-11-06 10:14:35,431 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del médico M002: carlos.martinez@hospital.org
+2025-11-06 10:14:35,432 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P100: 1985-03-12
+2025-11-06 10:14:35,432 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P100: 600123456
+2025-11-06 10:14:35,433 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P100: maria.lopez@example.com
+2025-11-06 10:14:35,433 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P101: 1992-11-23
+2025-11-06 10:14:35,433 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P101: 600654321
+2025-11-06 10:14:35,433 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P101: javier.garcia@example.com
+2025-11-06 10:14:35,435 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseado completado: 2 médicos, 2 pacientes, 2 citas
+2025-11-06 10:14:35,437 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M03, nombre=Juan, apellido=Perez Lopez, especialidad=Neurologia]
+2025-11-06 10:14:35,440 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M04, nombre=Luisa, apellido=Sanz Diaz, especialidad=Nefrologia]
+2025-11-06 10:14:35,441 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M05, nombre=Pedro, apellido=Pin Delgado, especialidad=Traumatologia]
+2025-11-06 10:14:35,441 [main] INFO  es.ciudadescolar.util.TextManager        - Se leyeron 3 médicos del archivo de texto
+2025-11-06 10:14:35,678 [main] INFO  es.ciudadescolar.util.JsonManager        - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.json
+2025-11-06 10:14:35,719 [main] INFO  es.ciudadescolar.util.XMLManager         - XML generado correctamente en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.xml
+2025-11-06 10:14:35,762 [main] INFO  es.ciudadescolar.util.XMLManager         - El archivo XML es válido según el XSD
+2025-11-07 14:06:19,651 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseando hospital: Hospital General Central en Zaragoza
+2025-11-07 14:06:19,651 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P100: 1985-03-12
+2025-11-07 14:06:19,663 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P100: 600123456
+2025-11-07 14:06:19,663 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P100: maria.lopez@example.com
+2025-11-07 14:06:19,663 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P101: 1992-11-23
+2025-11-07 14:06:19,663 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P101: 600654321
+2025-11-07 14:06:19,664 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P101: javier.garcia@example.com
+2025-11-07 14:06:19,665 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseado completado: 2 médicos, 2 pacientes, 2 citas
+2025-11-07 14:06:19,665 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M03, nombre=Juan, apellido=Perez Lopez, especialidad=Neurologia]
+2025-11-07 14:06:19,665 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M04, nombre=Luisa, apellido=Sanz Diaz, especialidad=Nefrologia]
+2025-11-07 14:06:19,665 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M05, nombre=Pedro, apellido=Pin Delgado, especialidad=Traumatologia]
+2025-11-07 14:06:19,665 [main] INFO  es.ciudadescolar.util.TextManager        - Se leyeron 3 médicos del archivo de texto
+2025-11-07 14:06:19,965 [main] INFO  es.ciudadescolar.util.JsonManager        - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.json
+2025-11-07 14:06:20,015 [main] INFO  es.ciudadescolar.util.XMLManager         - XML generado correctamente en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.xml
+2025-11-07 14:06:20,052 [main] INFO  es.ciudadescolar.util.XMLManager         - El archivo XML es válido según el XSD
+2025-11-07 14:06:52,192 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseando hospital: Hospital General Central en Zaragoza
+2025-11-07 14:06:52,197 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P100: 1985-03-12
+2025-11-07 14:06:52,198 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P100: 600123456
+2025-11-07 14:06:52,198 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P100: maria.lopez@example.com
+2025-11-07 14:06:52,198 [main] DEBUG es.ciudadescolar.util.XMLManager         - Fecha nacimiento del paciente P101: 1992-11-23
+2025-11-07 14:06:52,198 [main] DEBUG es.ciudadescolar.util.XMLManager         - Teléfono del paciente P101: 600654321
+2025-11-07 14:06:52,199 [main] DEBUG es.ciudadescolar.util.XMLManager         - Email del paciente P101: javier.garcia@example.com
+2025-11-07 14:06:52,201 [main] INFO  es.ciudadescolar.util.XMLManager         - Parseado completado: 2 médicos, 2 pacientes, 2 citas
+2025-11-07 14:06:52,204 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M03, nombre=Juan, apellido=Perez Lopez, especialidad=Neurologia]
+2025-11-07 14:06:52,207 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M04, nombre=Luisa, apellido=Sanz Diaz, especialidad=Nefrologia]
+2025-11-07 14:06:52,208 [main] DEBUG es.ciudadescolar.util.TextManager        - Médico leído: Medico [id=M05, nombre=Pedro, apellido=Pin Delgado, especialidad=Traumatologia]
+2025-11-07 14:06:52,208 [main] INFO  es.ciudadescolar.util.TextManager        - Se leyeron 3 médicos del archivo de texto
+2025-11-07 14:06:52,436 [main] INFO  es.ciudadescolar.util.JsonManager        - Informe guardado en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.json
+2025-11-07 14:06:52,485 [main] INFO  es.ciudadescolar.util.XMLManager         - XML generado correctamente en: C:\Users\alumno\DAM2\AADD\A1\ra1-practica-evaluable-Mendo-005-main\ra1-practica-evaluable-Mendo-005-main\hospital_Zaragoza_mario_mendoza.xml
+2025-11-07 14:06:52,515 [main] INFO  es.ciudadescolar.util.XMLManager         - El archivo XML es válido según el XSD

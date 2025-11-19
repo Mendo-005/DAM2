@@ -191,7 +191,7 @@ public class JsonManager
         }
     }
 
-     /**
+    /**
      * Método para delegar en Jackson la serialización de una colección de instancias de la clase Alumno en un fichero Json 
      * @param alumnos
      * @param ficheroSalidaJson
