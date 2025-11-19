@@ -71,38 +71,108 @@ public class Bbddoo
         Alumno alumnoBuscado = new Alumno(null, null, 0);
         
         ObjectSet<Alumno> alumnosRecuperados = bd.queryByExample(alumnoBuscado);
-
-        if (!alumnosRecuperados.isEmpty()) 
+        if (bd !=null) 
         {
-            alumnos = new  ArrayList<>();
-            for (Alumno alumno : alumnosRecuperados) 
-            {
-                LOG.info("Alumno recuprado: "+ alumno);
-                alumnos.add(alumno);    
+            //alumnosRecuperados = bd.queryByExample(alumnoBuscado);
+            if (alumnosRecuperados != null) {
+                
+                alumnos = new ArrayList<>();
+                for (Alumno al : alumnosRecuperados) 
+                {
+                    LOG.info("Alumno recuprado: "+ al);
+                    alumnos.add(al);    
+                }
             }
         }
         return alumnos;
     }
 
-    public Alumno recuperaAlumnoPorExp(String expediente)
-    {
-        // Preparamos una plantilla inclusivas (que todos los alumnos dela BD satisfagan)
-        // String = null
-        // Int = 0
-        Alumno alumnoBuscado = new Alumno(null, expediente, 0);
-        Alumno alumnoRecuprado = null;
-        ObjectSet<Alumno> alumnosRecuperados = null;
+    //public List<Alumno> recuperaAlumnoPorExp(String expediente)
+    //{
+    //    // Preparamos una plantilla inclusivas (que todos los alumnos dela BD satisfagan)
+    //    // String = null
+    //    // Int = 0
+    //    Alumno alumnoBuscado = new Alumno(null, expediente, 0);
+    //    Alumno alumnoRecuprado = null;
+    //    ObjectSet<Alumno> alumnosRecuperados = null;
 
-        if (!alumnosRecuperados.isEmpty()) 
-        {
-            alumnosRecuperados = bd.queryByExample(alumnoBuscado);
-            alumnos = new  ArrayList<>();
-            for (Alumno alumno : alumnosRecuperados) 
-            {
-                LOG.info("Alumno recuprado: "+ alumno);
-                alumnos.add(alumno);    
+    //    if (!alumnosRecuperados.isEmpty()) 
+    //    {
+    //        alumnosRecuperados = bd.queryByExample(alumnoBuscado);
+    //        List<Alumno> alumnos = new  ArrayList<>();
+    //        if () {
+    //            
+    //        }
+    //            for (Alumno alumno : alumnosRecuperados) 
+    //            {
+    //                LOG.info("Alumno recuprado: "+ alumno);
+    //                alumnos.add(alumno);    
+    //            }
+    //    }
+    //    return alumnoRecuprado;
+    //}
+
+    public boolean borrarAlumno(Alumno alumno)
+    {
+        boolean status = false;
+        ObjectSet<Alumno> alumnosRecuperados = null;
+        if (bd != null) {
+            
+            alumnosRecuperados = bd.queryByExample(alumno);
+            
+            switch (alumnosRecuperados.size()) {
+                case 1 -> {
+                    bd.delete(alumno);
+                    status = true;
+                    LOG.info("Borrado alumno: " + alumno);
+                }
+                case 0 -> LOG.warn("No se ha localizado objetos a borrar: " + alumno);
+                default -> LOG.warn("Se  han localizado varios objetos a borrar: " + alumnosRecuperados.size());
             }
+            
         }
-        return alumnos;
+        return status;
+    }
+
+    public boolean  borrarTodosAlumnos()
+    {
+        boolean status = false;
+        List<Alumno> alumnosABorrar = recuperaTodosAlumnos();
+
+        if (alumnosABorrar.size() == 0) 
+        {
+            LOG.warn("No hay alumnos a borrar");    
+        }
+
+        for (Alumno al : alumnosABorrar) 
+        {
+            bd.delete(al);
+            LOG.info("Borrado alumno:" + al);    
+        }
+        return status;
+
+    }
+
+    public boolean  modificarAlumno(Alumno alumnoAModificar, Integer edadNueva)
+    {
+        boolean status = false;
+
+        ObjectSet<Alumno> alumnosAModificar = bd.queryByExample(alumnoAModificar);
+        int totalAlumnosAModificar = alumnosAModificar.size();
+
+        Alumno alumno = null;
+
+        switch (totalAlumnosAModificar) {
+            case 0 -> LOG.warn("No hay alumnos en la BD");
+            case 1 -> {
+                alumno = alumnosAModificar.next();
+                alumno.setEdad(edadNueva);
+                bd.store(alumno);
+                LOG.info("Se ha actualizado la edad del alumno: " + alumno);
+                status = true;
+            }
+            default -> LOG.warn("No se pueden actualizar mas de un objeto a la vez");
+        }
+        return status;
     }
 }
