@@ -32,7 +32,7 @@ public class Main {
         LOG.info("Alumnos: " + alumnoEnBD);
         bd.borrarAlumno(alumno);
         bd.recuperaTodosAlumnos();
-        
+        LOG.info("Recuperar alumno 888: " + bd.recuperaAlumnoPorExp("888"));
         // Borrar todos los alumos
         bd.borrarTodosAlumnos();
         LOG.info("Borrados todos los alumnos");

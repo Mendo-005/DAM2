@@ -62,55 +62,48 @@ public class Bbddoo
         return status;
     }
 
-    public List<Alumno> recuperaTodosAlumnos()
-    {
-        List<Alumno> alumnos = null;
-        // Preparamos una plantilla inclusivas (que todos los alumnos dela BD satisfagan)
-        // String = null
-        // Int = 0
-        Alumno alumnoBuscado = new Alumno(null, null, 0);
-        
-        ObjectSet<Alumno> alumnosRecuperados = bd.queryByExample(alumnoBuscado);
-        if (bd !=null) 
-        {
-            //alumnosRecuperados = bd.queryByExample(alumnoBuscado);
-            if (alumnosRecuperados != null) {
-                
-                alumnos = new ArrayList<>();
-                for (Alumno al : alumnosRecuperados) 
-                {
-                    LOG.info("Alumno recuprado: "+ al);
-                    alumnos.add(al);    
-                }
+        public List<Alumno> recuperaTodosAlumnos() {
+            List<Alumno> alumnos = new ArrayList<>();
+
+            if (bd == null) {
+                LOG.warn("BD no inicializada");
+                return alumnos;
             }
+        
+            ObjectSet<Alumno> resultados = bd.queryByExample(new Alumno());
+        
+            for (Alumno a : resultados) {
+                LOG.info("Alumno recuperado: " + a);
+                alumnos.add(a);
+            }
+        
+            return alumnos;
         }
-        return alumnos;
-    }
 
-    //public List<Alumno> recuperaAlumnoPorExp(String expediente)
-    //{
-    //    // Preparamos una plantilla inclusivas (que todos los alumnos dela BD satisfagan)
-    //    // String = null
-    //    // Int = 0
-    //    Alumno alumnoBuscado = new Alumno(null, expediente, 0);
-    //    Alumno alumnoRecuprado = null;
-    //    ObjectSet<Alumno> alumnosRecuperados = null;
+        public List<Alumno> recuperaAlumnoPorExp(String expediente) {
+        
+            List<Alumno> alumnos = new ArrayList<>();
+        
+            if (bd == null) {
+                LOG.warn("BD no inicializada");
+                return alumnos;
+            }
+        
+            // Plantilla solo con el expediente
+            Alumno alumno = new Alumno();
+            alumno.setExpediente(expediente);
+        
+            ObjectSet<Alumno> resultados = bd.queryByExample(alumno);
+        
+            for (Alumno a : resultados) {
+                LOG.info("Alumno recuperado: " + a);
+                alumnos.add(a);
+            }
+        
+            return alumnos;
+        }
 
-    //    if (!alumnosRecuperados.isEmpty()) 
-    //    {
-    //        alumnosRecuperados = bd.queryByExample(alumnoBuscado);
-    //        List<Alumno> alumnos = new  ArrayList<>();
-    //        if () {
-    //            
-    //        }
-    //            for (Alumno alumno : alumnosRecuperados) 
-    //            {
-    //                LOG.info("Alumno recuprado: "+ alumno);
-    //                alumnos.add(alumno);    
-    //            }
-    //    }
-    //    return alumnoRecuprado;
-    //}
+
 
     public boolean borrarAlumno(Alumno alumno)
     {
