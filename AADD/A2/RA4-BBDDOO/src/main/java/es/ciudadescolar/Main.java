@@ -40,8 +40,20 @@ public class Main {
         // Modificar alumnosa
         Alumno alumno4 = new Alumno("Dario","3435", 23);
         Alumno alumno5 = new Alumno("Maria","2212", 23);
-        bd.guardarAlumno(alumno4);
-        bd.guardarAlumno(alumno5);
+
+        try 
+        {
+            bd.guardarAlumno(alumno4);
+            //if (true) throw new Exception();
+            bd.guardarAlumno(alumno5);
+            bd.commitTransaction();
+        } 
+        catch (Exception e) 
+        {
+            LOG.warn("Imposible realizar la transaccion");
+            bd.rollbackTransaction();
+        }
+        
 
         bd.modificarAlumno(alumno5, 20);
         // Cerramos base de datos
