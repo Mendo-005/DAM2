@@ -168,4 +168,15 @@ public class Bbddoo
         }
         return status;
     }
+
+    public void commitTransaction() 
+    {
+        bd.commit();
+        LOG.info("Commit realizado");
+    }
+    public void rollbackTransaction()
+    {
+        bd.rollback();
+        LOG.info("Rollback realizado");
+    }
 }
