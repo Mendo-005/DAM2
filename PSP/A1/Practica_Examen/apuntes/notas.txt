@@ -1,0 +1,3 @@
+//////| multiprocessing | threading
+listas| Manager()       | lista = [] & threading.Lock()
+colas | Queue()         | queue.Queue()
