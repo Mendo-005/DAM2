@@ -1,5 +1,3 @@
-package es.ciudadescolar;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.KeyAdapter;
@@ -17,7 +15,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
-import javax.swing.border.LineBorder;
+//import javax.swing.border.LineBorder;
 
 
 public class RegistroAccionesUsuario extends JFrame {
