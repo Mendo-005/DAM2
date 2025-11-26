@@ -1,9 +1,6 @@
-import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class ListaPersonas extends JFrame {
 

@@ -17,21 +17,22 @@ persona = []
 vehic = []
 hilos = []
 
-def personas(i):
-    total_personas = len(personas)
-    print(f"Soy hilo {i} y llevo {total_personas} pesonas")
+def personas(id):
+    total_personas = len(persona)
+    print(f"Soy hilo {id} y llevo {total_personas} pesonas")
     
     
-def vehiculos(i):
-    total_veh = len(vehiculos)
-    print(f"Soy hilo {i} y llevo {total_veh} vehiculos")
+def vehiculos(id):
+    total_veh = len(vehic)
+    print(f"Soy hilo {id} y llevo {total_veh} vehiculos")
     
 
 def camara(cola_objetos, i):
         lectura = cola_objetos.get()
+        id = i
         
         if lectura == "persona":
-            th_persona = threading.Thread(target=personas, args=(i))
+            th_persona = threading.Thread(target=personas, args=(id,))
             with lock:
                 persona.append(th_persona)
             
@@ -39,7 +40,7 @@ def camara(cola_objetos, i):
             time.sleep(0.5)
 
         elif lectura == "moto" or "coche" or "moto":
-            th_veh = threading.Thread(target=vehiculos)
+            th_veh = threading.Thread(target=vehiculos, args=(id,))
             with lock:
                 vehic.append(th_veh)
             th_veh.start()
@@ -60,7 +61,7 @@ def main():
         cola_objetos.put(deteccion)
         hilos.append(th)
     
-    for i in range(hilos):
+    for i in range(len(hilos)):
         cola_objetos.put("finalizar")
         
     for th in hilos:
