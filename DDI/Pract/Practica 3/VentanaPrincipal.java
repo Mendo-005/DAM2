@@ -1,8 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.*;
 
 
 // --- CLASE 1: VENTANA PRINCIPAL (Punto de entrada) ---

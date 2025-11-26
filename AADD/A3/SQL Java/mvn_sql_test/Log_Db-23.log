@@ -1,0 +1,86 @@
+2025-11-26 09:44:32,076 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible consultar alumnos: Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-11-26 09:46:46,132 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible consultar alumnos: Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-11-26 09:48:30,770 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-26 09:48:30,774 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-26 09:48:30,774 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@632ceb35
+2025-11-26 09:48:30,774 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@1c93f6e1
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@1800a575
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@1458ed9c
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@10a9d961
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@130e116b
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@e383572
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5ddf0d24
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@363a52f
+2025-11-26 09:48:30,775 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@60856961
+2025-11-26 09:48:30,776 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@2fd953a6
+2025-11-26 09:48:30,776 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@a4add54
+2025-11-26 09:48:30,776 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@141e5bef
+2025-11-26 09:48:30,776 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5f9be66c
+2025-11-26 09:48:30,777 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@3abada5a
+2025-11-26 09:48:30,777 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@66c61024
+2025-11-26 09:48:30,777 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@61fe30
+2025-11-26 09:48:30,777 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@c9d0d6
+2025-11-26 09:48:30,777 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@6ccdb29f
+2025-11-26 09:49:04,650 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-26 09:49:04,653 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-26 09:49:04,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@1458ed9c
+2025-11-26 09:49:04,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@10a9d961
+2025-11-26 09:49:04,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@130e116b
+2025-11-26 09:49:04,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@e383572
+2025-11-26 09:49:04,654 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5ddf0d24
+2025-11-26 09:49:04,654 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@363a52f
+2025-11-26 09:49:04,654 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@60856961
+2025-11-26 09:49:04,655 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@2fd953a6
+2025-11-26 09:49:04,655 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@a4add54
+2025-11-26 09:49:04,655 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@141e5bef
+2025-11-26 09:49:04,655 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5f9be66c
+2025-11-26 09:49:04,655 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@3abada5a
+2025-11-26 09:49:04,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@66c61024
+2025-11-26 09:49:04,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@61fe30
+2025-11-26 09:49:04,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@c9d0d6
+2025-11-26 09:49:04,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@6ccdb29f
+2025-11-26 09:49:04,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@3adcc812
+2025-11-26 09:49:04,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@35432107
+2025-11-26 09:49:04,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@7b420819
+2025-11-26 09:49:47,806 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-26 09:49:47,809 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-26 09:49:47,809 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@1458ed9c
+2025-11-26 09:49:47,809 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@10a9d961
+2025-11-26 09:49:47,810 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@130e116b
+2025-11-26 09:49:47,810 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@e383572
+2025-11-26 09:49:47,810 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5ddf0d24
+2025-11-26 09:49:47,810 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@363a52f
+2025-11-26 09:49:47,810 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@60856961
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@2fd953a6
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@a4add54
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@141e5bef
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@5f9be66c
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@3abada5a
+2025-11-26 09:49:47,811 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@66c61024
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@61fe30
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@c9d0d6
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@6ccdb29f
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@3adcc812
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@35432107
+2025-11-26 09:49:47,812 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: es.ciudadescolar.clases.Alumno@7b420819
+2025-11-26 09:53:49,330 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-26 09:53:49,334 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-26 09:53:49,334 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-26 09:53:49,335 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-11-26 09:53:49,335 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3, nombre=Dario, fecha_nac=null]
+2025-11-26 09:53:49,335 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=4, nombre=Perico, fecha_nac=null]
+2025-11-26 09:53:49,335 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-11-26 09:53:49,335 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-11-26 09:53:49,336 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-11-26 09:53:49,336 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-11-26 09:53:49,336 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-11-26 09:53:49,336 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1009, nombre=paco, fecha_nac=2000-01-03]
+2025-11-26 09:53:49,336 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-11-26 09:53:49,337 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-11-26 09:53:49,337 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-11-26 09:53:49,337 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-11-26 09:53:49,338 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-11-26 09:53:49,338 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-11-26 09:53:49,338 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-11-26 09:53:49,339 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-11-26 09:53:49,339 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3003, nombre=Elena, fecha_nac=null]

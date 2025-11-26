@@ -75,9 +75,9 @@ class DialogoRegistro extends JDialog {
         String[] tipos = {"Regular", "Premium", "VIP"};
         comboTipos = new JComboBox<>(tipos);
         panelFormulario.add(comboTipos);
-
+        // getSelectet e isSelectet 
         add(panelFormulario, BorderLayout.CENTER);
-
+        
         // 2. PANEL SUR (Acciones)
         // Usamos GridLayout(3, 1) -> 3 filas, 1 columna
         JPanel panelSur = new JPanel(new GridLayout(3, 1, 10, 10));
