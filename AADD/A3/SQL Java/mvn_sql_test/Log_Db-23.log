@@ -84,3 +84,27 @@
 2025-11-26 09:53:49,338 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
 2025-11-26 09:53:49,339 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3002, nombre=María, fecha_nac=null]
 2025-11-26 09:53:49,339 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-11-27 09:50:41,023 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 09:55:43,003 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 09:57:13,159 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 09:57:56,890 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:00:28,014 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:02:48,356 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:05:10,482 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:05:10,482 [main] INFO  es.ciudadescolar.Main                    - Conexion establecida
+2025-11-27 10:05:10,482 [main] ERROR es.ciudadescolar.Main                    - Error en la conexion: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "listaAlumnos" is null
+2025-11-27 10:06:29,823 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:06:29,825 [main] INFO  es.ciudadescolar.Main                    - Conexion establecida
+2025-11-27 10:06:29,826 [main] ERROR es.ciudadescolar.Main                    - Error en la conexion: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "listaAlumnos" is null
+2025-11-27 10:11:20,212 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:11:20,216 [main] INFO  es.ciudadescolar.Main                    - Conexion establecida
+2025-11-27 10:11:20,216 [main] ERROR es.ciudadescolar.Main                    - Error en la conexion: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "listaAlumnos" is null
+2025-11-27 10:12:35,035 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: No suitable driver found for com.mysql.cj.jdbc.Driver
+2025-11-27 10:12:35,038 [main] ERROR es.ciudadescolar.Main                    - Error en la conexion: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "listaAlumnos" is null
+2025-11-27 10:17:09,265 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-11-27 10:17:09,268 [main] ERROR es.ciudadescolar.Main                    - Error en la conexion: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "listaAlumnos" is null
+2025-11-27 10:17:37,241 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

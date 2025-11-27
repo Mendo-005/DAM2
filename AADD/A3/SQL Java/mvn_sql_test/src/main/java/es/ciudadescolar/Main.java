@@ -14,15 +14,14 @@ public class Main
 
     public static void main(String[] args) 
     {
-        
-        DbManager manager = new DbManager();
+    
+            DbManager manager = new DbManager();
+            List<Alumno> listaAlumnos = manager.mostrarAlumnos();
 
-        List<Alumno> listaAlumnos = manager.mostrarAlumnos();
-
-        for (Alumno al : listaAlumnos) 
-        {
-            LOG.info("Alumno recuerado: " + al);    
-        }
+            for (Alumno al : listaAlumnos) 
+            {
+                LOG.info("Alumno recuerado: " + al);    
+            }
         
     }
     

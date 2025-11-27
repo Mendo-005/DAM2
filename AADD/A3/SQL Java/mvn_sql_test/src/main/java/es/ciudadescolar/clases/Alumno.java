@@ -1,5 +1,6 @@
 package es.ciudadescolar.clases;
 
+import java.sql.Date;
 import java.time.LocalDate;
 
 public class Alumno {
@@ -29,6 +30,17 @@ public class Alumno {
     @Override
     public String toString() {
         return "Alumno [expediente=" + expediente + ", nombre=" + nombre + ", fecha_nac=" + fecha_nac + "]";
+    }
+    
+    // Constructores 
+    public Alumno() 
+    {
+    
+    }
+    public Alumno(int expediente, String nombre, Date fecha_nac) {
+        this.setExpediente(Integer.valueOf(expediente));
+        this.setNombre(nombre);
+        this.setFecha_nac(fecha_nac.toLocalDate());
     }
 
 }
