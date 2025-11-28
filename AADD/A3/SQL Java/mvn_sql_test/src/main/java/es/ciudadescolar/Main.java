@@ -1,5 +1,7 @@
 package es.ciudadescolar;
 
+import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -22,7 +24,24 @@ public class Main
             {
                 LOG.info("Alumno recuerado: " + al);    
             }
-        
+
+            Alumno alumnoBuscado = manager.getAlumnoPorExp(1, "Francisco");
+            if (alumnoBuscado != null) 
+            {
+                LOG.info("Alumno encontrado por expediente: " + alumnoBuscado);    
+            }
+            else
+            {
+                LOG.warn("No se ha encontrado a ningun alumno con ese expediente");
+            }
+            
+            Alumno alumnoNuevo = new Alumno(8,"Carlos", Date.valueOf(LocalDate.of(2001,10,23)));
+            if (!manager.altaDeAlumno(alumnoNuevo)) 
+            {
+                LOG.warn("No se ha podido dar de alta al alumno: " + alumnoNuevo);    
+            }
+            
+
     }
     
 }

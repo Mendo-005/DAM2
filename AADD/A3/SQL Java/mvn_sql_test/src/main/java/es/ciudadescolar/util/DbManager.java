@@ -198,4 +198,52 @@ public class DbManager {
 
         return al;
     }
+
+    public boolean altaDeAlumno(Alumno al)
+    {
+        boolean status = false;
+        PreparedStatement pstNuevoAlumno = null;
+
+        if (con!= null) 
+        {
+            try 
+            {    
+                pstNuevoAlumno = con.prepareStatement(SQL.ALTA_DE_UN_ALUMNO);
+                pstNuevoAlumno.setInt(1, al.getExpediente());
+                pstNuevoAlumno.setString(2, al.getNombre());
+                pstNuevoAlumno.setDate(3, Date.valueOf(al.getFecha_nac()));
+
+                //if (pstNuevoAlumno.executeUpdate()) {
+                //    
+                //}
+
+                LOG.info("Alumno dado de alta: " + al);
+            } 
+            catch (SQLException e) 
+            {
+                LOG.error("Error en el alta del alumno: " + e.getMessage());
+            }
+            finally
+            {
+                try 
+                {
+                    if (pstNuevoAlumno != null) {
+                        
+                        pstNuevoAlumno.close();
+                        LOG.info("Se ha cerrado correctamente la conexion");
+                    }
+                } 
+                catch (SQLException ex) 
+                {
+                    LOG.error("Imposible en el cierre de la conexion");
+                }
+            }
+        }
+        return status;
+    }
+
+    // modificar alumno nombre
+    // dar de baja alumno
+
+
 }
