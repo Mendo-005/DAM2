@@ -108,3 +108,82 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2025-11-27 10:17:37,241 [main] ERROR es.ciudadescolar.util.DbManager          - Imposible conectar con la base de datos: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-11-28 13:29:34,600 [main] INFO  es.ciudadescolar.util.DbManager          - Conexion obtenida
+2025-11-28 13:29:34,646 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-28 13:29:34,648 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-28 13:29:34,649 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-28 13:29:34,649 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-11-28 13:29:34,649 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3, nombre=Dario, fecha_nac=null]
+2025-11-28 13:29:34,650 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=4, nombre=Perico, fecha_nac=null]
+2025-11-28 13:29:34,650 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-11-28 13:29:34,650 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-11-28 13:29:34,650 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:29:34,650 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-11-28 13:29:34,651 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:29:34,651 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1009, nombre=paco, fecha_nac=2000-01-03]
+2025-11-28 13:29:34,651 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:29:34,651 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-11-28 13:29:34,652 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-11-28 13:29:34,652 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:29:34,652 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-11-28 13:29:34,652 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:29:34,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:29:34,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-11-28 13:29:34,653 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:48:28,618 [main] INFO  es.ciudadescolar.util.DbManager          - Conexion obtenida
+2025-11-28 13:48:28,654 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-28 13:48:28,656 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-28 13:48:28,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-28 13:48:28,656 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3, nombre=Dario, fecha_nac=null]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=4, nombre=Perico, fecha_nac=null]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-11-28 13:48:28,657 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:48:28,658 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1009, nombre=paco, fecha_nac=2000-01-03]
+2025-11-28 13:48:28,658 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:48:28,658 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-11-28 13:48:28,658 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-11-28 13:48:28,659 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:48:28,659 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-11-28 13:48:28,660 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:48:28,660 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:48:28,660 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-11-28 13:48:28,660 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:48:28,673 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-28 13:48:28,674 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-28 13:48:28,674 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado por expediente: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-28 13:59:04,223 [main] INFO  es.ciudadescolar.util.DbManager          - Conexion obtenida
+2025-11-28 13:59:04,269 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-28 13:59:04,270 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-28 13:59:04,271 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-28 13:59:04,271 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-11-28 13:59:04,272 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3, nombre=Dario, fecha_nac=null]
+2025-11-28 13:59:04,272 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=4, nombre=Perico, fecha_nac=null]
+2025-11-28 13:59:04,272 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-11-28 13:59:04,272 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-11-28 13:59:04,272 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=67, nombre=David, fecha_nac=2001-10-03]
+2025-11-28 13:59:04,273 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:59:04,273 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-11-28 13:59:04,273 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:59:04,273 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1009, nombre=paco, fecha_nac=2000-01-03]
+2025-11-28 13:59:04,274 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-11-28 13:59:04,274 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-11-28 13:59:04,274 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-11-28 13:59:04,274 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:59:04,275 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-11-28 13:59:04,275 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:59:04,276 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-11-28 13:59:04,276 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-11-28 13:59:04,276 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-11-28 13:59:04,277 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3004, nombre=David, fecha_nac=2001-10-23]
+2025-11-28 13:59:04,277 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-11-28 13:59:04,277 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-11-28 13:59:04,277 [main] INFO  es.ciudadescolar.Main                    - Alumno recuerado: Alumno [expediente=4000, nombre=Samuel De Luque, fecha_nac=2000-10-04]
+2025-11-28 13:59:04,289 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha ejecutao  correctamente la sentencia SELECT
+2025-11-28 13:59:04,290 [main] INFO  es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente la conexion
+2025-11-28 13:59:04,290 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado por expediente: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-11-28 13:59:04,294 [main] ERROR es.ciudadescolar.util.DbManager          - Error en el alta del alumno: Parameter index out of range (1 > number of parameters, which is 0).
+2025-11-28 13:59:04,295 [main] WARN  es.ciudadescolar.Main                    - No se ha podido ddar de alta al alumno: Alumno [expediente=8, nombre=Carlos, fecha_nac=2001-10-23]
