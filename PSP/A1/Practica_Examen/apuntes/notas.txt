@@ -1,3 +1,65 @@
-//////| multiprocessing | threading
-listas| Manager()       | lista = [] & threading.Lock()
-colas | Queue()         | queue.Queue()
+RESUMEN TÉCNICO: MÓDULOS DE PROCESOS Y HILOS EN PYTHON
+======================================================
+
+1. THREADING (Hilos)
+--------------------
+FUNCIÓN:
+- [cite_start]Permite la ejecución concurrente dentro de un mismo proceso[cite: 703].
+- [cite_start]Los hilos comparten el mismo espacio de memoria y recursos, lo que facilita la comunicación pero requiere sincronización cuidadosa[cite: 703, 776].
+- [cite_start]Es ideal para tareas que esperan E/S (Entrada/Salida) y ofrece cambios de contexto ligeros[cite: 714].
+- Limitado por el GIL (Global Interpreter Lock) en tareas intensivas de CPU.
+
+ESCRITURA / SINTAXIS:
+- [cite_start]Clase principal: `threading.Thread`[cite: 28].
+- [cite_start]Definición (función target): `t = threading.Thread(target=miFuncion, args=(1,))`[cite: 29].
+- [cite_start]Iniciar: `t.start()` (arranca el hilo)[cite: 31, 761].
+- [cite_start]Esperar: `t.join()` (bloquea hasta que el hilo termine)[cite: 32, 763].
+- [cite_start]Sincronización: Uso de `threading.Lock()` y `acquire()`/`release()` para proteger regiones críticas[cite: 39, 40].
+
+------------------------------------------------------
+
+2. OS (Sistema Operativo)
+-------------------------
+FUNCIÓN:
+- [cite_start]Proporciona una interfaz de bajo nivel para interactuar con el Sistema Operativo[cite: 1, 420].
+- [cite_start]Permite gestionar el proceso actual (obtener PIDs) y realizar operaciones del sistema de archivos[cite: 3, 423].
+- [cite_start]Incluye mecanismos legacy como `fork` (solo Unix/Linux) para clonar procesos y `exec` para reemplazar el programa actual[cite: 427, 435].
+
+ESCRITURA / SINTAXIS:
+- [cite_start]Identificación: `os.getpid()` (ID proceso), `os.getppid()` (ID padre)[cite: 3, 4].
+- [cite_start]Rutas: `os.path.dirname(os.path.realpath(__file__))`[cite: 2].
+- [cite_start]Clonación (Unix): `pid = os.fork()`[cite: 439].
+- [cite_start]Terminación: `os.exit()`[cite: 5].
+
+------------------------------------------------------
+
+3. MULTIPROCESSING (Multiproceso)
+---------------------------------
+FUNCIÓN:
+- [cite_start]Permite crear procesos independientes basados en funciones Python, saltándose la limitación del GIL para usar múltiples núcleos de CPU (paralelismo real)[cite: 447, 712].
+- [cite_start]Cada proceso tiene su propia memoria independiente; no comparten variables globales directamente[cite: 385, 386].
+- [cite_start]Requiere mecanismos explícitos de comunicación como Colas (Queue)[cite: 594].
+
+ESCRITURA / SINTAXIS:
+- [cite_start]Clase principal: `multiprocessing.Process`[cite: 17].
+- [cite_start]Definición: `p = multiprocessing.Process(target=funcion, args=(parametros,))`[cite: 17, 449].
+- [cite_start]Iniciar: `p.start()`[cite: 18].
+- Comunicación: 
+    - [cite_start]`q = multiprocessing.Queue()`[cite: 22].
+    - [cite_start]`q.put(dato)` para enviar y `q.get()` para recibir[cite: 25, 26].
+
+------------------------------------------------------
+
+4. SUBPROCESS (Subprocesos externos)
+------------------------------------
+FUNCIÓN:
+- [cite_start]Diseñado para ejecutar nuevos programas o comandos externos del sistema (como 'notepad.exe', 'ping', 'ls') desde Python[cite: 499, 500].
+- Reemplaza a antiguas funciones de `os` como `os.system`.
+- [cite_start]Permite conectar a las tuberías de entrada/salida (stdin, stdout, stderr) para capturar resultados[cite: 521, 528].
+
+ESCRITURA / SINTAXIS:
+- [cite_start]Ejecución simple (bloqueante): `subprocess.run()`[cite: 503].
+- [cite_start]Ejecución flexible: `proc = subprocess.Popen(['comando', 'args'])`[cite: 7, 510].
+- Captura de salida:
+    - [cite_start]Definir `stdout=subprocess.PIPE`[cite: 8].
+    - [cite_start]Leer datos: `(salida, error) = proc.communicate()`[cite: 9, 522].

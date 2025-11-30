@@ -1,7 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-
+// jar tf UT2.2.jar
 public class MiAplicacion extends JFrame {
 
     public MiAplicacion() {
