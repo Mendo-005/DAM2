@@ -3,18 +3,12 @@ package es.ciudadescolar.clases;
 import java.sql.Date;
 import java.time.LocalDate;
 
-<<<<<<< HEAD
 public class Alumno 
 {
-=======
-public class Alumno {
-
->>>>>>> 8fc9065ae11502455ba61e8d4458e2ce4fb02e26
     private Integer expediente;
     private String nombre;
     private LocalDate fecha_nac;
     
-<<<<<<< HEAD
     public Alumno()
     {
 
@@ -27,8 +21,6 @@ public class Alumno {
         this.setFecha_nac(fechaNac.toLocalDate());
     }
 
-=======
->>>>>>> 8fc9065ae11502455ba61e8d4458e2ce4fb02e26
     public Integer getExpediente() {
         return expediente;
     }
@@ -51,7 +43,6 @@ public class Alumno {
     public String toString() {
         return "Alumno [expediente=" + expediente + ", nombre=" + nombre + ", fecha_nac=" + fecha_nac + "]";
     }
-<<<<<<< HEAD
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -89,18 +80,5 @@ public class Alumno {
     }
     
 
-=======
-    
-    // Constructores 
-    public Alumno() 
-    {
-    
-    }
-    public Alumno(int expediente, String nombre, Date fecha_nac) {
-        this.setExpediente(Integer.valueOf(expediente));
-        this.setNombre(nombre);
-        this.setFecha_nac(fecha_nac.toLocalDate());
-    }
->>>>>>> 8fc9065ae11502455ba61e8d4458e2ce4fb02e26
 
 }
