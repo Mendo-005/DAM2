@@ -3,12 +3,32 @@ package es.ciudadescolar.clases;
 import java.sql.Date;
 import java.time.LocalDate;
 
+<<<<<<< HEAD
 public class Alumno {
 
+=======
+public class Alumno 
+{
+>>>>>>> d29dd218349addfca7bebd047c29e260fb123868
     private Integer expediente;
     private String nombre;
     private LocalDate fecha_nac;
     
+<<<<<<< HEAD
+=======
+    public Alumno()
+    {
+
+    }
+
+    public Alumno(int exp, String nom, Date fechaNac)
+    {
+        this.setExpediente(Integer.valueOf(exp));
+        this.setNombre(nom);
+        this.setFecha_nac(fechaNac.toLocalDate());
+    }
+
+>>>>>>> d29dd218349addfca7bebd047c29e260fb123868
     public Integer getExpediente() {
         return expediente;
     }
@@ -31,6 +51,7 @@ public class Alumno {
     public String toString() {
         return "Alumno [expediente=" + expediente + ", nombre=" + nombre + ", fecha_nac=" + fecha_nac + "]";
     }
+<<<<<<< HEAD
     
     // Constructores 
     public Alumno() 
@@ -42,5 +63,44 @@ public class Alumno {
         this.setNombre(nombre);
         this.setFecha_nac(fecha_nac.toLocalDate());
     }
+=======
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((expediente == null) ? 0 : expediente.hashCode());
+        result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+        result = prime * result + ((fecha_nac == null) ? 0 : fecha_nac.hashCode());
+        return result;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Alumno other = (Alumno) obj;
+        if (expediente == null) {
+            if (other.expediente != null)
+                return false;
+        } else if (!expediente.equals(other.expediente))
+            return false;
+        if (nombre == null) {
+            if (other.nombre != null)
+                return false;
+        } else if (!nombre.equals(other.nombre))
+            return false;
+        if (fecha_nac == null) {
+            if (other.fecha_nac != null)
+                return false;
+        } else if (!fecha_nac.equals(other.fecha_nac))
+            return false;
+        return true;
+    }
+    
+
+>>>>>>> d29dd218349addfca7bebd047c29e260fb123868
 
 }
