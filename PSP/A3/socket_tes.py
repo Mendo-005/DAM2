@@ -4,7 +4,7 @@ IP = "127.0.0.1"
 PORT = 5005
 
 with skt.socket(skt.AF_INET, skt.SOCK_STREAM) as sock:
-    sock.connect(IP,PORT)
+    sock.bind(IP,PORT)
     sock.listen()
     
     conn, addr = sock.accept()
