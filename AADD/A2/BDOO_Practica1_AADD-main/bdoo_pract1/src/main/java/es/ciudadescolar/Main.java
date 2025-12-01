@@ -41,6 +41,16 @@ public class Main
 
             LOG.info("--- PRUEBAS DE CONSULTAS Y LÓGICA ---");
 
+            // Modificar Alumno por expediente
+            bd.modificarAlumnoExp("Jose", "789");
+            
+            // Borrar alumno
+            bd.expulsarAlumno(ciudadEscolar, alumno);
+            bd.matricularAlumno(ciudadEscolar, alumno);
+
+            // Borrar alumno por expediente
+            bd.expulsarAlumnoExp("999");
+
             // 1. Consultar todos los alumnos [cite: 44]
             List<Alumno> lista = bd.getTodosAlumnos("Ciudad Escolar");
             for (Alumno al : lista) 

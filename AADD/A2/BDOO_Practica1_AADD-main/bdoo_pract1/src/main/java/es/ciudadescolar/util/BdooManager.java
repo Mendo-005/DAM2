@@ -55,7 +55,7 @@ public class BdooManager
                 insti.getListaAlumnos().add(al);
                 // Guardamos el instituto (por cascadeOnUpdate se guarda el alumno)
                 bd.store(insti);
-                LOG.info("Alumno matriculado en " + insti.getNombre() + ": " + al.getNombre());
+                LOG.debug("Alumno matriculado en " + insti.getNombre() + ": " + al.getNombre());
                 return true;
             } 
             catch (Exception e) 
@@ -78,7 +78,7 @@ public class BdooManager
                 {
                     bd.store(insti); // Actualizamos la lista del instituto
                     bd.delete(al);   // Borramos fisicamente al alumno de la BD
-                    LOG.info("Alumno expulsado: " + al.getNombre());
+                    LOG.debug("Alumno expulsado: " + al.getNombre());
                     return true;
                 }
             } 
@@ -98,7 +98,7 @@ public class BdooManager
         {
             insti.setIdentificador(nuevoId);
             bd.store(insti);
-            LOG.info("ID del instituto actualizado a: " + nuevoId);
+            LOG.debug("ID del instituto actualizado a: " + nuevoId);
             return true;
         }
         return false;
@@ -116,7 +116,7 @@ public class BdooManager
             {
                 bd.store(insti);
                 status = true;
-                LOG.info("Instituto guardado: " + insti);
+                LOG.debug("Instituto guardado: " + insti);
             }
             catch (Exception e)
             {
@@ -138,7 +138,7 @@ public class BdooManager
         if (bd != null)
         {
             bd.store(al);
-            LOG.info("Alumno guardado: " + al);
+            LOG.debug("Alumno guardado: " + al);
         }
     }
 
@@ -189,7 +189,7 @@ public class BdooManager
             {
                 // Al tener cascadeOnDelete(true) configurado, borrará los alumnos asociados
                 bd.delete(result.next());
-                LOG.info("Instituto borrado correctamente.");
+                LOG.debug("Instituto borrado correctamente.");
                 return true;
             }
         }
@@ -223,7 +223,7 @@ public class BdooManager
                     alumnos.clear(); // Limpiado lógico de la lista
                     bd.store(inst);  // Guardamos cambios en instituto
                     
-                    LOG.info("Se han expulsado todos los alumnos de " + nombreInstituto);
+                    LOG.debug("Se han expulsado todos los alumnos de " + nombreInstituto);
                     return true;
                 }
             } 
@@ -256,7 +256,7 @@ public class BdooManager
         return null;
     }
 
-    // [cite: 51] - Consulta SODA
+    // [cite: 51] - Consulta SODA // IMPORTANTE
     public Instituto consultaInstiMatriculado(String nomAlumno)
     {
         if (bd != null)
@@ -274,7 +274,88 @@ public class BdooManager
         }
         return null;
     }
-    
+
+    // IMPORTANTISIMO: La clase alumno existe dentro de la base de datos aunque este dento de una lista
+    public boolean modificarAlumnoExp(String nomAlumno, String expNuevo) 
+    {
+        boolean status = false;
+        if (bd != null) 
+        {
+            Query query = bd.query();
+            // 1. Buscamos directamente ALUMNOS
+            query.constrain(Alumno.class); 
+
+            // 2. Filtramos por su nombre
+            query.descend("nombre").constrain(nomAlumno); 
+
+            ObjectSet<Alumno> result = query.execute();
+
+            if (result.hasNext()) 
+            {
+                Alumno al = result.next(); // Ahora sí, result trae Alumnos
+                al.setExpediente(expNuevo);
+
+                bd.store(al); // Guardamos los cambios
+                status = true;
+                LOG.debug("Expediente actualizado para: " + nomAlumno);
+            }
+        }
+        return status;
+    }
+
+    public boolean expulsarAlumnoExp(String exp)
+    {
+        boolean status = false;
+        if (bd != null) 
+        {
+            // 1. Buscamos el INSTITUTO que contiene al alumno con ese expediente
+            Query query = bd.query();
+            query.constrain(Instituto.class);
+            
+            // Navegamos: Instituto -> listaAlumnos -> expediente
+            query.descend("listaAlumnos").descend("expediente").constrain(exp);
+
+            ObjectSet<Instituto> result = query.execute();
+            
+            if (result.hasNext()) 
+            {
+                Instituto insti = result.next();
+                
+                // 2. Buscamos al alumno concreto dentro de la lista para sacarlo
+                // (Necesitamos el objeto exacto para usar remove)
+                List<Alumno> lista = insti.getListaAlumnos();
+                Alumno alumnoABorrar = null;
+                
+                for (Alumno al : lista) 
+                {
+                    if (al.getExpediente().equals(exp)) 
+                    {
+                        alumnoABorrar = al;
+                        break;
+                    }
+                }
+
+                if (alumnoABorrar != null)
+                {
+                    // 3. Lo quitamos de la lista y guardamos el Instituto (actualiza la lista)
+                    lista.remove(alumnoABorrar);
+                    bd.store(insti); 
+                    
+                    // 4. Ahora sí, borramos el objeto Alumno de la BD
+                    bd.delete(alumnoABorrar);
+                    
+                    status = true;
+                    LOG.debug("Se ha expulsado del instituto y borrado al alumno con expediente: " + exp);
+                }
+            }
+            else
+            {
+                LOG.warn("No se encontró ningún instituto con un alumno con expediente: " + exp);
+            }
+        }
+        return status;
+    }
+
     // Método original para actualizar ID (ahora redundante con cambiarIdInstituto pero mantenido)
     public boolean modificarInstituto(Instituto institutoAModificar, Integer nuevoId)
     {
@@ -299,7 +380,7 @@ public class BdooManager
         if (bd != null) 
         {
             bd.rollback();
-            LOG.info("Rollback ejecutado");
+            LOG.debug("Rollback ejecutado");
         }
     }
 
@@ -308,7 +389,7 @@ public class BdooManager
         if (bd != null) 
         {
             bd.commit();
-            LOG.info("Commit ejecutado");
+            LOG.debug("Commit ejecutado");
         }
     }
 }
