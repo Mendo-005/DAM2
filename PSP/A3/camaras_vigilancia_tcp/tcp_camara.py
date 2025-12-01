@@ -19,11 +19,14 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
 
         objetoDetectado = objetos[obj]
 
-        # Enviar mensaje como bytes
+        # Enviar mensaje
         client.sendall(objetoDetectado.encode())
-        print(f"Mensaje ({objetoDetectado}) enviado")
+        print(f"Enviado: {objetoDetectado}")
+
+        # ESCUCHAR RESPUESTA 
+        respuesta = client.recv(1024) 
+        print(f"Servidor respondió: {respuesta.decode()}")
 
         time.sleep(0.5)
     
-    print("Conexion cerrada")
-        
+    print("Conexion cerrada correctamente")
