@@ -7,8 +7,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.ciudadescolar.util.DbManager;
 import es.ciudadescolar.clases.Alumno;
+import es.ciudadescolar.util.DbManager;
 public class Main 
 {
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
@@ -50,6 +50,41 @@ public class Main
 
         manager.borrarAlumno(3004);
 
+
+        // SP con parametro entrada
+        int expMostrar = 9;
+        if (!manager.muestraAlumno(expMostrar)) 
+        {
+            LOG.warn("No se pudo invocar el SP con expediente: " + expMostrar);    
+        }
+        else
+        {
+            LOG.info("Invocado el SP correctamente con expediente: " +expMostrar);
+        }
+        
+
+        // SP con parametro salida
+        int numAlumnos = manager.recuperaAlumno();
+        if (numAlumnos < 0) 
+        {
+            LOG.warn("No se pudo invocar el SP ");    
+        }
+        else
+        {
+            LOG.info("Numero de alumnos en la base de datos: " + numAlumnos);
+        }
+
+        // Funcion con parametro entrada y salida
+        int exNota = 2;
+        int nota = manager.getNotaAlumno(exNota);
+        if (nota < 0) 
+        {
+            LOG.warn("No se pudo invocar la funcion con expediente: " + exNota);    
+        }
+        else
+        {
+            LOG.info("Invocado la funcion correctamente con expediente: " +exNota + " y nota: " + nota);
+        }
 
         manager.cerrarBd();
     }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-11-30 19:00:47,073 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD
 2025-11-30 19:00:47,180 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
 2025-11-30 19:00:47,196 [main] INFO  es.ciudadescolar.util.BdooManager        - Instituto: Ciudad Escolar|null|null
@@ -74,3 +75,16 @@
 2025-11-30 19:16:14,851 [main] INFO  es.ciudadescolar.util.BdooManager        - Commit ejecutado
 2025-11-30 19:16:14,855 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
 2025-11-30 19:16:14,865 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+=======
+2025-12-01 08:34:03,997 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\alumno\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-01 08:34:04,005 [main] INFO  es.ciudadescolar.util.BdooManager        - Instituto: Ciudad Escolar|null|null
+2025-12-01 08:34:04,006 [main] INFO  es.ciudadescolar.Main                    - Alumno en pre lista: Mario|999|23
+2025-12-01 08:34:04,007 [main] INFO  es.ciudadescolar.Main                    - Alumno en pre lista: Paco|222|55
+2025-12-01 08:34:04,007 [main] INFO  es.ciudadescolar.Main                    - Alumno en pre lista: Jose|544|66
+2025-12-01 08:34:04,008 [main] INFO  es.ciudadescolar.Main                    - Alumno en pre lista: Maria|121|12
+2025-12-01 08:34:04,010 [main] INFO  es.ciudadescolar.util.BdooManager        - Alumno matriculado: Mario|999|23
+2025-12-01 08:34:04,010 [main] INFO  es.ciudadescolar.util.BdooManager        - Alumno matriculado: Paco|222|55
+2025-12-01 08:34:04,010 [main] INFO  es.ciudadescolar.util.BdooManager        - Alumno matriculado: Jose|544|66
+2025-12-01 08:34:04,011 [main] INFO  es.ciudadescolar.util.BdooManager        - Alumno matriculado: Maria|121|12
+2025-12-01 08:34:04,015 [main] INFO  es.ciudadescolar.util.BdooManager        - Commit ejecutado
+>>>>>>> 0fd8cf3ecb0243641c9dbe55b6c78fad0b2111da

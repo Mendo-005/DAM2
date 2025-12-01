@@ -187,3 +187,1011 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2025-11-28 13:59:04,290 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado por expediente: Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
 2025-11-28 13:59:04,294 [main] ERROR es.ciudadescolar.util.DbManager          - Error en el alta del alumno: Parameter index out of range (1 > number of parameters, which is 0).
 2025-11-28 13:59:04,295 [main] WARN  es.ciudadescolar.Main                    - No se ha podido ddar de alta al alumno: Alumno [expediente=8, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 10:25:36,825 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexión satisfactoriamente
+2025-12-01 10:25:37,074 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 10:25:37,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 10:25:37,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 10:25:37,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 10:25:37,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 10:25:37,077 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 10:25:37,077 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 10:25:37,077 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 10:25:37,078 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 10:25:37,078 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 10:25:37,078 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 10:25:37,078 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:25:37,078 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 10:25:37,079 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 10:25:37,079 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 10:25:37,079 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 10:25:37,080 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 10:25:37,080 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 10:25:37,080 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:25:37,080 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 10:25:37,081 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 10:25:37,081 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:25:37,081 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 10:25:37,081 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 10:25:37,092 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 10:25:37,093 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 10:25:37,093 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 10:25:37,124 [main] DEBUG es.ciudadescolar.util.DbManager          - Insercción realizada correctamente: Alumno [3004]
+2025-12-01 10:25:37,124 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 10:25:37,127 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualización realizada correctamente: Alumno [3]
+2025-12-01 10:25:37,127 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 10:25:37,137 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 10:25:37,138 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 10:25:37,141 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexión satisfactoriamente
+2025-12-01 10:29:36,218 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 10:29:36,262 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 10:29:36,264 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 10:29:36,265 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 10:29:36,265 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 10:29:36,265 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 10:29:36,265 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 10:29:36,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 10:29:36,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 10:29:36,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 10:29:36,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 10:29:36,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 10:29:36,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:29:36,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 10:29:36,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 10:29:36,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 10:29:36,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 10:29:36,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 10:29:36,269 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 10:29:36,269 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:29:36,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 10:29:36,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 10:29:36,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 10:29:36,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 10:29:36,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 10:29:36,283 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 10:29:36,284 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 10:29:36,285 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 10:29:36,348 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 10:29:36,349 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 10:29:36,353 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 10:29:36,354 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 10:29:36,584 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 10:29:36,584 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 10:29:36,584 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 10:57:40,866 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 10:57:40,934 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 10:57:40,934 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 10:57:40,936 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:02:59,828 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:02:59,911 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:02:59,911 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:02:59,937 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getalumno(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:02:59,937 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:02:59,939 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:07:25,583 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:07:25,889 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:07:25,889 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:07:25,890 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:07:25,911 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:07:25,912 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:07:25,912 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:07:25,915 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:34:57,051 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:34:57,089 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:34:57,091 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:34:57,092 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:34:57,093 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:34:57,094 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:34:57,094 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:34:57,095 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:34:57,095 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:34:57,095 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:34:57,095 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:34:57,096 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:34:57,096 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:34:57,096 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:34:57,096 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:34:57,097 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:34:57,097 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:34:57,097 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:34:57,097 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:34:57,097 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:34:57,098 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:34:57,098 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:34:57,098 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:34:57,098 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:34:57,098 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:34:57,107 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:34:57,109 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:34:57,110 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:34:57,128 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:34:57,129 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:34:57,132 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:34:57,133 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:34:57,141 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:34:57,141 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:34:57,395 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:34:57,396 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:34:57,396 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:34:57,421 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:34:57,422 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:34:57,423 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:34:57,428 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:36:12,548 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:36:12,583 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:36:12,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:36:12,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:36:12,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:36:12,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:36:12,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:36:12,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:36:12,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:36:12,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:36:12,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:36:12,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:36:12,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:12,589 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:36:12,589 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:36:12,589 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:36:12,589 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:12,589 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:36:12,590 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:36:12,590 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:12,590 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:36:12,590 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:36:12,590 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:12,591 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:36:12,591 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:36:12,604 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:36:12,604 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:36:12,605 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:36:12,624 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:36:12,625 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:12,631 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:36:12,632 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:12,641 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:36:12,642 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:12,678 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:36:12,678 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:12,679 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:36:12,698 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:36:12,699 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:12,699 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:36:12,701 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:36:50,585 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:36:50,622 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:36:50,623 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:36:50,624 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:36:50,624 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:36:50,624 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:36:50,624 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:36:50,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:36:50,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:36:50,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:36:50,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:36:50,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:36:50,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:50,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:36:50,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:36:50,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:36:50,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:50,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:36:50,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:36:50,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:50,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:36:50,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:36:50,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:36:50,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:36:50,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:36:50,641 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:36:50,642 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:36:50,642 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:36:50,659 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:36:50,659 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:50,662 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:36:50,663 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:50,671 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:36:50,671 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:50,929 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:36:50,929 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:50,930 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:36:51,296 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:36:51,297 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:36:51,298 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:36:51,302 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:37:12,218 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:37:12,253 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:37:12,254 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:37:12,254 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:37:12,255 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:37:12,255 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:37:12,255 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:37:12,255 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:37:12,255 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:37:12,256 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:37:12,256 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:37:12,256 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:37:12,256 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:12,256 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:37:12,257 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:12,258 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:37:12,258 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:37:12,258 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:12,258 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:37:12,259 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:37:12,270 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:37:12,270 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:37:12,270 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:37:12,289 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:37:12,289 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:12,293 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:37:12,294 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:12,302 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:37:12,302 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:12,336 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:37:12,337 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:12,338 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:37:12,356 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:37:12,356 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:12,357 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:37:12,359 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:37:29,764 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:37:29,800 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:37:29,804 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:37:29,805 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:37:29,806 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:37:29,806 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:37:29,806 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:37:29,806 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:37:29,806 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:37:29,807 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:37:29,807 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:37:29,807 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:37:29,807 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:29,807 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:37:29,808 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:37:29,808 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:37:29,808 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:29,808 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:37:29,809 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:37:29,809 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:29,809 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:37:29,809 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:37:29,810 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:37:29,810 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:37:29,810 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:37:29,822 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:37:29,823 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:37:29,824 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:37:29,848 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:37:29,849 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:29,852 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:37:29,852 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:30,398 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:37:30,398 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:30,484 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:37:30,485 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:30,485 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:37:30,504 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:37:30,505 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:37:30,505 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:37:30,507 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:38:21,847 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:38:21,882 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:38:21,883 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:38:21,884 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:38:21,884 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:38:21,884 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:38:21,884 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:38:21,884 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:38:21,885 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:38:21,885 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:38:21,885 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:38:21,885 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:38:21,886 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:38:21,886 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:38:21,886 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:38:21,886 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:38:21,886 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:38:21,887 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:38:21,887 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:38:21,887 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:38:21,887 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:38:21,887 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:38:21,888 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:38:21,888 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:38:21,888 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:38:21,900 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:38:21,900 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:38:21,901 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:38:21,919 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:38:21,919 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:38:21,923 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:38:21,923 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:38:21,931 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:38:21,931 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:38:21,968 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:38:21,969 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:38:21,970 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:38:21,990 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:38:21,991 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:38:21,992 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:38:21,994 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:39:14,469 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:39:14,503 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:39:14,505 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:39:14,505 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:39:14,505 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:39:14,505 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:39:14,506 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:39:14,506 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:39:14,506 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:39:14,506 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:39:14,506 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:39:14,507 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:39:14,507 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:39:14,507 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:39:14,507 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:39:14,508 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:39:14,508 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:39:14,508 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:39:14,509 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:39:14,509 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:39:14,509 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:39:14,509 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:39:14,510 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:39:14,510 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:39:14,510 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:39:14,519 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:39:14,520 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:39:14,520 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:39:14,541 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:39:14,542 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:39:14,546 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:39:14,547 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:39:14,780 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:39:14,781 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:39:15,058 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:39:15,059 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:39:15,059 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:39:15,099 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {? = CALL sp_getNumAlumnos()} | FUNCTION dam2_2425.sp_getNumAlumnos does not exist
+2025-12-01 11:39:15,099 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:39:15,100 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:39:15,101 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:41:54,547 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:41:54,582 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:41:54,583 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:41:54,583 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:41:54,584 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:41:54,584 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:41:54,584 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:41:54,584 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:41:54,585 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:41:54,585 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:41:54,585 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:41:54,585 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:41:54,585 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:41:54,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:41:54,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:41:54,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:41:54,586 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:41:54,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:41:54,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:41:54,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:41:54,587 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:41:54,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:41:54,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:41:54,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:41:54,588 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:41:54,598 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:41:54,599 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:41:54,599 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:41:54,614 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:41:54,614 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:41:54,617 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:41:54,618 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:41:54,626 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:41:54,627 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:41:55,315 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:41:55,316 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:41:55,316 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:41:55,670 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos()} | Parameter index of 1 is out of range (1, 0)
+2025-12-01 11:41:55,670 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:41:55,671 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:41:55,672 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:42:20,141 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:42:20,176 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:42:20,178 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:42:20,178 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:42:20,179 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:42:20,180 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:42:20,180 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:42:20,180 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:42:20,180 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:42:20,180 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:42:20,181 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:42:20,181 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:42:20,181 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:42:20,181 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:42:20,182 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:42:20,182 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:42:20,182 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:42:20,182 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:42:20,183 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:42:20,183 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:42:20,192 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:42:20,193 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:42:20,193 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:42:20,211 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:42:20,211 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:42:20,214 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:42:20,215 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:42:20,222 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:42:20,222 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:42:20,262 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:42:20,263 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:42:20,263 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:42:20,282 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:42:20,282 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:42:20,282 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:42:20,285 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:45:02,110 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:45:02,371 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:45:02,373 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:45:02,373 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:45:02,374 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:45:02,374 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:45:02,374 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:45:02,375 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:45:02,375 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:45:02,375 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:45:02,375 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:45:02,375 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:45:02,376 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:45:02,376 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:45:02,376 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:45:02,376 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:45:02,377 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:45:02,377 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:45:02,377 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:45:02,377 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:45:02,377 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:45:02,378 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:45:02,378 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:45:02,378 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:45:02,378 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:45:02,388 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:45:02,389 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:45:02,389 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:45:02,407 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:45:02,408 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:45:02,411 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:45:02,411 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:45:02,417 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:45:02,418 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:45:02,450 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:45:02,450 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:45:02,451 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP con expediente: 9
+2025-12-01 11:45:02,469 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:45:02,469 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:45:02,469 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:45:02,471 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:46:28,369 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:46:28,406 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:46:28,408 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:46:28,408 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:46:28,409 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:46:28,409 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:46:28,409 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:46:28,409 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:46:28,410 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:46:28,410 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:46:28,410 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:46:28,410 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:46:28,411 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:46:28,411 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:46:28,411 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:46:28,411 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:46:28,411 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:46:28,412 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:46:28,412 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:46:28,412 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:46:28,412 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:46:28,412 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:46:28,413 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:46:28,413 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:46:28,413 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:46:28,421 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:46:28,421 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:46:28,422 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:46:28,439 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:46:28,439 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:46:28,445 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:46:28,445 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:46:28,453 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:46:28,454 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:46:28,487 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:46:28,488 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:46:28,488 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:46:28,507 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:46:28,508 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:46:28,509 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:46:28,511 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:48:02,303 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:48:02,335 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:48:02,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:48:02,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:48:02,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:48:02,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:48:02,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:48:02,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:48:02,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:48:02,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:48:02,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:48:02,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:48:02,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:48:02,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:48:02,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:48:02,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:48:02,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:48:02,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:48:02,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:48:02,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:48:02,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:48:02,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:48:02,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:48:02,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:48:02,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:48:02,353 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:48:02,353 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:48:02,353 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:48:02,369 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:48:02,370 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:48:02,374 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:48:02,374 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:48:02,391 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:48:02,393 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:48:02,679 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:48:02,679 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:48:02,680 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:48:02,699 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter index of 2 is out of range (1, 1)
+2025-12-01 11:48:02,700 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:48:02,700 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:48:02,702 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:57:25,873 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:57:25,907 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:57:25,909 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:57:25,909 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:57:25,910 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:57:25,911 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:57:25,911 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:57:25,911 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:57:25,911 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:57:25,912 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:57:25,912 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:57:25,912 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:57:25,912 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:57:25,913 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:57:25,913 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:57:25,913 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:57:25,913 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:57:25,913 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:57:25,914 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:57:25,914 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:57:25,924 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:57:25,924 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:57:25,925 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:57:25,942 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:57:25,943 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:57:25,946 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:57:25,947 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:57:25,954 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:57:25,955 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:57:25,996 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:57:25,996 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:57:25,997 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:57:26,248 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:57:26,249 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:57:26,249 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:57:26,251 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:58:08,564 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:58:08,606 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:58:08,608 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:58:08,608 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:58:08,608 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:58:08,609 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:58:08,609 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:58:08,609 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:58:08,609 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:58:08,610 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:58:08,610 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:58:08,610 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:58:08,610 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:08,610 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:58:08,611 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:58:08,611 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:58:08,611 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:08,612 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:58:08,612 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:58:08,612 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:08,612 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:58:08,612 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:58:08,613 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:08,613 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:58:08,613 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:58:08,622 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:58:08,623 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:58:08,623 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:58:08,641 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:58:08,642 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:09,783 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:58:09,784 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:10,019 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:58:10,021 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:10,100 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:58:10,101 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:10,101 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:58:10,429 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter index of 2 is out of range (1, 1)
+2025-12-01 11:58:10,430 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:10,430 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:58:10,432 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:58:34,681 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:58:34,714 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:58:34,715 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:58:34,716 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:58:34,716 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:58:34,716 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:58:34,716 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:58:34,717 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:58:34,717 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:58:34,717 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:58:34,717 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:58:34,717 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:58:34,718 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:34,718 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:58:34,718 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:58:34,718 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:58:34,719 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:34,719 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:58:34,719 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:58:34,719 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:34,720 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:58:34,720 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:58:34,720 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:58:34,720 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:58:34,720 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:58:34,952 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:58:34,953 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:58:34,954 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:58:34,969 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:58:34,970 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:35,190 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:58:35,191 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:35,206 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:58:35,207 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:35,458 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:58:35,460 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:35,462 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:58:35,484 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | No value specified for parameter 1
+2025-12-01 11:58:35,485 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:58:35,485 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:58:35,487 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 11:59:25,563 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 11:59:25,600 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 11:59:25,602 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 11:59:25,602 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 11:59:25,602 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 11:59:25,603 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 11:59:25,603 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 11:59:25,603 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 11:59:25,603 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 11:59:25,603 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 11:59:25,604 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:59:25,604 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 11:59:25,604 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:59:25,604 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 11:59:25,604 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 11:59:25,605 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 11:59:25,605 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 11:59:25,605 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:59:25,605 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 11:59:25,606 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:59:25,606 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 11:59:25,607 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 11:59:25,607 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 11:59:25,607 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 11:59:25,607 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 11:59:25,620 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 11:59:25,620 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 11:59:25,621 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 11:59:25,637 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 11:59:25,638 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:59:25,642 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 11:59:25,642 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:59:25,650 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 11:59:25,650 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:59:25,690 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 11:59:25,690 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:59:25,691 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 11:59:25,710 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 11:59:25,711 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 11:59:25,711 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 11:59:25,713 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 12:02:45,016 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 12:02:45,069 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:02:45,071 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:02:45,071 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:02:45,071 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:02:45,072 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:02:45,072 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:02:45,072 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:02:45,072 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:02:45,072 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:02:45,073 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:02:45,073 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:02:45,073 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:02:45,073 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:02:45,074 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:02:45,074 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:02:45,074 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:02:45,075 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:02:45,075 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:02:45,075 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:02:45,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:02:45,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:02:45,076 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:02:45,077 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:02:45,077 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:02:45,090 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:02:45,091 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:02:45,091 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:02:45,115 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 12:02:45,115 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:02:45,119 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 12:02:45,120 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:02:45,357 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:02:45,358 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:02:45,395 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 12:02:45,396 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:02:45,397 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:02:45,416 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 12:02:45,417 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:02:45,417 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 12:02:45,419 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 12:09:16,077 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 12:09:16,336 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:09:16,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:09:16,337 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:09:16,338 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:09:16,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:09:16,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:09:16,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:09:16,339 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:09:16,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:09:16,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:09:16,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:09:16,340 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:09:16,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:09:16,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:09:16,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:09:16,341 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:09:16,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:09:16,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:09:16,342 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:09:16,353 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:09:16,354 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:09:16,354 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:09:16,375 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 12:09:16,375 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,378 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 12:09:16,378 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,608 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:09:16,609 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,642 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 12:09:16,643 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,644 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:09:16,663 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 12:09:16,663 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,664 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 12:09:16,699 [main] ERROR es.ciudadescolar.util.DbManager          - Error durante al invocacion de la funcion getNotaAlumno: FUNCTION dam2_2425.fun_getnotaalumnos does not exist
+2025-12-01 12:09:16,699 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:09:16,700 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar la funcion con expediente: 1
+2025-12-01 12:09:16,702 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 12:14:15,580 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 12:14:15,619 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:14:15,624 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:14:15,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:14:15,625 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:14:15,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:14:15,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:14:15,626 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:14:15,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:14:15,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:14:15,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:14:15,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:14:15,627 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:15,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:14:15,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:14:15,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:14:15,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:15,628 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:14:15,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:14:15,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:15,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:14:15,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:14:15,629 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:15,630 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:14:15,630 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:14:15,640 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:14:15,641 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:14:15,641 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:14:15,656 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 12:14:15,657 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:15,660 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 12:14:15,660 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:15,667 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:14:15,667 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:16,131 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 12:14:16,132 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:16,132 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:14:16,150 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 12:14:16,151 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:16,151 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 12:14:16,173 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion de la funcion getNotaAlumno satisfactoria
+2025-12-01 12:14:16,176 [main] DEBUG es.ciudadescolar.util.DbManager          - Recuperamos la nota del alumno 1 nota =  3
+2025-12-01 12:14:16,177 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:16,177 [main] INFO  es.ciudadescolar.Main                    - Invocado la funcion correctamente con expediente: 1 y nota: 3
+2025-12-01 12:14:16,179 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 12:14:36,946 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 12:14:36,981 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:14:36,982 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:14:36,983 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:14:36,983 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:14:36,983 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:14:36,983 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:14:36,984 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:36,985 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:14:36,985 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:14:36,985 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:14:36,985 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:36,986 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:14:36,986 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:14:36,986 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:36,986 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:14:36,987 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:14:36,987 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:14:36,987 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:14:36,987 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:14:37,000 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:14:37,001 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:14:37,001 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:14:37,246 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 12:14:37,247 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,250 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 12:14:37,250 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,259 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:14:37,259 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,291 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 12:14:37,291 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,292 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:14:37,536 [main] ERROR es.ciudadescolar.util.DbManager          - Error en la invocacion del SP: {CALL sp_getNumAlumnos(?)} | Parameter number 1 is not an OUT parameter
+2025-12-01 12:14:37,537 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,537 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 12:14:37,792 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion de la funcion getNotaAlumno satisfactoria
+2025-12-01 12:14:37,802 [main] DEBUG es.ciudadescolar.util.DbManager          - Recuperamos la nota del alumno 2 nota =  4
+2025-12-01 12:14:37,803 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:14:37,805 [main] INFO  es.ciudadescolar.Main                    - Invocado la funcion correctamente con expediente: 2 y nota: 4
+2025-12-01 12:14:37,810 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente
+2025-12-01 12:17:10,203 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexión satisfactoriamente
+2025-12-01 12:17:10,479 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:17:10,480 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:17:10,480 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:17:10,481 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:17:10,481 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:17:10,481 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:17:10,481 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:17:10,482 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:17:10,482 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:17:10,482 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:17:10,482 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:17:10,483 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:17:10,483 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:17:10,483 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:17:10,483 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:17:10,483 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:17:10,484 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:17:10,484 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:17:10,484 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:17:10,484 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:17:10,485 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:17:10,485 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:17:10,485 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:17:10,485 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:17:10,710 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:17:10,710 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:17:10,711 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:17:10,728 [main] DEBUG es.ciudadescolar.util.DbManager          - Insercción realizada correctamente: Alumno [3004]
+2025-12-01 12:17:10,729 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 12:17:10,735 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualización realizada correctamente: Alumno [3]
+2025-12-01 12:17:10,737 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 12:17:10,749 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:17:10,749 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberación de recursos ha ido bien
+2025-12-01 12:17:11,353 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria
+2025-12-01 12:17:11,355 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:17:11,430 [main] ERROR es.ciudadescolar.util.DbManager          - Error durante la invocacion del SP: Parameter number 1 is not an OUT parameter
+2025-12-01 12:17:11,430 [main] DEBUG es.ciudadescolar.util.DbManager          - Cierre de recursos realizado correctamente
+2025-12-01 12:17:11,431 [main] WARN  es.ciudadescolar.Main                    - No se pudo invocar el SP 
+2025-12-01 12:17:11,450 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a funcion realizada correctamente
+2025-12-01 12:17:11,453 [main] DEBUG es.ciudadescolar.util.DbManager          - Recuperada nota [4] para el alumno [2]
+2025-12-01 12:17:11,453 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recutrsos en la invocacion de la funcion ha sido satisfactoria
+2025-12-01 12:17:11,454 [main] INFO  es.ciudadescolar.Main                    - Invocado la funcion correctamente con expediente: 2 y nota: 4
+2025-12-01 12:17:11,456 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexión satisfactoriamente
+2025-12-01 12:18:29,230 [main] DEBUG es.ciudadescolar.util.DbManager          - Establecida conexion satisfactoriamente
+2025-12-01 12:18:29,265 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha ejecutado correctamente la sentencia SELECT
+2025-12-01 12:18:29,266 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1, nombre=Francisco, fecha_nac=1999-12-31]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2, nombre=Fermin, fecha_nac=2005-02-21]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3, nombre=Manuel, fecha_nac=null]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=4, nombre=Manolo, fecha_nac=null]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=5, nombre=Juan, fecha_nac=1991-04-23]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=11, nombre=jose, fecha_nac=2024-11-28]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=41, nombre=Sigma, fecha_nac=2001-10-23]
+2025-12-01 12:18:29,267 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=67, nombre=ibai, fecha_nac=2001-10-03]
+2025-12-01 12:18:29,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1001, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:18:29,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1002, nombre=Maria, fecha_nac=null]
+2025-12-01 12:18:29,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:18:29,268 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1009, nombre=Antonio, fecha_nac=2000-01-03]
+2025-12-01 12:18:29,269 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1101, nombre=Ramon, fecha_nac=null]
+2025-12-01 12:18:29,269 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1102, nombre=Maria, fecha_nac=null]
+2025-12-01 12:18:29,269 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=1103, nombre=Elena, fecha_nac=null]
+2025-12-01 12:18:29,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:18:29,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2002, nombre=María, fecha_nac=null]
+2025-12-01 12:18:29,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=2003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:18:29,270 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3001, nombre=Ramón, fecha_nac=null]
+2025-12-01 12:18:29,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3002, nombre=María, fecha_nac=null]
+2025-12-01 12:18:29,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3003, nombre=Elena, fecha_nac=null]
+2025-12-01 12:18:29,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3010, nombre=Carlos, fecha_nac=2001-10-23]
+2025-12-01 12:18:29,271 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=3333, nombre=David, fecha_nac=2001-10-23]
+2025-12-01 12:18:29,281 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el resultSet
+2025-12-01 12:18:29,281 [main] DEBUG es.ciudadescolar.util.DbManager          - Se ha cerrado correctamente el statement
+2025-12-01 12:18:29,282 [main] WARN  es.ciudadescolar.Main                    - Alumno buscado no encontrado
+2025-12-01 12:18:29,299 [main] DEBUG es.ciudadescolar.util.DbManager          - Inserccion realizada correctamente: Alumno [3004]
+2025-12-01 12:18:29,300 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,303 [main] DEBUG es.ciudadescolar.util.DbManager          - Actualizacion realizada correctamente: Alumno [3]
+2025-12-01 12:18:29,304 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,313 [main] DEBUG es.ciudadescolar.util.DbManager          - Borrado realizada correctamente: Alumno [3004]
+2025-12-01 12:18:29,313 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,347 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL sp_getalumno(?)} con expediente: 9
+2025-12-01 12:18:29,347 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,348 [main] INFO  es.ciudadescolar.Main                    - Invocado el SP correctamente con expediente: 9
+2025-12-01 12:18:29,368 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion a SP satisfactoria: {CALL getNumAlumnos(?)} con 23 alumnos
+2025-12-01 12:18:29,369 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,370 [main] INFO  es.ciudadescolar.Main                    - Numero de alumnos en la base de datos: 23
+2025-12-01 12:18:29,825 [main] DEBUG es.ciudadescolar.util.DbManager          - Invocacion de la funcion getNotaAlumno satisfactoria
+2025-12-01 12:18:29,828 [main] DEBUG es.ciudadescolar.util.DbManager          - Recuperamos la nota del alumno 2 nota =  4
+2025-12-01 12:18:29,828 [main] DEBUG es.ciudadescolar.util.DbManager          - La liberacion de recursos ha ido bien
+2025-12-01 12:18:29,829 [main] INFO  es.ciudadescolar.Main                    - Invocado la funcion correctamente con expediente: 2 y nota: 4
+2025-12-01 12:18:29,830 [main] DEBUG es.ciudadescolar.util.DbManager          - Cerrada conexion satisfactoriamente

@@ -1,5 +1,6 @@
 package es.ciudadescolar.util;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -7,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.Types;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -16,6 +18,7 @@ import java.io.IOException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 import es.ciudadescolar.clases.Alumno;
 
@@ -41,11 +44,11 @@ public class DbManager
             Class.forName(prop.getProperty(DRIVER));
             //con = DriverManager.getConnection("jdbc:mysql://192.168.203.77:3306/dam2_2425", "dam2", "dam2");
             con = DriverManager.getConnection(prop.getProperty(URL), prop.getProperty(USUARIO),prop.getProperty(PWD));
-            LOG.debug("Establecida conexión satisfactoriamente");
+            LOG.debug("Establecida conexion satisfactoriamente");
         }
         catch (IOException e) 
         {
-            LOG.error("Imposible cargar propiedades de la conexión");
+            LOG.error("Imposible cargar propiedades de la conexion");
         }
         catch (ClassNotFoundException e) 
         {
@@ -106,7 +109,7 @@ public class DbManager
                         stAlumnos.close();
                 } catch (SQLException e) 
                 {
-                    LOG.error("Error durante el cierre de la conexión");
+                    LOG.error("Error durante el cierre de la conexion");
                 }
             }
         }
@@ -122,7 +125,7 @@ public class DbManager
             try 
             {
                 con.close();
-                LOG.debug("Cerrada conexión satisfactoriamente");
+                LOG.debug("Cerrada conexion satisfactoriamente");
                 status = true;
             } 
             catch (SQLException e) 
@@ -169,10 +172,10 @@ public class DbManager
                         LOG.debug("Se ha cerrado correctamente el resultSet");
                     }
                     if (pstAlumno != null)
-                     {
+                    {
                         pstAlumno.close();
                         LOG.debug("Se ha cerrado correctamente el statement");
-                     }  
+                    }  
                 } catch (SQLException e) 
                 {
                     LOG.error("Error liberando recursos de la consulta parametrizada");    
@@ -198,11 +201,11 @@ public class DbManager
                 pstNuevoAlumno.setDate(3,Date.valueOf(al.getFecha_nac()));
                 if (pstNuevoAlumno.executeUpdate() == 1)
                 {
-                    LOG.debug("Insercción realizada correctamente: Alumno ["+al.getExpediente()+"]");
+                    LOG.debug("Inserccion realizada correctamente: Alumno ["+al.getExpediente()+"]");
                     status = true;
                 }
             }
-             catch (SQLException e) 
+            catch (SQLException e) 
             {
                 LOG.error("Error durante el alta del alumno: "+ e.getMessage());    
             }
@@ -213,10 +216,10 @@ public class DbManager
                     try 
                     {
                         pstNuevoAlumno.close();
-                        LOG.debug("La liberación de recursos ha ido bien");
+                        LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos de la inserción parametrizada");  
+                        LOG.error("Error liberando recursos de la insercion parametrizada");  
                     }
 
                 }
@@ -243,13 +246,13 @@ public class DbManager
 
                 if (pstCambioNombreAlumno.executeUpdate() == 1)
                 {
-                    LOG.debug("Actualización realizada correctamente: Alumno ["+al.getExpediente()+"]");
+                    LOG.debug("Actualizacion realizada correctamente: Alumno ["+al.getExpediente()+"]");
                     status = true;
                 }
             }
-             catch (SQLException e) 
+            catch (SQLException e) 
             {
-                LOG.error("Error durante la actualización del alumno: "+ e.getMessage());    
+                LOG.error("Error durante la actualizacion del alumno: "+ e.getMessage());    
             }
             finally
             {
@@ -258,10 +261,10 @@ public class DbManager
                     try 
                     {
                         pstCambioNombreAlumno.close();
-                        LOG.debug("La liberación de recursos ha ido bien");
+                        LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos de la inserción parametrizada");  
+                        LOG.error("Error liberando recursos de la insercion parametrizada");  
                     }
 
                 }
@@ -272,7 +275,7 @@ public class DbManager
         return status;
     }
 
-     public boolean borrarAlumno(int expediente)
+    public boolean borrarAlumno(int expediente)
     {
         boolean status = false;
         PreparedStatement pstBorradoAlumno = null;
@@ -283,7 +286,7 @@ public class DbManager
             try 
             {
                 pstBorradoAlumno = con.prepareStatement(SQL.BAJA_ALUMNO);
-                 pstBorradoAlumno.setInt(1,expediente);
+                pstBorradoAlumno.setInt(1,expediente);
 
                 if (pstBorradoAlumno.executeUpdate() == 1)
                 {
@@ -291,7 +294,7 @@ public class DbManager
                     status = true;
                 }
             }
-             catch (SQLException e) 
+            catch (SQLException e) 
             {
                 LOG.error("Error durante borrado del alumno: "+ e.getMessage());    
             }
@@ -302,7 +305,7 @@ public class DbManager
                     try 
                     {
                         pstBorradoAlumno.close();
-                        LOG.debug("La liberación de recursos ha ido bien");
+                        LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
                         LOG.error("Error liberando recursos del borrado parametrizada");  
@@ -314,5 +317,132 @@ public class DbManager
         }
 
         return status;
+    }
+
+    public boolean muestraAlumno(int expediente)
+    {
+        boolean status = false;
+        CallableStatement cs = null;
+
+        if (con != null) 
+        {
+            try 
+            {
+                cs = con.prepareCall(SQL.INVOCACION_SP_INFO_ALUMNO);
+                cs.setInt(1, expediente);
+
+                cs.execute();
+                LOG.debug("Invocacion a SP satisfactoria: " + SQL.INVOCACION_SP_INFO_ALUMNO + " con expediente: " + expediente);
+                status = true;
+            } 
+            catch (SQLException e) 
+            {
+                LOG.error("Error en la invocacion del SP: " + SQL.INVOCACION_SP_INFO_ALUMNO + " | " + e.getMessage());
+            }
+            finally
+            {
+                if (cs != null)
+                {
+                    try 
+                    {
+                        cs.close();
+                        LOG.debug("La liberacion de recursos ha ido bien");
+                    } catch (SQLException e) 
+                    {
+                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                    }
+
+                }
+            }
+        }
+
+        return status;
+    }
+
+    public int recuperaAlumno()
+    {
+        CallableStatement cs = null;
+        int numAlumnos = -1;
+
+        if (con != null) 
+        {
+            try 
+            {
+
+                cs = con.prepareCall(SQL.INVOCACION_SP_NUM_ALUMNOS);
+                // Registramos parmetro de salida 
+                cs.registerOutParameter(1, Types.INTEGER); // Importante el Types integer para decir que es entero en SQL
+                cs.execute();
+                // Recogemos el valor de salida en la variable 
+                numAlumnos = cs.getInt(1);
+
+                LOG.debug("Invocacion a SP satisfactoria: " + SQL.INVOCACION_SP_NUM_ALUMNOS + " con " + numAlumnos + " alumnos");
+            } 
+            catch (SQLException e) 
+            {
+                LOG.error("Error en la invocacion del SP: " + SQL.INVOCACION_SP_NUM_ALUMNOS + " | " + e.getMessage());
+            }
+            finally
+            {
+                if (cs != null)
+                {
+                    try 
+                    {
+                        cs.close();
+                        LOG.debug("La liberacion de recursos ha ido bien");
+                    } 
+                    catch (SQLException e) 
+                    {
+                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                    }
+
+                }
+            }
+        }
+
+        return numAlumnos;
+    }
+
+    public int getNotaAlumno(int exp)
+    {
+        int nota = -1;
+        CallableStatement cs = null;
+
+        if (con != null) 
+        {
+            try 
+            {
+                cs = con.prepareCall(SQL.INVOCACION_FUN_NOTA_ALUMNOS);
+                cs.registerOutParameter(1, Types.INTEGER); // Importante el Types integer para decir que es entero en SQL
+                cs.setInt(2, exp);
+
+                cs.execute();
+                LOG.debug("Invocacion de la funcion getNotaAlumno satisfactoria");
+                nota = cs.getInt(1);
+                LOG.debug("Recuperamos la nota del alumno " + exp + " nota =  " + nota);
+            } 
+            catch (SQLException e) 
+            {
+                LOG.error("Error durante al invocacion de la funcion getNotaAlumno: " + e.getMessage() );
+            }
+            finally
+            {
+                if (cs != null)
+                {
+                    try 
+                    {
+                        cs.close();
+                        LOG.debug("La liberacion de recursos ha ido bien");
+                    } 
+                    catch (SQLException e) 
+                    {
+                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                    }
+                }
+            }
+        }
+                
+        return nota;
+        
     }
 }
