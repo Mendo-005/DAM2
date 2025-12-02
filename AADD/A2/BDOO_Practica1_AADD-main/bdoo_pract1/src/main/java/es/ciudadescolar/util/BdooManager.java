@@ -22,6 +22,10 @@ public class BdooManager
     private static ObjectContainer bd = null;
     private File ficheroBd = null;
     
+    /**
+     * Constructor. Configura y abre la conexión con la base de datos db4o.
+     * Establece la configuración de borrado y actualización en cascada.
+     */
     public BdooManager(File fich, boolean sobrescribir)
     {
         this.ficheroBd = fich;
@@ -44,7 +48,10 @@ public class BdooManager
 
     // --- MÉTODOS DE LÓGICA DE INSTITUTO (Movidos aquí) ---
 
-    // Equivalente a matricularAlumno (PDF pág 4) [cite: 40]
+    /**
+     * Modifica el instituto añadiendo un alumno a su lista y guarda el cambio.
+     * @return true si se matriculó y guardó correctamente, false si hubo error.
+     */
     public boolean matricularAlumno(Instituto insti, Alumno al)
     {
         if (bd != null) 
@@ -67,7 +74,10 @@ public class BdooManager
         return false;
     }
 
-    // Equivalente a expulsarAlumno (PDF pág 4) [cite: 40]
+    /**
+     * Modifica la lista del instituto (quita al alumno) y borra físicamente al alumno de la BD.
+     * @return true si el alumno se eliminó de la lista y de la BD, false si falló.
+     */
     public boolean expulsarAlumno(Instituto insti, Alumno al)
     {
         if (bd != null) 
@@ -91,7 +101,10 @@ public class BdooManager
         return false;
     }
 
-    // Equivalente a cambiarIdInstituto (PDF pág 4) [cite: 41]
+    /**
+     * Modifica el identificador de un instituto y actualiza el objeto en la BD.
+     * @return true si la actualización fue correcta.
+     */
     public boolean cambiarIdInstituto(Instituto insti, int nuevoId)
     {
         if (bd != null)
@@ -106,7 +119,10 @@ public class BdooManager
 
     // --- MÉTODOS DE GESTIÓN BD (PDF pág 4) ---
 
-    // [cite: 45]
+    /**
+     * Guarda (persiste) un nuevo objeto Instituto en la base de datos.
+     * @return true si se guardó correctamente, false si hubo excepción.
+     */
     public boolean guardarInstituto(Instituto insti)
     {
         boolean status = false;
@@ -126,13 +142,19 @@ public class BdooManager
         return status;
     }
 
-    // Metodo mantenido por compatibilidad con tu Main original
+    /**
+     * Wrapper de guardarInstituto.
+     * @return true si se guardó correctamente.
+     */
     public boolean generarInstituto(Instituto insti)
     {
         return guardarInstituto(insti);
     }
 
-    // [cite: 43]
+    /**
+     * Guarda (persiste) un objeto Alumno individualmente.
+     * No retorna nada (void).
+     */
     public void guardarAlumno(Alumno al)
     {
         if (bd != null)
@@ -142,7 +164,10 @@ public class BdooManager
         }
     }
 
-    // [cite: 44]
+    /**
+     * Consulta un instituto por nombre y recupera su lista de alumnos.
+     * @return Una lista de objetos Alumno (puede estar vacía), nunca null.
+     */
     public List<Alumno> getTodosAlumnos(String nombreInstituto)
     {
         List<Alumno> listaResultado = new ArrayList<>();
@@ -165,7 +190,10 @@ public class BdooManager
         return listaResultado;
     }
 
-    // [cite: 46]
+    /**
+     * Consulta la base de datos buscando un instituto específico (Query By Example).
+     * @return El objeto Instituto encontrado o null si no existe.
+     */
     public Instituto getInstituto(Instituto institutoBuscado)
     {
         if (bd != null)
@@ -179,7 +207,10 @@ public class BdooManager
         return null;
     }
 
-    // [cite: 47] - Uso de borrado en cascada
+    /**
+     * Borra un instituto de la base de datos (y sus alumnos por cascada).
+     * @return true si encontró y borró el instituto, false en caso contrario.
+     */
     public boolean borrarInstituto(Instituto institutoABorrar)
     {
         if (bd != null)
@@ -196,7 +227,10 @@ public class BdooManager
         return false;
     }
 
-    // [cite: 49] - Borrado transaccional
+    /**
+     * Transacción compleja: Consulta el instituto, borra todos sus alumnos uno a uno y actualiza el instituto vacío.
+     * @return true si todo el proceso fue exitoso, false si falló (hace rollback).
+     */
     public boolean expulsarATodosAlumnos(String nombreInstituto)
     {
         if (bd != null)
@@ -237,7 +271,10 @@ public class BdooManager
         return false;
     }
 
-    // [cite: 50]
+    /**
+     * Consulta un instituto buscando por su ID (parseado de String).
+     * @return El objeto Instituto encontrado o null si no existe o el ID es inválido.
+     */
     public Instituto consultaMatriculasInstituto(String idInstituto)
     {
         if (bd != null)
@@ -256,7 +293,10 @@ public class BdooManager
         return null;
     }
 
-    // [cite: 51] - Consulta SODA // IMPORTANTE
+    /**
+     * Consulta SODA: Busca el instituto que contiene un alumno con el nombre indicado.
+     * @return El objeto Instituto que contiene al alumno, o null si no se encuentra.
+     */
     public Instituto consultaInstiMatriculado(String nomAlumno)
     {
         if (bd != null)
@@ -275,7 +315,10 @@ public class BdooManager
         return null;
     }
 
-    // IMPORTANTISIMO: La clase alumno existe dentro de la base de datos aunque este dento de una lista
+    /**
+     * Consulta nativa/SODA: Busca un Alumno por nombre y MODIFICA su expediente.
+     * @return true si encontró al alumno y actualizó el expediente, false en caso contrario.
+     */
     public boolean modificarAlumnoExp(String nomAlumno, String expNuevo) 
     {
         boolean status = false;
@@ -303,6 +346,10 @@ public class BdooManager
         return status;
     }
 
+    /**
+     * Operación compleja SODA: Busca Instituto por expediente de alumno, saca al alumno de la lista y lo borra de la BD.
+     * @return true si se encontró el instituto/alumno y se realizó el borrado correctamente.
+     */
     public boolean expulsarAlumnoExp(String exp)
     {
         boolean status = false;
@@ -356,7 +403,10 @@ public class BdooManager
         return status;
     }
 
-    // Método original para actualizar ID (ahora redundante con cambiarIdInstituto pero mantenido)
+    /**
+     * Wrapper de cambiarIdInstituto. Modifica el ID de un instituto.
+     * @return true si la operación fue exitosa.
+     */
     public boolean modificarInstituto(Instituto institutoAModificar, Integer nuevoId)
     {
         return cambiarIdInstituto(institutoAModificar, nuevoId);
@@ -364,6 +414,10 @@ public class BdooManager
 
     // --- TRANSACCIONES Y CIERRE ---
 
+    /**
+     * Cierra la conexión con la base de datos.
+     * @return true si se cerró correctamente.
+     */
     public boolean cerrar()
     {
         if (bd != null)
@@ -375,6 +429,9 @@ public class BdooManager
         return false;
     }
 
+    /**
+     * Deshace la transacción actual (Rollback).
+     */
     public void rollbackTransaction() 
     {
         if (bd != null) 
@@ -384,6 +441,9 @@ public class BdooManager
         }
     }
 
+    /**
+     * Confirma la transacción actual (Commit).
+     */
     public void commitTransaction() 
     {
         if (bd != null) 

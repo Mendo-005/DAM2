@@ -1,0 +1,126 @@
+2025-12-02 15:33:24,638 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:33:24,678 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:33:24,680 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:33:24,681 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:33:24,688 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:33:24,721 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BDUnable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 15:34:24,529 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:34:24,870 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:34:24,898 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:34:24,899 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:34:24,900 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:34:24,902 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:34:24,924 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BDUnable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 15:34:29,822 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:34:30,139 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:34:30,163 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:34:30,164 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:34:30,164 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:34:30,165 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:34:30,185 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BDUnable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 15:41:48,427 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:41:48,775 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:41:48,816 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:41:48,818 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:41:48,819 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:41:48,820 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:41:48,843 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 15:51:41,592 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:51:41,890 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:51:41,916 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:51:41,917 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:51:41,918 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:51:41,918 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:51:41,940 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 15:54:48,475 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:54:48,779 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:54:48,807 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:54:48,809 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:54:48,811 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:54:48,812 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:54:48,836 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @37918c79
+2025-12-02 15:55:00,651 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:55:00,964 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:55:00,996 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:55:00,997 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:55:00,999 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:55:01,000 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:55:01,026 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @37918c79
+2025-12-02 15:55:15,219 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:55:15,535 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:55:15,561 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:55:15,562 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:55:15,564 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:55:15,565 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:55:15,589 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @37918c79
+2025-12-02 15:56:17,675 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 15:56:18,029 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 15:56:18,060 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 15:56:18,062 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 15:56:18,062 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 15:56:18,063 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 15:56:18,083 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 16:51:30,138 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 16:51:30,520 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 16:51:30,546 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 16:51:30,548 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 16:51:30,549 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 16:51:30,550 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 16:51:52,046 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 16:51:52,358 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 16:51:52,389 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 16:51:52,391 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 16:51:52,392 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 16:51:52,393 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 16:51:52,417 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 16:52:00,298 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 16:52:00,600 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 16:52:00,627 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 16:52:00,628 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 16:52:00,629 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 16:52:00,631 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 16:52:00,650 [main] ERROR es.ciudadescolar.Main                    - Error en la gestion de la BD: Unable to make private java.time.LocalDate(int,int,int) accessible: module java.base does not "opens java.time" to unnamed module @3a5ed7a6
+2025-12-02 16:57:34,887 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 16:57:35,194 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 16:57:35,224 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 16:57:35,226 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 16:57:35,227 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 16:57:35,228 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 17:00:02,446 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 17:00:02,747 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 17:00:02,778 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 17:00:02,779 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 17:00:02,780 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 17:00:02,781 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 17:00:02,796 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Jose | Salas | 324 |  guardado en el equipo Equipo: IT | Infraestructura & Tecnologia | 1028000 | [Jose | Salas | 324 | ]
+2025-12-02 17:00:02,797 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Carlos | Jose | 233 |  guardado en el equipo Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | [Carlos | Jose | 233 | ]
+2025-12-02 17:00:02,798 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Leo | Pochi | 243 |  guardado en el equipo Equipo: RRHH | Recursos Humanos | 10282200 | [Leo | Pochi | 243 | ]
+2025-12-02 17:00:02,799 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Mario | Perez | 253 |  guardado en el equipo Equipo: MRKG | Marketing | 102800 | [Mario | Perez | 253 | ]
+2025-12-02 17:00:02,808 [main] INFO  es.ciudadescolar.Main                    - Empleados en lista Jose | Salas | 324 | 
+2025-12-02 23:50:26,009 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 23:50:26,402 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 23:50:26,436 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 23:50:26,438 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 23:50:26,439 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 23:50:26,441 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 23:50:26,463 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Jose | Salas | 324 |  guardado en el equipo Equipo: IT | Infraestructura & Tecnologia | 1028000 | [Jose | Salas | 324 | ]
+2025-12-02 23:50:26,465 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Carlos | Jose | 233 |  guardado en el equipo Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | [Carlos | Jose | 233 | ]
+2025-12-02 23:50:26,467 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Leo | Pochi | 243 |  guardado en el equipo Equipo: RRHH | Recursos Humanos | 10282200 | [Leo | Pochi | 243 | ]
+2025-12-02 23:50:26,469 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Mario | Perez | 253 |  guardado en el equipo Equipo: MRKG | Marketing | 102800 | [Mario | Perez | 253 | ]
+2025-12-02 23:50:26,485 [main] INFO  es.ciudadescolar.Main                    - Empleados en lista Jose | Salas | 324 | 
+2025-12-02 23:50:26,487 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado con expediente (324) :Jose | Salas | 324 | 
+2025-12-02 23:50:26,487 [main] INFO  es.ciudadescolar.Main                    - Empleado recuperado por expediente: Jose | Salas | 324 | 
+2025-12-02 23:57:21,444 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-02 23:57:21,750 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\practica_exm\Equipos.bd4o
+2025-12-02 23:57:21,777 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: IT | Infraestructura & Tecnologia | 1028000 | []
+2025-12-02 23:57:21,778 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | []
+2025-12-02 23:57:21,779 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: RRHH | Recursos Humanos | 10282200 | []
+2025-12-02 23:57:21,779 [main] DEBUG es.ciudadescolar.util.BdooManager        - Equipo guardado: Equipo: MRKG | Marketing | 102800 | []
+2025-12-02 23:57:21,795 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Jose | Salas | 324 |  guardado en el equipo Equipo: IT | Infraestructura & Tecnologia | 1028000 | [Jose | Salas | 324 | ]
+2025-12-02 23:57:21,796 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Carlos | Jose | 233 |  guardado en el equipo Equipo: BABI | Buisness Analytics & Intelligence | 1528000 | [Carlos | Jose | 233 | ]
+2025-12-02 23:57:21,797 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Leo | Pochi | 243 |  guardado en el equipo Equipo: RRHH | Recursos Humanos | 10282200 | [Leo | Pochi | 243 | ]
+2025-12-02 23:57:21,798 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado Mario | Perez | 253 |  guardado en el equipo Equipo: MRKG | Marketing | 102800 | [Mario | Perez | 253 | ]
+2025-12-02 23:57:21,807 [main] INFO  es.ciudadescolar.Main                    - Empleados en lista Jose | Salas | 324 | 
+2025-12-02 23:57:21,809 [main] DEBUG es.ciudadescolar.util.BdooManager        - Empleado con expediente (324): Jose | Salas | 324 | 
+2025-12-02 23:57:21,810 [main] INFO  es.ciudadescolar.Main                    - Empleado recuperado por expediente: Jose | Salas | 324 | 
+2025-12-02 23:57:21,841 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrando la base de datos: Equipos.bd4o
