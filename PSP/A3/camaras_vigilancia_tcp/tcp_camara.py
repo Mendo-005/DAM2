@@ -1,9 +1,11 @@
+import json
 import random
 import socket
 import time
 
 HOST = "127.0.0.1"
 PORT = 5000
+NOMBRE = "Mario Mendoza"
 
 objetos = ['-', 'persona', 'coche', 'moto', 'bicicleta']
 
@@ -17,11 +19,17 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
         if obj <= 0:
             obj = 0
 
-        objetoDetectado = objetos[obj]
+        datos_diccionario = {
+                "nombre": NOMBRE,
+                "info": objetos[obj]
+            }
+
+        # Convertir diccionario a String JSON
+        mensaje_json = json.dumps(datos_diccionario)
 
         # Enviar mensaje
-        client.sendall(objetoDetectado.encode())
-        print(f"Enviado: {objetoDetectado}")
+        client.sendall(mensaje_json.encode())
+        print(f"Enviado: {mensaje_json}")
 
         # ESCUCHAR RESPUESTA 
         respuesta = client.recv(1024) 
