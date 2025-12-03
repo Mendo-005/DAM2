@@ -22,7 +22,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
         datos_diccionario = {
                 "nombre": NOMBRE,
                 "info": objetos[obj]
-            }
+        }
 
         # Convertir diccionario a String JSON
         mensaje_json = json.dumps(datos_diccionario)
