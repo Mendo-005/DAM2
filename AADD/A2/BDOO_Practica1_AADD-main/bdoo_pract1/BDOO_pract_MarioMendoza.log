@@ -347,3 +347,118 @@
 2025-12-03 00:00:28,564 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
 2025-12-03 00:00:28,569 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
 2025-12-03 00:00:28,581 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+2025-12-03 06:48:27,492 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-03 06:48:27,803 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-03 06:48:27,831 [main] DEBUG es.ciudadescolar.util.BdooManager        - Instituto guardado: Ciudad Escolar|100| Alumnos: 0
+2025-12-03 06:48:27,846 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 06:48:27,848 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Paco
+2025-12-03 06:48:27,850 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Jose
+2025-12-03 06:48:27,851 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Maria
+2025-12-03 06:48:27,866 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 06:48:27,867 [main] INFO  es.ciudadescolar.Main                    - --- PRUEBAS DE CONSULTAS Y LÓGICA ---
+2025-12-03 06:48:27,877 [main] DEBUG es.ciudadescolar.util.BdooManager        - Expediente actualizado para: Jose
+2025-12-03 06:48:27,884 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno expulsado: Mario
+2025-12-03 06:48:27,886 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 06:48:27,895 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se ha expulsado del instituto y borrado al alumno con expediente: 999
+2025-12-03 06:48:27,905 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Paco|222|55
+2025-12-03 06:48:27,905 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Jose|789|66
+2025-12-03 06:48:27,905 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Maria|121|12
+2025-12-03 06:48:27,907 [main] INFO  es.ciudadescolar.Main                    - El alumno Paco estudia en: Ciudad Escolar
+2025-12-03 06:48:27,908 [main] INFO  es.ciudadescolar.Main                    - Instituto con ID 100 encontrado: Ciudad Escolar
+2025-12-03 06:48:27,909 [main] INFO  es.ciudadescolar.Main                    - --- EXPULSANDO A TODOS LOS ALUMNOS ---
+2025-12-03 06:48:27,912 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se han expulsado todos los alumnos de Ciudad Escolar
+2025-12-03 06:48:27,928 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 06:48:27,933 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
+2025-12-03 06:48:27,947 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+2025-12-03 06:53:10,187 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-03 06:53:10,498 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-03 06:53:10,529 [main] DEBUG es.ciudadescolar.util.BdooManager        - Instituto guardado: Ciudad Escolar|100| Alumnos: 0
+2025-12-03 06:53:10,539 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 06:53:10,540 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Paco
+2025-12-03 06:53:10,542 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Jose
+2025-12-03 06:53:10,543 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Maria
+2025-12-03 06:53:10,560 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 06:53:10,561 [main] INFO  es.ciudadescolar.Main                    - --- PRUEBAS DE CONSULTAS Y LÓGICA ---
+2025-12-03 06:53:10,568 [main] DEBUG es.ciudadescolar.util.BdooManager        - Expediente actualizado para: Jose
+2025-12-03 06:53:10,574 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno expulsado: Mario
+2025-12-03 06:53:10,576 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 06:53:10,584 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se ha expulsado del instituto y borrado al alumno con expediente: 999
+2025-12-03 06:53:10,595 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Paco|222|55
+2025-12-03 06:53:10,595 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Jose|789|66
+2025-12-03 06:53:10,596 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Maria|121|12
+2025-12-03 06:53:10,597 [main] INFO  es.ciudadescolar.Main                    - El alumno Paco estudia en: Ciudad Escolar
+2025-12-03 06:53:10,599 [main] INFO  es.ciudadescolar.Main                    - Instituto con ID 100 encontrado: Ciudad Escolar
+2025-12-03 06:53:10,599 [main] INFO  es.ciudadescolar.Main                    - --- EXPULSANDO A TODOS LOS ALUMNOS ---
+2025-12-03 06:53:10,602 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se han expulsado todos los alumnos de Ciudad Escolar
+2025-12-03 06:53:10,603 [main] DEBUG es.ciudadescolar.util.BdooManager        - Rollback ejecutado
+2025-12-03 06:53:10,607 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
+2025-12-03 06:53:10,631 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+2025-12-03 07:00:43,440 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-03 07:00:43,755 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-03 07:00:43,787 [main] DEBUG es.ciudadescolar.util.BdooManager        - Instituto guardado: Ciudad Escolar|100| Alumnos: 0
+2025-12-03 07:00:43,799 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:00:43,801 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Paco
+2025-12-03 07:00:43,802 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Jose
+2025-12-03 07:00:43,804 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Maria
+2025-12-03 07:00:43,815 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 07:00:43,816 [main] INFO  es.ciudadescolar.Main                    - --- PRUEBAS DE CONSULTAS Y LÓGICA ---
+2025-12-03 07:00:43,823 [main] DEBUG es.ciudadescolar.util.BdooManager        - Expediente actualizado para: Jose
+2025-12-03 07:00:43,830 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno expulsado: Mario
+2025-12-03 07:00:43,832 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:00:43,841 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se ha expulsado del instituto y borrado al alumno con expediente: 999
+2025-12-03 07:00:43,851 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Paco|222|55
+2025-12-03 07:00:43,852 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Jose|789|66
+2025-12-03 07:00:43,852 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Maria|121|12
+2025-12-03 07:00:43,854 [main] INFO  es.ciudadescolar.Main                    - El alumno Paco estudia en: Ciudad Escolar
+2025-12-03 07:00:43,855 [main] INFO  es.ciudadescolar.Main                    - Instituto con ID 100 encontrado: Ciudad Escolar
+2025-12-03 07:00:43,856 [main] INFO  es.ciudadescolar.Main                    - --- EXPULSANDO A TODOS LOS ALUMNOS ---
+2025-12-03 07:00:43,858 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se han expulsado todos los alumnos de Ciudad Escolar
+2025-12-03 07:00:43,859 [main] DEBUG es.ciudadescolar.util.BdooManager        - Rollback ejecutado
+2025-12-03 07:00:43,864 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
+2025-12-03 07:00:43,889 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+2025-12-03 07:00:54,000 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-03 07:00:54,309 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-03 07:00:54,337 [main] DEBUG es.ciudadescolar.util.BdooManager        - Instituto guardado: Ciudad Escolar|100| Alumnos: 0
+2025-12-03 07:00:54,348 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:00:54,349 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Paco
+2025-12-03 07:00:54,351 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Jose
+2025-12-03 07:00:54,353 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Maria
+2025-12-03 07:00:54,370 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 07:00:54,371 [main] INFO  es.ciudadescolar.Main                    - --- PRUEBAS DE CONSULTAS Y LÓGICA ---
+2025-12-03 07:00:54,379 [main] DEBUG es.ciudadescolar.util.BdooManager        - Expediente actualizado para: Jose
+2025-12-03 07:00:54,386 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno expulsado: Mario
+2025-12-03 07:00:54,389 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:00:54,397 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se ha expulsado del instituto y borrado al alumno con expediente: 999
+2025-12-03 07:00:54,407 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Paco|222|55
+2025-12-03 07:00:54,408 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Jose|789|66
+2025-12-03 07:00:54,408 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Maria|121|12
+2025-12-03 07:00:54,410 [main] INFO  es.ciudadescolar.Main                    - El alumno Paco estudia en: Ciudad Escolar
+2025-12-03 07:00:54,411 [main] INFO  es.ciudadescolar.Main                    - Instituto con ID 100 encontrado: Ciudad Escolar
+2025-12-03 07:00:54,412 [main] INFO  es.ciudadescolar.Main                    - --- EXPULSANDO A TODOS LOS ALUMNOS ---
+2025-12-03 07:00:54,415 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se han expulsado todos los alumnos de Ciudad Escolar
+2025-12-03 07:00:54,417 [main] DEBUG es.ciudadescolar.util.BdooManager        - Rollback ejecutado
+2025-12-03 07:00:54,421 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
+2025-12-03 07:00:54,445 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos
+2025-12-03 07:03:10,120 [main] WARN  es.ciudadescolar.util.BdooManager        - Se procede a borrar la BD anterior
+2025-12-03 07:03:10,433 [main] DEBUG es.ciudadescolar.util.BdooManager        - Abierta base de datos: C:\Users\mario\DAM2\AADD\A2\BDOO_Practica1_AADD-main\bdoo_pract1\instituto.db4o
+2025-12-03 07:03:10,470 [main] DEBUG es.ciudadescolar.util.BdooManager        - Instituto guardado: Ciudad Escolar|100| Alumnos: 0
+2025-12-03 07:03:10,485 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:03:10,487 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Paco
+2025-12-03 07:03:10,489 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Jose
+2025-12-03 07:03:10,491 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Maria
+2025-12-03 07:03:10,507 [main] DEBUG es.ciudadescolar.util.BdooManager        - Commit ejecutado
+2025-12-03 07:03:10,508 [main] INFO  es.ciudadescolar.Main                    - --- PRUEBAS DE CONSULTAS Y LÓGICA ---
+2025-12-03 07:03:10,517 [main] DEBUG es.ciudadescolar.util.BdooManager        - Expediente actualizado para: Jose
+2025-12-03 07:03:10,523 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno expulsado: Mario
+2025-12-03 07:03:10,526 [main] DEBUG es.ciudadescolar.util.BdooManager        - Alumno matriculado en Ciudad Escolar: Mario
+2025-12-03 07:03:10,536 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se ha expulsado del instituto y borrado al alumno con expediente: 999
+2025-12-03 07:03:10,547 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Paco|222|55
+2025-12-03 07:03:10,547 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Jose|789|66
+2025-12-03 07:03:10,548 [main] INFO  es.ciudadescolar.Main                    - Alumno recuperado: Maria|121|12
+2025-12-03 07:03:10,549 [main] INFO  es.ciudadescolar.Main                    - El alumno Paco estudia en: Ciudad Escolar
+2025-12-03 07:03:10,551 [main] INFO  es.ciudadescolar.Main                    - Instituto con ID 100 encontrado: Ciudad Escolar
+2025-12-03 07:03:10,552 [main] INFO  es.ciudadescolar.Main                    - --- EXPULSANDO A TODOS LOS ALUMNOS ---
+2025-12-03 07:03:10,555 [main] DEBUG es.ciudadescolar.util.BdooManager        - Se han expulsado todos los alumnos de Ciudad Escolar
+2025-12-03 07:03:10,557 [main] DEBUG es.ciudadescolar.util.BdooManager        - Rollback ejecutado
+2025-12-03 07:03:10,560 [main] INFO  es.ciudadescolar.Main                    - Alumnos tras expulsión masiva: 0
+2025-12-03 07:03:10,587 [main] DEBUG es.ciudadescolar.util.BdooManager        - Cerrada base de datos

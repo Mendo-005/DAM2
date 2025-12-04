@@ -74,10 +74,14 @@ public class Main
             // 4. Expulsar a todos los alumnos (Transaccional) [cite: 49]
             LOG.info("--- EXPULSANDO A TODOS LOS ALUMNOS ---");
             bd.expulsarATodosAlumnos("Ciudad Escolar");
-            bd.commitTransaction();
+            bd.rollbackTransaction();
 
             // Verificación
             List<Alumno> vacia = bd.getTodosAlumnos("Ciudad Escolar");
+            for (Alumno a : vacia) 
+            {
+                bd.refrescarObjeto(a);
+            }   
             LOG.info("Alumnos tras expulsión masiva: " + vacia.size());
 
         } 

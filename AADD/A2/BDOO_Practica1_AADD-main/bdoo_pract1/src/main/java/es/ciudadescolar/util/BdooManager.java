@@ -441,6 +441,14 @@ public class BdooManager
         }
     }
 
+    /*
+    * Refrescar las variables del disco tras realizar un rollback
+    */
+    public void refrescarObjeto(Object objeto) {
+        // Aquí sí llamamos a .ext() sobre la variable 'db' real
+        BdooManager.bd.ext().refresh(objeto, Integer.MAX_VALUE);
+    }
+
     /**
      * Confirma la transacción actual (Commit).
      */
