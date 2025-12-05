@@ -1,5 +1,7 @@
 package es.ciudadescolar.util;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.Date;
@@ -13,12 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 
 import es.ciudadescolar.clases.Alumno;
 
@@ -109,7 +107,7 @@ public class DbManager
                         stAlumnos.close();
                 } catch (SQLException e) 
                 {
-                    LOG.error("Error durante el cierre de la conexion");
+                    LOG.error("Error durante el cierre de la conexion"+ e.getMessage());
                 }
             }
         }
@@ -178,7 +176,7 @@ public class DbManager
                     }  
                 } catch (SQLException e) 
                 {
-                    LOG.error("Error liberando recursos de la consulta parametrizada");    
+                    LOG.error("Error liberando recursos de la consulta parametrizada" + e.getMessage());    
                 }
         }
 
@@ -219,7 +217,7 @@ public class DbManager
                         LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos de la insercion parametrizada");  
+                        LOG.error("Error liberando recursos de la insercion parametrizada" + e.getMessage());  
                     }
 
                 }
@@ -264,7 +262,7 @@ public class DbManager
                         LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos de la insercion parametrizada");  
+                        LOG.error("Error liberando recursos de la insercion parametrizada" + e.getMessage());  
                     }
 
                 }
@@ -308,7 +306,7 @@ public class DbManager
                         LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                        LOG.error("Error liberando recursos del borrado parametrizada" + e.getMessage());  
                     }
 
                 }
@@ -349,7 +347,7 @@ public class DbManager
                         LOG.debug("La liberacion de recursos ha ido bien");
                     } catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                        LOG.error("Error liberando recursos del borrado parametrizada" + e.getMessage());  
                     }
 
                 }
@@ -393,7 +391,7 @@ public class DbManager
                     } 
                     catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                        LOG.error("Error liberando recursos del borrado parametrizada"  + e.getMessage());  
                     }
 
                 }
@@ -436,7 +434,7 @@ public class DbManager
                     } 
                     catch (SQLException e) 
                     {
-                        LOG.error("Error liberando recursos del borrado parametrizada");  
+                        LOG.error("Error liberando recursos del borrado parametrizada"  + e.getMessage());  
                     }
                 }
             }
@@ -444,5 +442,60 @@ public class DbManager
                 
         return nota;
         
+    }
+
+    public boolean altaAlumnoTransac(List<Alumno> listAlumnos)
+    {
+        boolean status = false;
+        PreparedStatement pstAltaAlumno = null;
+        if (con != null) 
+        {
+            try 
+            {
+                pstAltaAlumno = con.prepareStatement(SQL.ALTA_NUEVO_ALUMNO);
+                con.setAutoCommit(false); // Soy responsable de hacer el commit o el rollback
+                for (Alumno alumno : listAlumnos) 
+                {
+                    pstAltaAlumno.setInt(1, alumno.getExpediente());    
+                    pstAltaAlumno.setString(2, alumno.getNombre());    
+                    pstAltaAlumno.setDate(3, Date.valueOf(alumno.getFecha_nac()));
+                    
+                    pstAltaAlumno.executeUpdate();
+                    pstAltaAlumno.clearParameters(); // Por si se nos queda algo del valor anterior, limpiamos el pst y partimos de 0 siempre 
+                }
+                con.commit();
+                LOG.debug("Se han confirmado todos los cambios de la transaccion");
+                status = true;
+            }   
+            catch (SQLException e) 
+            {
+                LOG.error("Error durante la transaccion de el alta de alumnos: " + e.getMessage());
+                try 
+                {
+                    con.rollback();
+                    LOG.debug("Rollback realizado con exito");
+                } catch (SQLException ex) 
+                {
+                    LOG.error("Error durante el rollback de la transaccion"  + e.getMessage());
+                }
+            }
+            finally
+            {
+                if (pstAltaAlumno != null)
+                {
+                    try 
+                    {
+                        pstAltaAlumno.close();
+                        con.setAutoCommit(true); // restaurar autocomit para que bajo la misma sesion para que haga commit automaticamente
+                        LOG.debug("La liberacion de recursos ha ido bien");
+                    } 
+                    catch (SQLException e) 
+                    {
+                        LOG.error("Error liberando recursos del borrado parametrizada"  + e.getMessage());  
+                    }
+                }
+            }
+        }
+        return status;
     }
 }
