@@ -2,6 +2,7 @@ package es.ciudadescolar;
 
 import java.sql.Date;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -84,6 +85,18 @@ public class Main
         else
         {
             LOG.info("Invocado la funcion correctamente con expediente: " +exNota + " y nota: " + nota);
+        }
+
+
+        // Transacciones
+        List<Alumno> nuevosAlumnos = new ArrayList<>();
+        nuevosAlumnos.add(new Alumno(1242, "Joselu", Date.valueOf(LocalDate.of(2000, 1, 24))));
+        nuevosAlumnos.add(new Alumno(8665, "Carlos", Date.valueOf(LocalDate.of(2000, 2, 24))));
+        nuevosAlumnos.add(new Alumno(3242, "Nacho", Date.valueOf(LocalDate.of(2000, 3, 24))));
+
+        if (!manager.altaAlumnoTransac(nuevosAlumnos)) 
+        {
+            LOG.error("No se han dado de alta los alumnos solicitados");    
         }
 
         manager.cerrarBd();
