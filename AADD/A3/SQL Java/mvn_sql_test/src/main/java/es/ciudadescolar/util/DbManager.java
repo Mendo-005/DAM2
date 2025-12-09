@@ -397,7 +397,6 @@ public class DbManager
                 }
             }
         }
-
         return numAlumnos;
     }
 
