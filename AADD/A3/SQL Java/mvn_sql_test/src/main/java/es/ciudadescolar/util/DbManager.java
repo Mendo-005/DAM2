@@ -51,7 +51,8 @@ public class DbManager
         catch (ClassNotFoundException e) 
         {
             LOG.error("Registro de driver con error: "+ e.getMessage());
-        } catch (SQLException e) 
+        } 
+        catch (SQLException e) 
         {
             LOG.error("Imposible establecer conexion con la BD: "+e.getMessage());
         }
@@ -80,7 +81,7 @@ public class DbManager
                     do
                     {
                         alumno = new Alumno();
-                        alumno.setExpediente(Integer.valueOf(rstAlumno.getInt(1)));
+                        alumno.setExpediente(rstAlumno.getInt(1));
                         alumno.setNombre(rstAlumno.getString(2));
                         
                         Date fecha = rstAlumno.getDate(3);

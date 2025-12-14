@@ -1,0 +1,608 @@
+2025-12-13 21:14:41,286 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:14:45,412 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:55:40,568 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:55:40,642 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:55:40,643 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-13 21:55:40,643 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-13 21:55:40,646 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-13 21:55:40,646 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-13 21:56:03,332 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:56:03,421 [main] ERROR mendo.dev.util.DbManager                 - Error en la ejecucion de getIngredientesDePizza(): Column Index out of range, 0 < 1.
+2025-12-13 21:56:03,422 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:56:20,469 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:56:20,539 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:56:20,540 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-13 21:56:20,540 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-13 21:56:20,540 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-13 21:56:20,540 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-13 21:58:50,791 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:58:50,874 [main] ERROR mendo.dev.util.DbManager                 - Error en la ejecucion de getIngredientesDePizza(): Operation not allowed for a result set of type ResultSet.TYPE_FORWARD_ONLY.
+2025-12-13 21:58:50,878 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:59:24,205 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:59:24,285 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:59:24,286 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-13 21:59:24,286 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-13 21:59:24,286 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-13 21:59:24,287 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-13 21:59:50,188 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-13 21:59:50,258 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-13 21:59:50,259 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-13 21:59:50,259 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-13 21:59:50,259 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-13 21:59:50,260 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-13 21:59:50,260 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 01:27:01,305 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 01:27:01,385 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 01:27:01,385 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 01:27:01,385 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 01:27:01,385 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 01:27:01,387 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 01:27:01,387 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 01:27:01,465 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 01:27:01,465 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 01:27:01,466 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 8
+2025-12-14 01:28:10,650 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 01:28:10,728 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 01:28:10,729 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 01:28:10,729 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 01:28:10,729 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 01:28:10,730 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 01:28:10,730 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 01:28:10,782 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 01:28:10,783 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 01:28:10,783 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:52:23,960 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 12:52:24,048 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:52:24,048 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 12:52:24,049 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 12:52:24,049 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 12:52:24,049 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 12:52:24,049 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 12:52:24,105 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 12:52:24,106 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:52:24,106 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:52:24,109 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Salsa Barbacoa
+2025-12-14 12:52:24,109 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Salsa Barbacoa
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Mozzarella
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Mozzarella
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Pollo
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Pollo
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Bacon
+2025-12-14 12:52:24,110 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Bacon
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Ternera
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Ternera
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Tomate
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Tomate
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Jamón
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Jamón
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Bacon
+2025-12-14 12:52:24,111 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza añadido al SET: Bacon
+2025-12-14 12:52:24,113 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas añadidas al SET correctamente
+2025-12-14 12:52:24,797 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): No existe pizza: Bacalao
+2025-12-14 12:52:24,798 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:02,382 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 12:53:02,456 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:02,456 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 12:53:02,457 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 12:53:02,457 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 12:53:02,457 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 12:53:02,457 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 12:53:02,511 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 12:53:02,512 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:02,512 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:53:02,516 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:53:02,517 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:02,518 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:02,518 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:53:02,518 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:53:02,518 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:53:02,518 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:53:02,519 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:53:02,519 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:53:02,520 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:02,520 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:02,520 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas añadidas al SET correctamente
+2025-12-14 12:53:03,220 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): No existe pizza: Bacalao
+2025-12-14 12:53:03,220 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:54,620 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 12:53:54,750 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:54,751 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 12:53:54,751 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 12:53:54,751 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 12:53:54,751 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 12:53:54,751 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 12:53:54,807 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 12:53:54,808 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:53:54,808 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:53:54,811 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:54,813 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:54,813 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:53:54,813 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:53:54,813 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:53:54,814 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:53:54,814 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:53:54,814 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:53:54,815 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:54,815 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:53:54,815 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 12:53:55,511 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): No existe pizza: Bacalao
+2025-12-14 12:53:55,513 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:54:13,473 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 12:54:13,553 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:54:13,554 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 12:54:13,554 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 12:54:13,555 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 12:54:13,555 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 12:54:13,555 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 12:54:13,605 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 12:54:13,606 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:54:13,606 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:54:13,609 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:54:13,610 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:54:13,610 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:54:13,610 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:54:13,611 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:54:13,611 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:54:13,612 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:54:13,612 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:54:13,612 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:54:13,612 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:54:13,612 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:54:13,613 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:54:13,614 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:54:13,614 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:54:13,615 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:54:13,615 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:54:13,616 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 12:54:14,287 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): No existe pizza: Bacon
+2025-12-14 12:54:14,288 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:55:32,235 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 12:55:32,312 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:55:32,312 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 12:55:32,313 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 12:55:32,313 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 12:55:32,314 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 12:55:32,314 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 12:55:32,362 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 12:55:32,363 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 12:55:32,364 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 12:55:32,366 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:55:32,367 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 12:55:32,368 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:55:32,368 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 12:55:32,368 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:55:32,369 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 12:55:32,369 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:55:32,370 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:55:32,370 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:55:32,370 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 12:55:32,371 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:55:32,371 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 12:55:32,372 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:55:32,372 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 12:55:32,372 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:55:32,372 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 12:55:32,373 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:00:36,479 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:00:36,587 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:01:16,367 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:01:17,190 [main] ERROR mendo.dev.util.DbManager                 - Error en la ejecucion de getPrecioPizza(): FUNCTION pizzas.getPrecioPizza does not exist
+2025-12-14 13:01:17,191 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:01:17,191 [main] INFO  mendo.dev.Main                           - Precio de la pizza: null
+2025-12-14 13:01:17,198 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:01:17,199 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:01:17,200 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:01:17,201 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:01:17,202 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:01:17,203 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:01:17,204 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:01:17,204 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:01:17,204 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:01:17,205 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,205 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,206 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,206 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:01:17,206 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:01:17,206 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:01:17,207 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:01:17,208 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:01:17,209 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:01:17,209 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:01:17,210 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:01:17,210 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:01:17,210 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,211 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,211 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:01:17,211 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:01:17,216 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:04:18,534 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:04:18,656 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:04:18,657 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:04:18,657 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:04:18,661 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:04:18,661 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:04:18,661 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:04:18,662 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:04:18,662 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:04:18,662 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:04:18,662 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,663 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:04:18,664 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:04:18,664 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:04:18,664 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:04:18,664 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:04:18,665 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:04:18,665 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:04:18,666 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:04:18,667 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:04:18,667 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,668 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,668 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:04:18,668 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:04:18,671 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:06:31,197 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:06:31,324 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:06:31,325 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:06:31,325 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:06:31,330 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:06:31,330 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:06:31,330 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:06:31,330 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:06:31,330 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,331 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:06:31,332 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:06:31,333 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:06:31,333 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:06:31,334 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:06:31,334 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:06:31,335 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:06:31,335 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:06:31,336 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:06:31,336 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,337 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,337 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:06:31,337 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:06:31,340 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:06:31,341 [main] INFO  mendo.dev.Main                           - Ingredientes añadidos correctamente
+2025-12-14 13:06:31,342 [main] ERROR mendo.dev.Main                           - Error en la ejecucion del proceso de inclusion de ingredientes (Main): Cannot invoke "java.util.List.iterator()" because "nuevosIngredientes" is null
+2025-12-14 13:09:00,092 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:09:00,215 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:09:00,215 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:09:00,216 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:09:00,220 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:09:00,220 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:09:00,220 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:09:00,220 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:09:00,220 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,222 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,223 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:09:00,223 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:09:00,223 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:09:00,223 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:09:00,223 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:09:00,224 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:09:00,224 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:09:00,225 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:09:00,225 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:09:00,226 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,226 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,227 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:09:00,227 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:09:00,230 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:09:00,230 [main] INFO  mendo.dev.Main                           - Ingredientes añadidos correctamente
+2025-12-14 13:09:00,230 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:12:02,742 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:12:02,867 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:12:02,868 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:12:02,869 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:12:02,872 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,873 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,875 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:12:02,875 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:12:02,875 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:12:02,875 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:12:02,875 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:12:02,876 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:12:02,876 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:12:02,877 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:12:02,877 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:12:02,878 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,878 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,879 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:12:02,879 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:12:02,881 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:12:02,881 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:12:02,881 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:14:30,656 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:14:30,769 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:14:30,770 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:14:30,770 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:14:31,479 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Result consisted of more than one row
+2025-12-14 13:14:31,480 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:14:31,483 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:14:31,483 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:14:31,483 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:17:50,762 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:17:50,878 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:17:50,879 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:17:50,880 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:17:51,570 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Result consisted of more than one row
+2025-12-14 13:17:51,570 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:17:51,573 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:17:51,573 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:17:51,573 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:19:00,757 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:19:00,845 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:19:00,845 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 13:19:00,845 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:19:00,846 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 13:19:00,846 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 13:19:00,846 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 13:19:00,905 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:19:00,906 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:19:00,906 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:19:00,908 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:19:00,909 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:19:00,909 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:19:00,909 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:19:00,909 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:19:00,909 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:19:00,910 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:19:00,910 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:19:00,910 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:19:00,910 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,911 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,911 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,911 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:19:00,911 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:19:00,912 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:19:00,913 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:19:00,913 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:19:00,914 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:19:00,914 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:19:00,914 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:19:00,915 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:19:00,915 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,915 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,916 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:19:00,917 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:19:00,919 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:19:00,920 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:19:00,920 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:28:41,157 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:28:41,247 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:28:41,248 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 13:28:41,248 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:28:41,249 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 13:28:41,249 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 13:28:41,249 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 13:28:41,301 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:28:41,302 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:28:41,302 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:28:41,306 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:28:41,306 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:28:41,307 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Salsa Barbacoa
+2025-12-14 13:28:41,307 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:28:41,307 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:28:41,307 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Mozzarella
+2025-12-14 13:28:41,308 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:28:41,308 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:28:41,308 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Pollo
+2025-12-14 13:28:41,308 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,309 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,309 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,309 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:28:41,310 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:28:41,310 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Ternera
+2025-12-14 13:28:41,311 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:28:41,311 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:28:41,312 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Tomate
+2025-12-14 13:28:41,312 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:28:41,312 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:28:41,312 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Jamón
+2025-12-14 13:28:41,313 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,314 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,314 [main] DEBUG mendo.dev.util.DbManager                 - Ingrediente o Pizza incluido al SET: Bacon
+2025-12-14 13:28:41,314 [main] DEBUG mendo.dev.util.DbManager                 - Ingredientes y pizzas incluidos al SET correctamente
+2025-12-14 13:28:41,318 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:28:41,318 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:28:41,319 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:31:55,409 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 13:31:55,482 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:31:55,483 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 13:31:55,484 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:31:55,484 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 13:31:55,484 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 13:31:55,484 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 13:31:55,532 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 13:31:55,532 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:31:55,533 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 13:31:55,562 [main] DEBUG mendo.dev.util.DbManager                 - 100 Pollo incluidos a la Pizza 4 Quesos
+2025-12-14 13:31:55,562 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:31:55,565 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 13:31:55,565 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 13:31:55,565 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 13:31:55,565 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:03:33,025 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:03:33,099 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:03:33,100 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:03:33,101 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:03:33,101 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:03:33,101 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:03:33,101 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:03:33,166 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:03:33,167 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:03:33,168 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:03:33,914 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:03:33,914 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:03:33,917 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:03:33,918 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:03:33,918 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:03:33,918 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:03:33,934 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addPizzas: Cannot add or update a child row: a foreign key constraint fails (`pizzas`.`pizza_ingrediente`, CONSTRAINT `fk_ingrediente` FOREIGN KEY (`ingredienteId`) REFERENCES `ingrediente` (`cod_ingrediente`))
+2025-12-14 15:03:33,940 [main] DEBUG mendo.dev.util.DbManager                 - Rollback realizado
+2025-12-14 15:03:33,942 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:07:22,074 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:07:22,151 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:07:22,151 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:07:22,152 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:07:22,152 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:07:22,152 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:07:22,152 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:07:22,200 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:07:22,201 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:07:22,202 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:07:22,898 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:07:22,899 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:07:22,901 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:07:22,901 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:07:22,901 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:07:22,902 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:07:22,907 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addPizzas: No value specified for parameter 3
+2025-12-14 15:07:22,910 [main] DEBUG mendo.dev.util.DbManager                 - Rollback realizado
+2025-12-14 15:07:22,911 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:09:40,101 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:09:40,171 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:09:40,172 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:09:40,172 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:09:40,172 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:09:40,172 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:09:40,172 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:09:40,217 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:09:40,218 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:09:40,219 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:09:40,953 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:09:40,954 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:09:40,956 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:09:40,956 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:09:40,956 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:09:40,956 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:09:40,968 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addPizzas: No value specified for parameter 2
+2025-12-14 15:09:40,975 [main] DEBUG mendo.dev.util.DbManager                 - Rollback realizado
+2025-12-14 15:09:40,977 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:11:13,135 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:11:13,223 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:11:13,223 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:11:13,223 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:11:13,223 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:11:13,224 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:11:13,225 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:11:13,283 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:11:13,283 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:11:13,284 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:11:14,010 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:11:14,011 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:11:14,012 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:11:14,013 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:11:14,014 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:11:14,014 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:11:14,028 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addPizzas: No value specified for parameter 2
+2025-12-14 15:11:14,034 [main] DEBUG mendo.dev.util.DbManager                 - Rollback realizado
+2025-12-14 15:11:14,035 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:14:47,445 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:14:47,518 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:14:47,519 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:14:47,519 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:14:47,519 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:14:47,519 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:14:47,521 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:14:47,577 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:14:47,577 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:14:47,578 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:14:48,267 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:14:48,268 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:14:48,270 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:14:48,270 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:14:48,270 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:14:48,270 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:14:48,293 [main] DEBUG mendo.dev.util.DbManager                 - Se han añadido la pizza con sus ingredientes
+2025-12-14 15:14:48,295 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:53,239 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:15:53,319 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:53,320 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:15:53,320 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:15:53,320 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:15:53,320 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:15:53,321 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:15:53,372 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:15:53,373 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:53,374 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:15:54,079 [main] ERROR mendo.dev.util.DbManager                 - Error en la llamada de addIngredientePizza(): Duplicate entry '3-3' for key 'pizza_ingrediente.PRIMARY'
+2025-12-14 15:15:54,079 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:54,082 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:54,082 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:15:54,082 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:15:54,082 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:15:54,105 [main] DEBUG mendo.dev.util.DbManager                 - Se han añadido la pizza con sus ingredientes
+2025-12-14 15:15:54,106 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:54,110 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:15:54,111 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:15:54,112 [main] INFO  mendo.dev.Main                           - Tomate
+2025-12-14 15:15:54,113 [main] INFO  mendo.dev.Main                           - Berenjena
+2025-12-14 15:15:54,114 [main] INFO  mendo.dev.Main                           - Aceite balsámico
+2025-12-14 15:15:54,115 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:15:54,115 [main] INFO  mendo.dev.Main                           - Tomate
+2025-12-14 15:15:54,115 [main] INFO  mendo.dev.Main                           - Berenjena
+2025-12-14 15:15:54,116 [main] INFO  mendo.dev.Main                           - Aceite balsámico
+2025-12-14 15:16:24,503 [main] INFO  mendo.dev.util.DbManager                 - Conexion establecida con la base de datos
+2025-12-14 15:16:24,596 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,598 [main] INFO  mendo.dev.Main                           - Salsa Barbacoa
+2025-12-14 15:16:24,598 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:16:24,599 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:16:24,599 [main] INFO  mendo.dev.Main                           - Bacon
+2025-12-14 15:16:24,600 [main] INFO  mendo.dev.Main                           - Ternera
+2025-12-14 15:16:24,655 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-14 15:16:24,656 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,657 [main] INFO  mendo.dev.Main                           - Precio de la pizza: 6
+2025-12-14 15:16:24,690 [main] DEBUG mendo.dev.util.DbManager                 - 100 de Pollo incluidos a la Pizza 4 Quesos
+2025-12-14 15:16:24,691 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,695 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,695 [main] INFO  mendo.dev.Main                           - Ingredientes incluidos correctamente
+2025-12-14 15:16:24,695 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:16:24,695 [main] INFO  mendo.dev.Main                           - Pollo
+2025-12-14 15:16:24,726 [main] DEBUG mendo.dev.util.DbManager                 - Se han añadido la pizza con sus ingredientes
+2025-12-14 15:16:24,728 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,731 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados correctamente
+2025-12-14 15:16:24,732 [main] INFO  mendo.dev.Main                           - Mozzarella
+2025-12-14 15:16:24,732 [main] INFO  mendo.dev.Main                           - Tomate
+2025-12-14 15:16:24,733 [main] INFO  mendo.dev.Main                           - Berenjena
+2025-12-14 15:16:24,733 [main] INFO  mendo.dev.Main                           - Aceite balsámico

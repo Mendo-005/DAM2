@@ -43,6 +43,7 @@ public class Alumno
     public String toString() {
         return "Alumno [expediente=" + expediente + ", nombre=" + nombre + ", fecha_nac=" + fecha_nac + "]";
     }
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -52,6 +53,7 @@ public class Alumno
         result = prime * result + ((fecha_nac == null) ? 0 : fecha_nac.hashCode());
         return result;
     }
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
