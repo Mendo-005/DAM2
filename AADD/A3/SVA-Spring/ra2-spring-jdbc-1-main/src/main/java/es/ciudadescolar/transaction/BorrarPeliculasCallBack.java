@@ -30,8 +30,8 @@ public class BorrarPeliculasCallBack implements TransactionCallback<Void> {
         this.jdbc = jdbc;
     }
 
-   @Override
-   public Void doInTransaction(TransactionStatus status) {
+    @Override
+    public Void doInTransaction(TransactionStatus status) {
     try {
             jdbc.update("DELETE FROM film WHERE film_id = ?", 20);
             jdbc.update("DELETE FROM film WHERE film_id = ?", 21);
@@ -41,7 +41,7 @@ public class BorrarPeliculasCallBack implements TransactionCallback<Void> {
             status.setRollbackOnly();
         }
         return null;
-   }
+    }
 
     
 }
