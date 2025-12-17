@@ -298,6 +298,21 @@ public class DbManager
 
         return status;
     }
+
+    public boolean cerrarBd()
+    {
+        boolean status = false;     
+        try 
+        {
+            con.close();
+            LOG.debug("BD cerrada con exito");
+        } 
+        catch (SQLException e) 
+        {
+            LOG.error("Error cerrando la BD: " + e.getMessage());
+        }
+        return status;
+    }
 }
 
     

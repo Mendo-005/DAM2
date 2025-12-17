@@ -77,3 +77,16 @@
 2025-12-16 17:43:40,946 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
 2025-12-16 17:43:40,976 [main] DEBUG mendo.dev.util.DbManager                 - Se ha añadido correctamente el comic a la BD
 2025-12-16 17:43:40,977 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-17 07:08:57,122 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-17 07:08:57,198 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-17 07:08:57,201 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-17 07:08:57,201 [main] INFO  mendo.dev.Main                           - Alan Moore
+2025-12-17 07:08:57,253 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-17 07:08:57,253 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-17 07:08:57,254 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-17 07:08:57,935 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addAsignarCreadorComic(): Duplicate entry '1-4-Escritor' for key 'comic_creador.PRIMARY'
+2025-12-17 07:08:57,935 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-17 07:08:57,968 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-17 07:08:57,969 [main] ERROR mendo.dev.Main                           - Error en la ejecucion del Main: Cannot invoke "java.lang.Integer.intValue()" because "cod_autor" is null
+2025-12-17 07:08:57,976 [main] DEBUG mendo.dev.util.DbManager                 - BD cerrada con exito
+2025-12-17 07:08:57,976 [main] INFO  mendo.dev.Main                           - Base de Datos cerrada
