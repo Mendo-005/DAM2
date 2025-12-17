@@ -1,0 +1,79 @@
+2025-12-15 21:08:27,660 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-15 21:56:59,667 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-15 21:57:00,404 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar getAutorComic(): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C, Comic_Creador CC, Comic CO WHERE C.cod_creador = CC.cod_creador     AND CC.co' at line 1
+2025-12-15 21:57:00,405 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-15 21:58:50,945 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-15 21:58:51,042 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-15 21:58:51,045 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-15 21:58:51,045 [main] INFO  mendo.dev.Main                           - Frank Miller
+2025-12-16 16:04:47,010 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:04:47,115 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:04:47,117 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:04:47,117 [main] INFO  mendo.dev.Main                           - Frank Miller
+2025-12-16 16:04:47,196 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:04:47,196 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:05:34,094 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:05:34,165 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:05:34,167 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:05:34,168 [main] INFO  mendo.dev.Main                           - Frank Miller
+2025-12-16 16:05:34,214 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:05:34,215 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:05:34,215 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:32:46,422 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:32:46,495 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:32:46,497 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:32:46,497 [main] INFO  mendo.dev.Main                           - Frank Miller
+2025-12-16 16:32:46,543 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:32:46,543 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:32:46,543 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:32:46,568 [main] INFO  mendo.dev.util.DbManager                 - Se han asignado correctamente al creador
+2025-12-16 16:32:46,568 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:36:32,959 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:36:33,033 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:36:33,035 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:36:33,035 [main] INFO  mendo.dev.Main                           - Frank Miller
+2025-12-16 16:36:33,087 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:36:33,088 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:36:33,088 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:36:33,110 [main] INFO  mendo.dev.util.DbManager                 - Se ha asignado correctamente al creador
+2025-12-16 16:36:33,110 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:37:12,879 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:37:12,965 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:37:12,968 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:37:12,968 [main] INFO  mendo.dev.Main                           - Alan Moore
+2025-12-16 16:37:13,018 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:37:13,019 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:37:13,020 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:37:13,708 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar getPrecioComic(): Duplicate entry '1-4-Escritor' for key 'comic_creador.PRIMARY'
+2025-12-16 16:37:13,708 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:39:01,877 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 16:39:01,948 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 16:39:01,950 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:39:01,950 [main] INFO  mendo.dev.Main                           - Alan Moore
+2025-12-16 16:39:01,996 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 16:39:01,998 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 16:39:01,999 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 16:39:02,023 [main] INFO  mendo.dev.util.DbManager                 - Se ha asignado correctamente al creador
+2025-12-16 16:39:02,023 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:41:16,397 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 17:41:16,470 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 17:41:16,473 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:41:16,473 [main] INFO  mendo.dev.Main                           - Alan Moore
+2025-12-16 17:41:16,524 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 17:41:16,525 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:41:16,525 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 17:41:17,190 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addAsignarCreadorComic(): Duplicate entry '1-4-Escritor' for key 'comic_creador.PRIMARY'
+2025-12-16 17:41:17,190 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:41:17,221 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addCreadoresYComic(): Cannot add or update a child row: a foreign key constraint fails (`comicstore_bd`.`comic_creador`, CONSTRAINT `comic_creador_ibfk_1` FOREIGN KEY (`cod_comic`) REFERENCES `comic` (`cod_comic`) ON DELETE CASCADE)
+2025-12-16 17:41:17,228 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:43:40,166 [main] INFO  mendo.dev.util.DbManager                 - Conexion realizada con exito
+2025-12-16 17:43:40,237 [main] DEBUG mendo.dev.util.DbManager                 - Autores recuperados con exito
+2025-12-16 17:43:40,239 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:43:40,240 [main] INFO  mendo.dev.Main                           - Alan Moore
+2025-12-16 17:43:40,286 [main] DEBUG mendo.dev.util.DbManager                 - Funcion ejecutada correctamente
+2025-12-16 17:43:40,287 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:43:40,287 [main] INFO  mendo.dev.Main                           - Precio del comic: 4.99
+2025-12-16 17:43:40,946 [main] ERROR mendo.dev.util.DbManager                 - Error al ejecutar addAsignarCreadorComic(): Duplicate entry '1-4-Escritor' for key 'comic_creador.PRIMARY'
+2025-12-16 17:43:40,946 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
+2025-12-16 17:43:40,976 [main] DEBUG mendo.dev.util.DbManager                 - Se ha añadido correctamente el comic a la BD
+2025-12-16 17:43:40,977 [main] DEBUG mendo.dev.util.DbManager                 - Recursos liberados con exito
