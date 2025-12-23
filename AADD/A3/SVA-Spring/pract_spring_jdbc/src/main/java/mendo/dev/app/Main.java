@@ -1,6 +1,7 @@
 package mendo.dev.app;
 
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -67,7 +68,39 @@ public class Main {
         {
             LOG.info("Comic por titulo: " + comic);    
         }
+
+        // IMPORTANTE:  queryForList ⇒ Devuelve filas como mapas de columnas. (no soporta rowmapper)
+        //              query(...) ⇒ Usa RowMapper para construir objetos.
         
+        // Consulta parametrizada simple
+        String sql3 = "SELECT cod_comic, titulo FROM comic limit 5";
+        List<Map<String, Object>> filas = jdbc.queryForList(sql3);
+        for (Map<String, Object> fila : filas) {
+           LOG.info("ID: " + fila.get("cod_comic") + ", Nombre: " + fila.get("titulo"));
+        }
+        
+        /*  jdbc.update devuelve el número de filas afectadas.
+            Funciona para INSERT, UPDATE y DELETE.
+            seguro, porque los parámetros se pasan al PreparedStatement.
+            @param titulo, cod_comic
+            @return int
+        */
+        String sqlid = "SELECT * FROM comic WHERE cod_comic = ?"; // Antes 
+        List<Comic> comicPorId = jdbc.query(sqlid, new ComicRowMapper(), 1);
+        for (Comic comic : comicPorId) 
+        {
+            LOG.info("Comic por titulo: " + comic);    
+        }
+
+        String sql4 = "UPDATE comic SET titulo = ? WHERE cod_comic = ?"; // Update
+        int filasActualizadas = jdbc.update(sql4, "PAQUITO", 1);
+        LOG.info("Filas actualizadas: " + filasActualizadas);
+
+        List<Comic> comicPorId2 = jdbc.query(sqlid, new ComicRowMapper(), 1); // Despues
+        for (Comic comic : comicPorId2) 
+        {
+            LOG.info("Comic por titulo: " + comic);    
+        }
             
     }
 }
