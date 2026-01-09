@@ -76,7 +76,7 @@ public class Main {
         String sql3 = "SELECT cod_comic, titulo FROM comic limit 5";
         List<Map<String, Object>> filas = jdbc.queryForList(sql3);
         for (Map<String, Object> fila : filas) {
-           LOG.info("ID: " + fila.get("cod_comic") + ", Nombre: " + fila.get("titulo"));
+        LOG.info("ID: " + fila.get("cod_comic") + ", Nombre: " + fila.get("titulo"));
         }
         
         /*  jdbc.update devuelve el número de filas afectadas.
