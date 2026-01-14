@@ -12,13 +12,13 @@
 -->
 
 <!-- Aquí debemos indicar las clases a persistir que dispondrán de las correspondientes anotiaciones JPA -->
-<class>dev.mendo.clases.Alumno</class>
+<class>dev.mendo.instituto.Alumno</class>
 
 
 <properties>
 
 			<!-- Proveedor JPA entre otros:
-			    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+				<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 			-->
 			<property name="jakarta.persistence.provider" value="org.hibernate.jpa.HibernatePersistenceProvider"/>
 
@@ -39,10 +39,10 @@
 			<!-- El aislamiento lo decide el SGBD o el pool, JPA solo gestiona transacciones lógicas
 			<property name="hibernate.hikari.transactionIsolation" value="TRANSACTION_REPEATABLE_READ"/>
 			Nivel de aislamiento considerado para las transacciones:
-    			1: TRANSACTION_READ_UNCOMMITTED
-    			2: TRANSACTION_READ_COMMITTED (valor predeterminado en MySQL)
-	    		4: TRANSACTION_REPEATABLE_READ (nivel predeterminado de MySQL InnoDB)
-    			8: TRANSACTION_SERIALIZABLE
+				1: TRANSACTION_READ_UNCOMMITTED
+				2: TRANSACTION_READ_COMMITTED (valor predeterminado en MySQL)
+				4: TRANSACTION_REPEATABLE_READ (nivel predeterminado de MySQL InnoDB)
+				8: TRANSACTION_SERIALIZABLE
 			-->
 
 			<!-- En Hibernate 6/7 no es necesario especificar ya el dialecto de SGBDs pues lo detecta automáticamente
@@ -91,7 +91,7 @@
 
                 📌 En producción: Hibernate NO debe modificar el esquema. Se usan: validate y none
             -->
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
 
 		</properties>
 

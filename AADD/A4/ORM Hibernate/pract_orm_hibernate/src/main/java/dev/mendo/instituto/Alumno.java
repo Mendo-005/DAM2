@@ -1,4 +1,4 @@
-package dev.mendo.clases;
+package dev.mendo.instituto;
 
 import java.io.Serializable;
 
@@ -10,10 +10,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "alumno", schema= "instituto")
+@Table(name = "alumno")
 public class Alumno implements Serializable
 {
-    
+
     private static final long serialVersionUID = 1L;
     
     // Al ser la clave primaria simple y auto_increment
