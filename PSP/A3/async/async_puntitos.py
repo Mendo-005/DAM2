@@ -5,21 +5,24 @@ timer_run = False
 
 async def main():
     global timer_run
-    delay = input("Cuantos segundos debe esperar: ")
-    task1 = asyncio.create_task(timer(delay))
+
+    delay = int(input("Cuantos segundos debe esperar: "))
     timer_run = True
+
+    task1 = asyncio.create_task(timer(delay))
+
     print(f"Arranco: {time.strftime('%X')}")
+
     while timer_run:
         print(".")
-        time.sleep(1)
-        
+        await asyncio.sleep(0.5)
+
+    await task1
     print(f"Acabo: {time.strftime('%X')}")
-    await asyncio.Future() # run forever
 
 async def timer(delay):
     global timer_run
     await asyncio.sleep(delay)
     timer_run = False
-    
 
 asyncio.run(main())
