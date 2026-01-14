@@ -25,7 +25,7 @@ public class Alumno implements Serializable
     // Si el valor no puede ser nulo, debes poner nullable = False
     @Column(name= "nombre", nullable= false)
     private String nombre;
-    
+
     // Si no es clave primaria, pero quieres que sea unica, añadimos unique= true 
     @Column(name= "email", unique= true)
     private String email;
