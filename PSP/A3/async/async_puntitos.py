@@ -1,13 +1,13 @@
 import asyncio
 import time
 
-timer_run = True
+timer_run = False
 
 async def main():
     global timer_run
     delay = input("Cuantos segundos debe esperar: ")
     task1 = asyncio.create_task(timer(delay))
-    
+    timer_run = True
     print(f"Arranco: {time.strftime('%X')}")
     while timer_run:
         print(".")
