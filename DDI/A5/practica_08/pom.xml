@@ -1,62 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>dev.mendo</groupId>
-    <artifactId>practica_08</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <groupId>com.miempresa</groupId>
+    <artifactId>gestion-usuarios</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>gestionusuarios</name>
     <dependencies>
-        <!-- Dependencias de JavaFX (módulos usados) -->
+        <!-- Dependencia para JavaFX 17 -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>${javafx.version}</version>
+            <version>17.0.10</version>
         </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>${javafx.version}</version>
-        </dependency>
+        <!-- Dependencia para JavaFX Web (para WebView) -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
-            <version>${javafx.version}</version>
+            <version>17.0.10</version>
         </dependency>
-
-        <!-- Dependencia para convertir Markdown a HTML -->
+        <!-- Dependencia para Flexmark (Markdown to HTML) -->
         <dependency>
             <groupId>com.vladsch.flexmark</groupId>
             <artifactId>flexmark-all</artifactId>
-            <version>0.64.0</version>
+            <version>0.62.2</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
-            <!-- Compiler plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-                <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                </configuration>
-            </plugin>
-
-            <!-- JavaFX Maven Plugin to run and package JavaFX apps -->
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>dev.mendo.GestionUsuariosApp</mainClass>
+                        <mainClass>dev.mendo.PracticaExtra2FX</mainClass>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
