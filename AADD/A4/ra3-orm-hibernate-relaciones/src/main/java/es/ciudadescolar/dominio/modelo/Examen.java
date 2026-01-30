@@ -12,61 +12,58 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
-/*
-    Se cumple que: Una entidad Alumno puede tener más de un examen (1:N).
-    Pero una entidad Examen no puede estar conectado a más de un Alumno (1:1)
-*/
 @Entity
-@Table(name="examen")
-public class Examen implements Serializable 
+@Table(name = "examen")
+public class Examen implements Serializable
 {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // SQL = Autoincremment
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
     @Column(name = "modulo", nullable = false)
     private String modulo;
-
-    @Column(name= "fecha")
-    private LocalDate fecha;
-
-    @Column(name="nota")
-    private Double nota;
-
-    @ManyToOne
-    @JoinColumn(name= "alumno")
-    private Alumno alumno;
     
+    @Column(name = "fecha")
+    private LocalDate fecha;
+    
+    @Column(name = "nota")
+    private Double nota;
+   
+    /**
+     * anotación para reflejar la relación 1:N entre Alumno y Examen (estamos en el lado del "muchos")
+     * implícitamente JPA utiliza fetch EAGER del lado del "muchos", es decir, al recuperar un examen, te recupera
+     * automáticamente la información del asociado alumno. Nosotros vamos ir en contra fijando explicitamente LAZY
+     * 
+     * Para asegurar que ningún examen se registra sin alumno asociado, también añadiremos nullable =false
+     */
+    @ManyToOne
+    @JoinColumn(name = "alumno", nullable = false)
+    private Alumno alumno;
+
     public Alumno getAlumno() {
         return alumno;
     }
-
 
     public void setAlumno(Alumno alumno) {
         this.alumno = alumno;
     }
 
+    public Examen() {}
 
-    public Examen(String modulo) 
+    public Examen(String mod, LocalDate fecha)
     {
-        this.modulo = modulo;
-        this.fecha = LocalDate.now();
-    }
-
-    
-    public Examen(String modulo, LocalDate fecha)
-    {
-        this.modulo = modulo;
+        this.modulo = mod;
         this.fecha = fecha;
     }
-    
-    public Examen() {
+
+    public Examen (String mod)
+    {
+        this.modulo = mod;
+        this.fecha = LocalDate.now();
     }
-
-
     public Long getId() {
         return id;
     }
@@ -91,7 +88,6 @@ public class Examen implements Serializable
     public void setNota(Double nota) {
         this.nota = nota;
     }
-
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -133,7 +129,6 @@ public class Examen implements Serializable
             return false;
         return true;
     }
-
     @Override
     public String toString() {
         return "Examen [id=" + id + ", modulo=" + modulo + ", fecha=" + fecha + ", nota=" + nota + "]";

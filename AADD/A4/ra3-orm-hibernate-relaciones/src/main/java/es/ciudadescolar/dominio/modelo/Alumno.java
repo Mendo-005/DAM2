@@ -2,9 +2,7 @@ package es.ciudadescolar.dominio.modelo;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -14,8 +12,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -83,17 +79,27 @@ public class Alumno implements Serializable
     @JoinColumn(name = "direccion", unique = true, nullable = true)
     private Direccion direc;
 
-    @OneToMany(mappedBy = "alumno", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}) // Conectamos mediante la clave foranea alumno de la entidad Examen
-    private List<Examen> examenes;
+    /* Dirección es un dato accesorio pero Expediente es una entidad de negocio. */
+    /* la FK decido meterla en expediente en este caso */
+    @OneToOne(mappedBy = "alumno", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private Expediente expediente;
 
-    
-    public List<Examen> getExamenes() {
-        return examenes;
-    }
-
-    public void setExamenes(List<Examen> examenes) {
-        this.examenes = examenes;
-    }
+    /**
+     * Anotación para reflejar la relación 1:N entre Alumno y Examen (estamos en el lado del "uno")
+     * implícitamente JPA utiliza fetch LAZY del lado del "uno", es decir, al recuperar un alumno 
+     * no tendré sus exámenes salvo que posteriormente haga un getExamenes(). Pero como siempre, mejor
+     * ser explícitos.
+     * 
+     * En principio, solo las operaciones persist y remove que haga en alumno quiero 
+     * que se haga automáticamente en sus exámenes.
+     * 
+     * La colección NO es “un hijo”, cada elemento de la lista es un hijo independiente por lo que también tendría
+     * sentido añadir orphanRemoval = true de forma que si elimino la relación de un alumno con un examen, el examen 
+     * se borre automáticamente.
+     *
+     */
+    @OneToMany(mappedBy = "alumno", fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, orphanRemoval=true)
+    private List<Examen> examenes = new ArrayList<Examen>();
 
     public Alumno(){}
 
@@ -102,18 +108,6 @@ public class Alumno implements Serializable
         this.email = email;
     }
 
-    public void añadirExamenes(Examen examen)
-    {
-        if (examenes == null) 
-        {
-            this.examenes = new ArrayList<>(); 
-        }
-        examenes.add(examen);
-    }
-
-    @ManyToMany(cascade=CascadeType.PERSIST)
-    @JoinTable(name = "matricula", joinColumns= @JoinColumn(name="idAlumno"), inverseJoinColumns = @JoinColumn(name="idModulo"))
-    private Set<Modulo> modulosMatriculados = new HashSet<>();
     
     public Long getId() {
         return id;
@@ -145,6 +139,30 @@ public class Alumno implements Serializable
 
     public void setDirec(Direccion direc) {
         this.direc = direc;
+    }
+
+    public Expediente getExpediente() {
+        return expediente;
+    }
+
+    public void setExpediente(Expediente expediente) {
+        this.expediente = expediente;
+    }
+
+        public List<Examen> getExamenes() {
+        return examenes;
+    }
+
+    public void setExamenes(List<Examen> examenes) {
+        this.examenes = examenes;
+    }
+
+    public void aniadirExamen(Examen ex)
+    {
+       // if(examenes == null)
+       //      this.examenes = new ArrayList<Examen>();
+        
+        examenes.add(ex);
     }
 
     @Override
@@ -186,16 +204,7 @@ public class Alumno implements Serializable
     
     @Override
     public String toString() {
-        return "Alumno [id=" + id + ", nombre=" + nombre + ", email=" + email + ", direc=" + direc + "]" + "numExamenes= " +examenes.size();
+        return "Alumno [id=" + id + ", nombre=" + nombre + ", email=" + email + ", direc=" + direc + "]";
     }     
 
-    public boolean anniadirModulo(Modulo modulo)
-    {
-        return modulosMatriculados.add(modulo);
-    }
-
-    public boolean quitarModulo(Modulo modulo)
-    {
-        return modulosMatriculados.remove(modulo);
-    }
 }
