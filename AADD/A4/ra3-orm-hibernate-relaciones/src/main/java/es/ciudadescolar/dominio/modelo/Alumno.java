@@ -2,7 +2,9 @@ package es.ciudadescolar.dominio.modelo;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -12,6 +14,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -106,6 +110,10 @@ public class Alumno implements Serializable
         }
         examenes.add(examen);
     }
+
+    @ManyToMany(cascade=CascadeType.PERSIST)
+    @JoinTable(name = "matricula", joinColumns= @JoinColumn(name="idAlumno"), inverseJoinColumns = @JoinColumn(name="idModulo"))
+    private Set<Modulo> modulosMatriculados = new HashSet<>();
     
     public Long getId() {
         return id;
@@ -181,4 +189,13 @@ public class Alumno implements Serializable
         return "Alumno [id=" + id + ", nombre=" + nombre + ", email=" + email + ", direc=" + direc + "]" + "numExamenes= " +examenes.size();
     }     
 
+    public boolean anniadirModulo(Modulo modulo)
+    {
+        return modulosMatriculados.add(modulo);
+    }
+
+    public boolean quitarModulo(Modulo modulo)
+    {
+        return modulosMatriculados.remove(modulo);
+    }
 }

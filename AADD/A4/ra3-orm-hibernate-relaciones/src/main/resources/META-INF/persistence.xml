@@ -15,6 +15,7 @@
 <class>es.ciudadescolar.dominio.modelo.Alumno</class>
 <class>es.ciudadescolar.dominio.modelo.Direccion</class>
 <class>es.ciudadescolar.dominio.modelo.Examen</class>
+<class>es.ciudadescolar.dominio.modelo.Modulo</class>
 
 <properties>
 
