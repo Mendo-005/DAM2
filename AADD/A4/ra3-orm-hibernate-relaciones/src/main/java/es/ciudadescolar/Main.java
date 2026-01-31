@@ -10,6 +10,7 @@ import es.ciudadescolar.dominio.modelo.Examen;
 import es.ciudadescolar.servicios.AlumnoServicio;
 import es.ciudadescolar.servicios.ExamenServicio;
 import es.ciudadescolar.servicios.ExpedienteServicio;
+import es.ciudadescolar.servicios.ModuloServicio;
 import es.ciudadescolar.util.JPAUtil;
 
 /**
@@ -84,6 +85,14 @@ public class Main
                 {
                     LOG.info(e.toString());
                 }
+
+
+             // relación N:M bidireccional entre Alumno y Modulo  
+            ModuloServicio moduloService = new ModuloServicio();
+            Long idModNuevo = moduloService.crearModulo(489L, "1º", "Programación");
+            
+             if (idAlumno != null && idAlumno > -1L && idModNuevo != null && idModNuevo > -1L)
+                alumnoService.matricularAlumnoEnModulo(idAlumno, idModNuevo);
         }
         catch (Exception e)
         {

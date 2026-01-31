@@ -4,22 +4,25 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name="modulo")
-public class Modulo implements Serializable{
+public class Modulo  implements Serializable{
 
     private static final long serialVersionUID = 1L;
-    
-    // El id no sera incremental, ya que cada uno tiene un id legal
+
+    // En esta ocasión, como cada módulo tiene por ley un determinado código, no quiero que sea auto_increment
+    // ejemplo:  486 AADD , 488 DI, 489 PSP, 485 Programación de 1º
     @Id
     @Column(name="id")
-    private Long id;
+    private Long codigo;
 
     @Column(name="curso", nullable = false)
     private String curso;
@@ -27,61 +30,75 @@ public class Modulo implements Serializable{
     @Column(name="nombre", nullable = false)
     private String nombre;
 
-    @ManyToMany(mappedBy= "modulosMatriculados")
-    private Set<Alumno> listaAlumnos = new HashSet<>();
+    /**
+     * anotación para reflejar la relación N:M entre Alumno y Modulo (estamos en el lado de la entidad NO OWNER)
+     * implícitamente JPA utiliza fetch EAGER en N:M, es decir, al recuperar un Modulo, te hace la join para recuperar
+     * automáticamente la información de los alumnos matriculados. Nosotros vamos ir en contra fijando explicitamente LAZY
+     * 
+     * no añadir CascadeType.REMOVE pues borrar un módulo no debe suponer el borrado de alumnos...
+     * 
+     * Como no importa el orden ni se pueden repetir los alumnos, considero mejor usar un conjunto que una lista
+     */
+    @ManyToMany(mappedBy = "modulosMatriculados", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    private Set<Alumno> alumnos= new HashSet<Alumno>();
 
-    
-    public Modulo() {}
-    
-    public Modulo(Long id, String curso, String nombre) {
-        this.id = id;
-        this.curso = curso;
-        this.nombre = nombre;
+    public Modulo(){}
+
+    public Modulo(Long cod, String curso, String nombre)
+    {
+        this.curso=curso;
+        this.codigo=cod;
+        this.nombre= nombre;
     }
 
-    public static long getSerialversionuid() {
-        return serialVersionUID;
+    public Long getCodigo() {
+        return codigo;
     }
 
-    public Long getId() {
-        return id;
+
+    public void setCodigo(Long codigo) {
+        this.codigo = codigo;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getCurso() {
         return curso;
     }
 
+
     public void setCurso(String curso) {
         this.curso = curso;
     }
+
 
     public String getNombre() {
         return nombre;
     }
 
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public Set<Alumno> getListaAlumnos() {
-        return listaAlumnos;
+
+    public Set<Alumno> getAlumnos() {
+        return alumnos;
     }
 
-    public void setListaAlumnos(Set<Alumno> listaAlumnos) {
-        this.listaAlumnos = listaAlumnos;
+
+    public void setAlumnos(Set<Alumno> alumnos) {
+        this.alumnos = alumnos;
     }
+
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((id == null) ? 0 : id.hashCode());
+        result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
         return result;
     }
+
 
     @Override
     public boolean equals(Object obj) {
@@ -92,26 +109,28 @@ public class Modulo implements Serializable{
         if (getClass() != obj.getClass())
             return false;
         Modulo other = (Modulo) obj;
-        if (id == null) {
-            if (other.id != null)
+        if (codigo == null) {
+            if (other.codigo != null)
                 return false;
-        } else if (!id.equals(other.id))
+        } else if (!codigo.equals(other.codigo))
             return false;
         return true;
     }
 
+
     @Override
     public String toString() {
-        return "Modulo [id=" + id + ", curso=" + curso + ", nombre=" + nombre + "]";
+        return "Modulo [codigo=" + codigo + ", curso=" + curso + ", nombre=" + nombre + "]";
+    }
+    
+    public boolean aniadirAlumno(Alumno al)
+    {
+        return alumnos.add(al);
     }
 
-    public boolean anniadirAlumno(Alumno alumno)
+    public boolean quitarAlumno(Alumno al)
     {
-        return listaAlumnos.add(alumno);
+        return alumnos.remove(al);
     }
-
-    public boolean  quitarAlumno(Alumno alumno)
-    {
-        return listaAlumnos.remove(alumno);
-    }
+    
 }

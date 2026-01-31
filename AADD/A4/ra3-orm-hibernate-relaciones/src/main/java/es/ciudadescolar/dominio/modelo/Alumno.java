@@ -2,7 +2,9 @@ package es.ciudadescolar.dominio.modelo;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -12,6 +14,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -100,6 +104,23 @@ public class Alumno implements Serializable
      */
     @OneToMany(mappedBy = "alumno", fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, orphanRemoval=true)
     private List<Examen> examenes = new ArrayList<Examen>();
+
+    /**
+     * anotación para reflejar la relación N:M entre Alumno y Modulo (estamos en el lado de la entidad OWNER)
+     * por tanto es aquí donde debo indicar la tabla intermedia y las FKs en dicha tabla (la FK propia:Alumno y la FK inversa:Modulo). 
+     * 
+     * Atención: Hibernate será quién marque dichas FKs como una PK compuesta en la tabla intermedia (matricula).
+     * 
+     * implícitamente JPA utiliza fetch EAGER en N:M, es decir, al recuperar un Alumno, te hace la join para recuperar
+     * automáticamente la información de los módulos en los que esté matriculado. Nosotros vamos ir en contra fijando explicitamente LAZY
+     * 
+     * no añadir CascadeType.REMOVE pues borrar un alumno no debe suponer el borrado de módulos...
+     * 
+     * como no importa el orden ni se pueden repetir los Modulos en los que un alumno está matriculado, considero mejor usar un conjunto que una lista
+     */
+    @ManyToMany(cascade=CascadeType.PERSIST, fetch = FetchType.LAZY)
+    @JoinTable(name="matricula", joinColumns = @JoinColumn(name="id_alumno"), inverseJoinColumns = @JoinColumn(name="id_modulo"))
+    private Set<Modulo> modulosMatriculados = new HashSet<Modulo>();
 
     public Alumno(){}
 
@@ -205,6 +226,15 @@ public class Alumno implements Serializable
     @Override
     public String toString() {
         return "Alumno [id=" + id + ", nombre=" + nombre + ", email=" + email + ", direc=" + direc + "]";
-    }     
+    } 
+    
+    public boolean aniadirModulo(Modulo mod)
+    {
+        return modulosMatriculados.add(mod);
+    }
 
+    public boolean quitarModulo(Modulo mod)
+    {
+        return modulosMatriculados.remove(mod);
+    }
 }
