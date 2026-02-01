@@ -87,8 +87,9 @@ SELECT * FROM Products;
 SELECT * FROM Sales;
 
 SELECT 
-    p.product_name, 
-    p.price, 
-    p.category
-FROM Products p
-ORDER BY p.category ASC
+    MONTHNAME(sale_date) as Mes, 
+    SUM(quantity) as TotalVendidos
+FROM Sales
+WHERE YEAR(sale_date) = 2024
+GROUP BY MONTH(sale_date), MONTHNAME(sale_date)
+ORDER BY MONTH(sale_date)
