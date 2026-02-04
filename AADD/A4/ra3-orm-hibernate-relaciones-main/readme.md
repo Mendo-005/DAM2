@@ -22,8 +22,8 @@ En este nuevo proyecto se introduce el concepto de **relación entre entidades**
    ```
 
 4) **relación 1:N bidireccional**: entre las mismas entidades fuertes `Alumno` como `Examen`. En este caso podríamos considerar necesario implementar la bidireccionalidad, es decir, desde alumno poder recuperar todos sus exámenes y desde cada examen poder recuperar el alumno que lo hizo.
-5) **relación N:M bidireccional** SIN atributos: entre entidades fuertes como Alumno y Modulo. En este caso, tanto `Alumno` como `Modulo` tienen vida propia independiente y tendrán cada uno su lógica propia. Cuando hay N:M siempre se suele implementar la bidireccionalidad. Es decir, desde alumno poder recuperar todos los módulos en los que está matriculado y desde cada módulo poder recuperar todos los alumnos matriculados. Por no hacer más complejo el modelo y tener que modificar además la lógica de los servicios existentes, no se relaciona Examen con Modulo (aunque se debería).
-6) **relación N:M bidireccional** CON atributos: entre las mismas entidades fuertes  `Alumno` como `Modulo`. Mismos escenario de antes salvo que en la relación hay uno o varios atributos. Por ejemplo la nota final que saca un alumno concreto en un módulo concreto.
+5) **relación N:M bidireccional SIN atributos**: entre entidades fuertes como Alumno y Modulo. En este caso, tanto `Alumno` como `Modulo` tienen vida propia independiente y tendrán cada uno su lógica propia. Cuando hay N:M siempre se suele implementar la bidireccionalidad. Es decir, desde alumno poder recuperar todos los módulos en los que está matriculado y desde cada módulo poder recuperar todos los alumnos matriculados. Por no hacer más complejo el modelo y tener que modificar además la lógica de los servicios existentes, no se relaciona Examen con Modulo (aunque se debería).
+6) **relación N:M bidireccional CON atributos**: entre las mismas entidades fuertes  `Alumno` como `Modulo`. Mismos escenario de antes salvo que en la relación hay uno o varios atributos por lo que aparece una nueva entidad `Matricula` con su correspondiente DAO y Servicio. El atributo de la relación será la nota final que saca un alumno concreto en un módulo concreto.
 
 ## Versiones del proyecto (TAGs)
 
@@ -32,7 +32,7 @@ En este nuevo proyecto se introduce el concepto de **relación entre entidades**
 - ~~**v2.0-1toN-unidir** → Alumno ── 1:N ── Examen (unidireccional)~~
 - **v2.1-1toN-bidir**  → Alumno ── 1:N ── Examen (bidireccional)
 - **v3.0-NtoM-bidir**  → Alumno ── N:N ── Modulo (bidireccional)
-- **v3.1-NtoM-bidir-atrib**  → Alumno ── N:N ── Modulo (bidireccional)
+- **v3.1-NtoM-bidir-atrib**  → Alumno ── 1:N ── Matricula ── N:1 ── Modulo (bidireccional)
 
 ## Operativa básica con TAGs
 

@@ -6,10 +6,12 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.ciudadescolar.dominio.modelo.ClaveMatricula;
 import es.ciudadescolar.dominio.modelo.Examen;
 import es.ciudadescolar.servicios.AlumnoServicio;
 import es.ciudadescolar.servicios.ExamenServicio;
 import es.ciudadescolar.servicios.ExpedienteServicio;
+import es.ciudadescolar.servicios.MatriculaServicio;
 import es.ciudadescolar.servicios.ModuloServicio;
 import es.ciudadescolar.util.JPAUtil;
 
@@ -87,12 +89,18 @@ public class Main
                 }
 
 
-             // relación N:M bidireccional entre Alumno y Modulo  
+            // relación N:M bidireccional entre Alumno y Modulo (con atributo en relación)
             ModuloServicio moduloService = new ModuloServicio();
             Long idModNuevo = moduloService.crearModulo(489L, "1º", "Programación");
             
-             if (idAlumno != null && idAlumno > -1L && idModNuevo != null && idModNuevo > -1L)
-                alumnoService.matricularAlumnoEnModulo(idAlumno, idModNuevo);
+            MatriculaServicio matriculaService = new MatriculaServicio();
+
+            if (idAlumno != null && idAlumno > -1L && idModNuevo != null && idModNuevo > -1L)
+            {
+                 ClaveMatricula cm = matriculaService.crearMatricula(idAlumno, idModNuevo);
+                 if (cm != null)
+                    matriculaService.fijarNota(cm, 8.75);
+            }   
         }
         catch (Exception e)
         {

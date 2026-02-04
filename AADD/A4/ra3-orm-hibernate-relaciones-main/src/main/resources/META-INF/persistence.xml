@@ -17,7 +17,7 @@
 <class>es.ciudadescolar.dominio.modelo.Expediente</class>
 <class>es.ciudadescolar.dominio.modelo.Examen</class>
 <class>es.ciudadescolar.dominio.modelo.Modulo</class>
-
+<class>es.ciudadescolar.dominio.modelo.Matricula</class>
 
 <properties>
 

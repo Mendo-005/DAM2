@@ -9,7 +9,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -30,17 +30,8 @@ public class Modulo  implements Serializable{
     @Column(name="nombre", nullable = false)
     private String nombre;
 
-    /**
-     * anotación para reflejar la relación N:M entre Alumno y Modulo (estamos en el lado de la entidad NO OWNER)
-     * implícitamente JPA utiliza fetch EAGER en N:M, es decir, al recuperar un Modulo, te hace la join para recuperar
-     * automáticamente la información de los alumnos matriculados. Nosotros vamos ir en contra fijando explicitamente LAZY
-     * 
-     * no añadir CascadeType.REMOVE pues borrar un módulo no debe suponer el borrado de alumnos...
-     * 
-     * Como no importa el orden ni se pueden repetir los alumnos, considero mejor usar un conjunto que una lista
-     */
-    @ManyToMany(mappedBy = "modulosMatriculados", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
-    private Set<Alumno> alumnos= new HashSet<Alumno>();
+   @OneToMany(mappedBy = "modulo", cascade=CascadeType.PERSIST,fetch = FetchType.LAZY)
+    private Set<Matricula> alumnos= new HashSet<Matricula>();
 
     public Modulo(){}
 
@@ -81,12 +72,12 @@ public class Modulo  implements Serializable{
     }
 
 
-    public Set<Alumno> getAlumnos() {
+    public Set<Matricula> getAlumnos() {
         return alumnos;
     }
 
 
-    public void setAlumnos(Set<Alumno> alumnos) {
+    public void setAlumnos(Set<Matricula> alumnos) {
         this.alumnos = alumnos;
     }
 
@@ -123,12 +114,12 @@ public class Modulo  implements Serializable{
         return "Modulo [codigo=" + codigo + ", curso=" + curso + ", nombre=" + nombre + "]";
     }
     
-    public boolean aniadirAlumno(Alumno al)
+    public boolean aniadirAlumno(Matricula al)
     {
         return alumnos.add(al);
     }
 
-    public boolean quitarAlumno(Alumno al)
+    public boolean quitarAlumno(Matricula al)
     {
         return alumnos.remove(al);
     }
