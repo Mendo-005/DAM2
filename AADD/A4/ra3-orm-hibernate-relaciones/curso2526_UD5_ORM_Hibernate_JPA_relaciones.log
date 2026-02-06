@@ -1,0 +1,784 @@
+2026-02-02 10:16:45,074 [main] DEBUG es.ciudadescolar.Main                    - Inicio de aplicación
+2026-02-02 10:16:45,078 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Creando pool de conexiones...
+2026-02-02 10:16:45,108 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-02 10:16:45,285 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaInstituto]
+2026-02-02 10:16:45,332 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-02 10:16:46,105 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:./data/instituto;AUTO_SERVER=TRUE]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INSTITUTO/PUBLIC
+	Autocommit mode: true
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: 100
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-02 10:16:47,523 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 10:16:47,544 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m alumno [34mcascade[0m 
+2026-02-02 10:16:47,545 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m direccion [34mcascade[0m 
+2026-02-02 10:16:47,546 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m examen [34mcascade[0m 
+2026-02-02 10:16:47,546 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m expediente [34mcascade[0m 
+2026-02-02 10:16:47,546 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m matricula [34mcascade[0m 
+2026-02-02 10:16:47,547 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m modulo [34mcascade[0m 
+2026-02-02 10:16:47,553 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m alumno (
+        direccion [34mbigint[0m [34munique[0m,
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        correoElectronico [34mvarchar[0m(255) [34munique[0m,
+        nombre [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+2026-02-02 10:16:47,558 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m direccion (
+        numero [34minteger[0m [34mnot[0m [34mnull[0m,
+        cod_dir [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        calle [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (cod_dir)
+    )
+2026-02-02 10:16:47,561 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m examen (
+        fecha [34mdate[0m,
+        nota [34mfloat[0m(53),
+        alumno [34mbigint[0m [34mnot[0m [34mnull[0m,
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        modulo [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+2026-02-02 10:16:47,564 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m expediente (
+        notamedia [34mfloat[0m(53),
+        alumno [34mbigint[0m [34mnot[0m [34mnull[0m [34munique[0m,
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        comentarios [34mvarchar[0m(255),
+        numeroExpediente [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        estado enum ([36m'ABIERTO'[0m,[36m'CERRADO'[0m) [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+2026-02-02 10:16:47,567 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m matricula (
+        id_alumno [34mbigint[0m [34mnot[0m [34mnull[0m,
+        id_modulo [34mbigint[0m [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id_alumno, id_modulo)
+    )
+2026-02-02 10:16:47,568 [main] DEBUG org.hibernate.SQL                        - 
+    [34mcreate[0m [34mtable[0m modulo (
+        id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        curso [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        nombre [34mvarchar[0m(255) [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+2026-02-02 10:16:47,572 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m alumno 
+       [34madd[0m [34mconstraint[0m FKl1wju1a2gi0ntsd01iootacg5 
+       [34mforeign[0m [34mkey[0m (direccion) 
+       [34mreferences[0m direccion
+2026-02-02 10:16:47,581 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m examen 
+       [34madd[0m [34mconstraint[0m FK6uff67o2a1rxbrpmy3n7a2mdo 
+       [34mforeign[0m [34mkey[0m (alumno) 
+       [34mreferences[0m alumno
+2026-02-02 10:16:47,583 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m expediente 
+       [34madd[0m [34mconstraint[0m FK53565o60xef4ol388q6et12jv 
+       [34mforeign[0m [34mkey[0m (alumno) 
+       [34mreferences[0m alumno
+2026-02-02 10:16:47,585 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m matricula 
+       [34madd[0m [34mconstraint[0m FKqt9nkxo77942bibo1oyvfvm2g 
+       [34mforeign[0m [34mkey[0m (id_modulo) 
+       [34mreferences[0m modulo
+2026-02-02 10:16:47,587 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m matricula 
+       [34madd[0m [34mconstraint[0m FK7hs7wugi5i1l9wqnu9fkm7oav 
+       [34mforeign[0m [34mkey[0m (id_alumno) 
+       [34mreferences[0m alumno
+2026-02-02 10:16:47,592 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:47,971 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        a1_0.direccion,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mwhere[0m
+        a1_0.correoElectronico=?
+2026-02-02 10:16:47,973 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [psanz@ciudadescolar.es]
+2026-02-02 10:16:48,029 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        direccion
+        (calle, numero, cod_dir) 
+    [34mvalues[0m
+        (?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,031 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avda. Miraflores]
+2026-02-02 10:16:48,031 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [33]
+2026-02-02 10:16:48,048 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        alumno
+        (direccion, correoElectronico, nombre, id) 
+    [34mvalues[0m
+        (?, ?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,049 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,049 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [psanz@ciudadescolar.es]
+2026-02-02 10:16:48,050 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Paco Sanz]
+2026-02-02 10:16:48,065 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Alumno registrado con direccion: Alumno [id=1, nombre=Paco Sanz, email=psanz@ciudadescolar.es, direc=Direccion [idDireccion=1, calle=Avda. Miraflores, num=33]]
+2026-02-02 10:16:48,066 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,067 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,071 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,073 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,078 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,079 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,084 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        direccion
+        (calle, numero, cod_dir) 
+    [34mvalues[0m
+        (?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,084 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle Goya]
+2026-02-02 10:16:48,085 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [198]
+2026-02-02 10:16:48,091 [main] DEBUG org.hibernate.SQL                        - 
+    [34mupdate[0m
+        alumno 
+    [34mset[0m
+        direccion=?,
+        correoElectronico=?,
+        nombre=? 
+    [34mwhere[0m
+        id=?
+2026-02-02 10:16:48,093 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-02 10:16:48,094 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [psanz@ciudadescolar.es]
+2026-02-02 10:16:48,094 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Paco Sanz]
+2026-02-02 10:16:48,094 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-02 10:16:48,097 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdelete[0m 
+    [34mfrom[0m
+        direccion 
+    [34mwhere[0m
+        cod_dir=?
+2026-02-02 10:16:48,097 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,100 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Cambiada la dirección del alumno: Alumno [id=1, nombre=Paco Sanz, email=psanz@ciudadescolar.es, direc=Direccion [idDireccion=2, calle=Calle Goya, num=198]]
+2026-02-02 10:16:48,100 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,101 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,101 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,102 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,103 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,104 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,105 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        expediente
+        (alumno, estado, notamedia, numeroExpediente, comentarios, id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,106 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,106 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:ENUM) <- [ABIERTO]
+2026-02-02 10:16:48,106 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [null]
+2026-02-02 10:16:48,107 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [89068]
+2026-02-02 10:16:48,107 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (5:VARCHAR) <- [null]
+2026-02-02 10:16:48,109 [main] INFO  es.ciudadescolar.servicios.ExpedienteServicio - Expediente creado para el alumno: Alumno [id=1, nombre=Paco Sanz, email=psanz@ciudadescolar.es, direc=Direccion [idDireccion=2, calle=Calle Goya, num=198]]
+2026-02-02 10:16:48,111 [main] DEBUG es.ciudadescolar.servicios.ExpedienteServicio - Cerrado EntityManager
+2026-02-02 10:16:48,111 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,112 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,113 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,114 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,114 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,115 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Alumno: Paco Sanz
+2026-02-02 10:16:48,116 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Expediente: 89068
+2026-02-02 10:16:48,116 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,116 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,116 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.id=?
+2026-02-02 10:16:48,117 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,121 [main] INFO  es.ciudadescolar.servicios.ExpedienteServicio - Expediente: 89068
+2026-02-02 10:16:48,121 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,122 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,124 [main] INFO  es.ciudadescolar.servicios.ExpedienteServicio - Alumno: Paco Sanz
+2026-02-02 10:16:48,125 [main] DEBUG es.ciudadescolar.servicios.ExpedienteServicio - Cerrado EntityManager
+2026-02-02 10:16:48,125 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,125 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,126 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,127 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,127 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,129 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        examen
+        (alumno, fecha, modulo, nota, id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,130 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,130 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-25]
+2026-02-02 10:16:48,131 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Acceso a Datos]
+2026-02-02 10:16:48,132 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:DOUBLE) <- [7.7]
+2026-02-02 10:16:48,136 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen añadido al alumno[1]: Examen [id=1, modulo=Acceso a Datos, fecha=2026-02-25, nota=7.7]
+2026-02-02 10:16:48,137 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,137 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,138 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,138 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,140 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,140 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,141 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        examen
+        (alumno, fecha, modulo, nota, id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,142 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,142 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-25]
+2026-02-02 10:16:48,142 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Desarrollo de Interfaces]
+2026-02-02 10:16:48,143 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:DOUBLE) <- [2.5]
+2026-02-02 10:16:48,145 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen añadido al alumno[1]: Examen [id=2, modulo=Desarrollo de Interfaces, fecha=2026-02-25, nota=2.5]
+2026-02-02 10:16:48,145 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,145 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,146 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,146 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,147 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,148 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,149 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        examen
+        (alumno, fecha, modulo, nota, id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, [34mdefault[0m)
+2026-02-02 10:16:48,150 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,150 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-23]
+2026-02-02 10:16:48,150 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Programación de Servicios y Procesos]
+2026-02-02 10:16:48,150 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:DOUBLE) <- [5.2]
+2026-02-02 10:16:48,151 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen añadido al alumno[1]: Examen [id=3, modulo=Programación de Servicios y Procesos, fecha=2026-02-23, nota=5.2]
+2026-02-02 10:16:48,152 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,152 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,152 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,154 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,155 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,156 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,158 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Alumno: Paco Sanz
+2026-02-02 10:16:48,161 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.alumno,
+        e1_0.id,
+        e1_0.fecha,
+        e1_0.modulo,
+        e1_0.nota 
+    [34mfrom[0m
+        examen e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,162 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,165 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Num examenes realizados: 3
+2026-02-02 10:16:48,165 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen [1]: Examen [id=1, modulo=Acceso a Datos, fecha=2026-02-25, nota=7.7]
+2026-02-02 10:16:48,166 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen [2]: Examen [id=2, modulo=Desarrollo de Interfaces, fecha=2026-02-25, nota=2.5]
+2026-02-02 10:16:48,166 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Examen [3]: Examen [id=3, modulo=Programación de Servicios y Procesos, fecha=2026-02-23, nota=5.2]
+2026-02-02 10:16:48,166 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,167 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,168 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre,
+        e1_0.fecha,
+        e1_0.modulo,
+        e1_0.nota 
+    [34mfrom[0m
+        examen e1_0 
+    [34mjoin[0m
+        alumno a1_0 
+            [34mon[0m a1_0.id=e1_0.alumno 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        e1_0.id=?
+2026-02-02 10:16:48,170 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,172 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,174 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,175 [main] INFO  es.ciudadescolar.servicios.ExamenServicio - Examen de: Acceso a Datos
+2026-02-02 10:16:48,175 [main] INFO  es.ciudadescolar.servicios.ExamenServicio - Alumno: Paco Sanz
+2026-02-02 10:16:48,176 [main] DEBUG es.ciudadescolar.servicios.ExamenServicio - Cerrado EntityManager
+2026-02-02 10:16:48,176 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,176 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre,
+        e1_0.fecha,
+        e1_0.modulo,
+        e1_0.nota 
+    [34mfrom[0m
+        examen e1_0 
+    [34mjoin[0m
+        alumno a1_0 
+            [34mon[0m a1_0.id=e1_0.alumno 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        e1_0.id=?
+2026-02-02 10:16:48,177 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,178 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,178 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,180 [main] DEBUG org.hibernate.SQL                        - 
+    [34mupdate[0m
+        examen 
+    [34mset[0m
+        alumno=?,
+        fecha=?,
+        modulo=?,
+        nota=? 
+    [34mwhere[0m
+        id=?
+2026-02-02 10:16:48,181 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,181 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-25]
+2026-02-02 10:16:48,181 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Acceso a Datos]
+2026-02-02 10:16:48,181 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:DOUBLE) <- [8.1]
+2026-02-02 10:16:48,181 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (5:BIGINT) <- [1]
+2026-02-02 10:16:48,182 [main] INFO  es.ciudadescolar.servicios.ExamenServicio - Examen modificado (cambiar nota)Examen [id=1, modulo=Acceso a Datos, fecha=2026-02-25, nota=8.1]
+2026-02-02 10:16:48,183 [main] DEBUG es.ciudadescolar.servicios.ExamenServicio - Cerrado EntityManager
+2026-02-02 10:16:48,183 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,193 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.fecha,
+        e1_0.modulo,
+        e1_0.nota 
+    [34mfrom[0m
+        examen e1_0 
+    [34mwhere[0m
+        e1_0.nota>=? 
+        [34mand[0m e1_0.nota<=?
+2026-02-02 10:16:48,195 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DOUBLE) <- [5.0]
+2026-02-02 10:16:48,195 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DOUBLE) <- [10.0]
+2026-02-02 10:16:48,196 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,197 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,198 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,199 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,200 [main] DEBUG es.ciudadescolar.servicios.ExamenServicio - Cerrado EntityManager
+2026-02-02 10:16:48,200 [main] INFO  es.ciudadescolar.Main                    - Examenes aprobados:
+2026-02-02 10:16:48,201 [main] INFO  es.ciudadescolar.Main                    - Examen [id=1, modulo=Acceso a Datos, fecha=2026-02-25, nota=8.1]
+2026-02-02 10:16:48,201 [main] INFO  es.ciudadescolar.Main                    - Examen [id=3, modulo=Programación de Servicios y Procesos, fecha=2026-02-23, nota=5.2]
+2026-02-02 10:16:48,201 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,204 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.fecha,
+        e1_0.modulo,
+        e1_0.nota 
+    [34mfrom[0m
+        examen e1_0 
+    [34mwhere[0m
+        e1_0.nota>=? 
+        [34mand[0m e1_0.nota<=?
+2026-02-02 10:16:48,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DOUBLE) <- [0.0]
+2026-02-02 10:16:48,206 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DOUBLE) <- [4.9]
+2026-02-02 10:16:48,207 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,209 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,210 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,211 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,212 [main] DEBUG es.ciudadescolar.servicios.ExamenServicio - Cerrado EntityManager
+2026-02-02 10:16:48,213 [main] INFO  es.ciudadescolar.Main                    - Examenes suspensos:
+2026-02-02 10:16:48,213 [main] INFO  es.ciudadescolar.Main                    - Examen [id=2, modulo=Desarrollo de Interfaces, fecha=2026-02-25, nota=2.5]
+2026-02-02 10:16:48,214 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,215 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        m1_0.id,
+        m1_0.curso,
+        m1_0.nombre 
+    [34mfrom[0m
+        modulo m1_0 
+    [34mwhere[0m
+        m1_0.id=?
+2026-02-02 10:16:48,216 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [489]
+2026-02-02 10:16:48,218 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        modulo
+        (curso, nombre, id) 
+    [34mvalues[0m
+        (?, ?, ?)
+2026-02-02 10:16:48,220 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [1º]
+2026-02-02 10:16:48,220 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Programación]
+2026-02-02 10:16:48,220 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [489]
+2026-02-02 10:16:48,223 [main] INFO  es.ciudadescolar.servicios.ExpedienteServicio - Modulo creado correctamente: Modulo [codigo=489, curso=1º, nombre=Programación]
+2026-02-02 10:16:48,223 [main] DEBUG es.ciudadescolar.servicios.ExpedienteServicio - Cerrado EntityManager
+2026-02-02 10:16:48,224 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-02 10:16:48,224 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.correoElectronico,
+        a1_0.nombre 
+    [34mfrom[0m
+        alumno a1_0 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_0.direccion 
+    [34mwhere[0m
+        a1_0.id=?
+2026-02-02 10:16:48,225 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,226 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        e1_0.id,
+        e1_0.alumno,
+        e1_0.estado,
+        e1_0.notamedia,
+        e1_0.numeroExpediente,
+        e1_0.comentarios 
+    [34mfrom[0m
+        expediente e1_0 
+    [34mwhere[0m
+        e1_0.alumno=?
+2026-02-02 10:16:48,227 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,228 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        m1_0.id,
+        m1_0.curso,
+        m1_0.nombre 
+    [34mfrom[0m
+        modulo m1_0 
+    [34mwhere[0m
+        m1_0.id=?
+2026-02-02 10:16:48,228 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [489]
+2026-02-02 10:16:48,230 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        mm1_0.id_alumno,
+        mm1_1.id,
+        mm1_1.curso,
+        mm1_1.nombre 
+    [34mfrom[0m
+        matricula mm1_0 
+    [34mjoin[0m
+        modulo mm1_1 
+            [34mon[0m mm1_1.id=mm1_0.id_modulo 
+    [34mwhere[0m
+        mm1_0.id_alumno=?
+2026-02-02 10:16:48,231 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,233 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        a1_0.id_modulo,
+        a1_1.id,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_1.correoElectronico,
+        a1_1.nombre 
+    [34mfrom[0m
+        matricula a1_0 
+    [34mjoin[0m
+        alumno a1_1 
+            [34mon[0m a1_1.id=a1_0.id_alumno 
+    [34mleft[0m [34mjoin[0m
+        direccion d1_0 
+            [34mon[0m d1_0.cod_dir=a1_1.direccion 
+    [34mwhere[0m
+        a1_0.id_modulo=?
+2026-02-02 10:16:48,234 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [489]
+2026-02-02 10:16:48,238 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        matricula
+        (id_alumno, id_modulo) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-02 10:16:48,240 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-02 10:16:48,240 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:BIGINT) <- [489]
+2026-02-02 10:16:48,241 [main] INFO  es.ciudadescolar.servicios.AlumnoServicio - Matricula realizada del alumno[1] en Modulo[489]
+2026-02-02 10:16:48,242 [main] DEBUG es.ciudadescolar.servicios.AlumnoServicio - Cerrado EntityManager
+2026-02-02 10:16:48,253 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Se ha cerrado el pool de conexiones con la BD
+2026-02-02 10:16:48,253 [main] DEBUG es.ciudadescolar.Main                    - Fin de aplicación
