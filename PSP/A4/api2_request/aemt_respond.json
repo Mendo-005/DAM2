@@ -1,0 +1,48 @@
+{
+    "Municipio": "Benejúzar",
+    "Provincia": "Alacant/Alicante",
+    "Pronostico": [
+        {
+            "Hora": "14:00",
+            "Cielo": "Despejado",
+            "Precipitacion": "0 mm",
+            "Temperatura": "18 ºC",
+            "Viento": "15 km/h"
+        },
+        {
+            "Hora": "15:00",
+            "Cielo": "Despejado",
+            "Precipitacion": "0 mm",
+            "Temperatura": "20 ºC",
+            "Viento": "20 km/h"
+        },
+        {
+            "Hora": "16:00",
+            "Cielo": "Despejado",
+            "Precipitacion": "0 mm",
+            "Temperatura": "21 ºC",
+            "Viento": "27 km/h"
+        },
+        {
+            "Hora": "17:00",
+            "Cielo": "Despejado",
+            "Precipitacion": "0 mm",
+            "Temperatura": "20 ºC",
+            "Viento": "30 km/h"
+        },
+        {
+            "Hora": "18:00",
+            "Cielo": "Nubes altas",
+            "Precipitacion": "0 mm",
+            "Temperatura": "18 ºC",
+            "Viento": "24 km/h"
+        },
+        {
+            "Hora": "19:00",
+            "Cielo": "Nubes altas",
+            "Precipitacion": "0 mm",
+            "Temperatura": "16 ºC",
+            "Viento": "17 km/h"
+        }
+    ]
+}
