@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib as mp
-import seaborn as sb
 import fastapi
 import requests
 import os
@@ -51,7 +49,6 @@ def recuperar_datos_aemet(id_ccaa):
 
         # PRocesamos respuesta
         if response.status_code == 200:
-            # CUIDADO: Si la respuesta no es JSON dará error. Se recomienda incluir en un try
             try:
                 jsData = response.json()
                 urlToCall = jsData['datos']
