@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
-URL_BASE = os.getenv("URLBase")
-ENDPOINT = os.getenv("ENDPOINT")
-DATA_PATH = os.getenv("DATA")
-JSON_FILE = os.getenv("JSONFILE", "resultado.json")
+API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtZW5kb3phY2hhcGFycm83M0BnbWFpbC5jb20iLCJqdGkiOiIwNDAyY2I2MS0wYWVlLTQxYzQtYTIzOS0zYmU4ZDkzNjE3YjgiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTc3MDIwMjExMSwidXNlcklkIjoiMDQwMmNiNjEtMGFlZS00MWM0LWEyMzktM2JlOGQ5MzYxN2I4Iiwicm9sZSI6IiJ9.JUvFNU0SaHSBOC-mzaVGF7UwdwF3NEDe-Yg5xONw1BA"
+DATA_PATH = "./api2_request/data/20codmun.csv"
+URL_BASE = 'https://opendata.aemet.es/opendata'
+ENDPOINT= "/api/prediccion/especifica/municipio/horaria/"
+JSON_FILE="aemt_respond.json"
 
 def obtener_id_municipio(nombre_municipio):
     df = pd.read_csv(DATA_PATH)
@@ -75,6 +75,7 @@ def procesar_prediccion(raw_data):
             "Cielo": extraer_valor(dia_datos['estadoCielo'], hora_str, 'descripcion'),
             "Precipitacion": f"{extraer_valor(dia_datos['precipitacion'], hora_str)} mm",
             "Temperatura": f"{extraer_valor(dia_datos['temperatura'], hora_str)} ºC",
+            "Dirección del viento": extraer_valor(dia_datos.get('vientoAndRachaMax', []), hora_str, 'direccion'),
             "Viento": f"{extraer_valor(dia_datos['vientoAndRachaMax'], hora_str, 'velocidad')} km/h"
         })
 
