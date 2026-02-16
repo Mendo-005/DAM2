@@ -1,9 +1,15 @@
 import os
 import json
+import fastapi
+import matplotlib as plt
 import requests
 import pandas as pd
 from datetime import datetime
 from dotenv import load_dotenv
+import uvicorn
+
+from api2_request import grafica
+
 
 load_dotenv()
 
@@ -13,6 +19,9 @@ URL_BASE = 'https://opendata.aemet.es/opendata'
 ENDPOINT= "/api/prediccion/especifica/municipio/horaria/"
 JSON_FILE="aemt_respond.json"
 
+app = fastapi.FastAPI()
+
+# Pandas-CSV
 def obtener_id_municipio(nombre_municipio):
     df = pd.read_csv(DATA_PATH)
     filas = df[df['NOMBRE'].str.lower() == nombre_municipio.lower()]
@@ -81,22 +90,21 @@ def procesar_prediccion(raw_data):
 
     return resultado
 
-def guardar_json(data):
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-if __name__ == "__main__":
-    municipio = "Benejúzar"
+@app.get("/peticion")
+#http://192.168.56.1:5005/peticion?municipio=Benejúzar
+def devolver_resultado(municipio: str):
     id_muni = obtener_id_municipio(municipio)
+    if not id_muni:
+        raise fastapi.HTTPException(status_code=404, detail="Municipio no encontrado")
+
+    raw_data = descargar_datos_aemet(id_muni)
+    datos_limpios = procesar_prediccion(raw_data)
+    if not datos_limpios:
+        raise fastapi.HTTPException(status_code=502, detail="Error al obtener o procesar datos de AEMET")
     
-    if id_muni:
-        raw_data = descargar_datos_aemet(id_muni)
-        datos_limpios = procesar_prediccion(raw_data)
-        
-        if datos_limpios:
-            guardar_json(datos_limpios)
-            print(f"Datos guardados en {JSON_FILE}")
-        else:
-            print("Error al procesar datos")
-    else:
-        print("Municipio no encontrado")
+    grafica.grafica(datos_limpios)
+    return datos_limpios
+    
+if __name__ == "__main__":
+    uvicorn.run(app, host="192.168.56.1", port=5005)
+    
