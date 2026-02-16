@@ -32,6 +32,7 @@ public class Carta  implements Serializable
 
     @ManyToOne
     @JoinColumn(name = "id_nino", unique = false, nullable = false)
+    //@JsonBackReference
     private Nino nino;
 
     

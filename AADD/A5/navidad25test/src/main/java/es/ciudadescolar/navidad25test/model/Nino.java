@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -46,6 +48,8 @@ public class Nino implements Serializable
     // recupero eager porque luego en el toString() fuera de hibernate 
     //2026-02-08 12:47:03,481 [main] ERROR org.springframework.boot.SpringApplication - Application run failed org.hibernate.LazyInitializationException: Cannot lazily initialize collection of role 'es.ciudadescolar.navidad25.model.Nino.cartasPapaNoel' with key '1' (no session)
     @OneToMany(mappedBy = "nino",fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    //@JsonManagedReference
+    @JsonIgnore
     private List<Carta> cartasPapaNoel = new ArrayList<>();
 
     public Nino(){}

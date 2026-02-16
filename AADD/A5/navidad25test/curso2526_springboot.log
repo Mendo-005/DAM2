@@ -54,3 +54,475 @@ Consider the following:
 	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
 	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
 
+2026-02-16 12:08:10,797 [main] INFO  e.c.navidad25test.Navidad25testApplication - Starting Navidad25testApplication using Java 20.0.1 with PID 11944 (C:\Users\alumno\DAM2\AADD\A5\navidad25test\target\classes started by alumno in C:\Users\alumno\DAM2\AADD\A5\navidad25test)
+2026-02-16 12:08:10,799 [main] DEBUG e.c.navidad25test.Navidad25testApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 12:08:10,800 [main] INFO  e.c.navidad25test.Navidad25testApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:08:11,412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16 12:08:11,474 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-02-16 12:08:11,972 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 12:08:11,982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:08:11,984 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 12:08:11,984 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 12:08:12,048 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1201 ms
+2026-02-16 12:08:12,142 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2026-02-16 12:08:12,148 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-16 12:08:12,170 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-16 12:08:12,198 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2026-02-16 12:11:21,616 [main] INFO  e.c.navidad25test.Navidad25testApplication - Starting Navidad25testApplication using Java 20.0.1 with PID 10404 (C:\Users\alumno\DAM2\AADD\A5\navidad25test\target\classes started by alumno in C:\Users\alumno\DAM2\AADD\A5\navidad25test)
+2026-02-16 12:11:21,621 [main] DEBUG e.c.navidad25test.Navidad25testApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 12:11:21,622 [main] INFO  e.c.navidad25test.Navidad25testApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:11:22,283 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16 12:11:22,351 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2026-02-16 12:11:22,837 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 12:11:22,851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:11:22,855 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 12:11:22,856 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 12:11:22,927 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1256 ms
+2026-02-16 12:11:23,014 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2026-02-16 12:11:23,018 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-16 12:11:23,033 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-16 12:11:23,053 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2026-02-16 12:12:43,579 [main] INFO  e.c.navidad25test.Navidad25testApplication - Starting Navidad25testApplication using Java 20.0.1 with PID 3932 (C:\Users\alumno\DAM2\AADD\A5\navidad25test\target\classes started by alumno in C:\Users\alumno\DAM2\AADD\A5\navidad25test)
+2026-02-16 12:12:43,582 [main] DEBUG e.c.navidad25test.Navidad25testApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 12:12:43,582 [main] INFO  e.c.navidad25test.Navidad25testApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:12:44,172 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16 12:12:44,251 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2026-02-16 12:12:44,711 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 12:12:44,721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:12:44,723 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 12:12:44,724 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 12:12:44,781 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1153 ms
+2026-02-16 12:12:44,982 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-16 12:12:45,039 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-16 12:12:45,505 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-16 12:12:45,543 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-16 12:12:45,670 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6654ca0d
+2026-02-16 12:12:45,672 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-16 12:12:45,720 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost:3307/navidad25?user=root]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 12.1.2
+	Default catalog/schema: navidad25/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-16 12:12:46,415 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-16 12:12:46,428 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-16 12:12:46,521 [main] INFO  o.s.d.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-16 12:12:47,187 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-16 12:12:47,445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:12:47,463 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:12:47,470 [main] INFO  e.c.navidad25test.Navidad25testApplication - Started Navidad25testApplication in 4.223 seconds (process running for 4.693)
+2026-02-16 12:13:27,506 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:13:27,506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:13:27,508 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-16 12:13:27,608 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        n1_0.id_nino,
+        n1_0.comportamiento,
+        n1_0.nombre 
+    from
+        ninos n1_0
+2026-02-16 12:13:27,706 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,708 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [8]
+2026-02-16 12:13:27,715 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,716 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [7]
+2026-02-16 12:13:27,721 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,722 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-16 12:13:27,724 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,726 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-16 12:13:27,727 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,729 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [4]
+2026-02-16 12:13:27,731 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,732 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-16 12:13:27,733 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,734 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-16 12:13:27,736 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:13:27,737 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-16 12:13:27,743 [http-nio-8080-exec-1] DEBUG e.c.navidad25test.controller.NinoController - Peticion GET /api/v1/ninos - recuperamos todos los ninos: 8
+2026-02-16 12:13:27,827 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2026-02-16 12:13:27,829 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2026-02-16 12:17:31,569 [main] INFO  e.c.navidad25test.Navidad25testApplication - Starting Navidad25testApplication using Java 20.0.1 with PID 8368 (C:\Users\alumno\DAM2\AADD\A5\navidad25test\target\classes started by alumno in C:\Users\alumno\DAM2\AADD\A5\navidad25test)
+2026-02-16 12:17:31,572 [main] DEBUG e.c.navidad25test.Navidad25testApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 12:17:31,573 [main] INFO  e.c.navidad25test.Navidad25testApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:17:32,221 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16 12:17:32,310 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2026-02-16 12:17:32,779 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 12:17:32,790 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:17:32,792 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 12:17:32,793 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 12:17:32,859 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1234 ms
+2026-02-16 12:17:33,063 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-16 12:17:33,115 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-16 12:17:33,567 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-16 12:17:33,613 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-16 12:17:33,725 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6654ca0d
+2026-02-16 12:17:33,727 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-16 12:17:33,787 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost:3307/navidad25?user=root]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 12.1.2
+	Default catalog/schema: navidad25/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-16 12:17:34,502 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-16 12:17:34,515 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-16 12:17:34,606 [main] INFO  o.s.d.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-16 12:17:35,259 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-16 12:17:35,552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:17:35,570 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:17:35,576 [main] INFO  e.c.navidad25test.Navidad25testApplication - Started Navidad25testApplication in 4.338 seconds (process running for 4.799)
+2026-02-16 12:17:54,967 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:17:54,968 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:17:54,970 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-16 12:17:55,084 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        n1_0.id_nino,
+        n1_0.comportamiento,
+        n1_0.nombre 
+    from
+        ninos n1_0
+2026-02-16 12:17:55,135 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,137 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [8]
+2026-02-16 12:17:55,142 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,143 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [7]
+2026-02-16 12:17:55,150 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,151 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-16 12:17:55,152 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,155 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-16 12:17:55,156 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,157 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [4]
+2026-02-16 12:17:55,159 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,160 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-16 12:17:55,162 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,163 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-16 12:17:55,165 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:17:55,166 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-16 12:17:55,173 [http-nio-8080-exec-1] DEBUG e.c.navidad25test.controller.NinoController - Peticion GET /api/v1/ninos - recuperamos todos los ninos: 8
+2026-02-16 12:19:06,206 [main] INFO  e.c.navidad25test.Navidad25testApplication - Starting Navidad25testApplication using Java 20.0.1 with PID 13164 (C:\Users\alumno\DAM2\AADD\A5\navidad25test\target\classes started by alumno in C:\Users\alumno\DAM2\AADD\A5\navidad25test)
+2026-02-16 12:19:06,209 [main] DEBUG e.c.navidad25test.Navidad25testApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 12:19:06,210 [main] INFO  e.c.navidad25test.Navidad25testApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:19:06,817 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16 12:19:06,892 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2026-02-16 12:19:07,354 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 12:19:07,365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:19:07,370 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 12:19:07,370 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 12:19:07,432 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1166 ms
+2026-02-16 12:19:07,626 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-16 12:19:07,676 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-16 12:19:08,107 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-16 12:19:08,145 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-16 12:19:08,285 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6654ca0d
+2026-02-16 12:19:08,287 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-16 12:19:08,372 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost:3307/navidad25?user=root]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 12.1.2
+	Default catalog/schema: navidad25/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-16 12:19:09,139 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-16 12:19:09,152 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-16 12:19:09,233 [main] INFO  o.s.d.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-16 12:19:09,868 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-16 12:19:10,137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:19:10,156 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:19:10,163 [main] INFO  e.c.navidad25test.Navidad25testApplication - Started Navidad25testApplication in 4.312 seconds (process running for 4.83)
+2026-02-16 12:19:10,257 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:19:10,258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:19:10,259 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-16 12:19:10,367 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        n1_0.id_nino,
+        n1_0.comportamiento,
+        n1_0.nombre 
+    from
+        ninos n1_0
+2026-02-16 12:19:10,402 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,403 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [8]
+2026-02-16 12:19:10,407 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,409 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [7]
+2026-02-16 12:19:10,412 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,413 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-16 12:19:10,415 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,417 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-16 12:19:10,419 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,421 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [4]
+2026-02-16 12:19:10,422 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,423 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-16 12:19:10,424 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,424 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-16 12:19:10,426 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-16 12:19:10,427 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-16 12:19:10,432 [http-nio-8080-exec-1] DEBUG e.c.navidad25test.controller.NinoController - Peticion GET /api/v1/ninos - recuperamos todos los ninos: 8

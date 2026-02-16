@@ -36,12 +36,14 @@ public class NinoService {
     @Transactional
     public Nino registrarNino(String nomNino, Comportamiento comp)
     {
-        List<Nino> ninos = ninoRepository.findByNombreAndComportamiento(nomNino, comp);
+        List<Nino> listNinos = ninoRepository.findByNombreAndComportamiento(nomNino, comp);
 
-        if (!ninos.isEmpty())
+        if (!listNinos.isEmpty())
         {
             LOG.warn("El nino a registrar ya existe");
-            return ninos.getFirst();
+            // devolver el primer niño encontrado (la consulta puede devolver varios pero el contrato
+            // del servicio es devolver un único Nino)
+            return listNinos.get(0);
         }
         else
         {
