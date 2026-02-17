@@ -1,0 +1,30 @@
+Crea un programa en Java haciendo uso de ORM Hibernate + JPA y arquitectura con separación de responsabilidades que cumpla:
+La aplicación persigue la gestión de usuarios y credenciales de la plataforma AWS Academy del IES Ciudad Escolar.
+
+Este es el DDL de partida:
+
+CREATE DATABASE IF NOT EXISTS credenciales CHARSET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE credenciales;
+CREATE TABLE usuario (
+    id_usuario SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(150) NOT NULL,
+    fecha_nacimiento DATE,
+    email VARCHAR(150) NOT NULL UNIQUE );
+
+CREATE TABLE perfil (
+    id_perfil  SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password_hash VARCHAR(60) NOT NULL,
+	usuario SMALLINT UNSIGNED,
+    CONSTRAINT fk_perfil_usuario FOREIGN KEY (usuario) REFERENCES usuario(id_usuario) ) ;
+
+INSERT INTO usuario values (1, 'Jacobo','Sanz de Baranda','2000-03-08','jsanz@empresa.es');
+INSERT INTO perfil values (1, 'jsanz3','asdfasnmxXXXXqlk2334nmwe.3kn3$',1);
+
+La aplicación debe implementar la siguiente lógica:
+	a) Crear un nuevo usuario con perfil
+	b) Cambiar perfil de un usuario por otro nuevo
+	c) Eliminar usuario y por tanto también su perfil
+	d) Generar un reporte personalizado de todos los usuarios y sus perfiles:
+			nombre | apellidos | email | username
