@@ -25694,3 +25694,604 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: /Users/david/Doc
 2026-01-31 19:21:16,831 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HibernateHikariPool - Shutdown completed.
 2026-01-31 19:21:16,832 [main] TRACE org.hibernate.orm.service                - HHH010452: Automatically destroying bootstrap registry after deregistration of every child ServiceRegistry
 2026-01-31 19:21:16,832 [main] DEBUG dev.dimitrov.util.JPAUtil                - Se ha cerrado el pool de conexiones con la BD
+2026-02-18 17:24:06,590 [main] DEBUG dev.dimitrov.util.JPAUtil                - Creando pool de conexiones...
+2026-02-18 17:24:06,663 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 17:24:06,666 [main] TRACE org.hibernate.orm.jpa                    - HHH008522: Starting createEntityManagerFactory for persistenceUnitName PersistenciaInstituto
+2026-02-18 17:24:06,666 [main] TRACE org.hibernate.orm.jpa                    - HHH008524: Attempting to obtain correct EntityManagerFactoryBuilder for persistenceUnitName : PersistenciaInstituto
+2026-02-18 17:24:06,675 [main] TRACE org.hibernate.orm.jpa                    - HHH008535: Attempting to parse persistence.xml file : file:/C:/Users/mario/DAM2/AADD/A4/Recursos%20Github/Examen/mini-proyectos-hibernate/mini-proyecto-one2one/target/classes/META-INF/persistence.xml
+2026-02-18 17:24:06,682 [main] TRACE org.hibernate.orm.boot                   - HHH160213: JAR URL from URL Entry: file:/C:/Users/mario/DAM2/AADD/A4/Recursos%20Github/Examen/mini-proyectos-hibernate/mini-proyecto-one2one/target/classes/META-INF/persistence.xml >> file:/C:/Users/mario/DAM2/AADD/A4/Recursos%20Github/Examen/mini-proyectos-hibernate/mini-proyecto-one2one/target/classes
+2026-02-18 17:24:07,033 [main] TRACE org.hibernate.orm.jpa                    - HHH008536: Persistence unit name from persistence.xml: 'PersistenciaInstituto'
+2026-02-18 17:24:07,037 [main] TRACE org.hibernate.orm.jpa                    - HHH008525: Located and parsed 1 persistence units; checking each
+2026-02-18 17:24:07,038 [main] TRACE org.hibernate.orm.jpa                    - HHH008526: Checking persistence-unit [name=PersistenciaInstituto, explicit-provider=null] against incoming persistence unit name [PersistenciaInstituto]
+2026-02-18 17:24:07,038 [main] DEBUG org.hibernate.orm.jpa                    - HHH008545: No PersistenceProvider explicitly requested, assuming Hibernate
+2026-02-18 17:24:07,039 [main] TRACE org.hibernate.orm.jpa                    - HHH008542: Checking requested PersistenceProvider name [org.hibernate.jpa.HibernatePersistenceProvider] against Hibernate provider names
+2026-02-18 17:24:07,047 [main] DEBUG org.hibernate.orm.jpa                    - HHH008541: PersistenceUnitInfo [
+	name: PersistenciaInstituto
+	persistence provider classname: null
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/mario/DAM2/AADD/A4/Recursos%20Github/Examen/mini-proyectos-hibernate/mini-proyecto-one2one/target/classes
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		dev.dimitrov.dominio.modelo.Usuario
+		dev.dimitrov.dominio.modelo.Perfil]
+	Mapping files names []
+	Properties [
+		hibernate.highlight_sql: true
+		hibernate.hikari.minimumIdle: 2
+		hibernate.hikari.password: 
+		hibernate.format_sql: true
+		hibernate.hikari.jdbcUrl: jdbc:h2:/Users/david/Documents/h2-databases/database;AUTO_SERVER=TRUE
+		hibernate.hikari.poolName: HibernateHikariPool
+		hibernate.generate_statistics: true
+		hibernate.hbm2ddl.auto: none
+		hibernate.hikari.username: sa
+		jakarta.persistence.provider: org.hibernate.jpa.HibernatePersistenceProvider
+		hibernate.hikari.idleTimeout: 30000
+		hibernate.hikari.validationTimeout: 5000
+		hibernate.hikari.maximumPoolSize: 5]
+2026-02-18 17:24:07,073 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for TransactionCoordinatorBuilder: 'jdbc' -> org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl
+2026-02-18 17:24:07,075 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for TransactionCoordinatorBuilder: 'jta' -> org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl
+2026-02-18 17:24:07,075 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for TransactionCoordinatorBuilder: 'org.hibernate.transaction.JDBCTransactionFactory' -> org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl
+2026-02-18 17:24:07,076 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for TransactionCoordinatorBuilder: 'org.hibernate.transaction.JTATransactionFactory' -> org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl
+2026-02-18 17:24:07,076 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for TransactionCoordinatorBuilder: 'org.hibernate.transaction.CMTTransactionFactory' -> org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl
+2026-02-18 17:24:07,079 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableInsertStrategy: 'cte' -> org.hibernate.query.sqm.mutation.internal.cte.CteInsertStrategy
+2026-02-18 17:24:07,080 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableInsertStrategy: 'global_temporary' -> org.hibernate.query.sqm.mutation.internal.temptable.GlobalTemporaryTableInsertStrategy
+2026-02-18 17:24:07,081 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableInsertStrategy: 'local_temporary' -> org.hibernate.query.sqm.mutation.internal.temptable.LocalTemporaryTableInsertStrategy
+2026-02-18 17:24:07,082 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableInsertStrategy: 'persistent' -> org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableInsertStrategy
+2026-02-18 17:24:07,084 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableMutationStrategy: 'cte' -> org.hibernate.query.sqm.mutation.internal.cte.CteMutationStrategy
+2026-02-18 17:24:07,086 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableMutationStrategy: 'global_temporary' -> org.hibernate.query.sqm.mutation.internal.temptable.GlobalTemporaryTableMutationStrategy
+2026-02-18 17:24:07,087 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableMutationStrategy: 'local_temporary' -> org.hibernate.query.sqm.mutation.internal.temptable.LocalTemporaryTableMutationStrategy
+2026-02-18 17:24:07,088 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for SqmMultiTableMutationStrategy: 'persistent' -> org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableMutationStrategy
+2026-02-18 17:24:07,090 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitNamingStrategy: 'default' -> org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+2026-02-18 17:24:07,091 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitNamingStrategy: 'jpa' -> org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+2026-02-18 17:24:07,092 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitNamingStrategy: 'legacy-jpa' -> org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+2026-02-18 17:24:07,093 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitNamingStrategy: 'legacy-hbm' -> org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+2026-02-18 17:24:07,095 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitNamingStrategy: 'component-path' -> org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl
+2026-02-18 17:24:07,096 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitDatabaseObjectNamingStrategy: 'standard' -> org.hibernate.id.enhanced.StandardNamingStrategy
+2026-02-18 17:24:07,097 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitDatabaseObjectNamingStrategy: 'single' -> org.hibernate.id.enhanced.SingleNamingStrategy
+2026-02-18 17:24:07,099 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ImplicitDatabaseObjectNamingStrategy: 'legacy' -> org.hibernate.id.enhanced.LegacyNamingStrategy
+2026-02-18 17:24:07,101 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ColumnOrderingStrategy: 'default' -> org.hibernate.boot.model.relational.ColumnOrderingStrategyStandard
+2026-02-18 17:24:07,102 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ColumnOrderingStrategy: 'legacy' -> org.hibernate.boot.model.relational.ColumnOrderingStrategyLegacy
+2026-02-18 17:24:07,103 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for CacheKeysFactory: 'default' -> org.hibernate.cache.internal.DefaultCacheKeysFactory
+2026-02-18 17:24:07,104 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for CacheKeysFactory: 'simple' -> org.hibernate.cache.internal.SimpleCacheKeysFactory
+2026-02-18 17:24:07,106 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for FormatMapper: 'jsonb' -> org.hibernate.type.format.jakartajson.JsonBJsonFormatMapper
+2026-02-18 17:24:07,107 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for FormatMapper: 'jackson' -> org.hibernate.type.format.jackson.JacksonJsonFormatMapper
+2026-02-18 17:24:07,110 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for FormatMapper: 'jackson-xml' -> org.hibernate.type.format.jackson.JacksonXmlFormatMapper
+2026-02-18 17:24:07,112 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for FormatMapper: 'jaxb' -> org.hibernate.type.format.jaxb.JaxbXmlFormatMapper
+2026-02-18 17:24:07,137 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ConnectionProvider: 'hikari' -> org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+2026-02-18 17:24:07,139 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ConnectionProvider: 'hikaricp' -> org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+2026-02-18 17:24:07,143 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ConnectionProvider: 'HikariCPConnectionProvider' -> org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+2026-02-18 17:24:07,145 [main] TRACE org.hibernate.orm.boot                   - HHH160227: Strategy selector for ConnectionProvider: 'org.hibernate.connection.HikariCPConnectionProvider' -> org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+2026-02-18 17:24:07,153 [main] DEBUG org.hibernate.orm.service                - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-02-18 17:24:07,166 [main] DEBUG org.hibernate.orm.service                - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-02-18 17:24:07,232 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 17:24:07,235 [main] DEBUG org.hibernate.orm.core                   - HHH000206: 'hibernate.properties' not found
+2026-02-18 17:24:07,253 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.config.spi.ConfigurationService
+2026-02-18 17:24:07,264 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider
+2026-02-18 17:24:07,266 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.cache.spi.RegionFactory
+2026-02-18 17:24:07,269 [main] DEBUG org.hibernate.orm.cache                  - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-02-18 17:24:07,270 [main] DEBUG org.hibernate.orm.cache                  - HHH90001029: Second-level cache disabled
+2026-02-18 17:24:07,465 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.resource.beans.spi.ManagedBeanRegistry
+2026-02-18 17:24:07,609 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Access)
+2026-02-18 17:24:07,610 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AssociationOverrides)
+2026-02-18 17:24:07,611 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AssociationOverride)
+2026-02-18 17:24:07,611 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AssociationOverrides)
+2026-02-18 17:24:07,612 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AttributeOverrides)
+2026-02-18 17:24:07,612 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AttributeOverride)
+2026-02-18 17:24:07,612 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.AttributeOverrides)
+2026-02-18 17:24:07,613 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Basic)
+2026-02-18 17:24:07,613 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Cacheable)
+2026-02-18 17:24:07,614 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.CheckConstraint)
+2026-02-18 17:24:07,614 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.CollectionTable)
+2026-02-18 17:24:07,615 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Column)
+2026-02-18 17:24:07,615 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ColumnResult)
+2026-02-18 17:24:07,616 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ConstructorResult)
+2026-02-18 17:24:07,617 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Converts)
+2026-02-18 17:24:07,617 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Convert)
+2026-02-18 17:24:07,618 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Converts)
+2026-02-18 17:24:07,618 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Converter)
+2026-02-18 17:24:07,618 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.DiscriminatorColumn)
+2026-02-18 17:24:07,620 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.DiscriminatorValue)
+2026-02-18 17:24:07,620 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ElementCollection)
+2026-02-18 17:24:07,621 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Embeddable)
+2026-02-18 17:24:07,622 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Embedded)
+2026-02-18 17:24:07,622 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.EmbeddedId)
+2026-02-18 17:24:07,623 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Entity)
+2026-02-18 17:24:07,623 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.EntityListeners)
+2026-02-18 17:24:07,624 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.EntityResult)
+2026-02-18 17:24:07,624 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Enumerated)
+2026-02-18 17:24:07,625 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.EnumeratedValue)
+2026-02-18 17:24:07,625 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ExcludeDefaultListeners)
+2026-02-18 17:24:07,625 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ExcludeSuperclassListeners)
+2026-02-18 17:24:07,627 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.FieldResult)
+2026-02-18 17:24:07,627 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ForeignKey)
+2026-02-18 17:24:07,628 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.GeneratedValue)
+2026-02-18 17:24:07,629 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Id)
+2026-02-18 17:24:07,630 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.IdClass)
+2026-02-18 17:24:07,630 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Index)
+2026-02-18 17:24:07,630 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Inheritance)
+2026-02-18 17:24:07,631 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.JoinColumns)
+2026-02-18 17:24:07,631 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.JoinColumn)
+2026-02-18 17:24:07,633 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.JoinColumns)
+2026-02-18 17:24:07,633 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.JoinTable)
+2026-02-18 17:24:07,633 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Lob)
+2026-02-18 17:24:07,634 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ManyToMany)
+2026-02-18 17:24:07,634 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.ManyToOne)
+2026-02-18 17:24:07,635 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKey)
+2026-02-18 17:24:07,635 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyClass)
+2026-02-18 17:24:07,635 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyColumn)
+2026-02-18 17:24:07,636 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyEnumerated)
+2026-02-18 17:24:07,637 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyJoinColumns)
+2026-02-18 17:24:07,637 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyJoinColumn)
+2026-02-18 17:24:07,637 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyJoinColumns)
+2026-02-18 17:24:07,638 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapKeyTemporal)
+2026-02-18 17:24:07,639 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MappedSuperclass)
+2026-02-18 17:24:07,641 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.MapsId)
+2026-02-18 17:24:07,642 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedAttributeNode)
+2026-02-18 17:24:07,642 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedEntityGraphs)
+2026-02-18 17:24:07,643 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedEntityGraph)
+2026-02-18 17:24:07,643 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedEntityGraphs)
+2026-02-18 17:24:07,644 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedNativeQueries)
+2026-02-18 17:24:07,644 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedNativeQuery)
+2026-02-18 17:24:07,645 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedNativeQueries)
+2026-02-18 17:24:07,645 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedQueries)
+2026-02-18 17:24:07,645 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedQuery)
+2026-02-18 17:24:07,646 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedQueries)
+2026-02-18 17:24:07,646 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedStoredProcedureQueries)
+2026-02-18 17:24:07,647 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedStoredProcedureQuery)
+2026-02-18 17:24:07,647 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedStoredProcedureQueries)
+2026-02-18 17:24:07,648 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.NamedSubgraph)
+2026-02-18 17:24:07,648 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.OneToMany)
+2026-02-18 17:24:07,650 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.OneToOne)
+2026-02-18 17:24:07,650 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.OrderBy)
+2026-02-18 17:24:07,651 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.OrderColumn)
+2026-02-18 17:24:07,653 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PostLoad)
+2026-02-18 17:24:07,654 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PostPersist)
+2026-02-18 17:24:07,655 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PostRemove)
+2026-02-18 17:24:07,655 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PostUpdate)
+2026-02-18 17:24:07,656 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PrePersist)
+2026-02-18 17:24:07,656 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PreRemove)
+2026-02-18 17:24:07,657 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PreUpdate)
+2026-02-18 17:24:07,657 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PrimaryKeyJoinColumns)
+2026-02-18 17:24:07,657 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PrimaryKeyJoinColumn)
+2026-02-18 17:24:07,658 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.PrimaryKeyJoinColumns)
+2026-02-18 17:24:07,658 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.QueryHint)
+2026-02-18 17:24:07,658 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SecondaryTables)
+2026-02-18 17:24:07,659 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SecondaryTable)
+2026-02-18 17:24:07,659 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SecondaryTables)
+2026-02-18 17:24:07,659 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SequenceGenerators)
+2026-02-18 17:24:07,660 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SequenceGenerator)
+2026-02-18 17:24:07,660 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SequenceGenerators)
+2026-02-18 17:24:07,661 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SqlResultSetMappings)
+2026-02-18 17:24:07,661 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SqlResultSetMapping)
+2026-02-18 17:24:07,661 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.SqlResultSetMappings)
+2026-02-18 17:24:07,663 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.StoredProcedureParameter)
+2026-02-18 17:24:07,663 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Table)
+2026-02-18 17:24:07,664 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.TableGenerators)
+2026-02-18 17:24:07,664 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.TableGenerator)
+2026-02-18 17:24:07,664 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.TableGenerators)
+2026-02-18 17:24:07,665 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Temporal)
+2026-02-18 17:24:07,665 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Transient)
+2026-02-18 17:24:07,666 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.UniqueConstraint)
+2026-02-18 17:24:07,666 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(jakarta.persistence.Version)
+2026-02-18 17:24:07,812 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Any)
+2026-02-18 17:24:07,812 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyDiscriminator)
+2026-02-18 17:24:07,814 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyDiscriminatorImplicitValues)
+2026-02-18 17:24:07,814 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyDiscriminatorValues)
+2026-02-18 17:24:07,814 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyDiscriminatorValue)
+2026-02-18 17:24:07,815 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyDiscriminatorValues)
+2026-02-18 17:24:07,815 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyKeyJavaClass)
+2026-02-18 17:24:07,815 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyKeyJavaType)
+2026-02-18 17:24:07,816 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyKeyJdbcType)
+2026-02-18 17:24:07,816 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AnyKeyJdbcTypeCode)
+2026-02-18 17:24:07,816 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.AnyKeyType)
+2026-02-18 17:24:07,817 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Array)
+2026-02-18 17:24:07,817 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AttributeAccessor)
+2026-02-18 17:24:07,817 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.AttributeBinderType)
+2026-02-18 17:24:07,817 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Bag)
+2026-02-18 17:24:07,818 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.BatchSize)
+2026-02-18 17:24:07,818 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Cache)
+2026-02-18 17:24:07,819 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Cascade)
+2026-02-18 17:24:07,819 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Checks)
+2026-02-18 17:24:07,820 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Check)
+2026-02-18 17:24:07,821 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Checks)
+2026-02-18 17:24:07,821 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Collate)
+2026-02-18 17:24:07,822 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionId)
+2026-02-18 17:24:07,822 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdJavaClass)
+2026-02-18 17:24:07,823 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdJavaType)
+2026-02-18 17:24:07,824 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdJdbcType)
+2026-02-18 17:24:07,824 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdJdbcTypeCode)
+2026-02-18 17:24:07,824 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdMutability)
+2026-02-18 17:24:07,825 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionIdType)
+2026-02-18 17:24:07,825 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionType)
+2026-02-18 17:24:07,826 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.CollectionClassification)
+2026-02-18 17:24:07,827 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionTypeRegistrations)
+2026-02-18 17:24:07,828 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionTypeRegistration)
+2026-02-18 17:24:07,828 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CollectionTypeRegistrations)
+2026-02-18 17:24:07,828 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ColumnDefault)
+2026-02-18 17:24:07,830 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Columns)
+2026-02-18 17:24:07,831 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ColumnTransformers)
+2026-02-18 17:24:07,831 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ColumnTransformer)
+2026-02-18 17:24:07,833 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ColumnTransformers)
+2026-02-18 17:24:07,833 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Comments)
+2026-02-18 17:24:07,834 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Comment)
+2026-02-18 17:24:07,835 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Comments)
+2026-02-18 17:24:07,835 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CompositeType)
+2026-02-18 17:24:07,835 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CompositeTypeRegistrations)
+2026-02-18 17:24:07,836 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CompositeTypeRegistration)
+2026-02-18 17:24:07,837 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CompositeTypeRegistrations)
+2026-02-18 17:24:07,837 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ConcreteProxy)
+2026-02-18 17:24:07,838 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ConverterRegistrations)
+2026-02-18 17:24:07,838 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ConverterRegistration)
+2026-02-18 17:24:07,838 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ConverterRegistrations)
+2026-02-18 17:24:07,839 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CreationTimestamp)
+2026-02-18 17:24:07,839 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.CurrentTimestamp)
+2026-02-18 17:24:07,840 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DiscriminatorFormula)
+2026-02-18 17:24:07,841 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DiscriminatorOptions)
+2026-02-18 17:24:07,841 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DynamicInsert)
+2026-02-18 17:24:07,842 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DynamicUpdate)
+2026-02-18 17:24:07,842 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddableInstantiator)
+2026-02-18 17:24:07,843 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddableInstantiatorRegistrations)
+2026-02-18 17:24:07,844 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddableInstantiatorRegistration)
+2026-02-18 17:24:07,844 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddableInstantiatorRegistrations)
+2026-02-18 17:24:07,845 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddedColumnNaming)
+2026-02-18 17:24:07,845 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.EmbeddedTable)
+2026-02-18 17:24:07,846 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Fetch)
+2026-02-18 17:24:07,847 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfiles)
+2026-02-18 17:24:07,847 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfile)
+2026-02-18 17:24:07,847 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfiles)
+2026-02-18 17:24:07,848 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Filters)
+2026-02-18 17:24:07,848 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Filter)
+2026-02-18 17:24:07,848 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Filters)
+2026-02-18 17:24:07,849 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterDefs)
+2026-02-18 17:24:07,849 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterDef)
+2026-02-18 17:24:07,849 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterDefs)
+2026-02-18 17:24:07,850 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterJoinTables)
+2026-02-18 17:24:07,851 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterJoinTable)
+2026-02-18 17:24:07,851 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FilterJoinTables)
+2026-02-18 17:24:07,851 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Formula)
+2026-02-18 17:24:07,852 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FractionalSeconds)
+2026-02-18 17:24:07,852 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Generated)
+2026-02-18 17:24:07,853 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.GeneratedColumn)
+2026-02-18 17:24:07,853 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.GenericGenerators)
+2026-02-18 17:24:07,853 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.GenericGenerator)
+2026-02-18 17:24:07,854 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.GenericGenerators)
+2026-02-18 17:24:07,854 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.HQLSelect)
+2026-02-18 17:24:07,855 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.IdGeneratorType)
+2026-02-18 17:24:07,855 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Immutable)
+2026-02-18 17:24:07,855 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Imported)
+2026-02-18 17:24:07,856 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Instantiator)
+2026-02-18 17:24:07,856 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JavaType)
+2026-02-18 17:24:07,857 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JavaTypeRegistrations)
+2026-02-18 17:24:07,857 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JavaTypeRegistration)
+2026-02-18 17:24:07,857 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JavaTypeRegistrations)
+2026-02-18 17:24:07,858 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JdbcType)
+2026-02-18 17:24:07,858 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JdbcTypeCode)
+2026-02-18 17:24:07,859 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JdbcTypeRegistrations)
+2026-02-18 17:24:07,859 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JdbcTypeRegistration)
+2026-02-18 17:24:07,859 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JdbcTypeRegistrations)
+2026-02-18 17:24:07,859 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JoinColumnsOrFormulas)
+2026-02-18 17:24:07,860 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JoinColumnOrFormula)
+2026-02-18 17:24:07,861 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JoinColumnsOrFormulas)
+2026-02-18 17:24:07,863 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.JoinFormula)
+2026-02-18 17:24:07,864 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.LazyGroup)
+2026-02-18 17:24:07,865 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ListIndexBase)
+2026-02-18 17:24:07,865 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ListIndexJavaType)
+2026-02-18 17:24:07,866 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ListIndexJdbcType)
+2026-02-18 17:24:07,867 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ListIndexJdbcTypeCode)
+2026-02-18 17:24:07,867 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ManyToAny)
+2026-02-18 17:24:07,868 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyCompositeType)
+2026-02-18 17:24:07,868 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyJavaType)
+2026-02-18 17:24:07,868 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyJdbcType)
+2026-02-18 17:24:07,868 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyJdbcTypeCode)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyMutability)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.MapKeyType)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Mutability)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedEntityGraphs)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedEntityGraph)
+2026-02-18 17:24:07,870 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedEntityGraphs)
+2026-02-18 17:24:07,872 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedNativeQueries)
+2026-02-18 17:24:07,872 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedNativeQuery)
+2026-02-18 17:24:07,872 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedNativeQueries)
+2026-02-18 17:24:07,873 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedQueries)
+2026-02-18 17:24:07,873 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedQuery)
+2026-02-18 17:24:07,873 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NamedQueries)
+2026-02-18 17:24:07,874 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Nationalized)
+2026-02-18 17:24:07,874 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NativeGenerator)
+2026-02-18 17:24:07,876 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NaturalId)
+2026-02-18 17:24:07,876 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NaturalIdCache)
+2026-02-18 17:24:07,877 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.NotFound)
+2026-02-18 17:24:07,878 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.OnDelete)
+2026-02-18 17:24:07,879 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.OptimisticLock)
+2026-02-18 17:24:07,879 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.OptimisticLocking)
+2026-02-18 17:24:07,879 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ParamDef)
+2026-02-18 17:24:07,880 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Parameter)
+2026-02-18 17:24:07,881 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Parent)
+2026-02-18 17:24:07,882 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.PartitionKey)
+2026-02-18 17:24:07,882 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.PropertyRef)
+2026-02-18 17:24:07,882 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.QueryCacheLayout)
+2026-02-18 17:24:07,883 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.RowId)
+2026-02-18 17:24:07,883 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SecondaryRows)
+2026-02-18 17:24:07,883 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SecondaryRow)
+2026-02-18 17:24:07,883 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SecondaryRows)
+2026-02-18 17:24:07,884 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SoftDelete)
+2026-02-18 17:24:07,884 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SortComparator)
+2026-02-18 17:24:07,885 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SortNatural)
+2026-02-18 17:24:07,885 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Source)
+2026-02-18 17:24:07,885 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLDeletes)
+2026-02-18 17:24:07,887 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLDelete)
+2026-02-18 17:24:07,887 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLDeletes)
+2026-02-18 17:24:07,887 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLDeleteAll)
+2026-02-18 17:24:07,888 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SqlFragmentAlias)
+2026-02-18 17:24:07,888 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLInserts)
+2026-02-18 17:24:07,888 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLInsert)
+2026-02-18 17:24:07,889 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLInserts)
+2026-02-18 17:24:07,889 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLOrder)
+2026-02-18 17:24:07,889 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLRestriction)
+2026-02-18 17:24:07,890 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLSelect)
+2026-02-18 17:24:07,890 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLJoinTableRestriction)
+2026-02-18 17:24:07,890 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLUpdates)
+2026-02-18 17:24:07,890 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLUpdate)
+2026-02-18 17:24:07,890 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.SQLUpdates)
+2026-02-18 17:24:07,891 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Struct)
+2026-02-18 17:24:07,891 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Subselect)
+2026-02-18 17:24:07,892 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Synchronize)
+2026-02-18 17:24:07,892 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TargetEmbeddable)
+2026-02-18 17:24:07,894 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TenantId)
+2026-02-18 17:24:07,894 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TimeZoneColumn)
+2026-02-18 17:24:07,895 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TimeZoneStorage)
+2026-02-18 17:24:07,895 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.Type)
+2026-02-18 17:24:07,895 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TypeBinderType)
+2026-02-18 17:24:07,896 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TypeRegistrations)
+2026-02-18 17:24:07,897 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TypeRegistration)
+2026-02-18 17:24:07,897 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.TypeRegistrations)
+2026-02-18 17:24:07,897 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.UpdateTimestamp)
+2026-02-18 17:24:07,898 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.UuidGenerator)
+2026-02-18 17:24:07,898 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.ValueGenerationType)
+2026-02-18 17:24:07,898 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.View)
+2026-02-18 17:24:07,929 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Checks)
+2026-02-18 17:24:07,930 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Check)
+2026-02-18 17:24:07,930 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Checks)
+2026-02-18 17:24:07,930 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$ColumnDefaults)
+2026-02-18 17:24:07,931 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$ColumnDefault)
+2026-02-18 17:24:07,931 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$ColumnDefaults)
+2026-02-18 17:24:07,931 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$GeneratedColumns)
+2026-02-18 17:24:07,931 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$GeneratedColumn)
+2026-02-18 17:24:07,931 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$GeneratedColumns)
+2026-02-18 17:24:07,932 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$DiscriminatorFormulas)
+2026-02-18 17:24:07,932 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$DiscriminatorFormula)
+2026-02-18 17:24:07,932 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$DiscriminatorFormulas)
+2026-02-18 17:24:07,933 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfileOverrides)
+2026-02-18 17:24:07,933 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfileOverride)
+2026-02-18 17:24:07,934 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.FetchProfileOverrides)
+2026-02-18 17:24:07,934 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$FilterOverrides)
+2026-02-18 17:24:07,934 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Filters)
+2026-02-18 17:24:07,936 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$FilterOverrides)
+2026-02-18 17:24:07,936 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$FilterDefOverrides)
+2026-02-18 17:24:07,936 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$FilterDefs)
+2026-02-18 17:24:07,937 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$FilterDefOverrides)
+2026-02-18 17:24:07,937 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Formulas)
+2026-02-18 17:24:07,938 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Formula)
+2026-02-18 17:24:07,938 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Formulas)
+2026-02-18 17:24:07,938 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$JoinFormulas)
+2026-02-18 17:24:07,939 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$JoinFormula)
+2026-02-18 17:24:07,939 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$JoinFormulas)
+2026-02-18 17:24:07,940 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLInserts)
+2026-02-18 17:24:07,940 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLInsert)
+2026-02-18 17:24:07,940 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLInserts)
+2026-02-18 17:24:07,940 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLUpdates)
+2026-02-18 17:24:07,940 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLUpdate)
+2026-02-18 17:24:07,942 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLUpdates)
+2026-02-18 17:24:07,942 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDeletes)
+2026-02-18 17:24:07,943 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDelete)
+2026-02-18 17:24:07,943 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDeletes)
+2026-02-18 17:24:07,944 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDeleteAlls)
+2026-02-18 17:24:07,944 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDeleteAll)
+2026-02-18 17:24:07,944 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLDeleteAlls)
+2026-02-18 17:24:07,945 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLOrders)
+2026-02-18 17:24:07,945 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLOrder)
+2026-02-18 17:24:07,945 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLOrders)
+2026-02-18 17:24:07,945 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLRestrictions)
+2026-02-18 17:24:07,946 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLRestriction)
+2026-02-18 17:24:07,946 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLRestrictions)
+2026-02-18 17:24:07,946 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLSelects)
+2026-02-18 17:24:07,947 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLSelect)
+2026-02-18 17:24:07,947 [main] TRACE org.hibernate.models.annotations         - Registering repeatable AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$SQLSelects)
+2026-02-18 17:24:07,947 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.annotations.DialectOverride$Version)
+2026-02-18 17:24:07,951 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.Abstract)
+2026-02-18 17:24:07,951 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.AnyKeyType)
+2026-02-18 17:24:07,952 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.CollectionClassification)
+2026-02-18 17:24:07,952 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.Extends)
+2026-02-18 17:24:07,953 [main] TRACE org.hibernate.models.annotations         - Registering AnnotationDescriptor - AnnotationDescriptor(org.hibernate.boot.internal.Target)
+2026-02-18 17:24:07,956 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.boot.cfgxml.spi.CfgXmlAccessService
+2026-02-18 17:24:07,961 [main] TRACE org.hibernate.orm.boot                   - HHH160224: Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@34448e6c] into BootstrapContext; was [null]
+2026-02-18 17:24:07,962 [main] TRACE org.hibernate.orm.boot                   - HHH160223: Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@60e9df3c] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@907f2b7]
+2026-02-18 17:24:07,980 [main] DEBUG org.hibernate.orm.boot.scan              - HHH060002: No ScannerFactory available (to enable scanning add 'hibernate-scan-jandex' dependency or supply a custom ScannerFactory)
+2026-02-18 17:24:08,012 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.env.spi.JdbcEnvironment
+2026-02-18 17:24:08,016 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.dialect.spi.DialectFactory
+2026-02-18 17:24:08,018 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.dialect.spi.DialectResolver
+2026-02-18 17:24:08,021 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider
+2026-02-18 17:24:08,022 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.connections.spi.ConnectionProvider
+2026-02-18 17:24:08,022 [main] TRACE org.hibernate.orm.service                - HHH010500: Initializing service: org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider
+2026-02-18 17:24:08,026 [main] DEBUG org.hibernate.orm.connections.pooling    - HHH10001012: Configuring connection pool [HikariCP]
+2026-02-18 17:24:08,050 [main] DEBUG com.zaxxer.hikari.HikariConfig           - HibernateHikariPool - configuration:
+2026-02-18 17:24:08,058 [main] DEBUG com.zaxxer.hikari.HikariConfig           - allowPoolSuspension.............false
+2026-02-18 17:24:08,058 [main] DEBUG com.zaxxer.hikari.HikariConfig           - autoCommit......................true
+2026-02-18 17:24:08,058 [main] DEBUG com.zaxxer.hikari.HikariConfig           - catalog.........................none
+2026-02-18 17:24:08,059 [main] DEBUG com.zaxxer.hikari.HikariConfig           - connectionInitSql...............none
+2026-02-18 17:24:08,059 [main] DEBUG com.zaxxer.hikari.HikariConfig           - connectionTestQuery.............none
+2026-02-18 17:24:08,060 [main] DEBUG com.zaxxer.hikari.HikariConfig           - connectionTimeout...............30000
+2026-02-18 17:24:08,061 [main] DEBUG com.zaxxer.hikari.HikariConfig           - credentials.....................com.zaxxer.hikari.util.Credentials@4463d9d3
+2026-02-18 17:24:08,062 [main] DEBUG com.zaxxer.hikari.HikariConfig           - credentialsProvider.............none
+2026-02-18 17:24:08,062 [main] DEBUG com.zaxxer.hikari.HikariConfig           - credentialsProviderClassName....none
+2026-02-18 17:24:08,063 [main] DEBUG com.zaxxer.hikari.HikariConfig           - dataSource......................none
+2026-02-18 17:24:08,063 [main] DEBUG com.zaxxer.hikari.HikariConfig           - dataSourceClassName.............none
+2026-02-18 17:24:08,063 [main] DEBUG com.zaxxer.hikari.HikariConfig           - dataSourceJNDI..................none
+2026-02-18 17:24:08,065 [main] DEBUG com.zaxxer.hikari.HikariConfig           - dataSourceProperties............{password=<masked>}
+2026-02-18 17:24:08,065 [main] DEBUG com.zaxxer.hikari.HikariConfig           - driverClassName.................none
+2026-02-18 17:24:08,066 [main] DEBUG com.zaxxer.hikari.HikariConfig           - exceptionOverride...............none
+2026-02-18 17:24:08,066 [main] DEBUG com.zaxxer.hikari.HikariConfig           - exceptionOverrideClassName......none
+2026-02-18 17:24:08,066 [main] DEBUG com.zaxxer.hikari.HikariConfig           - healthCheckProperties...........{}
+2026-02-18 17:24:08,067 [main] DEBUG com.zaxxer.hikari.HikariConfig           - healthCheckRegistry.............none
+2026-02-18 17:24:08,067 [main] DEBUG com.zaxxer.hikari.HikariConfig           - idleTimeout.....................30000
+2026-02-18 17:24:08,068 [main] DEBUG com.zaxxer.hikari.HikariConfig           - initializationFailTimeout.......1
+2026-02-18 17:24:08,068 [main] DEBUG com.zaxxer.hikari.HikariConfig           - isolateInternalQueries..........false
+2026-02-18 17:24:08,068 [main] DEBUG com.zaxxer.hikari.HikariConfig           - jdbcUrl.........................jdbc:h2:/Users/david/Documents/h2-databases/database;AUTO_SERVER=TRUE
+2026-02-18 17:24:08,070 [main] DEBUG com.zaxxer.hikari.HikariConfig           - keepaliveTime...................120000
+2026-02-18 17:24:08,070 [main] DEBUG com.zaxxer.hikari.HikariConfig           - leakDetectionThreshold..........0
+2026-02-18 17:24:08,070 [main] DEBUG com.zaxxer.hikari.HikariConfig           - maxLifetime.....................1800000
+2026-02-18 17:24:08,071 [main] DEBUG com.zaxxer.hikari.HikariConfig           - maximumPoolSize.................5
+2026-02-18 17:24:08,072 [main] DEBUG com.zaxxer.hikari.HikariConfig           - metricRegistry..................none
+2026-02-18 17:24:08,072 [main] DEBUG com.zaxxer.hikari.HikariConfig           - metricsTrackerFactory...........none
+2026-02-18 17:24:08,072 [main] DEBUG com.zaxxer.hikari.HikariConfig           - minimumIdle.....................2
+2026-02-18 17:24:08,073 [main] DEBUG com.zaxxer.hikari.HikariConfig           - password........................<masked>
+2026-02-18 17:24:08,073 [main] DEBUG com.zaxxer.hikari.HikariConfig           - poolName........................"HibernateHikariPool"
+2026-02-18 17:24:08,074 [main] DEBUG com.zaxxer.hikari.HikariConfig           - readOnly........................false
+2026-02-18 17:24:08,074 [main] DEBUG com.zaxxer.hikari.HikariConfig           - registerMbeans..................false
+2026-02-18 17:24:08,075 [main] DEBUG com.zaxxer.hikari.HikariConfig           - scheduledExecutor...............none
+2026-02-18 17:24:08,075 [main] DEBUG com.zaxxer.hikari.HikariConfig           - schema..........................none
+2026-02-18 17:24:08,077 [main] DEBUG com.zaxxer.hikari.HikariConfig           - threadFactory...................internal
+2026-02-18 17:24:08,078 [main] DEBUG com.zaxxer.hikari.HikariConfig           - transactionIsolation............default
+2026-02-18 17:24:08,078 [main] DEBUG com.zaxxer.hikari.HikariConfig           - username........................"sa"
+2026-02-18 17:24:08,079 [main] DEBUG com.zaxxer.hikari.HikariConfig           - validationTimeout...............5000
+2026-02-18 17:24:08,090 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HibernateHikariPool - Starting...
+2026-02-18 17:24:08,103 [main] DEBUG com.zaxxer.hikari.util.DriverDataSource  - Loaded driver with class name org.h2.Driver for jdbcUrl=jdbc:h2:/Users/david/Documents/h2-databases/database;AUTO_SERVER=TRUE
+2026-02-18 17:24:08,117 [main] DEBUG com.zaxxer.hikari.pool.PoolBase          - HibernateHikariPool - Attempting to create/setup new connection (c6e0e040-dc00-4824-8292-55dfb5d3bc1e)
+2026-02-18 17:24:10,838 [main] DEBUG com.zaxxer.hikari.pool.PoolBase          - HibernateHikariPool - Failed to create/setup connection (c6e0e040-dc00-4824-8292-55dfb5d3bc1e): Error creando archivo "C:/Users/david"
+Error while creating file "C:/Users/david" [90062-240]
+2026-02-18 17:24:10,839 [main] DEBUG com.zaxxer.hikari.pool.HikariPool        - HibernateHikariPool - Cannot acquire connection from data source
+org.h2.jdbc.JdbcSQLNonTransientException: Error creando archivo "C:/Users/david"
+Error while creating file "C:/Users/david" [90062-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.store.fs.disk.FilePathDisk.createDirectory(FilePathDisk.java:391)
+	at org.h2.store.fs.FileUtils.createDirectory(FileUtils.java:85)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:382)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:381)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:381)
+	at org.h2.store.FileLock.lockFile(FileLock.java:316)
+	at org.h2.store.FileLock.lock(FileLock.java:110)
+	at org.h2.engine.Database.<init>(Database.java:319)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.hibernate.hikaricp.internal.HikariCPConnectionProvider.configure(HikariCPConnectionProvider.java:72)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at dev.dimitrov.util.JPAUtil.<clinit>(JPAUtil.java:20)
+	at dev.dimitrov.servicios.UsuarioServicio.addUsuarioConPerfil(UsuarioServicio.java:25)
+	at dev.dimitrov.Main.main(Main.java:18)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\david
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectory(Unknown Source)
+	at org.h2.store.fs.disk.FilePathDisk.createDirectory(FilePathDisk.java:382)
+	... 47 common frames omitted
+2026-02-18 17:24:11,850 [main] DEBUG org.hibernate.orm.connections.pooling    - HHH10001011: Could not create connection pool
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Error creando archivo "C:/Users/david"
+Error while creating file "C:/Users/david" [90062-240]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:610)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:597)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.hibernate.hikaricp.internal.HikariCPConnectionProvider.configure(HikariCPConnectionProvider.java:72)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at dev.dimitrov.util.JPAUtil.<clinit>(JPAUtil.java:20)
+	at dev.dimitrov.servicios.UsuarioServicio.addUsuarioConPerfil(UsuarioServicio.java:25)
+	at dev.dimitrov.Main.main(Main.java:18)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Error creando archivo "C:/Users/david"
+Error while creating file "C:/Users/david" [90062-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.store.fs.disk.FilePathDisk.createDirectory(FilePathDisk.java:391)
+	at org.h2.store.fs.FileUtils.createDirectory(FileUtils.java:85)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:382)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:381)
+	at org.h2.store.fs.FileUtils.createDirectories(FileUtils.java:381)
+	at org.h2.store.FileLock.lockFile(FileLock.java:316)
+	at org.h2.store.FileLock.lock(FileLock.java:110)
+	at org.h2.engine.Database.<init>(Database.java:319)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	... 29 common frames omitted
+Caused by: java.nio.file.AccessDeniedException: C:\Users\david
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectory(Unknown Source)
+	at org.h2.store.fs.disk.FilePathDisk.createDirectory(FilePathDisk.java:382)
+	... 47 common frames omitted
+2026-02-18 17:24:11,856 [main] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
