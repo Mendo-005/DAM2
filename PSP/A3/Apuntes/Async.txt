@@ -1,0 +1,33 @@
+==============
+ASYNC (Explicación)
+==============
+
+🔹 ¿Qué significa Async?
+    Async = Asincrónico
+
+Permite manejar múltiples conexiones sin bloquear el programa.
+🔹 Sincrónico vs Asincrónico
+    🔴 Sincrónico (Bloqueante)
+        Cliente 1 → Espera respuesta
+        Cliente 2 → Espera
+        Cliente 3 → Espera
+
+    Se atiende uno por uno.
+    🟢 Asincrónico (No bloqueante)
+        Cliente 1 → En proceso
+        Cliente 2 → En proceso
+        Cliente 3 → En proceso
+
+
+Todos pueden ser atendidos al mismo tiempo.
+🔹 Palabras Clave Async
+    async → Declara función asincrónica    
+    await → Espera sin bloquear    
+    asyncio → Libreria    
+    event loop → Bucle que gestiona tareas
+
+🔹 Estructura básica Async
+    async def funcion():
+        await tarea()
+
+    asyncio.run(funcion())

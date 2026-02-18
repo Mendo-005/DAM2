@@ -14,7 +14,7 @@ import es.ciudadescolar.navidad25test.model.Nino.Comportamiento;
 public interface NinoRepository extends JpaRepository<Nino,Long>{
 
     List<Nino> findByNombre(String nom);
-    
+        
     List<Nino> findByNombreIgnoreCase(String nom);
     
     List<Nino> findByNombreContaining(String nom);
@@ -32,6 +32,8 @@ public interface NinoRepository extends JpaRepository<Nino,Long>{
 
     @Query("SELECT n FROM Nino n WHERE n.comportamiento= :comp")
     List<Nino> buscarPorComportamiento (@Param("comp") Comportamiento comportamiento);
+
+    void deleteById(Long id);
 
 
 

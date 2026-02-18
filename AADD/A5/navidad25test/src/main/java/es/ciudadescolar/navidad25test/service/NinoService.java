@@ -83,4 +83,17 @@ public class NinoService {
 
         }
     }
+
+    public Optional<Nino> recuperarNinoPorId(Long id) {
+        return ninoRepository.findById(id);
+    }
+
+    public List<Nino> recuperarNinoPorComportamiento(Comportamiento comportamiento) {
+        return ninoRepository.findByComportamiento(comportamiento);
+    }
+
+    public void borrarNinoPorId(Long id) {
+        ninoRepository.deleteById(id);
+    }
+
 }

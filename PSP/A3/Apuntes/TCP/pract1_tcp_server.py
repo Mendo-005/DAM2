@@ -1,14 +1,13 @@
-# tcp_server.py
 import socket
 
 HOST = "127.0.0.1"
 PORT = 5005
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
-    server.bind((HOST, PORT))
+    server.bind((HOST,PORT))
     server.listen()
-    print(f"Servidor TCP escuchando en {HOST}:{PORT}")
-
+    
+    # Recibir mensaje de cliente
     conn, addr = server.accept()
     with conn:
         print("Conectado por:", addr)
@@ -17,4 +16,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
             if not data:
                 break
             print("Cliente dice:", data.decode())
-            conn.sendall(b"Mensaje recibido")
+            conn.sendall(b"Si, se te oye")
+        
+    

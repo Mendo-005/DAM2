@@ -1,0 +1,39 @@
+==============
+Servidores
+==============
+
+    - TCP:
+        Librería: socket
+            > socket(socket.AF_INET, socket.SOCK_STREAM) as server (nombre de la conexion)
+            > server.bind((HOST, PORT)) ; Asocia IP y Puerto
+            > server.listen() ; Pone al servidor en modo escucha
+            > server.accept() ; Acepta conexion (devuelve conn, addr)
+            > conn.recv(1024) ; Recibe mensaje del cliente (codificado)
+            > .decode() ; Decodifica mensaje
+            > conn.sendall() ; Envia respuesta al cliente
+            > conn.close() ; Cierra conexion
+
+    - UDP:
+        Librería: socket
+            > socket(socket.AF_INET, socket.SOCK_DGRAM) as server
+            > server.bind((HOST, PORT)) ; Asocia IP y Puerto
+            > server.recvfrom(1024) ; Recibe mensaje + direccion cliente
+            > .decode() ; Decodifica mensaje
+            > server.sendto(b"Respuesta", addr) ; Envia respuesta al cliente
+
+    - WEBSOCKETS:
+        Librería: websockets
+            > async def handler(websocket):
+            > await websocket.recv() ; Recibe mensaje
+            > await websocket.send() ; Envia respuesta
+            > websockets.serve(handler, HOST, PORT) ; Inicia servidor
+            > asyncio.run() ; Ejecuta servidor asincrono
+
+    - ECHO (Servidor TCP)
+        Librería: socket
+            > socket(socket.AF_INET, socket.SOCK_STREAM) as server
+            > server.bind((HOST, PORT))
+            > server.listen()
+            > conn, addr = server.accept()
+            > data = conn.recv(1024)
+            > conn.sendall(data) ; Devuelve exactamente lo recibido
