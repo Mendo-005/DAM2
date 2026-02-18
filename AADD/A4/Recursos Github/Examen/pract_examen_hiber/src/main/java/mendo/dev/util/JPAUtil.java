@@ -25,7 +25,7 @@ public class JPAUtil {
      * Creamos un metodo que solicitara un EntityManager
      * @return EntityManager
      */
-    public EntityManager getEntityManager(){ 
+    public static EntityManager getEntityManager(){ 
         LOG.debug("Nueva conexion del pool solicitada");
         return EMF.createEntityManager();
     }
@@ -35,7 +35,7 @@ public class JPAUtil {
      * @param entityManager
      * @return EntityTransaction
      */
-    public EntityTransaction getEntityTransaction(EntityManager entityManager){
+    public static EntityTransaction getEntityTransaction(EntityManager entityManager){
         LOG.debug("Nueva transaccion del pool solicitada");
         return entityManager.getTransaction();
     }

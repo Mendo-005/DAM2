@@ -1,0 +1,37 @@
+==============
+Clientes
+==============
+
+    - TCP:
+        Libreria: socket
+            > socket(socket.AF_INET, *socket.SOCK_STREAM*) as client (nombre de la conexion)
+            > client.connect() ; Conecta con el servidor TCP (recibe HOST, PORT)
+            > client.sendall ; Mensaje para el servidor
+            > client.recv(1024) ; Recibe la respuesta del servidor codificada
+            > .decode() ; Descodifica la respuesta del servidor
+
+    - UDP:
+        Libreria: socket
+            > with socket.socket(socket.AF_INET, *socket.SOCK_DGRAM*) as client: (nombre de la conexion)
+            > client.sendto(b"Mensaje", (HOST, PORT)) ; El mensaje lleva directamente el HOST y PORT
+            > client.recvfrom(1024) ; Recibe la respuesta del servidor codificada
+            > .decode() ; Descodifica la respuesta del servidor
+
+    - WEBSOCKETS:
+        Libreria: websockets
+            > uri = "ws://"+IP+":"+str(PORT) ; Formato de URI
+            > async with websockets.connect(uri) as websocket:(nombre de la conexion)
+            > await websocket.send(cad) ; Envio el mensaje por el websocket
+            > await websocket.recv() ; Recibe la respuesta del servidor codificada
+            > .format() ; Formatea la respuesta del servidor
+            > asyncio.run() ; Para ejecutar como asincrono
+
+    - ECHO:
+       Libreria: socket
+            > socket(socket.AF_INET, *socket.SOCK_STREAM*) as client (nombre de la conexion)
+            > client.connect() ; Conecta con el servidor TCP (recibe HOST, PORT)
+            > client.sendall ; Mensaje para el servidor
+            > client.recv(1024) ; Recibe la respuesta del servidor codificada
+            > .decode() ; Descodifica la respuesta del servidor
+
+    

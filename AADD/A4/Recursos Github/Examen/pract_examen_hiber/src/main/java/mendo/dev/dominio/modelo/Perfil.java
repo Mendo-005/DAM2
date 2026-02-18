@@ -41,17 +41,9 @@ public class Perfil implements Serializable {
         @Column(name = "password_hash", nullable = false, unique = true)
         private String password;
         
-        @OneToOne(mappedBy = "id_usuario", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
-        @JoinColumn(name = "usuario", unique = true, nullable = true)
+        @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
+        @JoinColumn(name = "usuario_id", unique = true, nullable = true)
         private Usuario usuario;
-
-        public Long getId() {
-            return id;
-        }
-
-        public void setId(Long id) {
-            this.id = id;
-        }
 
         public String getUserName() {
             return userName;
