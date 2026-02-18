@@ -1,0 +1,22 @@
+CREATE TABLE usuario (
+    id_usuario SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(150) NOT NULL,
+    fecha_nacimiento DATE,
+    email VARCHAR(150) NOT NULL UNIQUE
+);
+
+CREATE TABLE perfil (
+    id_perfil SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password_hash VARCHAR(60) NOT NULL,
+    usuario SMALLINT,
+    CONSTRAINT fk_perfil_usuario
+        FOREIGN KEY (usuario)
+        REFERENCES usuario(id_usuario)
+);
+
+INSERT INTO usuario (nombre, apellidos, fecha_nacimiento, email)
+VALUES ('Jacobo', 'Sanz de Baranda', DATE '2000-03-08', 'jsanz@empresa.es');
+INSERT INTO perfil (username, password_hash, usuario)
+VALUES ('jsanz3', 'asdfasnmxXXXXqlk2334nmwe.3kn3$', 1);

@@ -1,0 +1,7 @@
+2026-01-31 11:13:49.180672+01:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SHOW [*]DATABASE"
+Syntax error in SQL statement "SHOW [*]DATABASE"; SQL statement:
+SHOW DATABASE [42000-240]
+2026-01-31 11:51:33.293194+01:00 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ALUMNO" not found (this database is empty); SQL statement:
+SELECT * FROM ALUMNO LIMIT 100 [42104-240]

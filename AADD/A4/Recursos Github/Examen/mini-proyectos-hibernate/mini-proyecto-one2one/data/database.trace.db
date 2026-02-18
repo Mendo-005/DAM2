@@ -1,0 +1,9 @@
+2026-01-31 17:24:22.876788+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+insert into USUARIO (apellidos,email,fecha_nacimiento,nombre,id_usuario) values (?,?,?,?,default) [42104-240]
+2026-01-31 17:25:00.418079+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+insert into PUBLIC.USUARIO (apellidos,email,fecha_nacimiento,nombre,id_usuario) values (?,?,?,?,default) [42104-240]
+2026-01-31 17:25:18.085517+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+insert into USUARIO (apellidos,email,fecha_nacimiento,nombre,id_usuario) values (?,?,?,?,default) [42104-240]

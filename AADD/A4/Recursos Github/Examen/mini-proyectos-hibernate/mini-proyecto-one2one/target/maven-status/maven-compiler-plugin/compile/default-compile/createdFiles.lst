@@ -1,0 +1,8 @@
+dev/dimitrov/util/JPAUtil.class
+dev/dimitrov/servicios/PerfilServicio.class
+dev/dimitrov/dominio/modelo/Perfil.class
+dev/dimitrov/persistencia/dao/PerfilDAO.class
+dev/dimitrov/Main.class
+dev/dimitrov/dominio/modelo/Usuario.class
+dev/dimitrov/persistencia/dao/UsuarioDAO.class
+dev/dimitrov/servicios/UsuarioServicio.class
