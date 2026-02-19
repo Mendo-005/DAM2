@@ -91,3 +91,2203 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2026-02-18 21:31:43,287 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
 2026-02-18 21:31:43,341 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
 2026-02-18 21:31:43,381 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b90123c5 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@723e32b0 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgvr825s1rlxsrz|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@eebfa69f [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgvr825s1rlxsrz|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgvr825s1rlxsrz|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:13:11,097 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:13:11,379 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:13:11,544 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:13:11,631 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:13:12,150 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:13:12,150 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:13:12,151 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:13:12,214 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:13:12,648 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:13:12,712 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:13:12,763 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@145c0bba [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a8be5310 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvaau518mp5nk|10c8f62, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e4700120 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvaau518mp5nk|1cbf6e72, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvaau518mp5nk|7caa550, numHelperThreads -> 3 ]
+2026-02-19 16:14:49,324 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:14:49,520 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:14:49,616 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:14:49,691 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:14:50,040 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:14:50,041 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:14:50,042 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:14:50,073 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:14:50,335 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:14:50,386 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:14:50,430 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@969337ce [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@2af57f24 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvcebz3qxxr8|10c8f62, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@a91e578c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvcebz3qxxr8|1cbf6e72, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvcebz3qxxr8|7caa550, numHelperThreads -> 3 ]
+2026-02-19 16:14:52,846 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:14:53,302 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:14:53,457 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:14:53,470 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:14:53,523 [main] WARN  dev.mendo.servicio.AlumnoService         - El alumno ya esta en la base de datos
+2026-02-19 16:14:53,527 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:14:53,528 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:14:53,534 [main] WARN  dev.mendo.servicio.AlumnoService         - El alumno ya esta en la base de datos
+2026-02-19 16:17:01,247 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:17:01,504 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:17:01,607 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:17:01,680 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:17:02,039 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:17:02,040 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:17:02,040 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:17:02,076 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:17:02,358 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:17:02,412 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:17:02,460 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@40f93e80 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d55b85d6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvf86u1f3v9b4|10c8f62, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4b79271a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvf86u1f3v9b4|1cbf6e72, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvf86u1f3v9b4|7caa550, numHelperThreads -> 3 ]
+2026-02-19 16:17:05,138 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:17:05,651 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:17:05,797 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:17:05,820 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:17:05,826 [main] WARN  dev.mendo.servicio.AlumnoService         - El alumno ya esta en la base de datos
+2026-02-19 16:17:05,831 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:17:05,832 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:17:05,836 [main] WARN  dev.mendo.servicio.AlumnoService         - El alumno ya esta en la base de datos
+2026-02-19 16:18:39,620 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:18:39,845 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:18:39,940 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:18:40,012 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:18:40,377 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:18:40,377 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:18:40,377 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:18:40,414 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:18:40,675 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:18:40,725 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:18:40,773 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@903f4cab [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@24a19401 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvhc2e1hr737e|10c8f62, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e4f4de4f [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvhc2e1hr737e|1cbf6e72, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvhc2e1hr737e|7caa550, numHelperThreads -> 3 ]
+2026-02-19 16:18:43,051 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:18:43,427 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:18:43,539 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:18:43,563 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:18:43,577 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: Cannot invoke "dev.mendo.dominio.modelo.Alumno.toString()" because "buscarAlumno" is null
+2026-02-19 16:18:43,586 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:18:43,587 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:18:43,589 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: Cannot invoke "dev.mendo.dominio.modelo.Alumno.toString()" because "buscarAlumno" is null
+2026-02-19 16:22:34,600 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:22:34,824 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:22:34,996 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:22:35,085 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:22:35,490 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:22:35,491 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:22:35,491 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:22:35,538 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:22:35,859 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:22:35,923 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:22:35,984 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@587526 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@b9958411 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvmdhv1x6infq|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@3616f800 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvmdhv1x6infq|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvmdhv1x6infq|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:22:38,547 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:22:39,049 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:22:39,194 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        a2_0.id_alumno,
+        a2_0.nombreyapellido,
+        a2_0.contacto_id_contacto,
+        a2_0.fecha_nacimiento,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on c1_0.id_contacto=a1_0.contacto_id_contacto 
+    left join
+        Alumnos a2_0 
+            on a2_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:22:39,215 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:22:39,291 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 16:22:39,292 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+2026-02-19 16:22:39,294 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:187)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.AlumnoDAO.findAlumnoId(AlumnoDAO.java:19)
+	at dev.mendo.servicio.AlumnoService.añadirAlumno(AlumnoService.java:27)
+	at dev.mendo.Main.main(Main.java:18)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 16:22:39,303 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+2026-02-19 16:22:39,312 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        a2_0.id_alumno,
+        a2_0.nombreyapellido,
+        a2_0.contacto_id_contacto,
+        a2_0.fecha_nacimiento,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on c1_0.id_contacto=a1_0.contacto_id_contacto 
+    left join
+        Alumnos a2_0 
+            on a2_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:22:39,314 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:22:39,317 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 16:22:39,317 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+2026-02-19 16:22:39,317 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:187)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.AlumnoDAO.findAlumnoId(AlumnoDAO.java:19)
+	at dev.mendo.servicio.AlumnoService.añadirAlumno(AlumnoService.java:27)
+	at dev.mendo.Main.main(Main.java:24)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 16:22:39,320 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+2026-02-19 16:22:39,322 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 16:27:02,576 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:27:02,800 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:27:02,902 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:27:03,015 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:27:03,553 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:27:03,554 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:27:03,554 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:27:03,605 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:27:03,969 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:27:04,037 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:27:04,117 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d009791a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@89468805 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwvs4c6110vxqa|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@5c7fbf4 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwvs4c6110vxqa|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwvs4c6110vxqa|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:27:06,826 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:27:07,328 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:27:07,471 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        a2_0.id_alumno,
+        a2_0.nombreyapellido,
+        a2_0.contacto_id_contacto,
+        a2_0.fecha_nacimiento,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on c1_0.id_contacto=a1_0.contacto_id_contacto 
+    left join
+        Alumnos a2_0 
+            on a2_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:27:07,490 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:27:07,569 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 16:27:07,570 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+2026-02-19 16:27:07,573 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:187)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.AlumnoDAO.findAlumnoId(AlumnoDAO.java:19)
+	at dev.mendo.servicio.AlumnoService.añadirAlumno(AlumnoService.java:27)
+	at dev.mendo.Main.main(Main.java:18)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 16:27:07,581 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+2026-02-19 16:27:07,588 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        a2_0.id_alumno,
+        a2_0.nombreyapellido,
+        a2_0.contacto_id_contacto,
+        a2_0.fecha_nacimiento,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on c1_0.id_contacto=a1_0.contacto_id_contacto 
+    left join
+        Alumnos a2_0 
+            on a2_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:27:07,589 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:27:07,591 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 16:27:07,593 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+2026-02-19 16:27:07,594 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:187)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.AlumnoDAO.findAlumnoId(AlumnoDAO.java:19)
+	at dev.mendo.servicio.AlumnoService.añadirAlumno(AlumnoService.java:27)
+	at dev.mendo.Main.main(Main.java:24)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'a2_0.contacto_id_contacto' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 16:27:07,598 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: JDBC exception executing SQL [select a1_0.id_alumno,a1_0.nombreyapellido,c1_0.id_contacto,a2_0.id_alumno,a2_0.nombreyapellido,a2_0.contacto_id_contacto,a2_0.fecha_nacimiento,c1_0.email,c1_0.telefono,a1_0.fecha_nacimiento from Alumnos a1_0 left join alumnoscontactos c1_0 on c1_0.id_contacto=a1_0.contacto_id_contacto left join Alumnos a2_0 on a2_0.id_alumno=c1_0.id_alumno where a1_0.id_alumno=?] [Unknown column 'a2_0.contacto_id_contacto' in 'field list'] [n/a]
+2026-02-19 16:27:07,600 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 16:36:18,219 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:36:18,437 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:36:18,533 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:36:18,607 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:36:18,944 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:36:18,945 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:36:18,945 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:36:18,984 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:36:19,275 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:36:19,334 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:36:19,377 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@db3388ff [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@947097ea [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgww40vh1rnrcrv|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@10f20bd9 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgww40vh1rnrcrv|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgww40vh1rnrcrv|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:36:21,670 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:36:22,106 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:36:22,227 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:36:22,248 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:36:22,272 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:36:22,281 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:36:22,282 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:36:22,285 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:36:22,287 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 16:38:29,326 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:38:29,537 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:38:29,631 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:38:29,698 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:38:30,044 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:38:30,045 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:38:30,045 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:38:30,079 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:38:30,374 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:38:30,440 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:38:30,491 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@dba24caf [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@94df5b9a [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgww6u0tzmwycw|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1160cf89 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgww6u0tzmwycw|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgww6u0tzmwycw|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:38:32,804 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:38:33,223 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:38:33,365 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:38:33,382 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:38:33,415 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:38:33,426 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:38:33,427 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:38:33,430 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:38:33,432 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 16:41:45,572 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:41:45,796 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:41:45,899 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:41:45,966 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:41:46,300 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:41:46,300 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:41:46,301 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:41:46,333 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:41:46,636 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:41:46,697 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:41:46,741 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ddc327f4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@970036df [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwwb1g3dkjecw|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1381aace [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwwb1g3dkjecw|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwwb1g3dkjecw|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:41:49,139 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:41:49,579 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:41:49,698 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:41:49,717 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:41:49,736 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:41:49,743 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:41:49,744 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:41:49,746 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: detached entity passed to persist: dev.mendo.dominio.modelo.Alumno
+2026-02-19 16:41:49,748 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 16:47:24,866 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 16:47:25,067 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 16:47:25,164 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 16:47:25,237 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 16:47:25,598 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 16:47:25,599 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 16:47:25,599 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 16:47:25,633 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 16:47:25,902 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 16:47:25,961 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 16:47:26,004 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a6ddb817 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@601ac702 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwwib98x7u1o0|5ab14cb9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@dc9c3af1 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwwib98x7u1o0|2a8d39c4, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwwib98x7u1o0|70fab835, numHelperThreads -> 3 ]
+2026-02-19 16:47:28,203 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 16:47:28,624 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 16:47:28,741 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:47:28,763 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 16:47:28,816 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 16:47:28,824 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 16:47:28,825 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 16:47:28,898 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 16:47:28,900 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [5]
+2026-02-19 16:47:28,900 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 16:47:28,901 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 16:47:28,943 [main] INFO  dev.mendo.servicio.AlumnoService         - Se ha realizado el guardado del alumno: 101 con datos de contacto
+2026-02-19 16:47:28,947 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 16:47:28,947 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 16:47:28,949 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 16:47:28,950 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 16:47:28,950 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 16:47:28,955 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 16:47:28,956 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [6]
+2026-02-19 16:47:28,956 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 16:47:28,957 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 16:47:28,965 [main] INFO  dev.mendo.servicio.AlumnoService         - Se ha realizado el guardado del alumno: 102 con datos de contacto
+2026-02-19 16:47:28,965 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:13:09,700 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:13:09,915 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:13:10,017 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:13:10,096 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:13:10,558 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:13:10,559 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:13:10,559 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:13:10,611 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:13:10,930 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:13:11,002 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:13:11,060 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c55b53d0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@837a39cf [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxffdgat5utm|7876d598, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@60f08845 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxffdgat5utm|163d04ff, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxffdgat5utm|4816c290, numHelperThreads -> 3 ]
+2026-02-19 17:13:13,828 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 17:13:14,304 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:13:14,442 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:13:14,458 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:13:14,504 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:13:14,509 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:13:14,509 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:13:14,560 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:13:14,562 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [7]
+2026-02-19 17:13:14,563 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:13:14,563 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:13:14,628 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:13:14,629 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:13:14,637 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:13:14,646 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:13:14,647 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:13:14,650 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:13:14,650 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:13:14,651 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:13:14,656 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:13:14,658 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [8]
+2026-02-19 17:13:14,658 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:13:14,658 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:13:14,661 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:13:14,662 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:13:14,662 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:13:14,675 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:13:14,676 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:13:14,682 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 17:13:14,683 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'e1_0.email' in 'field list'
+2026-02-19 17:13:14,683 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select e1_0.id_empresa,e1_0.direccion,e1_0.email,e1_0.nombre,e1_0.sector,e1_0.telefono from Empresas e1_0 where e1_0.id_empresa=?] [Unknown column 'e1_0.email' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:180)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.EmpresaDAO.buscarEmpresaPorId(EmpresaDAO.java:18)
+	at dev.mendo.servicio.EmpresaService.actualizarEmpresa(EmpresaService.java:24)
+	at dev.mendo.Main.main(Main.java:32)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'e1_0.email' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 17:13:14,691 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: JDBC exception executing SQL [select e1_0.id_empresa,e1_0.direccion,e1_0.email,e1_0.nombre,e1_0.sector,e1_0.telefono from Empresas e1_0 where e1_0.id_empresa=?] [Unknown column 'e1_0.email' in 'field list'] [n/a]
+2026-02-19 17:13:14,693 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:14:44,495 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:14:44,711 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:14:44,813 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:14:44,883 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:14:45,227 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:14:45,229 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:14:45,229 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:14:45,261 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:14:45,520 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:14:45,579 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:14:45,623 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5a7d62a2 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@189c48a1 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxhgee1lpa0z0|7876d598, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f6129717 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxhgee1lpa0z0|163d04ff, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxhgee1lpa0z0|4816c290, numHelperThreads -> 3 ]
+2026-02-19 17:14:48,089 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 17:14:48,541 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:14:48,653 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:14:48,674 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:14:48,711 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:14:48,718 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:14:48,719 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:14:48,753 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:14:48,755 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [9]
+2026-02-19 17:14:48,756 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:14:48,757 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:14:48,821 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:14:48,822 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:14:48,828 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:14:48,842 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:14:48,844 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:14:48,846 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:14:48,846 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:14:48,848 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:14:48,852 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:14:48,853 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [10]
+2026-02-19 17:14:48,854 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:14:48,854 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:14:48,856 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:14:48,857 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:14:48,858 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:14:48,872 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:14:48,873 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:14:48,877 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 17:14:48,877 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 'e1_0.email' in 'field list'
+2026-02-19 17:14:48,878 [main] INFO  o.h.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select e1_0.id_empresa,e1_0.direccion,e1_0.email,e1_0.nombre,e1_0.sector,e1_0.telefono from Empresas e1_0 where e1_0.id_empresa=?] [Unknown column 'e1_0.email' in 'field list'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:180)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2424)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2390)
+	at dev.mendo.persistencia.dao.EmpresaDAO.buscarEmpresaPorId(EmpresaDAO.java:18)
+	at dev.mendo.servicio.EmpresaService.actualizarEmpresa(EmpresaService.java:24)
+	at dev.mendo.Main.main(Main.java:32)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'e1_0.email' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1471)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 38 common frames omitted
+2026-02-19 17:14:48,883 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: JDBC exception executing SQL [select e1_0.id_empresa,e1_0.direccion,e1_0.email,e1_0.nombre,e1_0.sector,e1_0.telefono from Empresas e1_0 where e1_0.id_empresa=?] [Unknown column 'e1_0.email' in 'field list'] [n/a]
+2026-02-19 17:14:48,887 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:16:49,918 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:16:50,129 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:16:50,226 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:16:50,294 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:16:50,632 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:16:50,633 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:16:50,633 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:16:50,665 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:16:50,940 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:16:51,002 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:16:51,050 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4a55ad31 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@8749330 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxk55x18tvfmg|7876d598, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e5eae1a6 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxk55x18tvfmg|163d04ff, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxk55x18tvfmg|4816c290, numHelperThreads -> 3 ]
+2026-02-19 17:16:53,402 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 17:16:53,803 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:16:53,932 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:16:53,955 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:16:53,996 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:16:54,003 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:16:54,004 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:16:54,037 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:16:54,039 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [11]
+2026-02-19 17:16:54,039 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:16:54,040 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:16:54,105 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:16:54,106 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:16:54,114 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:16:54,130 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:16:54,131 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:16:54,133 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:16:54,133 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:16:54,134 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:16:54,136 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:16:54,136 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [12]
+2026-02-19 17:16:54,137 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:16:54,137 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:16:54,139 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:16:54,139 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:16:54,140 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:16:54,152 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:16:54,153 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:16:54,188 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.tutores,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.tutores=?
+2026-02-19 17:16:54,190 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:16:54,193 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 17:16:54,194 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 't1_0.tutores' in 'field list'
+2026-02-19 17:16:54,195 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: JDBC exception executing SQL [select t1_0.tutores,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.tutores=?] [Unknown column 't1_0.tutores' in 'field list'] [n/a]
+2026-02-19 17:16:54,198 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:21:14,449 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:21:14,667 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:21:14,760 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:21:14,844 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:21:15,349 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:21:15,350 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:21:15,351 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:21:15,398 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:21:15,721 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:21:15,781 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:21:15,844 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@fcf8ad6f [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@bb17936e [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxptfm1dycs85|7876d598, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@988de1e4 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxptfm1dycs85|163d04ff, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxptfm1dycs85|4816c290, numHelperThreads -> 3 ]
+2026-02-19 17:21:18,541 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 17:21:19,084 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:21:19,232 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:21:19,250 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:21:19,294 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:21:19,301 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:21:19,301 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:21:19,342 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:21:19,344 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [13]
+2026-02-19 17:21:19,345 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:21:19,345 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:21:19,415 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:21:19,416 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:21:19,427 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:21:19,439 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:21:19,440 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:21:19,443 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:21:19,444 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:21:19,444 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:21:19,450 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:21:19,450 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [14]
+2026-02-19 17:21:19,451 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:21:19,452 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:21:19,455 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:21:19,455 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:21:19,456 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:21:19,470 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:21:19,471 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:21:19,511 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.id_empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.id_empresa=?
+2026-02-19 17:21:19,512 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:21:19,517 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+2026-02-19 17:21:19,518 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown column 't1_0.id_empresa' in 'field list'
+2026-02-19 17:21:19,518 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: JDBC exception executing SQL [select t1_0.id_empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.id_empresa=?] [Unknown column 't1_0.id_empresa' in 'field list'] [n/a]
+2026-02-19 17:21:19,521 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:23:48,130 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:23:48,348 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:23:48,446 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:23:48,517 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:23:49,035 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:23:49,036 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:23:49,036 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:23:49,098 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:23:49,618 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:23:49,696 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:23:49,774 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@24884752 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2a72d51 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxt41fyi0qxc|7876d598, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c01d7bc7 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxt41fyi0qxc|163d04ff, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxt41fyi0qxc|4816c290, numHelperThreads -> 3 ]
+2026-02-19 17:23:52,528 [main] INFO  o.h.m.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: dev.mendo.dominio.modelo.Tutor (class must be instantiated by Interceptor)
+2026-02-19 17:23:53,026 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:23:53,142 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:23:53,157 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:23:53,192 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:23:53,198 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:23:53,199 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:23:53,229 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:23:53,230 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [15]
+2026-02-19 17:23:53,232 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:23:53,232 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:23:53,289 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:23:53,290 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:23:53,295 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:23:53,305 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:23:53,306 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:23:53,308 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:23:53,309 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:23:53,310 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:23:53,313 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:23:53,314 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [16]
+2026-02-19 17:23:53,314 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:23:53,315 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:23:53,318 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:23:53,318 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:23:53,319 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:23:53,330 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:23:53,331 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:23:53,359 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 17:23:53,360 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:23:53,369 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: No default constructor for entity 'dev.mendo.dominio.modelo.Tutor'
+2026-02-19 17:23:53,373 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:24:45,304 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:24:45,517 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:24:45,613 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:24:45,682 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:24:46,013 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:24:46,014 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:24:46,014 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:24:46,044 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:24:46,298 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:24:46,355 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:24:46,396 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4f8bf835 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@780612b4 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxubyp1td20lv|5af28b27, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b7c4a5ac [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxubyp1td20lv|2262b621, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxubyp1td20lv|16423501, numHelperThreads -> 3 ]
+2026-02-19 17:24:49,059 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:24:49,177 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:24:49,192 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:24:49,224 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:24:49,229 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:24:49,229 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:24:49,259 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:24:49,262 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [17]
+2026-02-19 17:24:49,262 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:24:49,264 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:24:49,319 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:24:49,320 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:24:49,327 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:24:49,335 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:24:49,336 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:24:49,339 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:24:49,340 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:24:49,340 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:24:49,344 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:24:49,344 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [18]
+2026-02-19 17:24:49,345 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:24:49,345 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:24:49,348 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:24:49,348 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:24:49,348 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:24:49,360 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:24:49,361 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:24:49,392 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 17:24:49,394 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:24:49,402 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: No enum constant dev.mendo.dominio.modelo.Tutor.Sex.Instituto
+2026-02-19 17:24:49,405 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 17:27:09,115 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 17:27:09,332 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 17:27:09,436 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 17:27:09,514 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 17:27:09,871 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 17:27:09,871 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 17:27:09,872 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 17:27:09,914 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 17:27:10,205 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 17:27:10,259 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 17:27:10,302 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@500c23a3 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@78863e22 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwxxezc1e5oyx6|5af28b27, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b844d11a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwxxezc1e5oyx6|2262b621, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwxxezc1e5oyx6|16423501, numHelperThreads -> 3 ]
+2026-02-19 17:27:12,967 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 17:27:13,164 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:27:13,185 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 17:27:13,225 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:27:13,233 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 17:27:13,234 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 17:27:13,269 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:27:13,272 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [19]
+2026-02-19 17:27:13,273 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 17:27:13,274 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 17:27:13,335 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:27:13,336 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:27:13,343 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:27:13,351 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 17:27:13,352 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 17:27:13,355 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 17:27:13,356 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 17:27:13,356 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 17:27:13,360 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 17:27:13,361 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [20]
+2026-02-19 17:27:13,362 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 17:27:13,363 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 17:27:13,365 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 17:27:13,366 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 17:27:13,367 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 17:27:13,378 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 17:27:13,379 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:27:13,410 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 17:27:13,412 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:27:13,419 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 17:27:13,420 [main] INFO  com.mchange.v2.c3p0.stmt.GooGooStatementCache - Multiply-cached PreparedStatement: select t1_0.empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.empresa=?
+2026-02-19 17:27:13,420 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 17:27:13,466 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        Empresas 
+    set
+        direccion=?,
+        email_contacto=?,
+        nombre=?,
+        sector=?,
+        telefono_contacto=? 
+    where
+        id_empresa=?
+2026-02-19 17:27:13,468 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Carretera de Colmenar Km 12,800]
+2026-02-19 17:27:13,468 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [ies.ciudadescolar.madrid@educa.madrid.org]
+2026-02-19 17:27:13,468 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [IES Ciudad Escolar]
+2026-02-19 17:27:13,469 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Informática]
+2026-02-19 17:27:13,470 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (5:VARCHAR) <- [917341244]
+2026-02-19 17:27:13,470 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (6:INTEGER) <- [1]
+2026-02-19 17:27:13,495 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 18:14:23,358 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 18:14:23,588 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 18:14:23,689 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 18:14:23,759 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 18:14:24,184 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 18:14:24,184 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 18:14:24,185 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 18:14:24,235 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 18:14:24,542 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 18:14:24,597 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 18:14:24,648 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6f27bce9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e234bf0e [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwzm5yw102sue9|3c9168dc, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8dc52ab4 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwzm5yw102sue9|4febb875, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwzm5yw102sue9|307765b4, numHelperThreads -> 3 ]
+2026-02-19 18:14:27,673 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 18:14:27,804 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:14:27,818 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 18:14:27,877 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:14:27,882 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 18:14:27,883 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 18:14:27,937 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:14:27,940 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [21]
+2026-02-19 18:14:27,940 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 18:14:27,940 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 18:14:28,009 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:14:28,010 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:14:28,016 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:14:28,025 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:14:28,026 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 18:14:28,029 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:14:28,030 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 18:14:28,030 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 18:14:28,034 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:14:28,035 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [22]
+2026-02-19 18:14:28,035 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 18:14:28,036 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 18:14:28,039 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:14:28,039 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:14:28,039 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:14:28,050 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 18:14:28,051 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:14:28,086 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:14:28,087 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:14:28,111 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:14:28,112 [main] INFO  com.mchange.v2.c3p0.stmt.GooGooStatementCache - Multiply-cached PreparedStatement: select t1_0.empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.empresa=?
+2026-02-19 18:14:28,112 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:14:28,599 [main] ERROR dev.mendo.servicio.EmpresaService        - Error actualizando la empresa: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'emailContacto' of 'dev.mendo.dominio.modelo.Empresa' [SELECT e.nombre, t.nombre, e.emailContacto
+            FROM Empresa e
+            JOIN e.tutores t
+            WHERE t.tipo <> :tipoExcluido]
+2026-02-19 18:14:28,601 [main] INFO  dev.mendo.Main                           - 
+2026-02-19 18:14:28,602 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 18:18:21,409 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 18:18:21,608 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 18:18:21,703 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 18:18:21,774 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 18:18:22,226 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 18:18:22,227 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 18:18:22,227 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 18:18:22,278 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 18:18:22,600 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 18:18:22,660 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 18:18:22,709 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@66f20741 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d9ff0966 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwzr9nh1vu0vdj|3c9168dc, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@858f750c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwzr9nh1vu0vdj|4febb875, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwzr9nh1vu0vdj|307765b4, numHelperThreads -> 3 ]
+2026-02-19 18:18:25,472 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 18:18:25,590 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:18:25,608 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 18:18:25,641 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:18:25,647 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 18:18:25,648 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 18:18:25,682 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:18:25,685 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [23]
+2026-02-19 18:18:25,685 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 18:18:25,685 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 18:18:25,740 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:18:25,743 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:18:25,748 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:18:25,755 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:18:25,756 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 18:18:25,759 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:18:25,760 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 18:18:25,760 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 18:18:25,763 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:18:25,763 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [24]
+2026-02-19 18:18:25,763 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 18:18:25,764 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 18:18:25,766 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:18:25,766 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:18:25,767 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:18:25,777 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 18:18:25,778 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:18:25,815 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:18:25,816 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:18:25,823 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:18:25,824 [main] INFO  com.mchange.v2.c3p0.stmt.GooGooStatementCache - Multiply-cached PreparedStatement: select t1_0.empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.empresa=?
+2026-02-19 18:18:25,824 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:18:26,383 [main] ERROR dev.mendo.servicio.EmpresaService        - Error en la consulta: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'emailContacto' of 'dev.mendo.dominio.modelo.Empresa' [    SELECT e.nombre, t.nombre, e.emailContacto
+    FROM Empresa e
+    JOIN e.tutores t
+    WHERE t.tipo <> :tipoExcluido
+]
+2026-02-19 18:18:26,384 [main] INFO  dev.mendo.Main                           - 
+2026-02-19 18:18:26,385 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 18:23:14,003 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 18:23:14,213 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 18:23:14,310 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 18:23:14,381 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 18:23:14,728 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 18:23:14,728 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 18:23:14,729 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 18:23:14,761 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 18:23:15,047 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 18:23:15,109 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 18:23:15,154 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f89f77a1 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6bac79c6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgwzxjb91kqlvu|3c9168dc, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@173ce56c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgwzxjb91kqlvu|4febb875, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgwzxjb91kqlvu|307765b4, numHelperThreads -> 3 ]
+2026-02-19 18:23:17,700 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 18:23:17,819 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:23:17,842 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 18:23:17,872 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:23:17,878 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 18:23:17,880 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 18:23:17,915 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:23:17,917 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [25]
+2026-02-19 18:23:17,918 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 18:23:17,918 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 18:23:17,978 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:23:17,979 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:23:17,986 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:23:17,994 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:23:17,995 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 18:23:17,998 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:23:17,999 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 18:23:17,999 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 18:23:18,002 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:23:18,003 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [26]
+2026-02-19 18:23:18,003 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 18:23:18,004 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 18:23:18,005 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:23:18,007 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:23:18,007 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:23:18,018 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 18:23:18,019 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:23:18,048 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:23:18,049 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:23:18,058 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:23:18,059 [main] INFO  com.mchange.v2.c3p0.stmt.GooGooStatementCache - Multiply-cached PreparedStatement: select t1_0.empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.empresa=?
+2026-02-19 18:23:18,059 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:23:18,790 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.nombre,
+        t1_0.nombre,
+        e1_0.email_contacto 
+    from
+        Empresas e1_0 
+    join
+        Tutores t1_0 
+            on e1_0.id_empresa=t1_0.empresa 
+    where
+        t1_0.tipo<>?
+2026-02-19 18:23:18,791 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:ENUM) <- [Instituto]
+2026-02-19 18:23:18,801 [main] INFO  dev.mendo.servicio.EmpresaService        - Tech Solutions | Miguel | contacto@techsolutions.com
+2026-02-19 18:23:18,801 [main] INFO  dev.mendo.servicio.EmpresaService        - Green Energy | Elena | info@greenenergy.com
+2026-02-19 18:23:18,803 [main] INFO  dev.mendo.Main                           - Tech Solutions|Miguel|contacto@techsolutions.com
+Green Energy|Elena|info@greenenergy.com
+
+2026-02-19 18:23:18,803 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada
+2026-02-19 18:26:07,990 [main] INFO  dev.mendo.Main                           - iniciando aplicacion
+2026-02-19 18:26:08,199 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2026-02-19 18:26:08,290 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-19 18:26:08,364 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-19 18:26:08,764 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2026-02-19 18:26:08,764 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-19 18:26:08,765 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-19 18:26:08,807 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-19 18:26:09,071 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-19 18:26:09,133 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-19 18:26:09,175 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@71dafd8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7a2ab1fd [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abgx019lkl0kz1v|3c9168dc, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@25bb1da3 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abgx019lkl0kz1v|4febb875, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abgx019lkl0kz1v|307765b4, numHelperThreads -> 3 ]
+2026-02-19 18:26:11,696 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19 18:26:11,803 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:26:11,819 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [101]
+2026-02-19 18:26:11,856 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:26:11,860 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Dario Pazos]
+2026-02-19 18:26:11,861 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2005-06-15]
+2026-02-19 18:26:11,890 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:26:11,892 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [27]
+2026-02-19 18:26:11,894 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [dario.pazos@instituto.es]
+2026-02-19 18:26:11,894 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [912443213]
+2026-02-19 18:26:11,956 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:26:11,956 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:26:11,962 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'dario.pazos@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:26:11,974 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_alumno,
+        a1_0.nombreyapellido,
+        c1_0.id_contacto,
+        c1_0.email,
+        c1_0.telefono,
+        a1_0.fecha_nacimiento 
+    from
+        Alumnos a1_0 
+    left join
+        alumnoscontactos c1_0 
+            on a1_0.id_alumno=c1_0.id_alumno 
+    where
+        a1_0.id_alumno=?
+2026-02-19 18:26:11,975 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [102]
+2026-02-19 18:26:11,977 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        Alumnos
+        (nombreyapellido, fecha_nacimiento) 
+    values
+        (?, ?)
+2026-02-19 18:26:11,978 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Fermin Sanz]
+2026-02-19 18:26:11,978 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2002-09-21]
+2026-02-19 18:26:11,982 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        alumnoscontactos
+        (id_alumno, email, telefono) 
+    values
+        (?, ?, ?)
+2026-02-19 18:26:11,984 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [28]
+2026-02-19 18:26:11,984 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [fermin.sanz@instituto.es]
+2026-02-19 18:26:11,985 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [6660006666]
+2026-02-19 18:26:11,986 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-19 18:26:11,987 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'
+2026-02-19 18:26:11,987 [main] ERROR dev.mendo.servicio.AlumnoService         - Error añadiendo al alumno: could not execute statement [Duplicate entry 'fermin.sanz@instituto.es' for key 'alumnoscontactos.email'] [insert into alumnoscontactos (id_alumno,email,telefono) values (?,?,?)]
+2026-02-19 18:26:12,000 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.id_empresa,
+        e1_0.direccion,
+        e1_0.email_contacto,
+        e1_0.nombre,
+        e1_0.sector,
+        e1_0.telefono_contacto 
+    from
+        Empresas e1_0 
+    where
+        e1_0.id_empresa=?
+2026-02-19 18:26:12,001 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:26:12,033 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:26:12,035 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:26:12,044 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        t1_0.empresa,
+        t1_0.id_tutor,
+        t1_0.apellido,
+        t1_0.email,
+        t1_0.nombre,
+        t1_0.telefono,
+        t1_0.tipo 
+    from
+        Tutores t1_0 
+    where
+        t1_0.empresa=?
+2026-02-19 18:26:12,046 [main] INFO  com.mchange.v2.c3p0.stmt.GooGooStatementCache - Multiply-cached PreparedStatement: select t1_0.empresa,t1_0.id_tutor,t1_0.apellido,t1_0.email,t1_0.nombre,t1_0.telefono,t1_0.tipo from Tutores t1_0 where t1_0.empresa=?
+2026-02-19 18:26:12,046 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [1]
+2026-02-19 18:26:12,664 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        e1_0.nombre,
+        t1_0.nombre,
+        e1_0.email_contacto 
+    from
+        Empresas e1_0 
+    join
+        Tutores t1_0 
+            on e1_0.id_empresa=t1_0.empresa 
+    where
+        t1_0.tipo<>?
+2026-02-19 18:26:12,665 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:ENUM) <- [Instituto]
+2026-02-19 18:26:12,669 [main] INFO  dev.mendo.Main                           - Tech Solutions|Miguel|contacto@techsolutions.com
+Green Energy|Elena|info@greenenergy.com
+
+2026-02-19 18:26:12,669 [main] INFO  dev.mendo.Main                           - Aplicacion finalizada

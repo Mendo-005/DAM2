@@ -1,7 +1,6 @@
 package dev.mendo.dominio.modelo;
 
 import java.io.Serializable;
-import java.util.HashSet;
 import java.util.Set;
 
 import jakarta.persistence.CascadeType;
@@ -14,8 +13,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -47,26 +46,19 @@ public class Tutor implements Serializable
 	@Enumerated(EnumType.STRING)
 	@Column(nullable  = false)
 	private Sex tipo;
+	public enum Sex{Instituto,Empresa}
 
-	public enum Sex{H,M}
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "empresa")
+	private Empresa empresas;
 
-	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinTable(
-    name = "Empresas",
-    joinColumns = @JoinColumn(name = "id_tutor"),
-    inverseJoinColumns = @JoinColumn(name = "id_empresa")
-	)
-	private Set<Empresa> empresas;
 
-	public void addEmpresa(Empresa empresa){
-		empresas.add(empresa);
-	}
-	public Tutor() {
-		empresas = new HashSet<>();
+	public void setEmpresas(Empresa empresas) {
+		this.empresas = empresas;
 	}
 
+	public Tutor() {}
 	public Tutor(String nombre, String apellido, String email, String telefono, Sex tipo) {
-		this();
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.email = email;
@@ -109,11 +101,11 @@ public class Tutor implements Serializable
 	public void setTipo(Sex tipo) {
 		this.tipo = tipo;
 	}
-	public Set<Empresa> getEmpresas() {
+	public Empresa getEmpresas() {
 		return empresas;
 	}
 	public void setEmpresas(Set<Empresa> empresas) {
-		this.empresas = empresas;
+		this.empresas = (Empresa) empresas;
 	}
 	@Override
 	public int hashCode() {

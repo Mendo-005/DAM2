@@ -108,4 +108,5 @@ CREATE USER IF NOT EXISTS 'examen'@'localhost' IDENTIFIED BY 'examen';
 
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, EXECUTE ON FCTs.* TO 'examen'@'localhost';
 
-select*from Alumnos where id_alumno = 101;
+select*from Alumnos ;
+select*from alumnoscontactos;
