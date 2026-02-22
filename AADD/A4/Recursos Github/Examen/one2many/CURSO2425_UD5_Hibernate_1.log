@@ -1,0 +1,2722 @@
+2026-02-22 16:17:06,183 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:17:06,621 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:17:06,707 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:17:07,361 [main] ERROR com.zaxxer.hikari.util.PropertyElf       - Failed to set property driverClassName on target class com.zaxxer.hikari.HikariConfig
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setProperty(PropertyElf.java:173)
+	at com.zaxxer.hikari.util.PropertyElf.lambda$setTargetFromProperties$0(PropertyElf.java:56)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(Unknown Source)
+	at java.base/java.util.Properties.forEach(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setTargetFromProperties(PropertyElf.java:50)
+	at com.zaxxer.hikari.HikariConfig.<init>(HikariConfig.java:144)
+	at org.hibernate.hikaricp.internal.HikariConfigurationUtil.loadConfiguration(HikariConfigurationUtil.java:85)
+	at org.hibernate.hikaricp.internal.HikariCPConnectionProvider.configure(HikariCPConnectionProvider.java:71)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at dev.mendo.util.JPAUtil.<clinit>(JPAUtil.java:19)
+	at dev.mendo.servicio.ClienteServicio.crearCliente(ClienteServicio.java:23)
+	at dev.mendo.Main.main(Main.java:24)
+Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:510)
+	... 36 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:155)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:105)
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:506)
+	... 36 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:127)
+	... 38 common frames omitted
+2026-02-22 16:18:35,642 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:18:36,071 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:18:36,167 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:18:36,775 [main] ERROR com.zaxxer.hikari.util.PropertyElf       - Failed to set property driverClassName on target class com.zaxxer.hikari.HikariConfig
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setProperty(PropertyElf.java:173)
+	at com.zaxxer.hikari.util.PropertyElf.lambda$setTargetFromProperties$0(PropertyElf.java:56)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(Unknown Source)
+	at java.base/java.util.Properties.forEach(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setTargetFromProperties(PropertyElf.java:50)
+	at com.zaxxer.hikari.HikariConfig.<init>(HikariConfig.java:144)
+	at org.hibernate.hikaricp.internal.HikariConfigurationUtil.loadConfiguration(HikariConfigurationUtil.java:85)
+	at org.hibernate.hikaricp.internal.HikariCPConnectionProvider.configure(HikariCPConnectionProvider.java:71)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at dev.mendo.util.JPAUtil.<clinit>(JPAUtil.java:19)
+	at dev.mendo.servicio.ClienteServicio.crearCliente(ClienteServicio.java:23)
+	at dev.mendo.Main.main(Main.java:24)
+Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:510)
+	... 36 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:155)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:105)
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:506)
+	... 36 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:127)
+	... 38 common frames omitted
+2026-02-22 16:19:59,285 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:19:59,711 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:19:59,797 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:20:00,402 [main] ERROR com.zaxxer.hikari.util.PropertyElf       - Failed to set property driverClassName on target class com.zaxxer.hikari.HikariConfig
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setProperty(PropertyElf.java:173)
+	at com.zaxxer.hikari.util.PropertyElf.lambda$setTargetFromProperties$0(PropertyElf.java:56)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(Unknown Source)
+	at java.base/java.util.Properties.forEach(Unknown Source)
+	at com.zaxxer.hikari.util.PropertyElf.setTargetFromProperties(PropertyElf.java:50)
+	at com.zaxxer.hikari.HikariConfig.<init>(HikariConfig.java:144)
+	at org.hibernate.hikaricp.internal.HikariConfigurationUtil.loadConfiguration(HikariConfigurationUtil.java:85)
+	at org.hibernate.hikaricp.internal.HikariCPConnectionProvider.configure(HikariCPConnectionProvider.java:71)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at dev.mendo.util.JPAUtil.<clinit>(JPAUtil.java:19)
+	at dev.mendo.servicio.ClienteServicio.crearCliente(ClienteServicio.java:23)
+	at dev.mendo.Main.main(Main.java:24)
+Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:510)
+	... 36 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load class com.mysql.cj.jdbc.Driver
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:155)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:105)
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:506)
+	... 36 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.zaxxer.hikari.util.UtilityElf.createInstance(UtilityElf.java:127)
+	... 38 common frames omitted
+2026-02-22 16:21:31,616 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:21:32,114 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:21:32,196 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:21:32,825 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:21:33,550 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:21:33,553 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:21:33,798 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:21:34,050 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown initiated...
+2026-02-22 16:21:34,060 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown completed.
+2026-02-22 16:24:15,675 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:24:16,112 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:24:16,202 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:24:16,919 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:24:17,629 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:24:17,633 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:24:17,890 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:24:18,187 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown initiated...
+2026-02-22 16:24:18,197 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown completed.
+2026-02-22 16:24:46,608 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:24:47,039 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:24:47,130 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:24:47,832 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:24:48,548 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:24:48,552 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:24:48,779 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:24:50,717 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:24:50,825 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error creando al cliente: Identifier may not be null
+2026-02-22 16:24:50,835 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:24:50,839 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:24:50,842 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:24:50,843 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:25:32,307 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:25:32,726 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:25:32,811 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:25:33,463 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:25:34,117 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:25:34,120 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:25:34,364 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:25:36,044 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:25:36,153 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error creando al cliente: Identifier may not be null
+2026-02-22 16:25:36,162 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:25:36,165 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:25:36,169 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error añadiendo el pedido: Identifier may not be null
+2026-02-22 16:25:36,170 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:26:51,106 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:26:51,571 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:26:51,659 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:26:52,309 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:26:52,952 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:26:52,956 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:26:53,184 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:26:54,863 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:26:55,009 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:26:55,024 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:26:55,026 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:26:55,139 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:26:55,141 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:26:55,170 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:26:55,174 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:26:55,175 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:26:55,178 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:26:55,181 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:26:55,182 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:26:55,184 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:26:55,186 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:29:25,498 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:29:25,995 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:29:26,085 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:29:26,777 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:29:27,571 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:29:27,575 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:29:27,837 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:29:29,487 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:29:29,632 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:29:29,647 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:29:29,648 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:29:29,705 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-22 16:29:29,706 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'
+2026-02-22 16:29:29,714 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error creando al cliente: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-22 16:29:29,729 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:29:29,732 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:29:29,734 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:29:29,736 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:31:25,813 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:31:26,233 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:31:26,326 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:31:27,020 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:31:27,748 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:31:27,751 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:31:27,974 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:31:29,611 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:31:29,760 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:31:29,776 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:31:29,778 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:31:29,835 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-22 16:31:29,836 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'
+2026-02-22 16:31:29,843 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error creando al cliente: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-22 16:31:29,858 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:31:29,861 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:31:29,865 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:31:29,866 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:31:47,342 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:31:47,877 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:31:47,977 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:31:48,685 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:31:49,381 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:31:49,386 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:31:49,637 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:31:51,350 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:31:51,501 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:31:51,515 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:31:51,516 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:31:51,619 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:31:51,621 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:31:51,649 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:31:51,654 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:31:51,655 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:31:51,661 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:31:51,664 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:31:51,665 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:31:51,668 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:31:51,669 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:34:26,557 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:34:26,968 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:34:27,058 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:34:27,796 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:34:28,443 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:34:28,447 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:34:28,666 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:34:30,418 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:34:30,566 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:34:30,579 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:34:30,580 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:34:30,672 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:34:30,674 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:34:30,702 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:34:30,708 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:34:30,709 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:34:30,712 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:34:30,715 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:34:30,716 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:34:30,718 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: not-null property references a null or transient value for entity dev.mendo.dominio.modelo.Pedido.cliente
+2026-02-22 16:34:30,720 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:36:11,050 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:36:11,489 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:36:11,588 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:36:12,317 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:36:13,155 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:36:13,160 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:36:13,433 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:36:15,068 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:36:15,199 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:36:15,212 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:36:15,212 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:36:15,331 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:36:15,334 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,362 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:36:15,364 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,416 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:36:15,417 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:36:15,419 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:36:15,423 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:36:15,423 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,426 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:36:15,427 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,429 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:36:15,430 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:36:15,430 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:36:15,433 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:36:15,433 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,436 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:36:15,437 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:36:15,438 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:36:15,439 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:36:15,439 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:36:15,440 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:37:16,647 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:37:17,056 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:37:17,145 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:37:17,785 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:37:18,461 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:37:18,463 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:37:18,698 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:37:18,964 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown initiated...
+2026-02-22 16:37:18,979 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Shutdown completed.
+2026-02-22 16:37:36,096 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:37:36,533 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:37:36,619 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:37:37,250 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:37:37,925 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:37:37,928 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:37:38,173 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:37:39,786 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:37:39,909 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:37:39,923 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:37:39,925 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:37:40,019 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:37:40,021 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,048 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:37:40,049 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,102 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:37:40,103 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:37:40,104 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:37:40,109 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:37:40,110 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,113 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:37:40,114 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,116 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:37:40,117 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:37:40,117 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:37:40,120 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:37:40,121 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,123 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:37:40,124 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:37:40,125 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:37:40,127 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.cliente' in 'field list'
+2026-02-22 16:37:40,127 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.cliente' in 'field list'] [select p1_0.id,p1_0.cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.cliente where p1_0.id=?]
+2026-02-22 16:37:40,129 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:38:24,741 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:38:25,175 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:38:25,261 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:38:25,901 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:38:26,554 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:38:26,558 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:38:26,803 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:38:28,432 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:38:28,570 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:38:28,587 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:38:28,588 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:38:28,678 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:38:28,679 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,705 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.id_cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.id_cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:38:28,706 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,759 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:38:28,759 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.id_cliente' in 'field list'
+2026-02-22 16:38:28,761 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.id_cliente' in 'field list'] [select p1_0.id,p1_0.id_cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.id_cliente where p1_0.id=?]
+2026-02-22 16:38:28,764 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:38:28,765 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,768 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.id_cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.id_cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:38:28,770 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,771 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:38:28,773 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.id_cliente' in 'field list'
+2026-02-22 16:38:28,773 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.id_cliente' in 'field list'] [select p1_0.id,p1_0.id_cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.id_cliente where p1_0.id=?]
+2026-02-22 16:38:28,775 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:38:28,776 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,778 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.id_cliente,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    left join
+        cliente c1_0 
+            on c1_0.id=p1_0.id_cliente 
+    where
+        p1_0.id=?
+2026-02-22 16:38:28,780 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:38:28,781 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-22 16:38:28,781 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'p1_0.id_cliente' in 'field list'
+2026-02-22 16:38:28,783 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: JDBC exception executing SQL [Unknown column 'p1_0.id_cliente' in 'field list'] [select p1_0.id,p1_0.id_cliente,c1_0.id,c1_0.email,c1_0.nombre,p1_0.fecha,p1_0.importe from pedido p1_0 left join cliente c1_0 on c1_0.id=p1_0.id_cliente where p1_0.id=?]
+2026-02-22 16:38:28,784 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:39:57,915 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:39:58,359 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:39:58,451 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:39:59,091 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:39:59,719 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:39:59,722 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:39:59,963 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:40:01,701 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:40:01,845 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:40:01,862 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:40:01,862 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:40:01,951 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:40:01,952 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:40:01,982 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:40:02,017 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:40:02,053 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:40:02,056 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:40:02,057 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:40:02,058 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:40:32,564 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:40:32,987 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:40:33,084 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:40:33,734 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:40:34,405 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:40:34,409 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:40:34,648 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:40:36,266 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:40:36,419 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:40:36,434 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:40:36,435 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:40:36,516 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-22 16:40:36,517 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'
+2026-02-22 16:40:36,530 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error creando al cliente: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-22 16:40:36,547 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:40:36,550 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:40:36,553 [main] ERROR dev.mendo.servicio.PedidoServicio        - Error annadiendo el pedido: Identifier may not be null
+2026-02-22 16:40:36,555 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:40:57,087 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:40:57,486 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:40:57,572 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:40:58,242 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:40:58,904 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:40:58,907 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:40:59,146 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:41:00,725 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:41:00,857 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:41:00,873 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:41:00,874 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:41:00,963 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:41:00,965 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:41:00,989 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:41:00,990 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:41:01,000 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:41:01,002 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:41:01,003 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:41:01,005 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:42:09,531 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:42:09,996 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:42:10,090 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:42:10,746 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:42:11,413 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:42:11,416 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:42:11,660 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:42:13,241 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:42:13,393 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:42:13,407 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:42:13,408 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:42:13,487 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:42:13,490 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:42:13,515 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:42:13,516 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:42:13,525 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:42:13,527 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:42:13,527 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:42:13,527 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:43:33,073 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:43:33,515 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:43:33,599 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:43:34,219 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:43:34,907 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:43:34,910 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:43:35,165 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:43:36,781 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:43:36,915 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:43:36,930 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:43:36,931 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:43:37,022 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:43:37,023 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,049 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:43:37,051 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,060 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:43:37,062 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,063 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:43:37,064 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:43:37,094 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:43:37,095 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,098 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:43:37,099 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,106 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:43:37,108 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,108 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 16:43:37,109 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 16:43:37,120 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:43:37,121 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,123 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:43:37,124 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,129 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:43:37,130 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:43:37,130 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 16:43:37,131 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 16:43:37,140 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:47:29,035 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:47:29,462 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:47:29,549 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:47:30,180 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:47:30,831 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:47:30,835 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:47:31,081 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:47:32,741 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:47:32,887 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:47:32,904 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:47:32,905 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:47:32,991 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:47:32,993 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,018 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:47:33,019 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,029 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:47:33,031 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,032 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:47:33,032 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:47:33,065 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:47:33,066 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,069 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:47:33,070 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,077 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:47:33,078 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,079 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 16:47:33,079 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 16:47:33,087 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:47:33,089 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,091 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:47:33,092 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,096 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:47:33,097 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,097 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 16:47:33,098 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 16:47:33,107 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:47:33,109 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,115 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:47:33,116 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,126 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 16:47:33,127 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 16:47:33,134 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 16:47:33,134 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,136 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 16:47:33,137 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:47:33,139 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        cliente 
+    where
+        id=?
+2026-02-22 16:47:33,139 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:47:33,147 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:54:08,210 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:54:08,651 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:54:08,746 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:54:09,480 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:54:10,205 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:54:10,210 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:54:10,496 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:54:12,247 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:54:12,386 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:54:12,400 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:54:12,400 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:54:12,481 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:12,482 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,508 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:12,509 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,518 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:12,519 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,520 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:54:12,521 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:54:12,549 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:12,551 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,554 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:12,555 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,564 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:12,565 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,567 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 16:54:12,568 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 16:54:12,578 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:12,580 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,582 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:12,583 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,588 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:12,589 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,591 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 16:54:12,591 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 16:54:12,603 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:12,604 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 16:54:12,606 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 16:54:12,607 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-22 16:54:12,617 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 16:54:12,618 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-22 16:54:12,627 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 16:54:44,566 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 16:54:44,984 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 16:54:45,075 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 16:54:45,717 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 16:54:46,377 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 16:54:46,381 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 16:54:46,639 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 16:54:48,315 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 16:54:48,428 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 16:54:48,444 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 16:54:48,445 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 16:54:48,540 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:48,543 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,570 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:48,571 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,582 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:48,584 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,585 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 16:54:48,586 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 16:54:48,617 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:48,619 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,621 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:48,623 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,633 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:48,633 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,635 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 16:54:48,635 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 16:54:48,657 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:48,659 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,662 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 16:54:48,664 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,670 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 16:54:48,671 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,673 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 16:54:48,674 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 16:54:48,688 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 16:54:48,689 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 16:54:48,693 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 16:54:48,694 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 16:54:48,706 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 16:54:48,708 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 16:54:48,718 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 17:16:26,814 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:16:27,277 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:16:27,372 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:16:28,100 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:16:28,776 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 17:16:28,779 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 17:16:29,041 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 17:16:30,721 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 17:16:30,873 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 17:16:30,888 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 17:16:30,889 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 17:16:30,977 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:16:30,979 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,007 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:16:31,008 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,018 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:16:31,019 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,020 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 17:16:31,022 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 17:16:31,054 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:16:31,056 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,060 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:16:31,061 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,069 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:16:31,070 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,071 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 17:16:31,072 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 17:16:31,085 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:16:31,086 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,089 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:16:31,090 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,094 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:16:31,096 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,096 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 17:16:31,097 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 17:16:31,107 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:16:31,108 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,111 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 17:16:31,112 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:16:31,123 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:16:31,123 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:16:31,738 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0
+2026-02-22 17:16:31,795 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error al realizar el reporte: Incorrect query result type: query produces 'java.lang.Double' but type 'dev.mendo.dominio.modelo.Pedido' was given
+2026-02-22 17:16:31,798 [main] INFO  dev.mendo.Main                           - nombre 		| email 			| total_gastado
+2026-02-22 17:16:31,800 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:16:31,800 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,803 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:16:31,804 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,812 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:16:31,813 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,817 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:16:31,817 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:16:31,820 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        cliente 
+    where
+        id=?
+2026-02-22 17:16:31,820 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:16:31,829 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 17:18:12,274 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:18:12,729 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:18:12,828 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:18:13,618 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:18:13,986 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:18:14,508 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:18:14,609 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:18:15,360 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:18:16,062 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 17:18:16,066 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 17:18:16,324 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 17:18:18,178 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 17:18:18,335 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 17:18:18,353 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 17:18:18,354 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 17:18:18,472 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:18:18,474 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,498 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:18:18,499 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,508 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:18:18,510 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,510 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 17:18:18,511 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 17:18:18,542 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:18:18,544 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,550 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:18:18,551 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,560 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:18:18,561 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,561 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 17:18:18,561 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 17:18:18,573 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:18:18,574 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,577 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:18:18,578 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,582 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:18:18,583 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,584 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 17:18:18,585 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 17:18:18,595 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:18:18,596 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:18,599 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 17:18:18,600 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:18:18,612 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:18:18,613 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:18:19,163 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0
+2026-02-22 17:18:19,198 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error al realizar el reporte: org.hibernate.query.SemanticException: Could not interpret path expression 'c.cliente'
+2026-02-22 17:18:19,202 [main] INFO  dev.mendo.Main                           - nombre 		| email 			| total_gastado
+2026-02-22 17:18:19,204 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:18:19,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:19,210 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:18:19,211 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:19,222 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:18:19,223 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:19,226 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:18:19,226 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:18:19,229 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        cliente 
+    where
+        id=?
+2026-02-22 17:18:19,230 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:18:19,240 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 17:19:10,920 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:19:11,351 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:19:11,445 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:19:12,159 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:19:12,880 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 17:19:12,883 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 17:19:13,144 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 17:19:14,860 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 17:19:15,016 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 17:19:15,032 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 17:19:15,032 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 17:19:15,149 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:19:15,152 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,184 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:19:15,185 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,195 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:19:15,197 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,198 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 17:19:15,199 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 17:19:15,228 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:19:15,231 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,234 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:19:15,235 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,244 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:19:15,245 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,246 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 17:19:15,246 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 17:19:15,257 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:19:15,259 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,262 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:19:15,263 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,267 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:19:15,269 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,269 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 17:19:15,269 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 17:19:15,279 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:19:15,281 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,285 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 17:19:15,286 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:19:15,295 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:19:15,296 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:19:15,897 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0
+2026-02-22 17:19:15,958 [main] ERROR dev.mendo.servicio.ClienteServicio       - Error al realizar el reporte: org.hibernate.query.SyntaxException: At 1:37 and token 'c', mismatched input 'c', expecting one of the following tokens: <EOF>, '.', '[', '+', '-', '*', '/', '%', '||', AND, BY, DAY, EPOCH, EXCEPT, FETCH, GROUP, HAVING, HOUR, INTERSECT, LIMIT, MINUTE, MONTH, NANOSECOND, OFFSET, OR, ORDER, QUARTER, SECOND, UNION, WEEK, YEAR [SELECT p FROM Pedido p WHERE Cliente c =: cliente]
+2026-02-22 17:19:15,961 [main] INFO  dev.mendo.Main                           - nombre 		| email 			| total_gastado
+2026-02-22 17:19:15,962 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:19:15,964 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,966 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:19:15,968 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,977 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:19:15,978 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:15,982 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:19:15,982 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:19:15,986 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        cliente 
+    where
+        id=?
+2026-02-22 17:19:15,987 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:19:16,015 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 17:21:33,662 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:21:34,096 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:21:34,182 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:21:34,819 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:21:35,452 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 17:21:35,455 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 17:21:35,669 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 17:21:37,427 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 17:21:37,570 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 17:21:37,584 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 17:21:37,585 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 17:21:37,689 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:21:37,691 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,717 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:21:37,718 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,728 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:21:37,731 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,731 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 17:21:37,731 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 17:21:37,764 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:21:37,767 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,770 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:21:37,771 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,780 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:21:37,782 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,783 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 17:21:37,784 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 17:21:37,797 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:21:37,799 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,803 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:21:37,805 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,810 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:21:37,812 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,812 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 17:21:37,813 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 17:21:37,824 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:21:37,826 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:37,829 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 17:21:37,831 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-22 17:21:37,844 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:21:37,844 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-22 17:21:38,371 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0
+2026-02-22 17:21:38,430 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:21:38,431 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:38,441 [main] INFO  dev.mendo.Main                           - nombre 		| email 			| total_gastado
+2026-02-22 17:21:38,442 [main] INFO  dev.mendo.Main                           - Jacobo Sanz | jsanz@empresa.es | 141.0
+2026-02-22 17:21:38,443 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:21:38,445 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:38,448 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:21:38,449 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:38,457 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:21:38,458 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [4]
+2026-02-22 17:21:38,460 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:21:38,462 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-22 17:21:38,463 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        cliente 
+    where
+        id=?
+2026-02-22 17:21:38,464 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-22 17:21:38,474 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
+2026-02-22 17:22:19,137 [main] INFO  dev.mendo.Main                           - ======= APP INICIADA ===============
+2026-02-22 17:22:19,560 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-22 17:22:19,653 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-22 17:22:20,385 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-22 17:22:21,053 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63411512
+2026-02-22 17:22:21,056 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-22 17:22:21,290 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 20
+2026-02-22 17:22:22,942 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 17:22:23,085 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        cliente
+        (email, nombre) 
+    values
+        (?, ?)
+2026-02-22 17:22:23,099 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 17:22:23,100 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jacobo Sanz]
+2026-02-22 17:22:23,174 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:22:23,176 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,196 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:22:23,199 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,205 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:22:23,207 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,207 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-29]
+2026-02-22 17:22:23,207 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [100.5]
+2026-02-22 17:22:23,238 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:22:23,240 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,243 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:22:23,244 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,252 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:22:23,253 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,253 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-30]
+2026-02-22 17:22:23,254 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [40.5]
+2026-02-22 17:22:23,264 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:22:23,266 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,268 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:22:23,269 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,274 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        pedido
+        (cliente_id, fecha, importe) 
+    values
+        (?, ?, ?)
+2026-02-22 17:22:23,276 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,277 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-01-19]
+2026-02-22 17:22:23,278 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DOUBLE) <- [10.0]
+2026-02-22 17:22:23,289 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0 
+    where
+        c1_0.id=?
+2026-02-22 17:22:23,290 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,293 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    join
+        cliente c1_0 
+            on c1_0.id=p1_0.cliente_id 
+    where
+        p1_0.id=?
+2026-02-22 17:22:23,293 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:22:23,302 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        pedido 
+    where
+        id=?
+2026-02-22 17:22:23,302 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-22 17:22:23,838 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    from
+        cliente c1_0
+2026-02-22 17:22:23,904 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id,
+        p1_0.cliente_id,
+        p1_0.fecha,
+        p1_0.importe 
+    from
+        pedido p1_0 
+    where
+        p1_0.cliente_id=?
+2026-02-22 17:22:23,904 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 17:22:23,913 [main] INFO  dev.mendo.Main                           - nombre 		| email 			| total_gastado
+2026-02-22 17:22:23,913 [main] INFO  dev.mendo.Main                           - Jacobo Sanz | jsanz@empresa.es | 141.0
+2026-02-22 17:22:23,913 [main] INFO  dev.mendo.Main                           - ======= APP CERRADA ===============
