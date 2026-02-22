@@ -1,0 +1,33 @@
+Crea un programa en Java haciendo uso de ORM Hibernate + JPA y arquitectura con separación de responsabilidades que cumpla:
+La aplicación persigue la gestión de clientes y los pedidos que realizan los clientes de El Corte Inglés.
+
+CREATE DATABASE IF NOT EXISTS elcorteingles CHARSET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE elcorteingles;
+
+CREATE TABLE cliente (
+    id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE
+);
+
+CREATE TABLE pedido (
+    id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    importe DECIMAL(10,2) NOT NULL,
+    cliente_id SMALLINT UNSIGNED NOT NULL,
+    CONSTRAINT fk_pedido_cliente FOREIGN KEY (cliente_id) REFERENCES cliente(id)
+);
+
+INSERT INTO cliente values (1, 'Jacobo Sanz','jsanz@empresa.es');
+INSERT INTO pedido values (1, '2026-01-29',100.5,1);
+INSERT INTO pedido values (2, '2026-01-30',40.5,1);
+INSERT INTO pedido values (3, '2026-01-19',10.0,1);
+
+La aplicación debe implementar la siguiente lógica:
+	a) Crear un nuevo cliente
+	b) Añadir pedido a cliente
+	c) Eliminar cliente junto con todos sus pedidos
+	d) Eliminar un pedido de un cliente
+	e) Generar un reporte personalizado de todos los clientes junto con el importe total gastado por cada uno:
+			nombre 		| email 			| total_gastado
+			Jacobo Sanz |jsanz@empresa.es	| 151.0

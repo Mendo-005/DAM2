@@ -92,7 +92,6 @@ public class UsuarioServicio {
             }
 
             Perfil antiguoPerfil = pd.getPerfilByUser(u); // recupero el perfil antiguo
-
             pd.removePerfil(antiguoPerfil); // lo borro
 
             pd.addPerfil(nuevoPerfil); // persisto el nuevo perfil

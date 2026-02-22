@@ -1,8 +1,0 @@
-mendo\dev\servicios\PerfilServicios.class
-mendo\dev\util\JPAUtil.class
-mendo\dev\servicios\UsuarioServicio.class
-mendo\dev\dominio\modelo\Perfil.class
-mendo\dev\Main.class
-mendo\dev\persistencia\dao\PerfilDAO.class
-mendo\dev\persistencia\dao\UsuarioDAO.class
-mendo\dev\dominio\modelo\Usuario.class

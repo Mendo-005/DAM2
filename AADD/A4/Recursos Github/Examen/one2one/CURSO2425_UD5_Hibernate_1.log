@@ -1,0 +1,1545 @@
+2026-02-21 23:32:39,345 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:32:39,452 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:32:39,523 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:32:39,881 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:32:39,881 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:32:39,881 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:32:39,927 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:32:40,245 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:32:40,303 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:32:40,354 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@205f6c55 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@bedb3b68 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg105v5m9ernzmy|33352f32, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8b65e527 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg105v5m9ernzmy|18025ced, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg105v5m9ernzmy|a7e2d9d, numHelperThreads -> 3 ]
+2026-02-21 23:34:31,464 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:34:31,678 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:34:31,785 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:34:31,856 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:34:32,208 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:34:32,209 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:34:32,209 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:34:32,245 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:34:32,499 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:34:32,557 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:34:32,599 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@dfa9ac92 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e8d902cb [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg105xka1z8q9n8|33352f32, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b563ac8a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg105xka1z8q9n8|18025ced, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg105xka1z8q9n8|a7e2d9d, numHelperThreads -> 3 ]
+2026-02-21 23:35:29,888 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:35:30,084 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:35:30,178 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:35:30,251 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:35:30,565 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:35:30,565 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:35:30,566 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:35:30,600 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:35:30,842 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:35:30,898 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:35:30,944 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@310f707e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@b2486757 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg105ytazr3mln7|5b6813df, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@af1a2516 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg105ytazr3mln7|39ad977d, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg105ytazr3mln7|3bde62ff, numHelperThreads -> 3 ]
+2026-02-21 23:35:51,774 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:35:52,012 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:35:52,106 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:35:52,170 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:35:52,504 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:35:52,505 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:35:52,505 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:35:52,543 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:35:52,794 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:35:52,851 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:35:52,893 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@7aa4e360 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@fbddda39 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg105za8o11bdljq|5b6813df, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f8af97f8 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg105za8o11bdljq|39ad977d, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg105za8o11bdljq|3bde62ff, numHelperThreads -> 3 ]
+2026-02-21 23:36:35,740 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:36:35,962 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:36:36,049 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:36:36,113 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:36:36,451 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:36:36,452 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:36:36,452 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:36:36,486 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:36:36,738 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:36:36,792 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:36:36,834 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5bfb3ead [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@dd343586 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg1060854lr603w|5b6813df, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@da05f345 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg1060854lr603w|39ad977d, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg1060854lr603w|3bde62ff, numHelperThreads -> 3 ]
+2026-02-21 23:39:30,068 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:39:30,285 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:39:30,380 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:39:30,448 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:39:30,748 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:39:30,749 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:39:30,749 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:39:30,781 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:39:31,021 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:39:31,080 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:39:31,124 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@24ad10ee [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@c364e045 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg1063ymr1ru3rof|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@389c2130 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg1063ymr1ru3rof|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg1063ymr1ru3rof|4b6166aa, numHelperThreads -> 3 ]
+2026-02-21 23:39:33,601 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-21 23:39:33,692 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-21 23:39:33,710 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-21 23:39:33,711 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-21 23:39:33,712 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-21 23:39:33,713 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-21 23:39:33,789 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-21 23:39:33,790 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-21 23:39:33,797 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion de del usuario y su perfil: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-21 23:39:34,437 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-21 23:39:34,590 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        null=?
+2026-02-21 23:39:34,592 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-21 23:39:34,598 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion del reporte: No result found for query [SELECT p FROM Perfil p WHERE Usuario = :usuario]
+2026-02-21 23:40:13,515 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:40:13,736 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:40:13,831 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:40:13,937 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:40:14,284 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:40:14,284 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:40:14,285 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:40:14,317 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:40:14,587 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:40:14,646 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:40:14,689 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@fc4f07fa [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@eb61d7b9 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg1064w839t6q8y|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@103e183c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg1064w839t6q8y|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg1064w839t6q8y|4b6166aa, numHelperThreads -> 3 ]
+2026-02-21 23:40:16,995 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-21 23:40:17,088 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-21 23:40:17,106 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-21 23:40:17,107 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-21 23:40:17,108 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-21 23:40:17,108 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-21 23:40:17,142 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-21 23:40:17,144 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-21 23:40:17,145 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-21 23:40:17,146 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-21 23:40:17,173 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-21 23:40:17,174 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-21 23:40:17,175 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-21 23:40:17,176 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-21 23:40:17,176 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-21 23:40:17,690 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-21 23:40:17,821 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        null=?
+2026-02-21 23:40:17,822 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-21 23:40:17,825 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion del reporte: No result found for query [SELECT p FROM Perfil p WHERE Usuario = :usuario]
+2026-02-21 23:43:30,632 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:43:30,842 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:43:30,928 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:43:30,995 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:43:31,341 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:43:31,342 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:43:31,343 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:43:31,375 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:43:31,621 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:43:31,681 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:43:31,725 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@daf8c202 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@314bcb1 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg106949slipnkx|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@eee7d244 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg106949slipnkx|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg106949slipnkx|4b6166aa, numHelperThreads -> 3 ]
+2026-02-21 23:43:34,082 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-21 23:43:34,179 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-21 23:43:34,196 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-21 23:43:34,196 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-21 23:43:34,198 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-21 23:43:34,198 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-21 23:43:34,271 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-21 23:43:34,271 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-21 23:43:34,278 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion de del usuario y su perfil: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-21 23:43:34,691 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion del reporte: org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'usuario'
+2026-02-21 23:44:03,615 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:44:03,825 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:44:03,922 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:44:03,986 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:44:04,323 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:44:04,323 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:44:04,324 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:44:04,360 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:44:04,599 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:44:04,653 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:44:04,700 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@14d5c243 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d3663050 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg1069tq31ty04kb|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@28c4d285 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg1069tq31ty04kb|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg1069tq31ty04kb|4b6166aa, numHelperThreads -> 3 ]
+2026-02-21 23:44:07,669 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-21 23:44:07,772 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-21 23:44:07,793 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-21 23:44:07,794 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-21 23:44:07,794 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-21 23:44:07,795 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-21 23:44:07,877 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-21 23:44:07,878 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-21 23:44:07,885 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion de del usuario y su perfil: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-21 23:44:08,466 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-21 23:44:08,566 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        null=?
+2026-02-21 23:44:08,568 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-21 23:44:08,571 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion del reporte: No result found for query [SELECT p FROM Perfil p WHERE Usuario = :usuario]
+2026-02-21 23:45:39,034 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-21 23:45:39,244 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-21 23:45:39,346 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-21 23:45:39,416 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-21 23:45:39,756 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-21 23:45:39,757 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-21 23:45:39,758 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-21 23:45:39,790 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-21 23:45:40,065 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-21 23:45:40,120 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-21 23:45:40,163 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2189ce39 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@2ea5cd9a [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg106bvcwosu8mr|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@3578de7b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg106bvcwosu8mr|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg106bvcwosu8mr|4b6166aa, numHelperThreads -> 3 ]
+2026-02-21 23:45:42,518 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-21 23:45:42,615 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-21 23:45:42,631 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-21 23:45:42,633 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-21 23:45:42,633 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-21 23:45:42,634 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-21 23:45:42,700 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-21 23:45:42,701 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-21 23:45:42,708 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion de del usuario y su perfil: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-21 23:45:43,222 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-21 23:45:43,349 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-21 23:45:43,350 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-21 23:45:43,365 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 10:07:26,441 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:07:26,676 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:07:26,768 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:07:26,836 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:07:27,259 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:07:27,259 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:07:27,259 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:07:27,309 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:07:27,760 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:07:27,825 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:07:27,885 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ff745b34 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1d08353f [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10sji14mit7hy|89ff02e, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@13636b76 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10sji14mit7hy|549949be, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10sji14mit7hy|4b6166aa, numHelperThreads -> 3 ]
+2026-02-22 10:07:30,438 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:07:30,532 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:07:30,551 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:07:30,551 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:07:30,553 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:07:30,554 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:07:30,583 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:07:30,585 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:07:30,587 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:07:30,587 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 10:07:30,609 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 10:07:30,611 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:07:30,613 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:07:30,613 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:07:30,613 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 10:07:30,680 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 10:07:30,681 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:07:31,214 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:07:31,317 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:07:31,318 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:07:31,332 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 10:07:31,333 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 10:12:56,686 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:12:56,892 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:12:56,994 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:12:57,069 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:12:57,390 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:12:57,391 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:12:57,391 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:12:57,427 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:12:57,689 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:12:57,757 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:12:57,816 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5667855f [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@93d1a116 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10sqkqzmyr65d|62679465, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@494a101e [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10sqkqzmyr65d|17a87e37, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10sqkqzmyr65d|4fd4cae3, numHelperThreads -> 3 ]
+2026-02-22 10:13:00,239 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:13:00,323 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:13:00,341 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:13:00,342 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:13:00,343 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:13:00,344 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:13:00,420 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-22 10:13:00,421 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-22 10:13:00,429 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion de del usuario y su perfil: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-22 10:13:00,445 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:13:00,446 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:13:00,446 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:13:00,447 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:13:00,447 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:13:00,451 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-22 10:13:00,451 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'
+2026-02-22 10:13:00,452 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la actualizacion de del usuario: could not execute statement [Duplicate entry 'jsanz@empresa.es' for key 'usuario.email'] [insert into usuario (apellidos,email,fecha_nacimiento,nombre) values (?,?,?,?)]
+2026-02-22 10:13:01,033 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:13:01,160 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:13:01,162 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:13:01,176 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 10:13:01,177 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 10:16:45,526 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:16:45,729 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:16:45,823 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:16:45,896 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:16:46,234 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:16:46,235 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:16:46,235 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:16:46,268 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:16:46,529 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:16:46,590 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:16:46,637 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6d0a3f46 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@aa745afd [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10svhbn9i2npo|62679465, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@5fecca05 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10svhbn9i2npo|17a87e37, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10svhbn9i2npo|4fd4cae3, numHelperThreads -> 3 ]
+2026-02-22 10:16:49,103 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:16:49,186 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:16:49,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:16:49,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:16:49,206 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:16:49,207 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:16:49,245 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:16:49,248 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:16:49,248 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:16:49,249 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 10:16:49,278 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 10:16:49,281 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:16:49,281 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:16:49,282 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:16:49,282 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 10:16:49,341 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 10:16:49,344 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:16:49,356 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:16:49,357 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 10:16:49,358 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 10:16:49,358 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:16:49,868 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:16:49,986 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:16:49,987 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:16:49,996 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la creacion del reporte: Query did not return a unique result: 2 results were returned
+2026-02-22 10:16:50,001 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 10:20:50,365 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:20:50,568 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:20:50,660 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:20:50,732 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:20:51,041 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:20:51,042 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:20:51,042 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:20:51,072 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:20:51,307 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:20:51,363 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:20:51,407 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@bc7d8369 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@bb0943dd [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10t0q7o14sj83n|1d71006f, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ca3e093e [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10t0q7o14sj83n|20a14b55, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10t0q7o14sj83n|a1217f9, numHelperThreads -> 3 ]
+2026-02-22 10:20:53,740 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:20:53,853 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:20:53,874 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:20:53,876 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:20:53,877 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:20:53,877 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:20:53,906 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:20:53,908 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:20:53,909 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:20:53,909 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 10:20:53,935 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 10:20:53,937 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:20:53,937 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:20:53,938 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:20:53,938 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 10:20:54,006 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 10:20:54,008 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:20:54,615 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:20:54,616 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:20:54,633 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la actualizacion de del usuario: org.hibernate.ObjectDeletedException: deleted instance passed to merge: [dev.mendo.dominio.modelo.Usuario#<null>]
+2026-02-22 10:20:54,644 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:20:54,651 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:20:54,651 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:20:54,661 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 10:20:54,662 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 10:26:12,235 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:26:12,511 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:26:12,613 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:26:12,691 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:26:13,056 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:26:13,057 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:26:13,057 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:26:13,090 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:26:13,329 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:26:13,389 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:26:13,430 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8aa50cb4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@b1d2e3f2 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10t7mom17dsdzt|1d71006f, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c107a953 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10t7mom17dsdzt|20a14b55, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10t7mom17dsdzt|a1217f9, numHelperThreads -> 3 ]
+2026-02-22 10:26:15,735 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:26:15,827 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:26:15,845 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:26:15,846 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:26:15,846 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:26:15,847 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:26:15,875 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:26:15,877 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:26:15,878 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:26:15,878 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 10:26:15,903 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 10:26:15,904 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:26:15,905 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:26:15,905 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:26:15,905 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 10:26:15,962 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 10:26:15,964 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:26:16,549 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:26:16,550 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:26:16,565 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la actualizacion de del usuario: org.hibernate.ObjectDeletedException: deleted instance passed to merge: [dev.mendo.dominio.modelo.Usuario#<null>]
+2026-02-22 10:26:16,576 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:26:16,583 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:26:16,583 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:26:16,592 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 10:26:16,592 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 10:31:36,365 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 10:31:36,568 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 10:31:36,660 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 10:31:36,724 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 10:31:37,041 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 10:31:37,042 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 10:31:37,042 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 10:31:37,077 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 10:31:37,324 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 10:31:37,389 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 10:31:37,432 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@403b3ed [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@24c9cc91 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10teko91pmmc45|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@3b719cf4 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10teko91pmmc45|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10teko91pmmc45|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 10:31:39,739 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 10:31:39,846 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 10:31:39,865 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 10:31:39,865 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 10:31:39,865 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 10:31:39,867 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 10:31:39,903 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:31:39,906 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:31:39,907 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:31:39,907 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 10:31:39,929 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 10:31:39,930 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 10:31:39,931 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 10:31:39,931 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:31:39,932 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 10:31:39,993 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 10:31:39,996 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:31:40,610 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:31:40,612 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:31:40,623 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 10:31:40,624 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 10:31:40,624 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 10:31:40,624 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 10:31:40,632 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        perfil 
+    where
+        id_perfil=?
+2026-02-22 10:31:40,633 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:31:40,654 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 10:31:40,659 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 10:31:40,659 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 10:31:40,669 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | Messi10
+2026-02-22 10:31:40,670 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:05:48,892 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:05:49,139 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:05:49,251 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:05:49,332 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:05:49,666 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:05:49,666 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:05:49,666 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:05:49,704 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:05:49,989 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:05:50,058 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:05:50,104 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@e459cba5 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@51fe449 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10umkhv1chlo56|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1bc7b4ac [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10umkhv1chlo56|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10umkhv1chlo56|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 11:05:52,522 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:05:52,619 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:05:52,643 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:05:52,644 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:05:52,644 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:05:52,645 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:05:52,681 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:05:52,683 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:05:52,684 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:05:52,685 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:05:52,713 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:05:52,715 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:05:52,715 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:05:52,716 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:05:52,716 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:05:52,781 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:05:52,785 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:05:53,456 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:05:53,457 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:05:53,464 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:05:53,465 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:05:53,465 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:05:53,465 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:05:53,471 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:05:53,471 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:05:53,473 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:05:53,473 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:05:53,473 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:05:53,529 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-02-22 11:05:53,530 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry 'Messi10' for key 'perfil.username'
+2026-02-22 11:05:53,543 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la actualizacion de del usuario: Error while committing the transaction
+2026-02-22 11:05:53,550 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:05:53,555 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:05:53,555 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:05:53,566 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | jsanz3
+2026-02-22 11:05:53,566 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:06:55,898 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:06:56,098 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:06:56,227 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:06:56,288 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:06:56,606 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:06:56,607 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:06:56,607 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:06:56,645 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:06:56,916 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:06:56,965 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:06:57,006 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c1f1155e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2b72e02 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10uo059vhgt4c|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f95efe65 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10uo059vhgt4c|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10uo059vhgt4c|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 11:06:59,275 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:06:59,364 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:06:59,384 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:06:59,385 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:06:59,385 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:06:59,386 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:06:59,414 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:06:59,416 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:06:59,418 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:06:59,419 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:06:59,440 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:06:59,441 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:06:59,442 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:06:59,443 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:06:59,443 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:06:59,499 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:06:59,502 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:07:00,093 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:07:00,095 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:07:00,101 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:07:00,102 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:07:00,102 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:07:00,102 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:07:00,104 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:07:00,119 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:07:00,125 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:07:00,126 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:07:00,135 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | Messi10
+2026-02-22 11:07:00,135 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:08:53,142 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:08:53,334 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:08:53,428 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:08:53,496 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:08:53,803 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:08:53,803 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:08:53,804 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:08:53,836 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:08:54,085 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:08:54,144 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:08:54,188 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5d558f15 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7e1ba7b9 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10uqikkmjqh86|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@94c3781c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10uqikkmjqh86|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10uqikkmjqh86|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 11:08:56,481 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:08:56,571 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:08:56,589 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:08:56,590 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:08:56,590 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:08:56,591 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:08:56,622 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:08:56,624 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:08:56,625 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:08:56,625 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:08:56,644 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:08:56,645 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:08:56,646 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:08:56,646 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:08:56,646 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:08:56,706 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:08:56,708 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:08:57,376 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:08:57,377 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:08:57,385 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:08:57,386 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:08:57,386 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:08:57,387 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:08:57,387 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:08:57,402 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:08:57,403 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:08:57,410 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        usuario 
+    where
+        id_usuario=?
+2026-02-22 11:08:57,411 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:08:57,475 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1451, SQLState: 23000
+2026-02-22 11:08:57,475 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`credenciales`.`perfil`, CONSTRAINT `fk_perfil_usuario` FOREIGN KEY (`usuario`) REFERENCES `usuario` (`id_usuario`))
+2026-02-22 11:08:57,487 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la borrado de del usuario y su perfil: Error while committing the transaction
+2026-02-22 11:08:57,495 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:08:57,502 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:08:57,502 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:08:57,513 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | Messi10
+2026-02-22 11:08:57,514 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:10:59,485 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:10:59,674 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:10:59,767 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:10:59,857 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:11:00,198 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:11:00,198 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:11:00,198 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:11:00,230 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:11:00,474 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:11:00,532 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:11:00,576 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@9dc2f81c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@be8910c0 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10ut83e1395goa|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d530e123 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10ut83e1395goa|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10ut83e1395goa|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 11:11:02,960 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:11:03,050 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:11:03,068 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:11:03,069 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:11:03,070 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:11:03,071 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:11:03,103 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:11:03,105 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:11:03,106 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:11:03,107 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:11:03,136 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:11:03,137 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:11:03,138 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:11:03,138 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:11:03,138 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:11:03,196 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:11:03,199 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:11:03,799 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:11:03,801 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:11:03,806 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:11:03,808 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:11:03,808 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:11:03,808 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:11:03,808 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:11:03,822 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:11:03,823 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:11:03,832 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        usuario 
+    where
+        id_usuario=?
+2026-02-22 11:11:03,832 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:11:03,894 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1451, SQLState: 23000
+2026-02-22 11:11:03,895 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`credenciales`.`perfil`, CONSTRAINT `fk_perfil_usuario` FOREIGN KEY (`usuario`) REFERENCES `usuario` (`id_usuario`))
+2026-02-22 11:11:03,906 [main] ERROR dev.mendo.servicio.UsuarioServicio       - Error en la borrado de del usuario y su perfil: Error while committing the transaction
+2026-02-22 11:11:03,915 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:11:03,921 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:11:03,921 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:11:03,930 [main] INFO  dev.mendo.Main                           - Jacobo | Sanz de Baranda | jsanz@empresa.es | Messi10
+2026-02-22 11:11:03,932 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:17:45,419 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:17:45,641 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:17:45,736 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:17:45,808 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:17:46,117 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:17:46,118 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:17:46,118 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:17:46,151 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:17:46,395 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:17:46,455 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:17:46,500 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8e300945 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@aef621e9 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10v1xav1ez1sil|6a988392, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c59df24c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10v1xav1ez1sil|3eeb318f, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10v1xav1ez1sil|4a067c25, numHelperThreads -> 3 ]
+2026-02-22 11:17:48,792 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:17:48,878 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:17:48,894 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:17:48,895 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:17:48,895 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:17:48,896 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:17:48,925 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:17:48,927 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:17:48,927 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:17:48,927 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:17:48,969 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:17:48,986 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:17:48,992 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:17:48,993 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:17:48,994 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:17:49,066 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:17:49,068 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,679 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:17:49,682 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,688 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:17:49,689 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:17:49,691 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:17:49,692 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:17:49,692 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:17:49,708 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:17:49,709 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,717 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:17:49,718 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,729 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        perfil 
+    where
+        id_perfil=?
+2026-02-22 11:17:49,729 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,734 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        usuario 
+    where
+        id_usuario=?
+2026-02-22 11:17:49,734 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:17:49,751 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:17:49,757 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
+2026-02-22 11:19:36,913 [main] INFO  dev.mendo.Main                           - ========= APP INICIADA ===============
+2026-02-22 11:19:37,148 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaTest]
+2026-02-22 11:19:37,242 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-22 11:19:37,308 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-22 11:19:37,617 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/credenciales
+2026-02-22 11:19:37,618 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2026-02-22 11:19:37,619 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2026-02-22 11:19:37,651 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2026-02-22 11:19:37,927 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2026-02-22 11:19:37,985 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2026-02-22 11:19:38,035 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f5c8165d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@cca4ed49 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge16abg10v4bc91pwdvdz|2552f2cb, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@788b2ec0 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge16abg10v4bc91pwdvdz|75b25825, jdbcUrl -> jdbc:mysql://localhost:3306/credenciales, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge16abg10v4bc91pwdvdz|791cbf87, numHelperThreads -> 3 ]
+2026-02-22 11:19:40,413 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22 11:19:40,506 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    values
+        (?, ?, ?, ?)
+2026-02-22 11:19:40,528 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Sanz de Baranda]
+2026-02-22 11:19:40,530 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz@empresa.es]
+2026-02-22 11:19:40,530 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2000-03-08]
+2026-02-22 11:19:40,531 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Jacobo]
+2026-02-22 11:19:40,568 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        perfil
+        (password_hash, username, usuario) 
+    values
+        (?, ?, ?)
+2026-02-22 11:19:40,569 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:19:40,570 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:19:40,570 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [null]
+2026-02-22 11:19:40,592 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:19:40,594 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [asdfasnmxXXXXqlk2334nmwe.3kn3$]
+2026-02-22 11:19:40,594 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [jsanz3]
+2026-02-22 11:19:40,594 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:19:40,596 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:19:40,663 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre,
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username 
+    from
+        usuario u1_0 
+    left join
+        perfil p1_0 
+            on u1_0.id_usuario=p1_0.usuario 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:19:40,666 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:19:41,314 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username,
+        p1_0.usuario 
+    from
+        perfil p1_0 
+    where
+        p1_0.usuario=?
+2026-02-22 11:19:41,315 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:19:41,321 [main] DEBUG org.hibernate.SQL                        - 
+    update
+        perfil 
+    set
+        password_hash=?,
+        username=?,
+        usuario=? 
+    where
+        id_perfil=?
+2026-02-22 11:19:41,322 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [joseSala]
+2026-02-22 11:19:41,322 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Messi10]
+2026-02-22 11:19:41,322 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:BIGINT) <- [1]
+2026-02-22 11:19:41,323 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:BIGINT) <- [1]
+2026-02-22 11:19:41,336 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre,
+        p1_0.id_perfil,
+        p1_0.password_hash,
+        p1_0.username 
+    from
+        usuario u1_0 
+    left join
+        perfil p1_0 
+            on u1_0.id_usuario=p1_0.usuario 
+    where
+        u1_0.id_usuario=?
+2026-02-22 11:19:41,338 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:19:41,349 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        perfil 
+    where
+        id_perfil=?
+2026-02-22 11:19:41,350 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:19:41,355 [main] DEBUG org.hibernate.SQL                        - 
+    delete 
+    from
+        usuario 
+    where
+        id_usuario=?
+2026-02-22 11:19:41,356 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-22 11:19:41,375 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        u1_0.id_usuario,
+        u1_0.apellidos,
+        u1_0.email,
+        u1_0.fecha_nacimiento,
+        u1_0.nombre 
+    from
+        usuario u1_0
+2026-02-22 11:19:41,380 [main] INFO  dev.mendo.Main                           - ========= APP CERRADA ===============
