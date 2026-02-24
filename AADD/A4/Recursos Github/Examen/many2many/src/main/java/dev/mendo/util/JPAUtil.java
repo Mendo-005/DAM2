@@ -16,7 +16,7 @@ public class JPAUtil {
     private static final EntityManagerFactory EMF;
     
     static{
-        EMF = Persistence.createEntityManagerFactory("PersistenciaPeliculas");
+        EMF = Persistence.createEntityManagerFactory("Persistencia");
         LOG.debug("Creando pool de conexiones...");
     }
     
