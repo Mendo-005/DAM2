@@ -18,6 +18,7 @@ public class Main {
 
     public static void main(String[] args) 
     {
+        LOG.info("============= APP INICICADA =======================");
 
         // a)
         Autor autor = new Autor("Jose1", Sex.H);
@@ -54,5 +55,7 @@ public class Main {
         for (String entrada : reporte) {
             LOG.info(entrada);
         }
+    
+        LOG.info("============= APP CERRADA =======================");
     }
 }

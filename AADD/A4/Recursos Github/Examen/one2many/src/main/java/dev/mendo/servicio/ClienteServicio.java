@@ -33,7 +33,7 @@ public class ClienteServicio
             clienteDAO.persistCliente(cliente);
 
             transaction.commit();
-            LOG.trace("Se ha creado el cliente");
+            LOG.debug("Se ha creado el cliente");
         } 
         catch (RuntimeException e) 
         {
@@ -41,7 +41,7 @@ public class ClienteServicio
             try 
             {
                 transaction.rollback();
-                LOG.trace("Se ha realizado el rollback");  
+                LOG.debug("Se ha realizado el rollback");  
             } catch (Exception e1) 
             {
                 LOG.error("Error al realizar el rollback");
@@ -78,7 +78,7 @@ public class ClienteServicio
             }
 
             transaction.commit();
-            LOG.trace("Se ha borrado al cliente");
+            LOG.debug("Se ha borrado al cliente");
         } 
         catch (RuntimeException e) 
         {
@@ -86,7 +86,7 @@ public class ClienteServicio
             try 
             {
                 transaction.rollback();
-                LOG.trace("Se ha realizado el rollback");  
+                LOG.debug("Se ha realizado el rollback");  
             } catch (Exception e1) 
             {
                 LOG.error("Error al realizar el rollback");
@@ -128,7 +128,7 @@ public class ClienteServicio
            
 
             transaction.commit();
-            LOG.trace("Se ha realizado el reporte");
+            LOG.debug("Se ha realizado el reporte");
         } 
         catch (RuntimeException e) 
         {
@@ -136,7 +136,7 @@ public class ClienteServicio
             try 
             {
                 transaction.rollback();
-                LOG.trace("Se ha realizado el rollback");  
+                LOG.debug("Se ha realizado el rollback");  
             } catch (Exception e1) 
             {
                 LOG.error("Error al realizar el rollback");

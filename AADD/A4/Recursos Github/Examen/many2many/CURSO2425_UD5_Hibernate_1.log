@@ -1032,3 +1032,175 @@
 2026-02-24 19:42:59,088 [main] INFO  dev.mendo.servicio.AutorServicio         - Mario | MendoXXX
 2026-02-24 19:42:59,089 [main] INFO  dev.mendo.servicio.AutorServicio         - Martha Sainz | Sueños del sur
 2026-02-24 19:42:59,089 [main] INFO  dev.mendo.servicio.AutorServicio         - Tim Hook | Los 3 magníficos
+2026-02-25 07:01:00,991 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: Persistencia]
+2026-02-25 07:01:01,136 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-25 07:01:01,940 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-25 07:01:02,837 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e9dc4d0
+2026-02-25 07:01:02,841 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-25 07:01:03,129 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/biblioteca_city]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: biblioteca_city/undefined
+	Autocommit mode: false
+	Isolation level: TRANSACTION_REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 10
+	Maximum pool size: 10
+2026-02-25 07:01:05,259 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-25 07:01:05,429 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        autor
+        (nombre, sex) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,442 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Jose1]
+2026-02-25 07:01:05,443 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:ENUM) <- [H]
+2026-02-25 07:01:05,611 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        libro
+        (fechaPublicacion, titulo) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,613 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2000-08-22]
+2026-02-25 07:01:05,614 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Jose Sala]
+2026-02-25 07:01:05,667 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_autor,
+        a1_0.nombre,
+        a1_0.sex 
+    from
+        autor a1_0 
+    where
+        a1_0.id_autor=?
+2026-02-25 07:01:05,669 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-25 07:01:05,694 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        l1_0.id_libro,
+        l1_0.fechaPublicacion,
+        l1_0.titulo 
+    from
+        libro l1_0 
+    where
+        l1_0.id_libro=?
+2026-02-25 07:01:05,696 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-25 07:01:05,713 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        l1_0.autor_id,
+        l1_1.id_libro,
+        l1_1.fechaPublicacion,
+        l1_1.titulo 
+    from
+        autor_libro l1_0 
+    join
+        libro l1_1 
+            on l1_1.id_libro=l1_0.libro_id 
+    where
+        l1_0.autor_id=?
+2026-02-25 07:01:05,714 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-25 07:01:05,724 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.libro_id,
+        a1_1.id_autor,
+        a1_1.nombre,
+        a1_1.sex 
+    from
+        autor_libro a1_0 
+    join
+        autor a1_1 
+            on a1_1.id_autor=a1_0.autor_id 
+    where
+        a1_0.libro_id=?
+2026-02-25 07:01:05,726 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-25 07:01:05,736 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        autor_libro
+        (libro_id, autor_id) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,738 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-25 07:01:05,738 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:BIGINT) <- [6]
+2026-02-25 07:01:05,748 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        autor
+        (nombre, sex) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,750 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Mario]
+2026-02-25 07:01:05,751 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:ENUM) <- [H]
+2026-02-25 07:01:05,754 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        libro
+        (fechaPublicacion, titulo) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,755 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2010-12-22]
+2026-02-25 07:01:05,756 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [MendoXXX]
+2026-02-25 07:01:05,760 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        autor_libro
+        (libro_id, autor_id) 
+    values
+        (?, ?)
+2026-02-25 07:01:05,761 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-25 07:01:05,761 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:BIGINT) <- [7]
+2026-02-25 07:01:06,394 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        l1_0.id_libro,
+        l1_0.fechaPublicacion,
+        l1_0.titulo 
+    from
+        libro l1_0 
+    join
+        autor_libro a1_0 
+            on l1_0.id_libro=a1_0.libro_id 
+    join
+        autor a1_1 
+            on a1_1.id_autor=a1_0.autor_id 
+    where
+        a1_1.id_autor=?
+2026-02-25 07:01:06,395 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [7]
+2026-02-25 07:01:06,403 [main] INFO  dev.mendo.servicio.AutorServicio         - Libro [id_libro=6, titulo=MendoXXX, fechaPublicacion=2010-12-22]
+2026-02-25 07:01:06,420 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.id_autor,
+        a1_0.nombre,
+        a1_0.sex 
+    from
+        autor a1_0 
+    where
+        ? in (select
+            l1_0.libro_id from autor_libro l1_0 
+        where
+            a1_0.id_autor=l1_0.autor_id)
+2026-02-25 07:01:06,422 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-25 07:01:06,427 [main] INFO  dev.mendo.servicio.AutorServicio         - Autor [id_autor=7, nombre=Mario, sex=H]
+2026-02-25 07:01:06,660 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        concat(a1_0.nombre, ' | ', l1_1.titulo) 
+    from
+        autor a1_0 
+    join
+        autor_libro l1_0 
+            on a1_0.id_autor=l1_0.autor_id 
+    join
+        libro l1_1 
+            on l1_1.id_libro=l1_0.libro_id 
+    order by
+        a1_0.nombre,
+        l1_1.titulo
+2026-02-25 07:01:06,674 [main] INFO  dev.mendo.servicio.AutorServicio         - Davide String | Sueños del sur
+2026-02-25 07:01:06,674 [main] INFO  dev.mendo.servicio.AutorServicio         - Jose1 | Jose Sala
+2026-02-25 07:01:06,675 [main] INFO  dev.mendo.servicio.AutorServicio         - Jose1 | Jose Sala
+2026-02-25 07:01:06,675 [main] INFO  dev.mendo.servicio.AutorServicio         - Mario | MendoXXX
+2026-02-25 07:01:06,675 [main] INFO  dev.mendo.servicio.AutorServicio         - Mario | MendoXXX
+2026-02-25 07:01:06,676 [main] INFO  dev.mendo.servicio.AutorServicio         - Martha Sainz | Sueños del sur
+2026-02-25 07:01:06,676 [main] INFO  dev.mendo.servicio.AutorServicio         - Tim Hook | Los 3 magníficos

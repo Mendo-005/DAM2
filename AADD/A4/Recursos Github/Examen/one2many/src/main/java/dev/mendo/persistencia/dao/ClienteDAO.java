@@ -3,6 +3,7 @@ package dev.mendo.persistencia.dao;
 import java.util.List;
 
 import dev.mendo.dominio.modelo.Cliente;
+import dev.mendo.dominio.modelo.Pedido;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 
@@ -40,4 +41,6 @@ public class ClienteDAO {
         TypedQuery<Cliente> query = entityManager.createQuery("SELECT c FROM Cliente c", Cliente.class);
         return query.getResultList(); 
     }
+
+    
 }

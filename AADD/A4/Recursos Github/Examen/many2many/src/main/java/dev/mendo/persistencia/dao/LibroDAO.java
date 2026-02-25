@@ -39,7 +39,7 @@ public class LibroDAO {
     public List<Autor> getAllAutorFromLibro(Libro libro)
     {
         List<Autor> autores = null;
-        TypedQuery<Autor> query = entityManager.createQuery("SELECT a FROM Autor a WHERE :l MEMBER OF a.libros",Autor.class);
+        TypedQuery<Autor> query = entityManager.createQuery("SELECT a FROM Autor a JOIN a.libros l WHERE l = :l",Autor.class);
         query.setParameter("l", libro);
         autores = query.getResultList();
         return autores;

@@ -50,4 +50,10 @@ public class PedidoDAO {
         return importeTotal;
         
     }
+
+    public List<Cliente> getReporteGeneral()
+    {
+        TypedQuery<Cliente> query = entityManager.createQuery("SELECT p FROM Pedido p JOIN p.cliente c ORDER BY c.nombre",Cliente.class);
+        return query.getResultList();
+    } 
 }

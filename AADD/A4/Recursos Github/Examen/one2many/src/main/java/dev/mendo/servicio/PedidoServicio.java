@@ -1,5 +1,7 @@
 package dev.mendo.servicio;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -43,7 +45,7 @@ public class PedidoServicio
             }
 
             transaction.commit();
-            LOG.trace("Se ha annadido el pedido");
+            LOG.debug("Se ha annadido el pedido");
         } 
         catch (RuntimeException e) 
         {
@@ -51,7 +53,7 @@ public class PedidoServicio
             try 
             {
                 transaction.rollback();
-                LOG.trace("Se ha realizado el rollback");  
+                LOG.debug("Se ha realizado el rollback");  
             } catch (Exception e1) 
             {
                 LOG.error("Error al realizar el rollback");
@@ -93,15 +95,15 @@ public class PedidoServicio
             pedidoDAO.removePedido(pedidoABorrar);
             
             transaction.commit();
-            LOG.trace("Se ha borrado al cliente");
+            LOG.debug("Se ha borrado al pedido");
         } 
         catch (RuntimeException e) 
         {
-            LOG.error("Error borrado al cliente: " + e.getMessage());
+            LOG.error("Error borrado al pedido: " + e.getMessage());
             try 
             {
                 transaction.rollback();
-                LOG.trace("Se ha realizado el rollback");  
+                LOG.debug("Se ha realizado el rollback");  
             } catch (Exception e1) 
             {
                 LOG.error("Error al realizar el rollback");
@@ -113,6 +115,45 @@ public class PedidoServicio
                 entityManager.close();    
             }
         }
+    }
+
+    public List<Cliente> getReporteGeneral() {
+        List<Cliente> reporte = null;
+        EntityManager entityManager = null;
+        EntityTransaction transaction = null;
+        PedidoDAO pedidoDAO = null;
+        try 
+        {
+            entityManager = JPAUtil.getEntityManager();
+            transaction = JPAUtil.getEntityTransaction(entityManager);
+            pedidoDAO = new PedidoDAO(entityManager);
+
+            transaction.begin();
+            
+            reporte = pedidoDAO.getReporteGeneral();
+            
+            transaction.commit();
+            LOG.debug("Se ha borrado al pedido");
+        } 
+        catch (RuntimeException e) 
+        {
+            LOG.error("Error borrado al pedido: " + e.getMessage());
+            try 
+            {
+                transaction.rollback();
+                LOG.debug("Se ha realizado el rollback");  
+            } catch (Exception e1) 
+            {
+                LOG.error("Error al realizar el rollback");
+            }
+        }
+        finally
+        {
+            if (entityManager != null && entityManager.isOpen()) {
+                entityManager.close();    
+            }
+        }
+        return reporte;
     }
     
 }

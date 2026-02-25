@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import dev.mendo.dominio.modelo.Cliente;
 import dev.mendo.dominio.modelo.Pedido;
+import dev.mendo.persistencia.dao.PedidoDAO;
 import dev.mendo.servicio.ClienteServicio;
 import dev.mendo.servicio.PedidoServicio;
 
@@ -48,6 +49,10 @@ public class Main {
             LOG.info(entrada);    
         }
 
+        List<Cliente> reporteG = pedidoServicio.getReporteGeneral();
+        for (Cliente string : reporteG) {
+            LOG.info(string.toString());
+        }
         LOG.info("======= APP CERRADA ===============");
     }
 }
